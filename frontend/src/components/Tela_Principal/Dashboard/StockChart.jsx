@@ -8,7 +8,7 @@ const mockData = [
   { value: 20.2, label: 'Setor 3', color: '#FF9800' },
   { value: 16.3, label: 'Setor 4', color: '#F44336' },
   { value: 5.6, label: 'Setor 5', color: '#9C27B0' },
-];
+].sort((a, b) => a.value - b.value); // Ordena do menor para o maior valor
 
 const StockChart = () => {
   return (
@@ -27,13 +27,11 @@ const StockChart = () => {
             series={[
               {
                 data: mockData,
-                innerRadius: 55,
                 outerRadius: 90,
                 paddingAngle: 0.5,
                 cornerRadius: 0,
                 highlightScope: { faded: 'global', highlighted: 'item' },
-                arcLabel: (item) => `${item.value}%`,
-                arcLabelMinAngle: 20,
+                startAngle: -2, // Começa do topo (00h)
               },
             ]}
             width={300}

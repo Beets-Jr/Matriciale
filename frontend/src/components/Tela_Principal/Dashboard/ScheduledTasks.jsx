@@ -1,21 +1,60 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Card, CardContent, Typography, Button, Grid, Box, Divider } from '@mui/material';
-
-const weekDays = [
-  { day: 'Segunda', date: '10/02' },
-  { day: 'Terça', date: '11/02' },
-  { day: 'Quarta', date: '12/02' },
-  { day: 'Quinta', date: '13/02' },
-  { day: 'Sexta', date: '14/02' },
-];
+import { useTasks } from './TaskContext';
 
 const ScheduledTasks = () => {
   const navigate = useNavigate();
+  const { weekDays } = useTasks();
 
   const handleViewMore = () => {
     navigate('/calendar');
   };
+
+  const renderTask = (task) => (
+    <Box
+      key={task.id}
+      sx={{
+        bgcolor: task.bgColor,
+        borderRadius: '16px 16px 16px 16px',
+        overflow: 'hidden',
+        position: 'relative',
+        mb: 1,
+        '&::before': {
+          content: '""',
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          height: '20px',
+          bgcolor: task.color
+        }
+      }}
+    >
+      <Box
+        sx={{
+          p: 2,
+          pt: 2.5,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          minHeight: '90px',
+        }}
+      >
+        <Typography 
+          align="center"
+          sx={{ 
+            color: '#555',
+            fontSize: '0.9rem',
+            lineHeight: 1.4
+          }}
+        >
+          {task.label}
+        </Typography>
+      </Box>
+    </Box>
+  );
 
   return (
     <Card>
@@ -67,48 +106,7 @@ const ScheduledTasks = () => {
                     </Typography>
                   </Box>
                   <Box sx={{ minHeight: '300px' }}>
-                    {dayInfo.day === 'Sexta' && (
-                      <Box
-                        sx={{
-                          bgcolor: '#E8D5F7',
-                          borderRadius: '16px 16px 16px 16px',
-                          overflow: 'hidden',
-                          position: 'relative',
-                          '&::before': {
-                            content: '""',
-                            position: 'absolute',
-                            top: 0,
-                            left: 0,
-                            right: 0,
-                            height: '20px',
-                            bgcolor: '#9C27B0'
-                          }
-                        }}
-                      >
-                        <Box
-                          sx={{
-                            p: 2,
-                            pt: 2.5,
-                            display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            minHeight: '90px',
-                          }}
-                        >
-                          <Typography 
-                            align="center"
-                            sx={{ 
-                              color: '#555',
-                              fontSize: '0.9rem',
-                              lineHeight: 1.4
-                            }}
-                          >
-                            Repor Farmácia<br />&lt;nome&gt;
-                          </Typography>
-                        </Box>
-                      </Box>
-                    )}
+                    {dayInfo.tasks.map(task => renderTask(task))}
                   </Box>
                   {index < weekDays.length - 1 && (
                     <Divider 

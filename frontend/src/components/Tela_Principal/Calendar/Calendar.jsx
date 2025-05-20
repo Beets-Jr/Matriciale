@@ -8,40 +8,62 @@ import {
   TableCell, 
   TableContainer, 
   TableHead, 
-  TableRow 
+  TableRow,
+  useTheme,
+  useMediaQuery
 } from '@mui/material';
 import Header from '../../Header';
 import Sidebar from '../../Sidebar';
 
-// Dados mockados para eventos do calendário - atualizados conforme imagem
-const mockEvents = {
-  '2024-02-03': [
-    { id: 1, title: 'Tarefa', color: '#FF9800' },
-    { id: 2, title: 'Tarefa', color: '#4CAF50' }
-  ],
-  '2024-02-14': [
-    { id: 3, title: 'Reposição', color: '#9C27B0' }
-  ],
-  '2024-02-25': [
-    { id: 4, title: 'Reposição', color: '#F44336' }
-  ],
-  '2024-02-27': [
-    { id: 5, title: 'Reposição', color: '#FF9800' }
-  ],
-  // Adicionados para corresponder à imagem
-  '2024-01-26': [],
-  '2024-01-27': [],
-  '2024-01-28': [],
-  '2024-01-29': [],
-  '2024-01-30': [],
-  '2024-01-31': [],
-  '2024-02-01': []
+// Tipos de eventos e suas cores
+const EVENT_TYPES = {
+  TAREFA: { label: 'Tarefa', color: '#FF9800' },
+  REPOSICAO: { label: 'Reposição', color: '#9C27B0' },
+  REUNIAO: { label: 'Reunião', color: '#4CAF50' },
+  ENTREGA: { label: 'Entrega', color: '#F44336' }
+};
+
+// Função para gerar eventos mockados para o mês atual
+const generateMockEvents = (year, month) => {
+  const events = {};
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  
+  // Gera eventos aleatórios para o mês
+  for (let day = 1; day <= daysInMonth; day++) {
+    const date = new Date(year, month, day);
+    const dayOfWeek = date.getDay();
+    
+    // Não gera eventos para finais de semana
+    if (dayOfWeek === 0 || dayOfWeek === 6) continue;
+    
+    // 30% de chance de ter um evento no dia
+    if (Math.random() < 0.3) {
+      const eventTypes = Object.values(EVENT_TYPES);
+      const numEvents = Math.floor(Math.random() * 2) + 1; // 1 ou 2 eventos por dia
+      
+      events[`${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`] = 
+        Array.from({ length: numEvents }, (_, i) => {
+          const eventType = eventTypes[Math.floor(Math.random() * eventTypes.length)];
+          return {
+            id: `${day}-${i}`,
+            title: eventType.label,
+            color: eventType.color
+          };
+        });
+    }
+  }
+  
+  return events;
 };
 
 const Calendar = () => {
-  // Fixar a data para fevereiro de 2025 conforme a imagem
-  const [currentDate, setCurrentDate] = useState(new Date(2025, 1, 1)); // Fevereiro é mês 1 no JavaScript
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  
+  // Usar a data atual
+  const [currentDate, setCurrentDate] = useState(new Date());
   const [calendarDays, setCalendarDays] = useState([]);
+  const [mockEvents, setMockEvents] = useState({});
 
   // Nomes dos dias da semana
   const weekDays = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
@@ -52,25 +74,24 @@ const Calendar = () => {
     'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'
   ];
 
+  // Gerar eventos mockados quando o mês mudar
+  useEffect(() => {
+    const year = currentDate.getFullYear();
+    const month = currentDate.getMonth();
+    setMockEvents(generateMockEvents(year, month));
+  }, [currentDate]);
+
   // Função para gerar os dias do calendário
   useEffect(() => {
     const generateCalendarDays = () => {
       const year = currentDate.getFullYear();
       const month = currentDate.getMonth();
       
-      // Primeiro dia do mês
       const firstDay = new Date(year, month, 1);
-      
-      // Último dia do mês
       const lastDay = new Date(year, month + 1, 0);
-      
-      // Dia da semana do primeiro dia (0 = Domingo, 6 = Sábado)
       const firstDayOfWeek = firstDay.getDay();
-      
-      // Total de dias no mês
       const daysInMonth = lastDay.getDate();
       
-      // Array para armazenar todos os dias a serem exibidos
       const days = [];
       
       // Adicionar dias do mês anterior
@@ -99,7 +120,7 @@ const Calendar = () => {
       }
       
       // Adicionar dias do próximo mês
-      const remainingDays = 42 - days.length; // 6 linhas de 7 dias
+      const remainingDays = 42 - days.length;
       for (let day = 1; day <= remainingDays; day++) {
         const date = new Date(year, month + 1, day);
         days.push({
@@ -111,129 +132,43 @@ const Calendar = () => {
         });
       }
       
-      // Dividir os dias em semanas
-      const weeks = [];
-      for (let i = 0; i < days.length; i += 7) {
-        weeks.push(days.slice(i, i + 7));
-      }
-      
-      return weeks;
+      return days.reduce((weeks, day, i) => {
+        if (i % 7 === 0) weeks.push([]);
+        weeks[weeks.length - 1].push(day);
+        return weeks;
+      }, []);
     };
     
     setCalendarDays(generateCalendarDays());
   }, [currentDate]);
 
   // Renderiza os eventos para um determinado dia
-  const renderEvents = (formattedDate, day) => {
-    // Para simular exatamente os dados da imagem
-    if (day === 3 && currentDate.getMonth() === 1 && currentDate.getFullYear() === 2025) {
-      return (
-        <>
-          <Box 
-            sx={{ 
-              display: 'flex',
-              alignItems: 'center',
-              mb: 0.5,
-              fontSize: '0.75rem',
-              bgcolor: '#f5f5f5',
-              borderRadius: '4px',
-              px: 1,
-              py: 0.5,
-              borderLeft: '10px solid #FF9800'
-            }}
-          >
-            <Typography variant="caption" sx={{ fontSize: '0.75rem', ml: 1 }}>
-              Tarefa
-            </Typography>
-          </Box>
-          <Box 
-            sx={{ 
-              display: 'flex',
-              alignItems: 'center',
-              mb: 0.5,
-              fontSize: '0.75rem',
-              bgcolor: '#f5f5f5',
-              borderRadius: '4px',
-              px: 1,
-              py: 0.5,
-              borderLeft: '10px solid #4CAF50'
-            }}
-          >
-            <Typography variant="caption" sx={{ fontSize: '0.75rem', ml: 1 }}>
-              Tarefa
-            </Typography>
-          </Box>
-        </>
-      );
-    }
+  const renderEvents = (formattedDate) => {
+    const events = mockEvents[formattedDate] || [];
     
-    if (day === 14 && currentDate.getMonth() === 1 && currentDate.getFullYear() === 2025) {
-      return (
-        <Box 
-          sx={{ 
-            display: 'flex',
-            alignItems: 'center',
-            mb: 0.5,
-            fontSize: '0.75rem',
-            bgcolor: '#f5f5f5',
-            borderRadius: '4px',
-            px: 1,
-            py: 0.5,
-            borderLeft: '10px solid #9C27B0'
-          }}
-        >
-          <Typography variant="caption" sx={{ fontSize: '0.75rem', ml: 1 }}>
-            Reposição
-          </Typography>
-        </Box>
-      );
-    }
-    
-    if (day === 25 && currentDate.getMonth() === 1 && currentDate.getFullYear() === 2025) {
-      return (
-        <Box 
-          sx={{ 
-            display: 'flex',
-            alignItems: 'center',
-            mb: 0.5,
-            fontSize: '0.75rem',
-            bgcolor: '#f5f5f5',
-            borderRadius: '4px',
-            px: 1,
-            py: 0.5,
-            borderLeft: '10px solid #F44336'
-          }}
-        >
-          <Typography variant="caption" sx={{ fontSize: '0.75rem', ml: 1 }}>
-            Reposição
-          </Typography>
-        </Box>
-      );
-    }
-    
-    if (day === 27 && currentDate.getMonth() === 1 && currentDate.getFullYear() === 2025) {
-      return (
-        <Box 
-          sx={{ 
-            display: 'flex',
-            alignItems: 'center',
-            mb: 0.5,
-            fontSize: '0.75rem',
-            bgcolor: '#f5f5f5',
-            borderRadius: '4px',
-            px: 1,
-            py: 0.5,
-            borderLeft: '10px solid #FF9800'
-          }}
-        >
-          <Typography variant="caption" sx={{ fontSize: '0.75rem', ml: 1 }}>
-            Reposição
-          </Typography>
-        </Box>
-      );
-    }
-    
-    return null;
+    return events.map((event, index) => (
+      <Box 
+        key={event.id}
+        sx={{ 
+          display: 'flex',
+          alignItems: 'center',
+          mb: 0.5,
+          fontSize: '0.75rem',
+          bgcolor: '#f5f5f5',
+          borderRadius: '4px',
+          px: 1,
+          py: 0.5,
+          borderLeft: `10px solid ${event.color}`,
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+          whiteSpace: 'nowrap'
+        }}
+      >
+        <Typography variant="caption" sx={{ fontSize: '0.75rem', ml: 1 }}>
+          {event.title}
+        </Typography>
+      </Box>
+    ));
   };
 
   // Obter o nome do mês e ano atual
@@ -242,13 +177,11 @@ const Calendar = () => {
   return (
     <>
       <Header/>
-      <div style={{
-        display: "flex"
-      }}>
+      <div style={{ display: "flex" }}>
         <Sidebar/>
         <Box
           sx={{
-            p: 3,
+            p: { xs: 1, sm: 2, md: 3 },
             height: '100%',
             width: '100%',
             overflow: 'auto',
@@ -257,7 +190,7 @@ const Calendar = () => {
           <Paper 
             elevation={1}
             sx={{ 
-              p: 2, 
+              p: { xs: 1, sm: 2 },
               borderRadius: 4,
               overflow: 'hidden',
               border: '1px solid #e0e0e0'
@@ -266,13 +199,17 @@ const Calendar = () => {
             <Typography 
               variant="h5" 
               color="primary" 
-              sx={{ mb: 2, fontWeight: 500 }}
+              sx={{ 
+                mb: 2, 
+                fontWeight: 500,
+                fontSize: { xs: '1.2rem', sm: '1.5rem' }
+              }}
             >
               {monthYearString}
             </Typography>
             
             <TableContainer>
-              <Table>
+              <Table sx={{ tableLayout: 'fixed' }}>
                 <TableHead>
                   <TableRow>
                     {weekDays.map((day, index) => (
@@ -284,8 +221,9 @@ const Calendar = () => {
                           fontWeight: 'bold',
                           borderBottom: '2px solid',
                           borderColor: 'primary.main',
-                          px: 1,
-                          py: 1
+                          px: { xs: 0.5, sm: 1 },
+                          py: 1,
+                          fontSize: { xs: '0.8rem', sm: '0.9rem' }
                         }}
                       >
                         {day}
@@ -301,9 +239,9 @@ const Calendar = () => {
                           key={dayIndex}
                           align="center"
                           sx={{ 
-                            height: 100,
+                            height: { xs: 80, sm: 100 },
                             width: `${100/7}%`,
-                            p: 1,
+                            p: { xs: 0.5, sm: 1 },
                             verticalAlign: 'top',
                             border: '1px solid #e0e0e0',
                             backgroundColor: day.isCurrentMonth 
@@ -317,7 +255,7 @@ const Calendar = () => {
                               color: !day.isCurrentMonth 
                                 ? 'text.secondary' 
                                 : 'inherit',
-                              fontSize: '0.9rem',
+                              fontSize: { xs: '0.8rem', sm: '0.9rem' },
                               mb: 1
                             }}
                           >
@@ -325,7 +263,7 @@ const Calendar = () => {
                             day.isPrevMonth && day.day === 26 ? '26' : 
                             day.day}
                           </Typography>
-                          {renderEvents(day.formattedDate, day.day)}
+                          {renderEvents(day.formattedDate)}
                         </TableCell>
                       ))}
                     </TableRow>
