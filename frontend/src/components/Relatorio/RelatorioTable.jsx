@@ -185,30 +185,33 @@ const RelatorioTable = () => {
                 borderCollapse: "separate",
                 borderSpacing: "0px 11.62px",
                 width: "100%",
-                overflowY: "auto"
+                overflowY: "auto",
             }}>
                 <thead>
                     <tr
                     style={{
                         position: "sticky",
-                        top: "0",
-                        backgroundColor: "#E9E6E0"
+                        backgroundColor: "#F3F1EE",
                     }}>
-                        <th onClick={handleThClick} style={{cursor: "pointer"}}>
-                            Classificação <CiFilter size="20"/>
+                        <th onClick={handleThClick} 
+                        style={{
+                            cursor: "pointer",
+                            textAlign: "center",
+                        }}>
+                            Item<CiFilter size="20"/>
                             {/* Passa a prop que controla a exibição */}
                             <FilterRelatorio 
                                 showFilter={showFilter}
                                 onClassificacaoFilter={setClassificacaoFilter} 
                             />
                         </th>
-                        <th>Cód.Item</th>
-                        <th>Nome</th>
-                        <th>TP.Metodo</th>
-                        <th>Método</th>
-                        <th>Met.Est.</th>
-                        <th>Estoque</th>
-                        <th>Reposição</th>
+                        <th>Código Item</th>
+                        <th>Nome Item</th>
+                        <th>Classificação<br/>Modelo</th>
+                        <th>Qtde<br/>Modelo</th>
+                        <th>Estoque<br/>ideal</th>
+                        <th>Estoque<br/>atual</th>
+                        <th>Qtde<br/>Reposição</th>
                     </tr>
                 </thead>
                 <tbody>

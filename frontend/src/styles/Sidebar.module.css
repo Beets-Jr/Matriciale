@@ -1,11 +1,11 @@
 
 
 .sidebar{
+    position: fixed;
     display: block;
     width: 20%;
     height: 100%;
-    background-color: #0D92F4;
-    padding-top: 38.18px;
+    background-color: #F95454;
     padding-bottom: 18.26px;
 }
 
@@ -24,7 +24,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     align-items: center;
-    margin-top: 24.9px;
+    margin-top: 22px;
     transition: 0.25s;
 }
 
@@ -33,7 +33,7 @@
 
 
 .sidebar a:hover{
-    background-color: #0B7ED1;
+    background-color: #C74343;
 }
 
 .sidebar img{
@@ -43,9 +43,9 @@
 
 .configuracao{
     
-    margin-top: 100%;
+    margin-top: 0%;
 }
 
 .configuracao:hover{
-    background: var(--Azul2, #2A4BBB);
+    background-color: #C74343;
 }

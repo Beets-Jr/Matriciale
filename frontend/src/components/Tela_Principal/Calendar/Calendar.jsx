@@ -177,7 +177,9 @@ const Calendar = () => {
   return (
     <>
       <Header/>
-      <div style={{ display: "flex" }}>
+      <div style={{
+        display: "flex"
+      }}>
         <Sidebar/>
         <Box
           sx={{
@@ -185,6 +187,7 @@ const Calendar = () => {
             height: '100%',
             width: '100%',
             overflow: 'auto',
+            marginLeft: '20%'
           }}
         >
           <Paper 

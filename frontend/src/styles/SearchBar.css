@@ -29,7 +29,7 @@
   padding-left: 70px;
   border: 1px solid #D5D2CC;
   border-radius: 15px;
-  background-color: #DDDBD4;
+  background-color: #E6E3DC;
   font-weight: 300;
   font-size: 21px;
   color: black;
@@ -57,7 +57,7 @@
   cursor: pointer;
   border: 1px solid #D5D2CC;
   border-radius: 15px;
-  background-color: #DDDBD4;
+  background-color: #E6E3DC;
   height: 60px;
   width: 100%;
   font-weight: 300;
@@ -92,7 +92,7 @@
   padding: 8px 12px;
   cursor: pointer;
   font-size: 17px;
-  background-color: #DDDBD4;
+  background-color: #E6E3DC;
 }
 
 .filter-dropdown li:hover {

@@ -3,8 +3,8 @@ import { useAuth } from '../contexts/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import styles from '../styles/Header.module.css'
 import logo from '../img/Logo.png'
-import saida from '../img/sair.png'
-import perfil from '../img/user.png'
+import saida from '../img/sair1.png'
+import perfil from '../img/user1.png'
 import { Button } from '@mui/material'
 
 
