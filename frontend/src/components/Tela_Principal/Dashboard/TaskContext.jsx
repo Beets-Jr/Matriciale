@@ -1,35 +1,45 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { getCurrentWeek, getCurrentDate, isToday } from './taskUtils';
 
-const TaskContext = createContext();
+const TaskContext = createContext(null);
 
 export const TaskProvider = ({ children }) => {
   const [weekDays, setWeekDays] = useState([]);
   const [currentDate, setCurrentDate] = useState(getCurrentDate());
   const [todayTasks, setTodayTasks] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
-  // Atualiza a semana e as tarefas quando o componente monta
   useEffect(() => {
     const updateTasks = () => {
-      const week = getCurrentWeek();
-      setWeekDays(week);
-      setCurrentDate(getCurrentDate());
-      
-      // Encontra as tarefas do dia atual
-      const today = week.find(day => isToday(day.fullDate));
-      setTodayTasks(today?.tasks || []);
+      try {
+        const week = getCurrentWeek();
+        setWeekDays(week);
+        setCurrentDate(getCurrentDate());
+        
+        const today = week.find(day => isToday(day.fullDate));
+        setTodayTasks(today?.tasks || []);
+        setIsLoading(false);
+      } catch (error) {
+        console.error('Erro ao atualizar tarefas:', error);
+        setIsLoading(false);
+      }
     };
 
     updateTasks();
-
-    // Atualiza a cada meia hora
     const interval = setInterval(updateTasks, 30 * 60 * 1000);
 
     return () => clearInterval(interval);
   }, []);
 
+  const value = {
+    weekDays,
+    currentDate,
+    todayTasks,
+    isLoading
+  };
+
   return (
-    <TaskContext.Provider value={{ weekDays, currentDate, todayTasks }}>
+    <TaskContext.Provider value={value}>
       {children}
     </TaskContext.Provider>
   );
@@ -37,8 +47,10 @@ export const TaskProvider = ({ children }) => {
 
 export const useTasks = () => {
   const context = useContext(TaskContext);
-  if (!context) {
+  
+  if (context === null) {
     throw new Error('useTasks deve ser usado dentro de um TaskProvider');
   }
+  
   return context;
 }; 
