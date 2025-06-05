@@ -11,6 +11,7 @@ import MedicineInfoTable from '../components/Gerenciamento/MedicineInfoTable';
 import Calendar from '../components/Tela_Principal/Calendar/Calendar';
 import RelatorioImpressao from '../components/Relatorio/RelatorioImpressao';
 import Pacientes from '../pages/pacientes/Pacientes';
+import VisualizarPacientes from '../components/Pacientes/VisualizarPacientes';
 
 function PrivateRoute({ children }) {
   const { user } = useAuth();
@@ -61,6 +62,7 @@ export default function AppRoutes() {
       <Route path="/relatorio" element={<Relatorio/>}/>
       <Route path="/gerenciamento" element={<Gerenciamento/>}/>
       <Route path="/medicine/:codigo/:nome" element={<MedicineInfoTable/>}/>
+      <Route path="/users/pacientes/:id/:name" element={<VisualizarPacientes />} />
       <Route path='/calendar' element={<Calendar/>}/>
       <Route path="/relatorio/impressao" element={<RelatorioImpressao />} />
     </Routes>

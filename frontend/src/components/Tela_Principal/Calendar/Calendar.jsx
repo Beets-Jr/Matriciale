@@ -178,7 +178,8 @@ const Calendar = () => {
     <>
       <Header/>
       <div style={{
-        display: "flex"
+        display: "flex",
+        backgroundColor: "#F3F1EE"
       }}>
         <Sidebar/>
         <Box
