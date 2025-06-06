@@ -19,27 +19,27 @@ const mockPacientes = [
   {
     id: 1,
     nome: 'Roberto Gomez',
-    sus: 'XXX XXXX XXXX XXXX',
+    CPF: 12345678900,
   },
   {
     id: 2,
     nome: 'Ramon Valdez',
-    sus: 'XXX XXXX XXXX XXXX',
+    CPF: 19529318100,
   },
   {
     id: 3,
     nome: 'Maria Antonia Nevez',
-    sus: 'XXX XXXX XXXX XXXX',
+    CPF: 12774616278,
   },
   {
     id: 4,
     nome: 'Edgar Araujo',
-    sus: 'XXX XXXX XXXX XXXX',
+    CPF: 18284656709,
   },
   {
     id: 5,
     nome: 'Ana Paula Souza',
-    sus: 'XXX XXXX XXXX XXXX',
+    CPF: 12464918378,
   },
 ];
 
@@ -48,13 +48,17 @@ const SIDEBAR_WIDTH = 240;
 
 export default function Pacientes() {
   const [busca, setBusca] = useState('');
-  const [mecanismo, setMecanismo] = useState('');
+  const [mecanismo, setMecanismo] = useState('nome');
   const navigate = useNavigate();
 
-  const pacientesFiltrados = mockPacientes.filter(p =>
-    p.nome.toLowerCase().includes(busca.toLowerCase()) ||
-    p.sus.replace(/ /g, '').includes(busca.replace(/ /g, ''))
-  );
+  const pacientesFiltrados = mockPacientes.filter(p => {
+    if (mecanismo === 'nome') {
+      return p.nome.toLowerCase().includes(busca.toLowerCase());
+    } else {
+      const cpfBusca = busca.replace(/\D/g, '');
+      return p.CPF.toString().includes(cpfBusca);
+    }
+  });
   
   return (
     <Box
@@ -88,7 +92,7 @@ export default function Pacientes() {
             <TextField
             sx={{ width: '50%', fontFamily: 'LT Wave, sans-serif' }}
             variant="outlined"
-            placeholder="Digite o nome ou CPF do paciente"
+            placeholder={mecanismo === 'nome' ? "Digite o nome do paciente" : "Digite o CPF do paciente"}
             value={busca}
             onChange={e => setBusca(e.target.value)}
             InputProps={{
@@ -101,17 +105,12 @@ export default function Pacientes() {
             }}
             />
             <Select
-            displayEmpty
             value={mecanismo}
             onChange={e => setMecanismo(e.target.value)}
             sx={{ minWidth: 320, bgcolor: '#fff', borderRadius: 5, fontFamily: 'LT Wave, sans-serif' }}
             >
-            <MenuItem value="">
-                <em>Selecione o Mecanismo de Busca</em>
-            </MenuItem>
             <MenuItem value="nome">Nome</MenuItem>
             <MenuItem value="cpf">CPF</MenuItem>
-            <MenuItem value="sus">Cartão SUS</MenuItem>
             </Select>
         </Box>
         <Box display="flex" flexDirection="column" gap={2}>
@@ -142,10 +141,10 @@ export default function Pacientes() {
                 </Box>
                 <Box display="flex" alignItems="center" flex={2} minWidth={170}>
                 <Typography fontWeight={700} sx={{ fontSize: '1.3rem', minWidth: 170, fontFamily: 'LT Wave, sans-serif' }}>
-                    Cartão do SUS:
+                    CPF:
                 </Typography>
                 <Typography sx={{ fontSize: '1rem', ml: 1, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: 180, fontFamily: 'LT Wave, sans-serif' }}>
-                    {p.sus}
+                    {p.CPF.toString().replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, '$1.$2.$3-$4')}
                 </Typography>
                 </Box>
                 <Box flex={1} minWidth={120} display="flex" justifyContent="flex-end">
