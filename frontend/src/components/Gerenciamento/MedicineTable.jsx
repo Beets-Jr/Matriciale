@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import TableHeader from './TableHeader';
 import TableRow from './TableRow';
 import ColorLegend from './ColorLegend';
@@ -6,9 +7,18 @@ import SearchBar from './SearchBar';
 import '../../styles/MedicineTable.css';
 
 const MedicineTable = () => {
+  const [searchParams] = useSearchParams();
   const [searchTerm, setSearchTerm] = useState('');
   const [colorFilter, setColorFilter] = useState('');
   const [classFilter, setClassFilter] = useState(""); // linha inserida agora
+
+  // Aplicar filtro da URL automaticamente
+  useEffect(() => {
+    const filterFromUrl = searchParams.get('filter');
+    if (filterFromUrl) {
+      setColorFilter(filterFromUrl);
+    }
+  }, [searchParams]);
   
   // Dados mockados (substituir pelo Firebase posteriormente)
   const medicines = [
@@ -110,6 +120,7 @@ const MedicineTable = () => {
               onSearch={setSearchTerm}
               onColorFilter={setColorFilter}
               onClassFilter={setClassFilter} // linha inserida agora
+              initialColorFilter={colorFilter} // Passa o filtro inicial
             />
           </div>
         </div>

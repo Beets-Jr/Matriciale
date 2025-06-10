@@ -1,14 +1,32 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../../styles/SearchBar.css";
 import filtroIcon from "../../img/Icone-filtro.png";
 import setaBaixoIcon from "../../img/Icone-seta-baixo.png";
 import searchIcon from "../../img/Union.png";
 
-const SearchBar = ({ onSearch, onColorFilter, onClassFilter }) => {
+const SearchBar = ({ onSearch, onColorFilter, onClassFilter, initialColorFilter }) => {
   const [showColorFilter, setShowColorFilter] = useState(false);
   const [showClassFilter, setShowClassFilter] = useState(false);
   const [selectedColor, setSelectedColor] = useState("Filtrar por cor");
   const [selectedClass, setSelectedClass] = useState("Filtrar por classificação");
+
+  // Mapear filtros para labels
+  const filterToLabel = {
+    "": "Filtrar por cor",
+    "zerado": "Zerado",
+    "quatro-semanas": "4 Semanas",
+    "oito-semanas": "8 Semanas",
+    "doze-semanas": "12 Semanas",
+    "dezesseis-semanas": "16 Semanas",
+    "mais-dezesseis-semanas": "+16 Semanas"
+  };
+
+  // Aplicar filtro inicial se fornecido
+  useEffect(() => {
+    if (initialColorFilter && filterToLabel[initialColorFilter]) {
+      setSelectedColor(filterToLabel[initialColorFilter]);
+    }
+  }, [initialColorFilter]);
 
   // Função para selecionar filtro e atualizar texto do botão
   const handleColorFilter = (filter, label) => {
