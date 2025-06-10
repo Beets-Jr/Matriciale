@@ -1,0 +1,1005 @@
+{
+  "totalRecords": 525,
+  "previewRecords": [
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "12,290.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "500.",
+      "G": "11,790.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "20.",
+      "G": "11,770.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "500.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "500.",
+      "G": "",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "700.",
+      "H": ""
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "100.",
+      "G": "600.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "4,000.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "500.",
+      "G": "3,500.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "225.",
+      "H": ""
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "24.",
+      "G": "201.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "7,600.",
+      "H": ""
+    },
+    {
+      "A": "5/26/25",
+      "B": "FARMACIA ESF III",
+      "C": "",
+      "D": "0000861/2025",
+      "E": null,
+      "F": "150.",
+      "G": "7,450.",
+      "H": "Transferência nº 2053"
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "450.",
+      "G": "7,000.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "PREFEITURA MUNICIPAL DE PIRANGI",
+      "C": "1543",
+      "D": "0000881/2025",
+      "E": "400.",
+      "F": "0.",
+      "G": "400.",
+      "H": ""
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "200.",
+      "G": "200.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "131.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "30.",
+      "G": "101.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "320.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "20.",
+      "G": "300.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "PREFEITURA MUNICIPAL DE PIRANGI",
+      "C": "1543",
+      "D": "0000881/2025",
+      "E": "1,020.",
+      "F": "0.",
+      "G": "1,020.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "500.",
+      "G": "520.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/28/25",
+      "B": "P & P DISTRIBUIDORA DE MEDICAMENTOS LTDA",
+      "C": "2522",
+      "D": "0000883/2025",
+      "E": "2,000.",
+      "F": "0.",
+      "G": "2,520.",
+      "H": ""
+    },
+    {
+      "A": "5/28/25",
+      "B": "P & P DISTRIBUIDORA DE MEDICAMENTOS LTDA",
+      "C": "2523",
+      "D": "0000884/2025",
+      "E": "1,500.",
+      "F": "0.",
+      "G": "4,020.",
+      "H": ""
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "1,725.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "90.",
+      "G": "1,635.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "419.",
+      "H": ""
+    },
+    {
+      "A": "5/26/25",
+      "B": "FARMACIA ESF III",
+      "C": "",
+      "D": "0000861/2025",
+      "E": null,
+      "F": "10.",
+      "G": "409.",
+      "H": "Transferência nº 2053"
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "50.",
+      "G": "359.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "3.",
+      "G": "356.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "208.",
+      "H": ""
+    },
+    {
+      "A": "5/26/25",
+      "B": "FARMACIA ESF III",
+      "C": "",
+      "D": "0000861/2025",
+      "E": null,
+      "F": "10.",
+      "G": "198.",
+      "H": "Transferência nº 2053"
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "60.",
+      "G": "138.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "3.",
+      "G": "135.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "100.",
+      "H": ""
+    },
+    {
+      "A": "5/29/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000892/2025",
+      "E": null,
+      "F": "20.",
+      "G": "80.",
+      "H": "Transferência nº 2074"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "14,600.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "800.",
+      "G": "13,800.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "198.",
+      "H": ""
+    },
+    {
+      "A": "5/26/25",
+      "B": "FARMACIA ESF III",
+      "C": "",
+      "D": "0000861/2025",
+      "E": null,
+      "F": "90.",
+      "G": "108.",
+      "H": "Transferência nº 2053"
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "108.",
+      "G": "",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "23.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "23.",
+      "G": "",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/30/25",
+      "B": "SECRETARIA DE ESTADO DA SAÚDE",
+      "C": "2813198",
+      "D": "0000899/2025",
+      "E": "90.",
+      "F": "0.",
+      "G": "90.",
+      "H": ""
+    },
+    {
+      "A": "5/30/25",
+      "B": "SECRETARIA DE ESTADO DA SAÚDE",
+      "C": "2813198",
+      "D": "0000899/2025",
+      "E": "10.",
+      "F": "0.",
+      "G": "100.",
+      "H": ""
+    },
+    {
+      "A": "5/30/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000900/2025",
+      "E": null,
+      "F": "30.",
+      "G": "70.",
+      "H": "Transferência nº 2078"
+    },
+    {
+      "A": "5/30/25",
+      "B": "FARMACIA ESF III",
+      "C": "",
+      "D": "0000902/2025",
+      "E": null,
+      "F": "10.",
+      "G": "60.",
+      "H": "Transferência nº 2080"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "189.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "10.",
+      "G": "179.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "4,494.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "189.",
+      "G": "4,305.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "441.",
+      "G": "3,864.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "",
+      "H": ""
+    },
+    {
+      "A": "5/29/25",
+      "B": "PRODONLIFE",
+      "C": "33407",
+      "D": "0000894/2025",
+      "E": "10.",
+      "F": "0.",
+      "G": "10.",
+      "H": ""
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "1.",
+      "G": "9.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "9,010.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "1,000.",
+      "G": "8,010.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "4.",
+      "H": ""
+    },
+    {
+      "A": "5/26/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000856/2025",
+      "E": null,
+      "F": "2.",
+      "G": "2.",
+      "H": "Transferência nº 2050"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "2,630.",
+      "H": ""
+    },
+    {
+      "A": "5/26/25",
+      "B": "SOMA SP HOSPITALAR",
+      "C": "320927",
+      "D": "0000854/2025",
+      "E": "600.",
+      "F": "0.",
+      "G": "3,230.",
+      "H": ""
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "25.",
+      "G": "3,205.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/30/25",
+      "B": "SECRETARIA DE ESTADO DA SAÚDE",
+      "C": "2813178",
+      "D": "0000898/2025",
+      "E": "1,000.",
+      "F": "0.",
+      "G": "4,205.",
+      "H": ""
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "149.",
+      "H": ""
+    },
+    {
+      "A": "5/26/25",
+      "B": "FARMACIA ESF III",
+      "C": "",
+      "D": "0000861/2025",
+      "E": null,
+      "F": "10.",
+      "G": "139.",
+      "H": "Transferência nº 2053"
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "10.",
+      "G": "129.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/30/25",
+      "B": "SECRETARIA DE ESTADO DA SAÚDE",
+      "C": "2813178",
+      "D": "0000898/2025",
+      "E": "100.",
+      "F": "0.",
+      "G": "229.",
+      "H": ""
+    },
+    {
+      "A": "5/30/25",
+      "B": "SECRETARIA DE ESTADO DA SAÚDE",
+      "C": "2813198",
+      "D": "0000899/2025",
+      "E": "100.",
+      "F": "0.",
+      "G": "329.",
+      "H": ""
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "324.",
+      "H": ""
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "20.",
+      "G": "304.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "2,800.",
+      "H": ""
+    },
+    {
+      "A": "5/26/25",
+      "B": "FARMACIA ESF III",
+      "C": "",
+      "D": "0000861/2025",
+      "E": null,
+      "F": "400.",
+      "G": "2,400.",
+      "H": "Transferência nº 2053"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "600.",
+      "H": ""
+    },
+    {
+      "A": "5/26/25",
+      "B": "FARMACIA ESF III",
+      "C": "",
+      "D": "0000861/2025",
+      "E": null,
+      "F": "40.",
+      "G": "560.",
+      "H": "Transferência nº 2053"
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "60.",
+      "G": "500.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "5,680.",
+      "H": ""
+    },
+    {
+      "A": "5/26/25",
+      "B": "FARMACIA ESF III",
+      "C": "",
+      "D": "0000861/2025",
+      "E": null,
+      "F": "380.",
+      "G": "5,300.",
+      "H": "Transferência nº 2053"
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "600.",
+      "G": "4,700.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "40.",
+      "G": "4,660.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "850.",
+      "H": ""
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "50.",
+      "G": "800.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "138.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "30.",
+      "G": "108.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "180.",
+      "H": ""
+    },
+    {
+      "A": "5/26/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000865/2025",
+      "E": null,
+      "F": "30.",
+      "G": "150.",
+      "H": "Transferência nº 2054"
+    },
+    {
+      "A": "5/30/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000904/2025",
+      "E": null,
+      "F": "30.",
+      "G": "120.",
+      "H": "Transferência nº 2082"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "1,640.",
+      "H": ""
+    },
+    {
+      "A": "5/26/25",
+      "B": "FARMACIA ESF III",
+      "C": "",
+      "D": "0000861/2025",
+      "E": null,
+      "F": "500.",
+      "G": "1,140.",
+      "H": "Transferência nº 2053"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "700.",
+      "H": ""
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "50.",
+      "G": "650.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "1,840.",
+      "H": ""
+    },
+    {
+      "A": "5/27/25",
+      "B": "FARMACIA OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000874/2025",
+      "E": null,
+      "F": "100.",
+      "G": "1,740.",
+      "H": "Transferência nº 2063"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "270.",
+      "H": ""
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "100.",
+      "G": "170.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "1,500.",
+      "H": ""
+    },
+    {
+      "A": "5/29/25",
+      "B": "UBS III OLAVO DOMINGUES",
+      "C": "",
+      "D": "0000891/2025",
+      "E": null,
+      "F": "100.",
+      "G": "1,400.",
+      "H": "Transferência nº 2073"
+    },
+    {
+      "A": "5/25/25",
+      "B": "SALDO ANTERIOR",
+      "C": "",
+      "D": "",
+      "E": null,
+      "F": "0.",
+      "G": "5,100.",
+      "H": ""
+    },
+    {
+      "A": "5/26/25",
+      "B": "FARMACIA ESF III",
+      "C": "",
+      "D": "0000861/2025",
+      "E": null,
+      "F": "400.",
+      "G": "4,700.",
+      "H": "Transferência nº 2053"
+    }
+  ]
+}
