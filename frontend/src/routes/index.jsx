@@ -62,7 +62,7 @@ export default function AppRoutes() {
       <Route path="/relatorio" element={<Relatorio/>}/>
       <Route path="/gerenciamento" element={<Gerenciamento/>}/>
       <Route path="/medicine/:codigo/:nome" element={<MedicineInfoTable/>}/>
-      <Route path="/users/pacientes/:id/:name" element={<VisualizarPacientes />} />
+      <Route path="/users/pacientes/:id/:nome" element={<VisualizarPacientes />} />
       <Route path='/calendar' element={<Calendar/>}/>
       <Route path="/relatorio/impressao" element={<RelatorioImpressao />} />
     </Routes>

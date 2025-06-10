@@ -19,27 +19,32 @@ const mockPacientes = [
   {
     id: 1,
     nome: 'Roberto Gomez',
-    sus: 'XXX XXXX XXXX XXXX',
+    itens: 3,
+    unidades: 45,
   },
   {
     id: 2,
     nome: 'Ramon Valdez',
-    sus: 'XXX XXXX XXXX XXXX',
+    itens: 2,
+    unidades: 35,
   },
   {
     id: 3,
     nome: 'Maria Antonia Nevez',
-    sus: 'XXX XXXX XXXX XXXX',
+    itens: 2,
+    unidades: 49,
   },
   {
     id: 4,
     nome: 'Edgar Araujo',
-    sus: 'XXX XXXX XXXX XXXX',
+    itens: 2,
+    unidades: 100,
   },
   {
     id: 5,
     nome: 'Ana Paula Souza',
-    sus: 'XXX XXXX XXXX XXXX',
+    itens: 2,
+    unidades: 30,
   },
 ];
 
@@ -48,13 +53,12 @@ const SIDEBAR_WIDTH = 240;
 
 export default function Pacientes() {
   const [busca, setBusca] = useState('');
-  const [mecanismo, setMecanismo] = useState('');
+  const [mecanismo, setMecanismo] = useState('nome');
   const navigate = useNavigate();
 
-  const pacientesFiltrados = mockPacientes.filter(p =>
-    p.nome.toLowerCase().includes(busca.toLowerCase()) ||
-    p.sus.replace(/ /g, '').includes(busca.replace(/ /g, ''))
-  );
+  const pacientesFiltrados = mockPacientes.filter(p => {
+    return p.nome.toLowerCase().includes(busca.toLowerCase());
+  });
   
   return (
     <Box
@@ -73,7 +77,7 @@ export default function Pacientes() {
         sx={{
             borderRadius: 4,
             p: 4,
-            bgcolor: '#f5f6fa',
+            bgcolor: '#F3F1EE',
             width: '100%',
             maxWidth: 1100,
             mt: 6,
@@ -88,7 +92,7 @@ export default function Pacientes() {
             <TextField
             sx={{ width: '50%', fontFamily: 'LT Wave, sans-serif' }}
             variant="outlined"
-            placeholder="Digite o nome ou CPF do paciente"
+            placeholder="Digite o nome do paciente"
             value={busca}
             onChange={e => setBusca(e.target.value)}
             InputProps={{
@@ -101,17 +105,11 @@ export default function Pacientes() {
             }}
             />
             <Select
-            displayEmpty
             value={mecanismo}
             onChange={e => setMecanismo(e.target.value)}
             sx={{ minWidth: 320, bgcolor: '#fff', borderRadius: 5, fontFamily: 'LT Wave, sans-serif' }}
             >
-            <MenuItem value="">
-                <em>Selecione o Mecanismo de Busca</em>
-            </MenuItem>
             <MenuItem value="nome">Nome</MenuItem>
-            <MenuItem value="cpf">CPF</MenuItem>
-            <MenuItem value="sus">Cartão SUS</MenuItem>
             </Select>
         </Box>
         <Box display="flex" flexDirection="column" gap={2}>
@@ -132,27 +130,35 @@ export default function Pacientes() {
                 <Box width={48} display="flex" justifyContent="center">
                 <PersonOutlineIcon fontSize="large" sx={{ color: '#5c5470' }} />
                 </Box>
-                <Box display="flex" alignItems="center" flex={2} minWidth={140}>
-                <Typography fontWeight={700} sx={{ fontSize: '1.3rem', minWidth: 140, fontFamily: 'LT Wave, sans-serif' }}>
+                <Box display="flex" alignItems="center" flex={3} minWidth={200}>
+                <Typography fontWeight={700} sx={{ fontSize: '1.3rem', minWidth: 80, fontFamily: 'LT Wave, sans-serif' }}>
                     Nome:
                 </Typography>
-                <Typography sx={{ fontSize: '1rem', ml: 1, mr: 3, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: 180, fontFamily: 'LT Wave, sans-serif' }}>
+                <Typography sx={{ fontSize: '1rem', ml: 1, mr: 3, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: 220, fontFamily: 'LT Wave, sans-serif' }}>
                     {p.nome}
                 </Typography>
                 </Box>
-                <Box display="flex" alignItems="center" flex={2} minWidth={170}>
-                <Typography fontWeight={700} sx={{ fontSize: '1.3rem', minWidth: 170, fontFamily: 'LT Wave, sans-serif' }}>
-                    Cartão do SUS:
+                <Box display="flex" alignItems="center" flex={1.5} minWidth={120}>
+                <Typography fontWeight={700} sx={{ fontSize: '1.3rem', minWidth: 60, fontFamily: 'LT Wave, sans-serif' }}>
+                    Qtd itens:
                 </Typography>
-                <Typography sx={{ fontSize: '1rem', ml: 1, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: 180, fontFamily: 'LT Wave, sans-serif' }}>
-                    {p.sus}
+                <Typography sx={{ fontSize: '1rem', ml: 1, fontFamily: 'LT Wave, sans-serif' }}>
+                    {p.itens}
+                </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" flex={1.5} minWidth={140} justifyContent="center">
+                <Typography fontWeight={700} sx={{ fontSize: '1.3rem', minWidth: 80, fontFamily: 'LT Wave, sans-serif' }}>
+                    Unidades:
+                </Typography>
+                <Typography sx={{ fontSize: '1rem', ml: 1, fontFamily: 'LT Wave, sans-serif' }}>
+                    {p.unidades}
                 </Typography>
                 </Box>
                 <Box flex={1} minWidth={120} display="flex" justifyContent="flex-end">
                 <Button
                     variant="contained"
                     sx={{
-                    bgcolor: '#3f51b5',
+                    bgcolor: 'var(--Azul2, #0D92F4)',
                     color: '#fff',
                     borderRadius: 5,
                     px: 6,

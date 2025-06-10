@@ -18,7 +18,6 @@ function Sidebar(){
             <Link to="/relatorio"><div><img src={relatorio}/></div><p>Relatórios</p></Link>
             <Link to="/calendar"><div><img src={calendario}/></div><p>Agenda</p></Link>
             <Link to="/users/pacientes"><div><img src={medico}/></div><p>Pacientes</p></Link>
-            <div  className={styles.configuracao}><Link><div><img src={engrenagem}/></div><p>Configurações</p></Link></div>
 
         </nav>
     )

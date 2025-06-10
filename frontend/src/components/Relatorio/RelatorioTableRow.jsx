@@ -8,10 +8,10 @@ const RelatorioTableRow = ({relatorios}) =>{
             <td><div className={styles.item}>{relatorios.codItem}</div></td>
             <td><div className={styles.item}>{relatorios.nome}</div></td>
             <td><div className={styles.item}>{relatorios.tpMetodo}</div></td>
-            <td><div className={styles.item}>{relatorios.metodo}</div></td>
-            <td><div className={styles.item}>{relatorios.metEst}</div></td>
-            <td><div className={styles.item}>{relatorios.estoque}</div></td>
-            <td><div className={styles.item}>{relatorios.reposicao}</div></td>
+            <td><div className={styles.item}>{relatorios.metodo.toLocaleString('pt-BR')}</div></td>
+            <td><div className={styles.item}>{relatorios.metEst.toLocaleString('pt-BR')}</div></td>
+            <td><div className={styles.item}>{relatorios.estoque.toLocaleString('pt-BR')}</div></td>
+            <td><div className={styles.item}>{relatorios.reposicao.toLocaleString('pt-BR')}</div></td>
         </tr>
     )
 }
