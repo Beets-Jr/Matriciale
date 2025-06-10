@@ -5,7 +5,7 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
-});
+})
 
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('@BaseRepo:token');

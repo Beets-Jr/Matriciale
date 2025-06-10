@@ -12,6 +12,8 @@ router.post('/register', async (req, res) => {
     const { email, password, name } = req.body;
     const dominios = ['exemplo1.com', 'exemplo2.com', 'exemplo3.com'];
     const dominioUsuario = email.split('@')[1];
+    const dominios = ['exemplo1.com', 'exemplo2.com', 'exemplo3.com'];
+    const dominioUsuario = email.split('@')[1];
     
     if (!dominios.includes(dominioUsuario)) {
       // se o dominio do usuário não estiver dentre os domínios selecionados será exibida uma memsagem de erro 
@@ -42,7 +44,7 @@ router.post('/register', async (req, res) => {
 router.post('/login', async (req, res) => {
   try {
     const { email, password } = req.body; 
-    const dominios = ['exemplo1.com', 'exemplo2.com', 'exemplo3.com'];
+    const dominios = ['exemplo1.com', 'exemplo2.com', 'exemplo3.com', 'beetsjr.com.br'];
     const dominioUsuario = email.split('@')[1];
     
     if (!dominios.includes(dominioUsuario)) {
