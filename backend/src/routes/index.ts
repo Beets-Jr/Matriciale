@@ -6,7 +6,7 @@ const router = Router();
 
 // a ideia desse arquivo não seria possuir todas as rotas, precisamos modularizar as rotas em arquivos separados
 
-router.use('/users', usersRouter);
+router.use('/users', usersRouter); // assim como esse exemplo, onde as rotas de usuários estão em um arquivo separado, e apenas usamos 'router.use' para importar as rotas
 
 // Rota de registro
 router.post('/register', async (req, res) => {
