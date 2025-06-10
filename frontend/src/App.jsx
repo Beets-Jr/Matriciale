@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider, CssBaseline } from '@mui/material';
 import { AuthProvider } from './contexts/AuthContext';
 import { TaskProvider } from './components/Tela_Principal/Dashboard/TaskContext';
-import theme from './theme';
+import theme from './theme/index';
 import Routes from './routes';
 import './App.css';
 
@@ -13,7 +13,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <AuthProvider>
-          <TaskProvider> {/* ⬅️ Envolva o componente com o TaskProvider */}
+          <TaskProvider>
             <Routes />
           </TaskProvider>
         </AuthProvider>
