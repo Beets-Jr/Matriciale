@@ -42,7 +42,7 @@ router.post('/register', async (req, res) => {
 router.post('/login', async (req, res) => {
   try {
     const { email, password } = req.body; 
-    const dominios = ['exemplo1.com', 'exemplo2.com', 'exemplo3.com'];
+    const dominios = ['exemplo1.com', 'exemplo2.com', 'exemplo3.com', 'beetsjr.com.br'];
     const dominioUsuario = email.split('@')[1];
     
     if (!dominios.includes(dominioUsuario)) {
