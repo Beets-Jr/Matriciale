@@ -3,11 +3,20 @@ import { CiFilter } from "react-icons/ci";
 import RelatorioTableRow from "./RelatorioTableRow";
 import FilterRelatorio from "./FilterRelatorio";
 import styles from "../../styles/RelatorioTable.module.css"
+import FilterCodItem from "./FilterCodItem";
+import FilterNomeItem from "./FilterNomeItem";
+import FilterModelo from "./FilterModelo";
 
 const RelatorioTable = () => {
     const currentDate = new Date();
     const [classificacaoFilter, setClassificacaoFilter] = useState('');
-    const [showFilter, setShowFilter] = useState(false);
+    const [codItemFilter, setCodItemFilter] = useState('');
+    const [nomeItemFilter, setNomeItemFilter] = useState('');
+    const [modeloFilter, setModeloFilter] = useState('');
+    const [showFilterClass, setShowFilterClass] = useState(false);
+    const [showFilterCod, setShowFilterCod] = useState(false);
+    const [showFilterNome, setShowFilterNome] = useState(false);
+    const [showFilterMod, setShowFilterMod] = useState(false);
 
     const relatorios = [
         {
@@ -144,14 +153,36 @@ const RelatorioTable = () => {
     
 
     const filteredRelatorio = relatorios.filter((item) => {
-        if (!classificacaoFilter) return true;
-        return item.classificacao.toLowerCase() === classificacaoFilter.toLowerCase();
+        const filterClass = !classificacaoFilter
+            || item.classificacao.toLocaleLowerCase() === classificacaoFilter.toLocaleLowerCase();
+        
+        const filterCod = !codItemFilter
+            || item.codItem.toLocaleLowerCase() === codItemFilter.toLocaleLowerCase();
+        
+        const filterNome = !nomeItemFilter
+            || item.nome.toLocaleLowerCase() === nomeItemFilter.toLocaleLowerCase();
+            
+        const filterMod = !modeloFilter
+            || item.tpMetodo.toLocaleLowerCase() === modeloFilter.toLocaleLowerCase();
+
+        return filterClass && filterCod && filterNome && filterMod;
     });
 
-    // Função que alterna a visibilidade do filtro
-    const handleThClick = () => {
-        setShowFilter(prev => !prev);
+    const handleClickClass = () => {
+        setShowFilterClass(prev => !prev);
     };
+
+    const handleClickCod = () => {
+        setShowFilterCod(prev => !prev);
+    }
+
+    const handleClickNome = () => {
+        setShowFilterNome(prev => !prev);
+    }
+
+    const handleClickModelo = () => {
+        setShowFilterMod(prev => !prev);
+    }
 
     const printRef = useRef();
 
@@ -193,21 +224,52 @@ const RelatorioTable = () => {
                         position: "sticky",
                         backgroundColor: "#F3F1EE",
                     }}>
-                        <th onClick={handleThClick} 
-                        style={{
-                            cursor: "pointer",
-                            textAlign: "center",
-                        }}>
-                            Item<CiFilter size="20"/>
-                            {/* Passa a prop que controla a exibição */}
+                        <th 
+                            onClick={handleClickClass} 
+                            style={{
+                                cursor: "pointer",
+                            }}
+                        >
+                            Item<CiFilter size="18"/>
                             <FilterRelatorio 
-                                showFilter={showFilter}
+                                showFilter={showFilterClass}
                                 onClassificacaoFilter={setClassificacaoFilter} 
                             />
                         </th>
-                        <th>Código Item</th>
-                        <th>Nome Item</th>
-                        <th>Classificação<br/>Modelo</th>
+                        <th
+                            onClick={handleClickCod} 
+                            style={{
+                                cursor: "pointer",
+                            }}
+                        >Código Item<CiFilter size="18"/>
+                            <FilterCodItem
+                                showFilter={showFilterCod}
+                                onCodItemFilter={setCodItemFilter} 
+                            />
+                        </th>
+                        <th
+                            onClick={handleClickNome} 
+                            style={{
+                                cursor: "pointer",
+                            }}
+                        >Nome Item<CiFilter size="18"/>
+                            <FilterNomeItem
+                                showFilter={showFilterNome}
+                                onNomeItemFilter={setNomeItemFilter} 
+                            />
+                        </th>
+                        <th
+                            onClick={handleClickModelo}
+                            style={{
+                                cursor: "pointer"
+                            }}
+                        >Classificação<br/>
+                        Modelo<CiFilter size="18"/>
+                            <FilterModelo
+                                showFilter={showFilterMod}
+                                onModeloFilter={setModeloFilter}
+                            />
+                        </th>
                         <th>Qtde<br/>Modelo</th>
                         <th>Estoque<br/>ideal</th>
                         <th>Estoque<br/>atual</th>

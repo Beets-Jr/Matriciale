@@ -4,6 +4,7 @@ import HistoryTableRow from './HistoryTableRow';
 import Header from '../Header';
 import Sidebar from '../Sidebar';
 import styles from '../../styles/Pacientes.module.css'
+import usuario from '../../img/utilizador.png'
 
 const VisualizarPacientes = () => {
   const { id, nome } = useParams(); 
@@ -141,7 +142,7 @@ const VisualizarPacientes = () => {
                     marginLeft: '22%'
                 }}
             >
-            <h2 className={styles.patientName}><span><img src='../../img/do-utilizador.png' alt="" /></span>{decodeURIComponent(nome)}</h2>
+            <h2 className={styles.patientName}><span className={styles.img}><img src={usuario} alt="" /></span><span className={styles.texto}>{nome}</span></h2>
             <p className={styles.patientSubtitle}>Histórico de Medicamentos</p>
 
             <table className={styles.historyTable}
@@ -172,9 +173,9 @@ const VisualizarPacientes = () => {
                     ))
                 ) : (
                     <tr>
-                    <td colSpan="7" style={{ textAlign: 'center', padding: '1rem' }}>
-                        Nenhum histórico encontrado.
-                    </td>
+                      <td colSpan="7" style={{ textAlign: 'center', padding: '1rem' }}>
+                          Nenhum histórico encontrado.
+                      </td>
                     </tr>
                 )}
                 </tbody>

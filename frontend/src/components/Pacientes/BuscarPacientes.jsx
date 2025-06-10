@@ -77,7 +77,7 @@ export default function Pacientes() {
         sx={{
             borderRadius: 4,
             p: 4,
-            bgcolor: '#f5f6fa',
+            bgcolor: '#F3F1EE',
             width: '100%',
             maxWidth: 1100,
             mt: 6,
@@ -151,7 +151,7 @@ export default function Pacientes() {
                 <Button
                     variant="contained"
                     sx={{
-                    bgcolor: '#3f51b5',
+                    bgcolor: 'var(--Azul2, #0D92F4)',
                     color: '#fff',
                     borderRadius: 5,
                     px: 6,
