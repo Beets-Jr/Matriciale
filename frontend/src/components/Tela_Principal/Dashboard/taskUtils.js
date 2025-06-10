@@ -1,7 +1,7 @@
 // Tipos de tarefas e suas cores
 export const TASK_TYPES = {
   REPOSICAO: {
-    label: 'Repor Farmácia',
+    label: 'Repor Farmácia Central',
     color: '#9C27B0',
     bgColor: '#E8D5F7'
   },
@@ -16,12 +16,12 @@ export const TASK_TYPES = {
     bgColor: '#E8F5E9'
   },
   LIMPEZA: {
-    label: 'Limpeza de Almoxarifado',
+    label: 'Limpeza de Almoxarifado Central',
     color: '#F44336',
     bgColor: '#FFEBEE'
   },
   INSPECAO: {
-    label: 'Inspeção de Estoque',
+    label: 'Inspeção de Estoque Central',
     color: '#00BCD4',
     bgColor: '#E0F7FA'
   }

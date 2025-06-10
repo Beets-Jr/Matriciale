@@ -19,27 +19,32 @@ const mockPacientes = [
   {
     id: 1,
     nome: 'Roberto Gomez',
-    CPF: 12345678900,
+    itens: 3,
+    unidades: 45,
   },
   {
     id: 2,
     nome: 'Ramon Valdez',
-    CPF: 19529318100,
+    itens: 2,
+    unidades: 35,
   },
   {
     id: 3,
     nome: 'Maria Antonia Nevez',
-    CPF: 12774616278,
+    itens: 2,
+    unidades: 49,
   },
   {
     id: 4,
     nome: 'Edgar Araujo',
-    CPF: 18284656709,
+    itens: 2,
+    unidades: 100,
   },
   {
     id: 5,
     nome: 'Ana Paula Souza',
-    CPF: 12464918378,
+    itens: 2,
+    unidades: 30,
   },
 ];
 
@@ -52,12 +57,7 @@ export default function Pacientes() {
   const navigate = useNavigate();
 
   const pacientesFiltrados = mockPacientes.filter(p => {
-    if (mecanismo === 'nome') {
-      return p.nome.toLowerCase().includes(busca.toLowerCase());
-    } else {
-      const cpfBusca = busca.replace(/\D/g, '');
-      return p.CPF.toString().includes(cpfBusca);
-    }
+    return p.nome.toLowerCase().includes(busca.toLowerCase());
   });
   
   return (
@@ -92,7 +92,7 @@ export default function Pacientes() {
             <TextField
             sx={{ width: '50%', fontFamily: 'LT Wave, sans-serif' }}
             variant="outlined"
-            placeholder={mecanismo === 'nome' ? "Digite o nome do paciente" : "Digite o CPF do paciente"}
+            placeholder="Digite o nome do paciente"
             value={busca}
             onChange={e => setBusca(e.target.value)}
             InputProps={{
@@ -110,7 +110,6 @@ export default function Pacientes() {
             sx={{ minWidth: 320, bgcolor: '#fff', borderRadius: 5, fontFamily: 'LT Wave, sans-serif' }}
             >
             <MenuItem value="nome">Nome</MenuItem>
-            <MenuItem value="cpf">CPF</MenuItem>
             </Select>
         </Box>
         <Box display="flex" flexDirection="column" gap={2}>
@@ -131,20 +130,28 @@ export default function Pacientes() {
                 <Box width={48} display="flex" justifyContent="center">
                 <PersonOutlineIcon fontSize="large" sx={{ color: '#5c5470' }} />
                 </Box>
-                <Box display="flex" alignItems="center" flex={2} minWidth={140}>
-                <Typography fontWeight={700} sx={{ fontSize: '1.3rem', minWidth: 140, fontFamily: 'LT Wave, sans-serif' }}>
+                <Box display="flex" alignItems="center" flex={3} minWidth={200}>
+                <Typography fontWeight={700} sx={{ fontSize: '1.3rem', minWidth: 80, fontFamily: 'LT Wave, sans-serif' }}>
                     Nome:
                 </Typography>
-                <Typography sx={{ fontSize: '1rem', ml: 1, mr: 3, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: 180, fontFamily: 'LT Wave, sans-serif' }}>
+                <Typography sx={{ fontSize: '1rem', ml: 1, mr: 3, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: 220, fontFamily: 'LT Wave, sans-serif' }}>
                     {p.nome}
                 </Typography>
                 </Box>
-                <Box display="flex" alignItems="center" flex={2} minWidth={170}>
-                <Typography fontWeight={700} sx={{ fontSize: '1.3rem', minWidth: 170, fontFamily: 'LT Wave, sans-serif' }}>
-                    CPF:
+                <Box display="flex" alignItems="center" flex={1.5} minWidth={120}>
+                <Typography fontWeight={700} sx={{ fontSize: '1.3rem', minWidth: 60, fontFamily: 'LT Wave, sans-serif' }}>
+                    Qtd itens:
                 </Typography>
-                <Typography sx={{ fontSize: '1rem', ml: 1, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: 180, fontFamily: 'LT Wave, sans-serif' }}>
-                    {p.CPF.toString().replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, '$1.$2.$3-$4')}
+                <Typography sx={{ fontSize: '1rem', ml: 1, fontFamily: 'LT Wave, sans-serif' }}>
+                    {p.itens}
+                </Typography>
+                </Box>
+                <Box display="flex" alignItems="center" flex={1.5} minWidth={140} justifyContent="center">
+                <Typography fontWeight={700} sx={{ fontSize: '1.3rem', minWidth: 80, fontFamily: 'LT Wave, sans-serif' }}>
+                    Unidades:
+                </Typography>
+                <Typography sx={{ fontSize: '1rem', ml: 1, fontFamily: 'LT Wave, sans-serif' }}>
+                    {p.unidades}
                 </Typography>
                 </Box>
                 <Box flex={1} minWidth={120} display="flex" justifyContent="flex-end">
