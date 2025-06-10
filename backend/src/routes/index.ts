@@ -10,14 +10,11 @@ router.use('/users', usersRouter);
 router.post('/register', async (req, res) => {
   try {
     const { email, password, name } = req.body;
-    const dominios = ['exemplo1.com', 'exemplo2.com', 'exemplo3.com'];
+    const dominios = ['exemplo1.com', 'exemplo2.com', 'exemplo3.com', 'beetsjr.com.br'];
     const dominioUsuario = email.split('@')[1];
-    const dominios = ['exemplo1.com', 'exemplo2.com', 'exemplo3.com'];
-    const dominioUsuario = email.split('@')[1];
-    
     if (!dominios.includes(dominioUsuario)) {
       // se o dominio do usuário não estiver dentre os domínios selecionados será exibida uma memsagem de erro 
-      return res.status(400).json({ message: "domínio de email inválido" });
+      return res.status(400).json({ message: 'domínio de email inválido' });
     }
     const userRecord = await auth.createUser({
       email,
@@ -49,7 +46,7 @@ router.post('/login', async (req, res) => {
     
     if (!dominios.includes(dominioUsuario)) {
       // se o dominio do usuário não estiver dentre os domínios selecionados será exibida uma memsagem de erro 
-      return res.status(400).json({ message: "domínio de email inválido" });
+      return res.status(400).json({ message: 'domínio de email inválido' });
     }
 
     // Aqui você normalmente usaria o método de login do Firebase 
@@ -73,7 +70,11 @@ router.post('/login', async (req, res) => {
 
 //Tarefas prioritárias
 router.post('/priority', async (req, res) => {
-  try {;
+  try {
+    const { task } = req.body;
+    // Aqui você pode adicionar lógica para salvar a tarefa prioritária no banco de dados
+    // Por enquanto, vamos apenas retornar a tarefa recebida
+    return res.status(201).json({ message: 'Tarefa prioritária adicionada', task });
   } catch (error: any) {
     return res.status(400).json({ error: error.message });
   }
@@ -81,7 +82,11 @@ router.post('/priority', async (req, res) => {
 
 // Tarefas agendadas
 router.post('/schedule', async (req, res) => {
-  try {;
+  try {
+    const { task, date } = req.body;
+    // Aqui você pode adicionar lógica para salvar a tarefa agendada no banco de dados
+    // Por enquanto, vamos apenas retornar a tarefa e a data recebida
+    return res.status(201).json({ message: 'Tarefa agendada adicionada', task, date });
   } catch (error: any) {
     return res.status(400).json({ error: error.message });
   }
@@ -92,7 +97,13 @@ router.post('/schedule', async (req, res) => {
 //Como fazer busca por cor + nome do medicamento simultaneamente?
 router.post('/viewmedicines/:color', async (req, res) => {
   //Renderizar tela dos medicamentos
-  try {;
+  try {
+    const { color } = req.params;
+    const { name } = req.body; // Nome do medicamento pode ser passado no corpo da requisição
+
+    // Aqui você pode adicionar lógica para buscar medicamentos no banco de dados
+    // Por enquanto, vamos apenas retornar os parâmetros recebidos
+    return res.status(200).json({ message: 'Medicamentos visualizados', color, name });
   } catch (error: any) {
     return res.status(400).json({ error: error.message });
   }
@@ -100,7 +111,11 @@ router.post('/viewmedicines/:color', async (req, res) => {
 
 //Exibir detalhes do medicamento em específico
 router.post('/viewmedicines/details/:id', async (req, res) => {
-  try {;
+  try {
+    const { id } = req.params;
+    // Aqui você pode adicionar lógica para buscar detalhes do medicamento no banco de dados
+    // Por enquanto, vamos apenas retornar o ID recebido
+    return res.status(200).json({ message: 'Detalhes do medicamento visualizados', id });
   } catch (error: any) {
     return res.status(400).json({ error: error.message });
   }
@@ -109,7 +124,10 @@ router.post('/viewmedicines/details/:id', async (req, res) => {
 
 //Visualizar farmácias
 router.post('/viewpharmacies', async (req, res) => {
-  try {;
+  try {
+    // Aqui você pode adicionar lógica para buscar farmácias no banco de dados
+    // Por enquanto, vamos apenas retornar uma mensagem de sucesso
+    return res.status(200).json({ message: 'Farmácias visualizadas' });
   } catch (error: any) {
     return res.status(400).json({ error: error.message });
   }
@@ -117,7 +135,10 @@ router.post('/viewpharmacies', async (req, res) => {
 
 //Relatórios
 router.post('/reports', async (req, res) => {
-  try {;
+  try {
+    // Aqui você pode adicionar lógica para gerar relatórios
+    // Por enquanto, vamos apenas retornar uma mensagem de sucesso
+    return res.status(200).json({ message: 'Relatórios gerados' });
   } catch (error: any) {
     return res.status(400).json({ error: error.message });
   }
@@ -125,7 +146,11 @@ router.post('/reports', async (req, res) => {
 
 //Agenda
 router.post('/calendar', async (req, res) => {
-  try {;
+  try {
+    const { task, date } = req.body;
+    // Aqui você pode adicionar lógica para salvar a tarefa no calendário
+    // Por enquanto, vamos apenas retornar a tarefa e a data recebida
+    return res.status(201).json({ message: 'Tarefa adicionada ao calendário', task, date });
   } catch (error: any) {
     return res.status(400).json({ error: error.message });
   }
@@ -133,7 +158,11 @@ router.post('/calendar', async (req, res) => {
 
 //Exibir detalhes da tarefa em questão
 router.post('/calendar/:id', async (req, res) => {
-  try {;
+  try {
+    const { id } = req.params;
+    // Aqui você pode adicionar lógica para buscar detalhes da tarefa no calendário
+    // Por enquanto, vamos apenas retornar o ID recebido
+    return res.status(200).json({ message: 'Detalhes da tarefa visualizados', id });
   } catch (error: any) {
     return res.status(400).json({ error: error.message });
   }
@@ -141,7 +170,11 @@ router.post('/calendar/:id', async (req, res) => {
 
 //Pacientes
 router.post('/pacient', async (req, res) => {
-  try {;
+  try {
+    const { name, age, medicalHistory } = req.body;
+    // Aqui você pode adicionar lógica para salvar o paciente no banco de dados
+    // Por enquanto, vamos apenas retornar os dados do paciente recebidos
+    return res.status(201).json({ message: 'Paciente adicionado', patient: { name, age, medicalHistory } });
   } catch (error: any) {
     return res.status(400).json({ error: error.message });
   }
@@ -149,7 +182,11 @@ router.post('/pacient', async (req, res) => {
 
 //Configurações
 router.post('/config', async (req, res) => {
-  try {;
+  try {
+    const { settings } = req.body;
+    // Aqui você pode adicionar lógica para salvar as configurações no banco de dados
+    // Por enquanto, vamos apenas retornar as configurações recebidas
+    return res.status(200).json({ message: 'Configurações salvas', settings });
   } catch (error: any) {
     return res.status(400).json({ error: error.message });
   }
