@@ -4,6 +4,8 @@ import { auth } from '../config/firebase';
 
 const router = Router();
 
+// a ideia desse arquivo não seria possuir todas as rotas, precisamos modularizar as rotas em arquivos separados
+
 router.use('/users', usersRouter);
 
 // Rota de registro
