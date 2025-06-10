@@ -10,7 +10,13 @@ router.use('/users', usersRouter);
 router.post('/register', async (req, res) => {
   try {
     const { email, password, name } = req.body;
+    const dominios = ['exemplo1.com', 'exemplo2.com', 'exemplo3.com'];
+    const dominioUsuario = email.split('@')[1];
     
+    if (!dominios.includes(dominioUsuario)) {
+      // se o dominio do usuário não estiver dentre os domínios selecionados será exibida uma memsagem de erro 
+      return res.status(400).json({ message: "domínio de email inválido" });
+    }
     const userRecord = await auth.createUser({
       email,
       password,
@@ -35,9 +41,16 @@ router.post('/register', async (req, res) => {
 // Rota de login
 router.post('/login', async (req, res) => {
   try {
-    const { email, password } = req.body;
+    const { email, password } = req.body; 
+    const dominios = ['exemplo1.com', 'exemplo2.com', 'exemplo3.com'];
+    const dominioUsuario = email.split('@')[1];
     
-    // Aqui você normalmente usaria o método de login do Firebase
+    if (!dominios.includes(dominioUsuario)) {
+      // se o dominio do usuário não estiver dentre os domínios selecionados será exibida uma memsagem de erro 
+      return res.status(400).json({ message: "domínio de email inválido" });
+    }
+
+    // Aqui você normalmente usaria o método de login do Firebase 
     // Por enquanto, vamos apenas verificar se o usuário existe
     const user = await auth.getUserByEmail(email);
     
