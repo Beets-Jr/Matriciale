@@ -1,0 +1,181 @@
+Arquivos de input operacionais (excel – xls)
+Esses arquivos perdem os cabeçalhos ao exportar do sistema
+São utilizados para cada unidade (CAF e Farmácia(s))
+1 – Relatório de movimentação por destinatário final (por item – maior detalhamento)
+2 – Balancete de movimentações por item (estoque dos itens no período – semanal)
+Campos dos arquivos (há colunas em branco que serão ignoradas)
+1 – Relatório de movimentação (não há ID do paciente apenas os nomes, os quais são os mesmos, a não ser forem feitas edições no cadastro)
+Data da movimentação
+Histórico da movimentação (nome do paciente, nome do fornecedor, unidade de saúde, nomes/tipos de ajustes)
+Documento (normalmente atribuídos às notas fiscais de compra dos itens). Eles ficam em branco nos arquivos das farmácias pois as entradas das compras são ou deveriam ser feitos somente na CAF.
+Número da Requisição – ID que relaciona a receita do paciente ou qual(is) itens ele retirou na farmácia. No caso da CAF, está relacionado com as movimentações para as unidades. São números sequenciais pela data do ano.
+Entradas – quantidade de entrada por histórico
+Saídas - quantidade de saídas por histórico (quando a linha referir a uma entrada ou saldo, este campo fica zero)
+Estoque – quantidade do estoque resultado da entrada ou saída
+Observação – indica transferências entre as unidades – número sequencial
+2 – Balancete (menor quantidade de campos)
+Código sistêmico do item – texto (11 posições – 9 números e 2 pontos divisor de milhar); obs.: cada município tem a sua própria numeração que segue essa quantidade padrão de posições no sistema fiorilli.
+Descrição (nome) do item – texto
+Coluna em branco
+Unidade do item (cp = comprimidos; ev = envelopes; tb = tubos; amp = ampolas. Esse campo não é utilizado atualmente.
+Quantidade período inicial
+Valor do item período inicial
+Quantidade de entradas no período
+Valor de entradas no período
+Quantidade de saídas no período
+Valor de saídas no período
+Quantidade período final (estoque atual)
+Valor unitário do item período final (valor total dividido pela quantidade final – muitos itens tem fornecedores diferentes com valores unitários diferente, mas a Fiorilli faz uma média)
+Valor do item período final
+
+Tratamento dos arquivos operacionais para constituição de base de dados operacional
+1 – Relatório de movimentação
+ID unidade – número que eu atribuí para diferenciar as farmácias – depende da quantidade de farmácias que o município possui. Normalmente ordeno pela representatividade da farmácia (maiores primeiro)
+Unidade – Nome da unidade
+Código do item – código sistêmico do item. Atribuído pela ordem sequencial do arquivo BALANCETE dos itens cujos os campos: “Quantidade de entradas no período” OU “Quantidade de saídas no período” diferente de ZERO. O cabeçalho onde possui a informação foi perdida na exportação do arquivo.
+Nome do item – IDEM campo “Código do Item”
+Classificação – Segmento na qual o item pertence (coloquei o número na frente para ficar fácil a ordenação). Realizada na implantação no município e revista semanalmente
+REMUME (Relação Municipal de Medicamentos) – medicamentos básicos
+ASSISTENCIAL – Medicamento específico para um grupo restrito de pessoas autorizado por uma assistente social mediante a vulnerabilidade financeira. Não fazem parte da REMUME.
+PROCESSO JUDICIAL – Medicamentos disponibilizados mediante a mandado judicial. Normalmente de referência (não genérico). Trata-se de um medicamento assistencial classificado separadamente, devido a forma de escrituração contábil dessas despesas. São acompanhados atenciosamente.
+FARMACOLÓGICO – medicamentos injetáveis, utilizados normalmente nos ambulatórios e pronto atendimento, ou seja, de uso interno nas unidades de saúde.
+MATERIAL – Trata-se de itens de material hospitalar utilizados ou disponibilizado pelo município (luvas, toucas, agulhas, etc)
+FRALDAS e/ou LEITES – Itens assistenciais que podem ser controlados separadamente com processos judiciais, a pedidos do município
+Data da movimentação (arquivo original)
+Semana – “ANO_SEMANA ANO” – Utilizado no cálculo do algoritmo 
+TP – Indica o tipo da movimentação:
+“A” – “SALDO ANTERIOR” – atribuído pelo campo HISTÓRICO;
+“E” – Entradas – atribuído pelo campo ENTRADAS (diferente de “branco”)
+“S” – Saídas – atribuído por diferente de “A” e “E” e checado pelo campo SAIDAS” diferente de ZERO.
+TIPO – indica a subclassificação do campo “TP”. Utilizado no cálculo do algoritmo:
+“AA” – “SALDO ANTERIOR” – atribuído pelo campo HISTÓRICO;
+“EA” – ENTRADA DE FORNECEDORES (compras) – atribuído por “E” pelo campo “TP” E pelos nomes dos fornecedores dos fornecedores no campo HISTÓRICO, validados pelos números das notas fiscais no campo DOCUMENTO;
+“ED” – ENTRADA POR DOAÇÕES – atribuído por “E” pelo campo “TP” E pela descrição “DOAÇÃO” no campo HISTÓRICO;
+“EP” – ENTRADA POR EMPRÉSTIMOS ENTRE MUNICÍPIOS – atribuído por “E” pelo campo “TP” E pelas descrições “TRANSFERENCIA ENTRE MUNICIPIOS”, “PREFEITURA MUNICIPAL DE NOME DO MUNICÍPIO”, “TRANSFERENDIA DE MUNICIPIO” no campo HISTÓRICO;
+“ET” – ENTRADA POR TRANSFERÊNCIAS – atribuído por “E” pelo campo “TP” E pela descrição “NOME DA FARMÁCIA” no campo HISTÓRICO. Essa classificação só é atribuída para as movimentações entre CAF e Farmácias;
+“EU” – ENTRADA POR TRANSFERÊNCIAS PARA DEMAIS UNIDADES DO MUNICÍPIO – atribuído por “E” pelo campo “TP” E pela descrição “NOME DA UNIDADE DO MUNICÍPIO” no campo HISTÓRICO. Essa classificação só é atribuída para as movimentações do CAF (deveria ser apenas) e Farmácias para as Unidades do Município como Pronto Atendimento, UBSs;
+“EX” – ENTRADA POR AJUSTES DE ESTOQUES – atribuído por “E” pelo campo “TP” E pelas descrições “ACERTO DE ESTOQUE”, “PREFEITURA MUNICIPAL DO PRÓPRIO MUNICÍPIO”, “QUEBRA” no campo HISTÓRICO;
+“SA” – SAÍDA POR DISPENSAÇÃO AOS PACIENTES – atribuído por “S” pelo campo “TP” E pelos nomes dos pacientes no campo HISTÓRICO. Eu deixo por último (restante depois de todas as outras classificações;
+“SD” – SAÍDA POR DOAÇÕES – atribuído por “S” pelo campo “TP” E pela descrição “DOAÇÃO” no campo HISTÓRICO;
+“ST” – SAÍDA POR TRANSFERÊNCIAS – atribuído por “S” pelo campo “TP” E pela descrição “NOME DA FARMÁCIA” no campo HISTÓRICO. Essa classificação só é atribuída para as movimentações entre CAF e Farmácias;
+“SU” – SAÍDA POR TRANSFERÊNCIAS PARA DEMAIS UNIDADES DO MUNICÍPIO – atribuído por “S” pelo campo “TP” E pela descrição “NOME DA UNIDADE DO MUNICÍPIO” no campo HISTÓRICO. Essa classificação só é atribuída para as movimentações do CAF (deveria ser apenas) e Farmácias para as Unidades do Município como Pronto Atendimento, UBSs;
+“SV” – SAÍDA POR VENCIMENTO DA DATA DE VALIDADE DO ITEM – atribuído por “S” pelo campo “TP” E pela descrição “VENCIDO” ou “PERDA POR VALIDADE” no campo HISTÓRICO.
+“SX” – SAÍDA POR AJUSTES DE ESTOQUES – atribuído por “S” pelo campo “TP” E pelas descrições “ACERTO DE ESTOQUE”, “PREFEITURA MUNICIPAL DO PRÓPRIO MUNICÍPIO”, “QUEBRA” no campo HISTÓRICO;
+Histórico da movimentação (nome do paciente, nome do fornecedor, unidade de saúde, nomes/tipos de ajustes). Arquivo original.
+Documento (normalmente atribuídos às notas fiscais de compra dos itens). Eles ficam em branco nos arquivos das farmácias pois as entradas das compras são ou deveriam ser feitos somente na CAF. Arquivo original.
+Número da Requisição – ID que relaciona a receita do paciente ou qual(is) itens ele retirou na farmácia. No caso da CAF, está relacionado com as movimentações para as unidades. São números sequenciais pela data do ano. Arquivo original.
+QTDMOV – quantidade referente a movimentação do item. Trata-se da normalização das colunas “Entradas” (números positivos) e “Saídas” (números negativos).
+ESTAJU – quantidade do saldo (estoque) do item por movimentação. O resultado da soma as movimentações por item deve ser a mesma da “Quantidade período final” (estoque atual) do arquivo Balancete.
+Entradas – quantidade de entrada por histórico. Arquivo original.
+Saídas - quantidade de saídas por histórico (quando a linha referir a uma entrada ou saldo, este campo fica zero). Arquivo original.
+Estoque – quantidade do estoque resultado da entrada ou saída. Arquivo original
+Observação – indica transferências entre as unidades – número sequencial. Original
+
+Base para aplicação da metodologia de reposição por farmácia resultante da base de dados de movimentações
+Base gerada por Farmácia
+Critérios – “SA” – SAÍDA POR DISPENSAÇÃO AOS PACIENTES ou “SU” – SAÍDA POR TRANSFERÊNCIAS PARA DEMAIS UNIDADES DO MUNICÍPIO do Campo “TIPO”.
+Campos
+Classificação – Segmento na qual o item pertence (coloquei o número na frente para ficar fácil a ordenação). Realizada na implantação no município e revista semanalmente
+REMUME (Relação Municipal de Medicamentos) – medicamentos básicos
+ASSISTENCIAL – Medicamento específico para um grupo restrito de pessoas autorizado por uma assistente social mediante a vulnerabilidade financeira. Não fazem parte da REMUME.
+PROCESSO JUDICIAL – Medicamentos disponibilizados mediante a mandado judicial. Normalmente de referência (não genérico). Trata-se de um medicamento assistencial classificado separadamente, devido a forma de escrituração contábil dessas despesas. São acompanhados atenciosamente.
+FARMACOLÓGICO – medicamentos injetáveis, utilizados normalmente nos ambulatórios e pronto atendimento, ou seja, de uso interno nas unidades de saúde.
+MATERIAL – Trata-se de itens de material hospitalar utilizados ou disponibilizado pelo município (luvas, toucas, agulhas, etc)
+FRALDAS e/ou LEITES – Itens assistenciais que podem ser controlados separadamente com processos judiciais, a pedidos do município
+Nome do item – IDEM campo “Código do Item”
+Código do item – código sistêmico do item. Atribuído pela ordem sequencial do arquivo BALANCETE dos itens cujos os campos: “Quantidade de entradas no período” OU “Quantidade de saídas no período” diferente de ZERO. O cabeçalho onde possui a informação foi perdida na exportação do arquivo.
+Todas as Colunas por semana – indicam a quantidade de movimentações por semana (Campo “SEMANA”) para cada item. Itens que não tiveram movimentações em alguma das semanas deverão ser “NULL”; “EM BRANCO”.
+Total geral – para indicar a representatividade do item.
+Medianas – com diversos cortes para testar a sazonalidade
+“Md04” – Últimas 4 semanas – “Mês”
+“Md08” – Últimas 8 semanas – “Bimestre”
+“Md12” – Últimas 12 semanas – “Trimestre”
+“Md16” – Últimas 16 semanas – “Quadrimestre”
+“Md26” – Últimas 26 semanas – “Semestre”
+“Md52” – Últimas 52 semanas – “Anual”
+“MdAno” – Ano Atual – Semanas do ano atual
+“MdTt” – Total – Em toda série histórica de semanas
+Máxima – Quantidade semanal máxima movimentada desde o início da série histórica semanal.
+Quantidades de ocorrências semanais (independentemente da quantidade movimentada). O objetivo destes campos é observar a frequência de movimentação semanal e com isso classificar os itens por isso.
+“Cont04” – Ocorrências nas últimas 4 semanas
+“Cont08” – Ocorrências nas últimas 8 semanas
+“Cont12” – Ocorrências nas últimas 12 semanas 
+“Cont16” – Ocorrências nas últimas 16 semanas
+“Cont26” – Ocorrências nas últimas 26 semanas
+“Cont52” – Ocorrências nas últimas 52 semanas
+“ContAno” – Ocorrências no Ano Atual
+“ContTt” – Ocorrências em toda a série histórica de semanas
+TP_Movimento – Classificação dos itens de acordo com as ocorrências semanais (ordem invertida para programação)
+ENTRANTES – Itens novos que tiveram a primeira ocorrência de dispensação na última semana (ÚLTIMA SEMANA DIFERENTE DE “NULL” E “ContTt” = 1)
+RECENTES – Itens que tiveram mais ou igual a 50% de ocorrências nas últimas 26 semanas. Se a série histórica for inferior à 26 semanas, esses itens serão ORDINÁRIOS. (Quantidade de ocorrências / “Cont16” >= 50%)
+INATIVOS – Itens que não possuíram ocorrências nas últimas 16 semanas. (“Cont16” = 50).
+INTERMITENTES – Itens que tiveram menos do que 50% de ocorrências nas últimas 52 semanas ou a quantidade da série histórica for inferior a 52 semanas. (Quantidade de ocorrências / “Cont52” < 50%).
+ORDINÁRIOS – Itens que tiveram mais ou igual a 50% de ocorrências nas últimas 52 semanas ou a quantidade da série histórica for inferior a 52 semanas. (Quantidade de ocorrências / “Cont52” >= 50%).
+MÉTODO
+Para TP_Movimento = “ENTRANTES”, MÉTODO é IGUAL ao próprio quantitativo da única ocorrência.
+Para TP_Movimento = “INATIVOS”, MÉTODO é IGUAL a ZERO.
+Para TP_Movimento = “INTERMITENTES“, MÉTODO é IGUAL ao campo “Máxima” (Quantidade semanal máxima movimentada desde o início da série histórica semanal) dividido por 4 (semanas). Se o resultado for menor do que 1, então arredondar para 1.
+Para TP_Movimento = “ORDINÁRIOS” ou “RECENTES”, MÉTODO é IGUAL a maior quantidade entre as 8 as medianas calculadas “Md04” até “MdTt”, como quantidade conservadora de metodologia.
+Estoque ideal conforme ao MÉTODO (“MetEst”)
+Trata-se de um campo parametrizável de acordo com a estratégia que o município adotar. Via de regra, a Matriciale adota 3 semanas, mas há situações de 2 (restritivas) e 4 (expansivas) semanas de estoque nas farmácias.
+MÉTODO x Quantidade de semanas
+Estoque sistêmico através do campo “Quantidade período final” (estoque atual) do arquivo BALANCETE. Deve refletir o estoque físico nas farmácias.
+Reposição – Quantitativo resultante da diferença entre estoque ideal conforme ao MÉTODO (“MetEst”) e Estoque sistêmico. Se essa diferença for negativa (excesso de estoque) a reposição será ZERO, senão prevalece o quantitativo calculado.
+
+Base para aplicação da metodologia de reposição da CAF resultante da base de dados de movimentações de todas as farmácias mais o CAF
+Base gerada da CAF (pasta “MetodologiaCAF”) segue o mesmo critério utilizado para as farmácias
+Critérios – “SA” – SAÍDA POR DISPENSAÇÃO AOS PACIENTES ou “SU” – SAÍDA POR TRANSFERÊNCIAS PARA DEMAIS UNIDADES DO MUNICÍPIO do Campo “TIPO”. Em tese, não deveria ter ocorrências “SA" nas movimentações da CAF.
+Campos
+Classificação – Segmento na qual o item pertence (coloquei o número na frente para ficar fácil a ordenação). Realizada na implantação no município e revista semanalmente
+REMUME (Relação Municipal de Medicamentos) – medicamentos básicos
+ASSISTENCIAL – Medicamento específico para um grupo restrito de pessoas autorizado por uma assistente social mediante a vulnerabilidade financeira. Não fazem parte da REMUME.
+PROCESSO JUDICIAL – Medicamentos disponibilizados mediante a mandado judicial. Normalmente de referência (não genérico). Trata-se de um medicamento assistencial classificado separadamente, devido a forma de escrituração contábil dessas despesas. São acompanhados atenciosamente.
+FARMACOLÓGICO – medicamentos injetáveis, utilizados normalmente nos ambulatórios e pronto atendimento, ou seja, de uso interno nas unidades de saúde. Há muito mais ocorrências nas movimentações da CAF.
+MATERIAL – Trata-se de itens de material hospitalar utilizados ou disponibilizado pelo município (luvas, toucas, agulhas, etc)
+FRALDAS e/ou LEITES – Itens assistenciais que podem ser controlados separadamente com processos judiciais, a pedidos do município
+Nome do item – IDEM campo “Código do Item”
+Código do item – código sistêmico do item. Atribuído pela ordem sequencial do arquivo BALANCETE dos itens cujos os campos: “Quantidade de entradas no período” OU “Quantidade de saídas no período” diferente de ZERO. O cabeçalho onde possui a informação foi perdida na exportação do arquivo.
+Todas as Colunas por semana – indicam a quantidade de movimentações por semana (Campo “SEMANA”) para cada item. Itens que não tiveram movimentações em alguma das semanas deverão ser “NULL”; “EM BRANCO”.
+Total geral – para indicar a representatividade do item.
+Medianas – com diversos cortes para testar a sazonalidade
+“Md04” – Últimas 4 semanas – “Mês”
+“Md08” – Últimas 8 semanas – “Bimestre”
+“Md12” – Últimas 12 semanas – “Trimestre”
+“Md16” – Últimas 16 semanas – “Quadrimestre”
+“Md26” – Últimas 26 semanas – “Semestre”
+“Md52” – Últimas 52 semanas – “Anual”
+“MdAno” – Ano Atual – Semanas do ano atual
+“MdTt” – Total – Em toda série histórica de semanas
+Máxima – Quantidade semanal máxima movimentada desde o início da série histórica semanal.
+Quantidades de ocorrências semanais (independentemente da quantidade movimentada). O objetivo destes campos é observar a frequência de movimentação semanal e com isso classificar os itens por isso.
+“Cont04” – Ocorrências nas últimas 4 semanas
+“Cont08” – Ocorrências nas últimas 8 semanas
+“Cont12” – Ocorrências nas últimas 12 semanas 
+“Cont16” – Ocorrências nas últimas 16 semanas
+“Cont26” – Ocorrências nas últimas 26 semanas
+“Cont52” – Ocorrências nas últimas 52 semanas
+“ContAno” – Ocorrências no Ano Atual
+“ContTt” – Ocorrências em toda a série histórica de semanas
+TP_Movimento – Classificação dos itens de acordo com as ocorrências semanais (ordem invertida para programação)
+ENTRANTES – Itens novos que tiveram a primeira ocorrência de dispensação na última semana (ÚLTIMA SEMANA DIFERENTE DE “NULL” E “ContTt” = 1)
+RECENTES – Itens que tiveram mais ou igual a 50% de ocorrências nas últimas 26 semanas. Se a série histórica for inferior à 26 semanas, esses itens serão ORDINÁRIOS. (Quantidade de ocorrências / “Cont16” >= 50%)
+INATIVOS – Itens que não possuíram ocorrências nas últimas 16 semanas. (“Cont16” = 50).
+INTERMITENTES – Itens que tiveram menos do que 50% de ocorrências nas últimas 52 semanas ou a quantidade da série histórica for inferior a 52 semanas. (Quantidade de ocorrências / “Cont52” < 50%).
+ORDINÁRIOS – Itens que tiveram mais ou igual a 50% de ocorrências nas últimas 52 semanas ou a quantidade da série histórica for inferior a 52 semanas. (Quantidade de ocorrências / “Cont52” >= 50%).
+MÉTODO
+Para TP_Movimento = “ENTRANTES”, MÉTODO é IGUAL ao próprio quantitativo da única ocorrência.
+Para TP_Movimento = “INATIVOS”, MÉTODO é IGUAL a ZERO.
+Para TP_Movimento = “INTERMITENTES“, MÉTODO é IGUAL ao campo “Máxima” (Quantidade semanal máxima movimentada desde o início da série histórica semanal) dividido por 4 (semanas). Se o resultado for menor do que 1, então arredondar para 1.
+Para TP_Movimento = “ORDINÁRIOS” ou “RECENTES”, MÉTODO é IGUAL a maior quantidade entre as 8 as medianas calculadas “Md04” até “MdTt”, como quantidade conservadora de metodologia.
+Base de consolidação das informações da CAF com as demais farmácias
+A pasta “SumUnidades” contem as movimentações semanais de todas as farmácias e a CAF que serão consolidadas para a aplicação novamente da metodologia, ou seja, há todo o tratamento descrito anteriormente para que essas informações pudessem ser consolidadas com as das demais farmácias.
+Base de aplicação da metodologia com as bases consolidadas (pasta “Metodologia”)
+Trata-se de retrabalho que pode ser melhorada com a codificação
+É aplicada a metodologia (j.) para apuração da reposição da CAF.
+Estoque ideal conforme ao MÉTODO (“MetEst”)
+Trata-se de um campo parametrizável de acordo com a estratégia que o município adotar. Via de regra, a Matriciale adota 12 até 16 semanas, mas há situações de 12 (restritivas) e 16 (expansivas) semanas de estoque na CAF.
+MÉTODO x Quantidade de semanas
+Estoque sistêmico através da somatória dos campos “Quantidade período final” (estoque atual) do arquivo BALANCETE de todas as farmácias e da CAF. Deve refletir o estoque físico nas farmácias.
+Reposição – Quantitativo resultante da diferença entre estoque ideal conforme ao MÉTODO (“MetEst”) e Estoque sistêmico. Se essa diferença for negativa (excesso de estoque) a reposição será ZERO, senão prevalece o quantitativo calculado.
+
+Os arquivos fornecidos descrevem uma metodologia operacional utilizada pela empresa Matriciale, especializada na gestão de estoque de medicamentos e materiais hospitalares em um município. O objetivo principal é prever a demanda, controlar o estoque e evitar desperdícios com base em um algoritmo estatístico e histórico de movimentações semanais.
