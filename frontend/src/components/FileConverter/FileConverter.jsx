@@ -356,6 +356,91 @@ const FileConverter = () => {
     });
   };
 
+  // Definição das colunas XLSX conforme documentação Matriciale
+  const xlsxColumnMapping = [
+    {
+      "coluna": "A",
+      "nome_coluna": "Código sistêmico do item",
+      "nome_normalizado": "cod_sistemico_item",
+      "tipo": "texto",
+      "formato": "9 números e 2 pontos divisor de milhar (ex: 325.023.001)"
+    },
+    {
+      "coluna": "B",
+      "nome_coluna": "Descrição (nome) do item",
+      "nome_normalizado": "descricao_item",
+      "tipo": "texto"
+    },
+    {
+      "coluna": "C",
+      "nome_coluna": "Coluna em branco",
+      "nome_normalizado": "coluna_branco",
+      "tipo": "vazio"
+    },
+    {
+      "coluna": "D",
+      "nome_coluna": "Unidade do item",
+      "nome_normalizado": "unidade_item",
+      "tipo": "texto",
+      "observacao": "cp = comprimidos; ev = envelopes; tb = tubos; amp = ampolas. Esse campo não é utilizado atualmente."
+    },
+    {
+      "coluna": "E",
+      "nome_coluna": "Quantidade período inicial",
+      "nome_normalizado": "qtd_periodo_inicial",
+      "tipo": "número"
+    },
+    {
+      "coluna": "F",
+      "nome_coluna": "Valor do item período inicial",
+      "nome_normalizado": "valor_item_periodo_inicial",
+      "tipo": "número"
+    },
+    {
+      "coluna": "G",
+      "nome_coluna": "Quantidade de entradas no período",
+      "nome_normalizado": "qtd_entradas_periodo",
+      "tipo": "número"
+    },
+    {
+      "coluna": "H",
+      "nome_coluna": "Valor de entradas no período",
+      "nome_normalizado": "valor_entradas_periodo",
+      "tipo": "número"
+    },
+    {
+      "coluna": "I",
+      "nome_coluna": "Quantidade de saídas no período",
+      "nome_normalizado": "qtd_saidas_periodo",
+      "tipo": "número"
+    },
+    {
+      "coluna": "J",
+      "nome_coluna": "Valor de saídas no período",
+      "nome_normalizado": "valor_saidas_periodo",
+      "tipo": "número"
+    },
+    {
+      "coluna": "K",
+      "nome_coluna": "Quantidade período final (estoque atual)",
+      "nome_normalizado": "qtd_periodo_final",
+      "tipo": "número"
+    },
+    {
+      "coluna": "L",
+      "nome_coluna": "Valor unitário do item período final",
+      "nome_normalizado": "val_unit_periodo_final",
+      "tipo": "número",
+      "observacao": "valor total dividido pela quantidade final – muitos itens tem fornecedores diferentes com valores unitários diferente, mas a Fiorilli faz uma média"
+    },
+    {
+      "coluna": "M",
+      "nome_coluna": "Valor do item período final",
+      "nome_normalizado": "valor_item_periodo_final",
+      "tipo": "número"
+    }
+  ];
+
   const handleXLSXFile = (file) => {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
@@ -365,49 +450,91 @@ const FileConverter = () => {
           const sheetName = workbook.SheetNames[0];
           const worksheet = workbook.Sheets[sheetName];
           
-          const data = XLSX.utils.sheet_to_json(worksheet, {
-            raw: false,
-            cellDates: true,
+          // Extrair dados como array de arrays para controle total
+          const rawData = XLSX.utils.sheet_to_json(worksheet, { 
+            header: 1, 
             defval: '',
-            cellTransform: (cell, header) => {
-              if (header === 'F') {
-                if (cell instanceof Date) {
-                  const day = String(cell.getDate()).padStart(2, '0');
-                  const month = String(cell.getMonth() + 1).padStart(2, '0');
-                  const year = cell.getFullYear();
-                  return `${day}/${month}/${year}`;
-                }
-                
-                if (typeof cell === 'number') {
-                  const date = new Date(Math.round((cell - 25569) * 86400 * 1000));
-                  const day = String(date.getDate()).padStart(2, '0');
-                  const month = String(date.getMonth() + 1).padStart(2, '0');
-                  const year = date.getFullYear();
-                  return `${day}/${month}/${year}`;
-                }
-                
-                if (typeof cell === 'string') {
-                  const parsedDate = moment(cell, ['DD/MM/YYYY']);
-                  if (parsedDate.isValid()) {
-                    return parsedDate.format('DD/MM/YYYY');
-                  }
-                }
-                
-                return cell;
-              }
-
-              if (header === 'COD_ITEM') {
-                return cell !== null && cell !== undefined 
-                  ? String(Math.floor(Number(cell))) 
-                  : '';
-              }
-
-              return cell;
-            }
+            raw: false 
           });
 
-          resolve(data);
+          console.log('📊 Dados brutos XLSX:', rawData.slice(0, 5));
+
+          // Encontrar linha de início dos dados (primeira linha com dados válidos)
+          let startRow = 0;
+          for (let i = 0; i < rawData.length; i++) {
+            const row = rawData[i];
+            // Verificar se a linha tem dados na coluna A (código) e B (descrição)
+            if (row[0] && row[1] && row[0].toString().trim() !== '' && row[1].toString().trim() !== '') {
+              startRow = i;
+              break;
+            }
+          }
+
+          console.log(`📋 Linha de início dos dados: ${startRow}`);
+
+          // Processar cada linha de dados
+          const processedData = [];
+          for (let i = startRow; i < rawData.length; i++) {
+            const row = rawData[i];
+            
+            // Verificar se a linha tem conteúdo mínimo (código e descrição)
+            if (!row[0] || !row[1] || row[0].toString().trim() === '' || row[1].toString().trim() === '') {
+              continue;
+            }
+
+            // Mapear cada coluna conforme a especificação
+            const mappedRow = {};
+            
+            xlsxColumnMapping.forEach((colDef, index) => {
+              const cellValue = row[index] || '';
+              const normalizedName = colDef.nome_normalizado;
+              
+              // Processar valor conforme o tipo
+              let processedValue = cellValue;
+              
+              if (colDef.tipo === 'número' && cellValue !== '') {
+                // Converter para número, tratando formatos brasileiros
+                const numStr = cellValue.toString().replace(/[^\d.,-]/g, '');
+                if (numStr !== '') {
+                  // Formato brasileiro: 1.000,50 -> 1000.50
+                  if (numStr.includes('.') && numStr.includes(',')) {
+                    processedValue = parseFloat(numStr.replace(/\./g, '').replace(',', '.'));
+                  } else if (numStr.includes(',')) {
+                    // Apenas vírgula: pode ser decimal
+                    processedValue = parseFloat(numStr.replace(',', '.'));
+                  } else {
+                    processedValue = parseFloat(numStr);
+                  }
+                  
+                  // Se não conseguiu converter, manter como string
+                  if (isNaN(processedValue)) {
+                    processedValue = cellValue.toString();
+                  }
+                } else {
+                  processedValue = null;
+                }
+              } else if (colDef.tipo === 'texto') {
+                processedValue = cellValue.toString().trim();
+              } else if (colDef.tipo === 'vazio') {
+                processedValue = null;
+              }
+              
+              mappedRow[normalizedName] = processedValue;
+            });
+
+            // Adicionar metadados úteis
+            mappedRow._linha_original = i + 1;
+            mappedRow._dados_brutos = row;
+
+            processedData.push(mappedRow);
+          }
+
+          console.log(`✅ Processadas ${processedData.length} linhas de dados XLSX`);
+          console.log('📋 Exemplo de linha processada:', processedData[0]);
+
+          resolve(processedData);
         } catch (error) {
+          console.error('❌ Erro ao processar XLSX:', error);
           reject(error);
         }
       };
@@ -530,7 +657,7 @@ const FileConverter = () => {
   };
 
   const handleTestPDF = () => {
-    console.log('🧪 Executando teste com dados simulados...');
+    console.log('🧪 Executando teste PDF com dados simulados...');
     
     // Dados de teste simulados
     const mockPDFText = `
@@ -565,6 +692,67 @@ Data        Histórico                    Documento    Requisição    Movimento
     setJsonOutput(JSON.stringify(testResult, null, 2));
   };
 
+  const handleTestXLSX = () => {
+    console.log('🧪 Executando teste XLSX com dados simulados...');
+    
+    // Simular dados XLSX como array de arrays
+    const mockXLSXData = [
+      ['325.023.001', 'AAS - ÁCIDO ACETIL SALICÍLICO 100MG', '', 'CP', '1200', '12000.00', '500', '5000.00', '200', '2000.00', '1500', '8.00', '12000.00'],
+      ['412.015.002', 'DIPIRONA SÓDICA 500MG/ML', '', 'AMP', '100', '1500.00', '50', '750.00', '20', '300.00', '130', '15.00', '1950.00'],
+      ['501.007.001', 'PARACETAMOL 750MG', '', 'CP', '850', '2550.00', '300', '900.00', '150', '450.00', '1000', '3.00', '3000.00']
+    ];
+
+    // Processar usando a mesma lógica do handleXLSXFile
+    const processedData = [];
+    
+    mockXLSXData.forEach((row, index) => {
+      const mappedRow = {};
+      
+      xlsxColumnMapping.forEach((colDef, colIndex) => {
+        const cellValue = row[colIndex] || '';
+        const normalizedName = colDef.nome_normalizado;
+        
+        let processedValue = cellValue;
+        
+        if (colDef.tipo === 'número' && cellValue !== '') {
+          const numStr = cellValue.toString().replace(/[^\d.,-]/g, '');
+          if (numStr !== '') {
+            if (numStr.includes('.') && numStr.includes(',')) {
+              processedValue = parseFloat(numStr.replace(/\./g, '').replace(',', '.'));
+            } else if (numStr.includes(',')) {
+              processedValue = parseFloat(numStr.replace(',', '.'));
+            } else {
+              processedValue = parseFloat(numStr);
+            }
+            
+            if (isNaN(processedValue)) {
+              processedValue = cellValue.toString();
+            }
+          } else {
+            processedValue = null;
+          }
+        } else if (colDef.tipo === 'texto') {
+          processedValue = cellValue.toString().trim();
+        } else if (colDef.tipo === 'vazio') {
+          processedValue = null;
+        }
+        
+        mappedRow[normalizedName] = processedValue;
+      });
+
+      mappedRow._linha_original = index + 1;
+      mappedRow._dados_brutos = row;
+      
+      processedData.push(mappedRow);
+    });
+
+    setJsonOutput(JSON.stringify({
+      totalRecords: processedData.length,
+      columnMapping: xlsxColumnMapping,
+      data: processedData
+    }, null, 2));
+  };
+
   return (
     <div className="file-converter-container">
       <h1>Conversor de Arquivos - Matriciale</h1>
@@ -592,20 +780,36 @@ Data        Histórico                    Documento    Requisição    Movimento
       <div className="output-container">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
           <h2>Resultado (JSON):</h2>
-          <button 
-            onClick={handleTestPDF}
-            style={{
-              padding: '8px 16px',
-              backgroundColor: '#007bff',
-              color: 'white',
-              border: 'none',
-              borderRadius: '4px',
-              cursor: 'pointer',
-              fontSize: '14px'
-            }}
-          >
-            🧪 Testar Extração PDF
-          </button>
+          <div style={{ display: 'flex', gap: '10px' }}>
+            <button 
+              onClick={handleTestXLSX}
+              style={{
+                padding: '8px 16px',
+                backgroundColor: '#28a745',
+                color: 'white',
+                border: 'none',
+                borderRadius: '4px',
+                cursor: 'pointer',
+                fontSize: '14px'
+              }}
+            >
+              📊 Testar XLSX
+            </button>
+            <button 
+              onClick={handleTestPDF}
+              style={{
+                padding: '8px 16px',
+                backgroundColor: '#007bff',
+                color: 'white',
+                border: 'none',
+                borderRadius: '4px',
+                cursor: 'pointer',
+                fontSize: '14px'
+              }}
+            >
+              📄 Testar PDF
+            </button>
+          </div>
         </div>
         <pre className="json-output">{jsonOutput}</pre>
       </div>
