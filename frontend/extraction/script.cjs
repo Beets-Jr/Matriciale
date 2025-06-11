@@ -66,11 +66,11 @@ class Logger {
 const logger = new Logger();
 
 // Importar utilitários
-const BalanceteProcessor = require('../src/utils/balanceteProcessor.cjs');
-const MovimentacaoProcessor = require('../src/utils/movimentacaoProcessor.cjs');
-const DataSynthesizer = require('../src/utils/dataSynthesizer.cjs');
-const MatricialeAnalyzer = require('../src/utils/matricialeAnalyzer.cjs');
-const ReportGenerator = require('../src/utils/reportGenerator.cjs');
+const BalanceteProcessor = require('./utils/balanceteProcessor.cjs');
+const MovimentacaoProcessor = require('./utils/movimentacaoProcessor.cjs');
+const DataSynthesizer = require('./utils/dataSynthesizer.cjs');
+const MatricialeAnalyzer = require('./utils/matricialeAnalyzer.cjs');
+const ReportGenerator = require('./utils/reportGenerator.cjs');
 
 async function main() {
   try {
