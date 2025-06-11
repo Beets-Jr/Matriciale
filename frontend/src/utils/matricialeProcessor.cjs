@@ -1,5 +1,5 @@
 import MatricialeFileProcessor from './fileProcessor.js';
-import MatricialePDFProcessor from './pdfProcessor.js';
+import MatricialePDFProcessor from './pdfProcessor.cjs';
 import fs from 'fs';
 import path from 'path';
 
