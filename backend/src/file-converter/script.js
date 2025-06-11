@@ -168,10 +168,6 @@ function gerarPlanilhaPersonalizada(convertedData) {
 
   // Mapear os dados da planilha original para o novo formato
   convertedData.forEach(item => {
-    // Adiciona uma linha com:
-    // A: CLASSIFICAÇÃO (vazio por padrão)
-    // B: NOME ITEM (valor da coluna B do arquivo original)
-    // C: COD_ITEM (valor da coluna A do arquivo original)
     sheetData.push([
       '', // Classificação em branco
       item['B'] || '', // NOME ITEM 
@@ -179,6 +175,47 @@ function gerarPlanilhaPersonalizada(convertedData) {
     ]);
   });
 
+  // Criar folha de Semana
+  const semanaSheetData = [
+    ['DATA', 'SEMANA'] // Cabeçalho
+  ];
+
+  // Gerar datas e índices de semana para o ano atual
+  const currentYear = new Date().getFullYear();
+  let currentDate = new Date(currentYear, 0, 1);
+  let weekCounter = 1;
+
+  // Encontrar a primeira segunda-feira do ano
+  while (currentDate.getDay() !== 1) {
+    currentDate.setDate(currentDate.getDate() + 1);
+  }
+
+  // Gerar linhas para todas as semanas do ano
+  while (currentDate.getFullYear() === currentYear) {
+    const formattedDate = `${String(currentDate.getDate()).padStart(2, '0')}/${String(currentDate.getMonth() + 1).padStart(2, '0')}/${currentDate.getFullYear()}`;
+    const weekIndex = `${currentYear}_${String(weekCounter).padStart(2, '0')}`;
+    
+    semanaSheetData.push([formattedDate, weekIndex]);
+
+    // Avançar para próxima semana
+    currentDate.setDate(currentDate.getDate() + 7);
+    weekCounter++;
+  }
+
+  // Cria workbook
+  const wb = XLSX.utils.book_new();
+
+  // Adiciona planilhas
+  const ws1 = XLSX.utils.aoa_to_sheet(sheetData);
+  const ws2 = XLSX.utils.aoa_to_sheet(semanaSheetData);
+  
+  XLSX.utils.book_append_sheet(wb, ws1, 'Planilha Personalizada');
+  XLSX.utils.book_append_sheet(wb, ws2, 'Semana');
+  
+  // Salva arquivo XLSX
+  XLSX.writeFile(wb, 'planilha_personalizada.xlsx');
+
+  // Retorna os dados para manter a compatibilidade com o código existente
   return sheetData;
 }
 
@@ -253,19 +290,50 @@ function handleFile(file) {
 
       // Evento de clique para gerar planilha
       gerarPlanilhaBtn.addEventListener('click', () => {
-        // Gera planilha personalizada
-        const planilhaPersonalizada = gerarPlanilhaPersonalizada(convertedData);
+  // Gera planilha personalizada
+  const planilhaPersonalizada = gerarPlanilhaPersonalizada(convertedData);
 
-        // Cria workbook
-        const wb = XLSX.utils.book_new();
-        const ws = XLSX.utils.aoa_to_sheet(planilhaPersonalizada);
-        
-        // Adiciona planilha ao workbook
-        XLSX.utils.book_append_sheet(wb, ws, 'Planilha Personalizada');
-        
-        // Salva arquivo XLSX
-        XLSX.writeFile(wb, 'planilha_personalizada.xlsx');
-      });
+  // Cria workbook
+  const wb = XLSX.utils.book_new();
+
+  // Criar folha de Semana
+  const semanaSheetData = [
+    ['DATA', 'SEMANA'] // Cabeçalho
+  ];
+
+  // Gerar datas e índices de semana para o ano atual
+  const currentYear = new Date().getFullYear();
+  let currentDate = new Date(currentYear, 0, 1);
+  let weekCounter = 1;
+
+  // Encontrar a primeira segunda-feira do ano
+  while (currentDate.getDay() !== 1) {
+    currentDate.setDate(currentDate.getDate() + 1);
+  }
+
+  // Gerar linhas para todas as semanas do ano
+  while (currentDate.getFullYear() === currentYear) {
+    const formattedDate = `${String(currentDate.getDate()).padStart(2, '0')}/${String(currentDate.getMonth() + 1).padStart(2, '0')}/${currentDate.getFullYear()}`;
+    const weekIndex = `${currentYear}_${String(weekCounter).padStart(2, '0')}`;
+    
+    semanaSheetData.push([formattedDate, weekIndex]);
+
+    // Avançar para próxima semana
+    currentDate.setDate(currentDate.getDate() + 7);
+    weekCounter++;
+  }
+
+  // Cria sheets
+  const ws1 = XLSX.utils.aoa_to_sheet(planilhaPersonalizada);
+  const ws2 = XLSX.utils.aoa_to_sheet(semanaSheetData);
+  
+  // Adiciona planilhas ao workbook
+  XLSX.utils.book_append_sheet(wb, ws1, 'Planilha Personalizada');
+  XLSX.utils.book_append_sheet(wb, ws2, 'Semana');
+  
+  // Salva arquivo XLSX
+  XLSX.writeFile(wb, 'planilha_personalizada.xlsx');
+});
 
       // Adiciona botão após o jsonOutput
       jsonOutput.parentNode.insertBefore(gerarPlanilhaBtn, jsonOutput.nextSibling);
@@ -317,10 +385,6 @@ function gerarPlanilhaPersonalizada(convertedData) {
 
   // Mapear os dados da planilha original para o novo formato
   convertedData.forEach(item => {
-    // Adiciona uma linha com:
-    // A: CLASSIFICAÇÃO (vazio por padrão)
-    // B: NOME ITEM (valor da coluna B do arquivo original)
-    // C: COD_ITEM (valor da coluna A do arquivo original)
     sheetData.push([
       '', // Classificação em branco
       item['B'] || '', // NOME ITEM 
@@ -328,7 +392,338 @@ function gerarPlanilhaPersonalizada(convertedData) {
     ]);
   });
 
+  // Criar folha de Semana
+  const semanaSheetData = [
+    ['DATA', 'SEMANA'] // Cabeçalho
+  ];
+
+  // Gerar datas e índices de semana para o ano atual
+  const currentYear = new Date().getFullYear();
+  let currentDate = new Date(currentYear, 0, 1);
+  let weekCounter = 1;
+
+  // Encontrar a primeira segunda-feira do ano
+  while (currentDate.getDay() !== 1) {
+    currentDate.setDate(currentDate.getDate() + 1);
+  }
+
+  // Gerar linhas para todas as semanas do ano
+  while (currentDate.getFullYear() === currentYear) {
+    const formattedDate = `${String(currentDate.getDate()).padStart(2, '0')}/${String(currentDate.getMonth() + 1).padStart(2, '0')}/${currentDate.getFullYear()}`;
+    const weekIndex = `${currentYear}_${String(weekCounter).padStart(2, '0')}`;
+    
+    semanaSheetData.push([formattedDate, weekIndex]);
+
+    // Avançar para próxima semana
+    currentDate.setDate(currentDate.getDate() + 7);
+    weekCounter++;
+  }
+
+  // Adicione esta parte no evento de clique do botão
+  gerarPlanilhaBtn.addEventListener('click', () => {
+    // Cria workbook
+    const wb = XLSX.utils.book_new();
+
+    // Adiciona planilhas
+    const ws1 = XLSX.utils.aoa_to_sheet(sheetData);
+    const ws2 = XLSX.utils.aoa_to_sheet(semanaSheetData);
+    
+    XLSX.utils.book_append_sheet(wb, ws1, 'Planilha Personalizada');
+    XLSX.utils.book_append_sheet(wb, ws2, 'Semana');
+    
+    // Salva arquivo XLSX
+    XLSX.writeFile(wb, 'planilha_personalizada.xlsx');
+  });
+
+  // Retorna os dados para manter a compatibilidade com o código existente
   return sheetData;
 }
 
-//Fim do código pertinente ao sistema drag and drop + conversão para Objetos JSON
+//Fim do código pertinente ao primeiro drag and drop + conversão para Objetos JSON
+
+// Segundo drag and dorp
+
+// Selecione os novos elementos
+const dropZonePDF = document.getElementById('dropZonePDF');
+const fileInputPDF = document.getElementById('fileInputPDF');
+const browseBtnPDF = document.getElementById('browseBtnPDF');
+
+// Funções de manipulação de eventos para PDF (similar ao XLSX)
+dropZonePDF.addEventListener('dragover', (e) => {
+  e.preventDefault();
+  dropZonePDF.classList.add('active');
+});
+
+dropZonePDF.addEventListener('dragleave', () => {
+  dropZonePDF.classList.remove('active');
+});
+
+// Função para lidar com arquivos PDF
+function handlePDFFile(file) {
+  return new Promise((resolve, reject) => {
+    // Verifica se o arquivo é um PDF
+    if (file.type !== 'application/pdf') {
+      reject(new Error('Por favor, selecione um arquivo PDF válido'));
+      return;
+    }
+
+    // Usa a biblioteca pdf.js para processar o PDF
+    const fileReader = new FileReader();
+    
+    fileReader.onload = async (e) => {
+      try {
+        // Carrega o PDF
+        const typedArray = new Uint8Array(e.target.result);
+        const pdf = await pdfjsLib.getDocument(typedArray).promise;
+        
+        // Array para armazenar o texto extraído
+        const extractedText = [];
+        
+        // Extrai texto de cada página
+        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+          const page = await pdf.getPage(pageNum);
+          const textContent = await page.getTextContent();
+          
+          // Concatena o texto da página
+          const pageText = textContent.items.map(item => item.str).join(' ');
+          extractedText.push({
+            page: pageNum,
+            text: pageText
+          });
+        }
+        
+        resolve(extractedText);
+      } catch (error) {
+        reject(new Error(`Erro ao processar PDF: ${error.message}`));
+      }
+    };
+    
+    fileReader.onerror = (error) => {
+      reject(new Error(`Erro de leitura do arquivo PDF: ${error}`));
+    };
+    
+    // Lê o arquivo como ArrayBuffer
+    fileReader.readAsArrayBuffer(file);
+  });
+}
+
+// Evento de drop para PDF
+dropZonePDF.addEventListener('drop', (e) => {
+  e.preventDefault();
+  dropZonePDF.classList.remove('active');
+  const files = e.dataTransfer.files;
+  if (files.length > 0) {
+    const file = files[0];
+    
+    // Verifica se é um PDF
+    if (file.type === 'application/pdf') {
+      handlePDFFile(file)
+        .then(extractedText => {
+          // Exibe o texto extraído
+          jsonOutput.textContent = JSON.stringify({
+            totalPages: extractedText.length,
+            extractedText: extractedText
+          }, null, 2);
+        })
+        .catch(error => {
+          jsonOutput.textContent = `Erro: ${error.message}`;
+        });
+    } else {
+      jsonOutput.textContent = 'Por favor, solte apenas arquivos PDF';
+    }
+  }
+});
+
+// Evento de seleção de arquivo para PDF
+browseBtnPDF.addEventListener('click', () => {
+  fileInputPDF.click();
+});
+
+fileInputPDF.addEventListener('change', (e) => {
+  const file = e.target.files[0];
+  if (file && file.type === 'application/pdf') {
+    handlePDFFile(file)
+      .then(extractedText => {
+        // Exibe o texto extraído
+        jsonOutput.textContent = JSON.stringify({
+          totalPages: extractedText.length,
+          extractedText: extractedText
+        }, null, 2);
+      })
+      .catch(error => {
+        jsonOutput.textContent = `Erro: ${error.message}`;
+      });
+  } else {
+    jsonOutput.textContent = 'Por favor, selecione um arquivo PDF válido';
+  }
+});
+
+// Calendário 
+
+class CompactCalendar {
+    constructor() {
+        this.currentDate = new Date();
+        this.monthNames = [
+            'Janeiro', 'Fevereiro', 'Março', 'Abril', 
+            'Maio', 'Junho', 'Julho', 'Agosto', 
+            'Setembro', 'Outubro', 'Novembro', 'Dezembro'
+        ];
+        this.dayNames = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
+
+        // Paleta de cores para intervalos
+        this.intervalColors = [
+            { background: '#e6f2ff', text: '#2980b9' },    // Azul claro
+            { background: '#fff3cd', text: '#856404' },    // Amarelo claro
+            { background: '#d4edda', text: '#155724' },    // Verde claro
+            { background: '#f8d7da', text: '#721c24' }     // Rosa claro
+        ];
+
+        // Gerar intervalos para o ano inteiro
+        this.highlightIntervals = this.generateYearlyIntervals(this.currentDate.getFullYear());
+
+        this.initElements();
+        this.addEventListeners();
+        this.renderCalendar();
+    }
+
+    generateYearlyIntervals(year) {
+    const intervals = [];
+    let weekCounter = 1;
+    
+    // Começar do primeiro dia do ano
+    const startOfYear = new Date(year, 0, 1);
+    
+    // Encontrar a primeira segunda-feira do ano
+    let firstMonday = new Date(startOfYear);
+    firstMonday.setDate(startOfYear.getDate() + (startOfYear.getDay() <= 1 ? 1 - startOfYear.getDay() : 8 - startOfYear.getDay()));
+
+    // Gerar intervalos para todo o ano
+    while (firstMonday.getFullYear() === year) {
+        const start = new Date(firstMonday);
+        const end = new Date(firstMonday);
+        end.setDate(end.getDate() + 6);
+
+        intervals.push({
+            start: this.formatDate(start),
+            end: this.formatDate(end),
+            colorIndex: (weekCounter - 1) % this.intervalColors.length,
+            weekIndex: weekCounter
+        });
+
+        // Mover para próxima semana
+        firstMonday.setDate(firstMonday.getDate() + 7);
+        weekCounter++;
+    }
+
+    return intervals;
+}
+
+    initElements() {
+        this.headerElement = document.getElementById('currentMonthYear');
+        this.gridElement = document.getElementById('calendarGrid');
+        this.prevButton = document.getElementById('prevMonth');
+        this.nextButton = document.getElementById('nextMonth');
+    }
+
+    addEventListeners() {
+        this.prevButton.addEventListener('click', () => this.changeMonth(-1));
+        this.nextButton.addEventListener('click', () => this.changeMonth(1));
+    }
+
+    changeMonth(delta) {
+        this.currentDate.setMonth(this.currentDate.getMonth() + delta);
+        
+        // Verificar se mudou de ano
+        if (this.currentDate.getMonth() === 0 || this.currentDate.getMonth() === 11) {
+            this.highlightIntervals = this.generateYearlyIntervals(this.currentDate.getFullYear());
+        }
+        
+        this.renderCalendar();
+    }
+
+    isDateInInterval(date, intervals) {
+        const dateString = this.formatDate(date);
+        return intervals.find(interval => 
+            dateString >= interval.start && dateString <= interval.end
+        );
+    }
+
+    formatDate(date) {
+        return date.toISOString().split('T')[0];
+    }
+
+    renderCalendar() {
+        // Limpar grade anterior
+        this.gridElement.innerHTML = '';
+
+        // Renderizar cabeçalho dos dias
+        this.dayNames.forEach(dayName => {
+            const dayNameElement = document.createElement('div');
+            dayNameElement.classList.add('day', 'day-name');
+            dayNameElement.textContent = dayName;
+            this.gridElement.appendChild(dayNameElement);
+        });
+
+        // Atualizar título do mês
+        this.headerElement.textContent = `${this.monthNames[this.currentDate.getMonth()]} ${this.currentDate.getFullYear()}`;
+
+        // Configurar data para o primeiro dia do mês
+        const firstDay = new Date(this.currentDate.getFullYear(), this.currentDate.getMonth(), 1);
+        const lastDay = new Date(this.currentDate.getFullYear(), this.currentDate.getMonth() + 1, 0);
+
+        // Determinar dia inicial da semana
+        const startingDay = firstDay.getDay();
+
+        // Adicionar dias vazios antes do primeiro dia
+        for (let i = 0; i < startingDay; i++) {
+            const emptyDay = document.createElement('div');
+            emptyDay.classList.add('day', 'other-month');
+            this.gridElement.appendChild(emptyDay);
+        }
+
+        // Renderizar dias do mês
+        for (let day = 1; day <= lastDay.getDate(); day++) {
+            const dayElement = document.createElement('div');
+            dayElement.classList.add('day');
+            dayElement.textContent = day;
+
+            // Criar data para o dia atual
+            const currentDayDate = new Date(
+                this.currentDate.getFullYear(), 
+                this.currentDate.getMonth(), 
+                day
+            );
+
+            // Verificar se é o dia atual
+            const today = new Date();
+            if (
+                day === today.getDate() && 
+                this.currentDate.getMonth() === today.getMonth() && 
+                this.currentDate.getFullYear() === today.getFullYear()
+            ) {
+                dayElement.classList.add('today');
+            }
+
+            // Verificar se o dia está em um intervalo de destaque
+            const highlightInterval = this.isDateInInterval(currentDayDate, this.highlightIntervals);
+            if (highlightInterval) {
+                dayElement.classList.add('highlight-interval');
+                const color = this.intervalColors[highlightInterval.colorIndex];
+                dayElement.style.backgroundColor = color.background;
+                dayElement.style.color = color.text;
+
+                // Adicionar índice da semana
+                const weekIndex = `${this.currentDate.getFullYear()}_${highlightInterval.weekIndex.toString().padStart(2, '0')}`;
+                dayElement.setAttribute('data-week-index', weekIndex);
+                dayElement.classList.add('has-week-index');
+            }
+
+            this.gridElement.appendChild(dayElement);
+        }
+    }
+}
+
+// Inicializar calendário quando o DOM estiver carregado
+document.addEventListener('DOMContentLoaded', () => {
+    new CompactCalendar();
+});

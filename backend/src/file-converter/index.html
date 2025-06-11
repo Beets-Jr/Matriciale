@@ -9,14 +9,34 @@
     <div class="container">
         <h1>Drag and Drop File Converter</h1>
         <div id="dropZone" class="drop-zone">
-            <p>Arraste e solte seu arquivo aqui (.xlsx)</p>
+            <p>Arraste e solte seu arquivo .xlsx de Balancete aqui (.xlsx)</p>
             <button id="browseBtn" class="browse-btn">Escolher Arquivo</button>
             <input type="file" id="fileInput" accept=".csv,.xlsx" style="display:none;">
         </div>
+
+        <br>
+
+        <div id="dropZonePDF" class="drop-zone">
+            <p>Arraste e solte seu arquivo PDF de Movimentação aqui (.pdf) </p>
+            <input type="file" id="fileInputPDF" class = "drop-zone" accept=".pdf" style="display:none;">
+            <button id="browseBtnPDF" class="browse-btn">Escolher Arquivo</button>
+        </div>
+        <br>
+
         <div class="output-container">
             <h2>Resultado (JSON):</h2>
             <pre id="jsonOutput" class="json-output"></pre>
         </div>
+    </div>
+
+    <!-- Calendário -->
+         <div class="calendar-container">
+        <div class="calendar-header">
+            <button id="prevMonth">&lt;</button>
+            <h3 id="currentMonthYear"></h3>
+            <button id="nextMonth">&gt;</button>
+        </div>
+        <div class="calendar-grid" id="calendarGrid"></div>
     </div>
 
     <!-- Bibliotecas necessárias -->
