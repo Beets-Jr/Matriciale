@@ -18,7 +18,7 @@ function Sidebar(){
             <Link to="/relatorio"><div><img src={relatorio}/></div><p>Relatórios</p></Link>
             <Link to="/calendar"><div><img src={calendario}/></div><p>Agenda</p></Link>
             <Link to="/users/pacientes"><div><img src={medico}/></div><p>Pacientes</p></Link>
-
+            <Link to="/conversor"><div><img src={relatorio}/></div><p>Conversor</p></Link>
         </nav>
     )
 

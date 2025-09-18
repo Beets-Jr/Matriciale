@@ -7,6 +7,7 @@ import Users from '../pages/Users';
 import Dashboard from '../pages/Dashboard';
 import Relatorio from '../pages/Relatorio';
 import Gerenciamento from '../pages/Gerenciamento';
+import ConversorArquivos from '../pages/ConversorArquivos';
 import MedicineInfoTable from '../components/Gerenciamento/MedicineInfoTable';
 import Calendar from '../components/Tela_Principal/Calendar/Calendar';
 import RelatorioImpressao from '../components/Relatorio/RelatorioImpressao';
@@ -52,6 +53,14 @@ export default function AppRoutes() {
         element={
           <PrivateRoute>
             <Pacientes />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/conversor"
+        element={
+          <PrivateRoute>
+            <ConversorArquivos />
           </PrivateRoute>
         }
       />
