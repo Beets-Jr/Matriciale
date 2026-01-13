@@ -2,8 +2,10 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider, CssBaseline } from '@mui/material';
 import { AuthProvider } from './contexts/AuthContext';
-import theme from './theme';
+import { TaskProvider } from './components/Tela_Principal/Dashboard/TaskContext';
+import theme from './theme/index';
 import Routes from './routes';
+import './App.css';
 
 function App() {
   return (
@@ -11,11 +13,13 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <AuthProvider>
-          <Routes />
+          <TaskProvider>
+            <Routes />
+          </TaskProvider>
         </AuthProvider>
       </ThemeProvider>
     </BrowserRouter>
   );
 }
 
-export default App; 
+export default App;

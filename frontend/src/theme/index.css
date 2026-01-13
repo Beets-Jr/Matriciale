@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'LT Wave';
+    src: url('./assets/fonts/LTWave-Regular.otf');
+  }
+body{
+  margin-left: 20%;
+}
