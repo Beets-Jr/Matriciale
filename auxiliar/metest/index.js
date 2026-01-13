@@ -8,15 +8,16 @@ const OUTPUT_FILE = 'relatorio_divergencias.txt';
 
 // Função auxiliar para limpar números
 function limparNumero(str) {
-    if (!str) return 0;
-    let limpo = str.replace(/\./g, ''); 
-    limpo = limpo.replace(',', '.');    
-    return parseFloat(limpo);
+    if (!str || str === 'NaN') return 0;
+    // Remove pontos de milhar e ajusta vírgula decimal
+    let limpo = str.replace(/\./g, '').replace(',', '.');
+    let num = parseFloat(limpo);
+    return isNaN(num) ? 0 : num;
 }
 
 function main() {
     try {
-        console.log("Processando... Aguarde.");
+        console.log("Iniciando comparação detalhada... Aguarde.");
 
         // 1. Ler Arquivos
         const rawJson = fs.readFileSync(path.join(__dirname, JSON_FILE), 'utf-8');
@@ -29,11 +30,14 @@ function main() {
         
         linhas.forEach((linha) => {
             const linhaLimpa = linha.trim();
+            // Pula cabeçalho ou linhas vazias
             if (!linhaLimpa || linhaLimpa.startsWith('COD_ITEM')) return;
 
+            // Divide por múltiplos espaços ou abas
             const cols = linhaLimpa.split(/\s+/);
-            // Verifica se tem as 20 colunas (0 a 19)
-            if (cols.length >= 20) {
+            
+            // Mapeamento baseado na ordem fornecida (Índices 0 a 25)
+            if (cols.length >= 25) {
                 const cod = cols[0].trim();
                 mapTxt.set(cod, {
                     Cont04: limparNumero(cols[1]),
@@ -55,6 +59,11 @@ function main() {
                     Md52: limparNumero(cols[17]),
                     MdAno: limparNumero(cols[18]),
                     MdTt: limparNumero(cols[19]),
+                    Maximo: limparNumero(cols[20]),
+                    TP_Metodo: cols[21] ? cols[21].trim() : "",
+                    // colunas 22 e 23 são repetições de Metodo/MetEst no TXT
+                    Estoque: limparNumero(cols[24]),
+                    Reposicao: limparNumero(cols[25])
                 });
             }
         });
@@ -72,6 +81,7 @@ function main() {
                 totalAnalisados++;
                 const txt = mapTxt.get(cod);
                 
+                // Mapeamento De -> Para (JSON -> TXT)
                 const comparacoes = {
                     'Cont04': [Number(dados.contagens?.Cont04 || 0), txt.Cont04],
                     'Cont08': [Number(dados.contagens?.Cont08 || 0), txt.Cont08],
@@ -81,11 +91,7 @@ function main() {
                     'Cont52': [Number(dados.contagens?.Cont52 || 0), txt.Cont52],
                     'ContAno': [Number(dados.contagens?.ContAno || 0), txt.ContAno],
                     'ContTt': [Number(dados.contagens?.ContTt || 0), txt.ContTt],
-                    
                     'Total Geral': [Number(dados.total_geral || 0), txt.TotalGeral],
-                    'Metodo': [Number(dados.metodo || 0), txt.Metodo],
-                    'MetEst': [Number(dados.met_est || 0), txt.MetEst],
-                    
                     'Md04': [Number(dados.medianas?.Md04 || 0), txt.Md04],
                     'Md08': [Number(dados.medianas?.Md08 || 0), txt.Md08],
                     'Md12': [Number(dados.medianas?.Md12 || 0), txt.Md12],
@@ -93,14 +99,30 @@ function main() {
                     'Md26': [Number(dados.medianas?.Md26 || 0), txt.Md26],
                     'Md52': [Number(dados.medianas?.Md52 || 0), txt.Md52],
                     'MdAno': [Number(dados.medianas?.MdAno || 0), txt.MdAno],
-                    'MdTt': [Number(dados.medianas?.MdTt || 0), txt.MdTt]
+                    'MdTt': [Number(dados.medianas?.MdTt || 0), txt.MdTt],
+                    'Máximo': [Number(dados.maximo || 0), txt.Maximo],
+                    'Metodo': [Number(dados.metodo || 0), txt.Metodo],
+                    'MetEst': [Number(dados.met_est || 0), txt.MetEst],
+                    'Estoque': [Number(dados.estoque || 0), txt.Estoque],
+                    'Reposição': [Number(dados.reposicao || 0), txt.Reposicao],
+                    'TP_Metodo': [String(dados.tp_metodo || ""), txt.TP_Metodo]
                 };
 
                 const camposDivergentes = [];
                 for (const [campo, valores] of Object.entries(comparacoes)) {
-                    // Margem de erro 0.001
-                    if (Math.abs(valores[0] - valores[1]) > 0.001) {
-                        camposDivergentes.push(`   -> ${campo} | JSON: ${valores[0]} | TXT: ${valores[1]}`);
+                    const valJson = valores[0];
+                    const valTxt = valores[1];
+
+                    if (typeof valJson === 'number') {
+                        // Comparação numérica com margem de erro para decimais
+                        if (Math.abs(valJson - valTxt) > 0.01) {
+                            camposDivergentes.push(`   -> ${campo} | JSON: ${valJson} | TXT: ${valTxt}`);
+                        }
+                    } else {
+                        // Comparação de string (TP_Metodo)
+                        if (valJson !== valTxt) {
+                            camposDivergentes.push(`   -> ${campo} | JSON: "${valJson}" | TXT: "${valTxt}"`);
+                        }
                     }
                 }
 
@@ -114,36 +136,28 @@ function main() {
             }
         });
 
-        // 4. Gerar Conteúdo do Arquivo TXT
-        let conteudoArquivo = '=== RELATÓRIO DE DIVERGÊNCIAS ===\n';
-        conteudoArquivo += `Data da geração: ${new Date().toLocaleString()}\n`;
-        conteudoArquivo += `Total de itens analisados: ${totalAnalisados}\n`;
-        conteudoArquivo += `Total de itens com divergência: ${divergencias.length}\n`;
-        conteudoArquivo += '=================================\n\n';
+        // 4. Gerar Relatório
+        let conteudoArquivo = '=== RELATÓRIO DE DIVERGÊNCIAS ATUALIZADO ===\n';
+        conteudoArquivo += `Data: ${new Date().toLocaleString()}\n`;
+        conteudoArquivo += `Itens analisados: ${totalAnalisados}\n`;
+        conteudoArquivo += `Itens com divergência: ${divergencias.length}\n`;
+        conteudoArquivo += '===========================================\n\n';
 
         if (divergencias.length > 0) {
-            conteudoArquivo += '--- DETALHAMENTO ---\n';
-            
             divergencias.forEach((d, index) => {
                 conteudoArquivo += `[${index + 1}] ID: ${d.id} | COD: ${d.cod}\n`;
                 conteudoArquivo += `${d.detalhes}\n`;
-                conteudoArquivo += '---------------------------------\n';
+                conteudoArquivo += '-------------------------------------------\n';
             });
-
-            conteudoArquivo += '\n\n=== LISTA DE IDs (JSON Array) ===\n';
-            const ids = divergencias.map(d => d.id);
-            conteudoArquivo += JSON.stringify(ids, null, 2);
         } else {
-            conteudoArquivo += "Nenhuma divergência encontrada. Todos os dados conferem.";
+            conteudoArquivo += "✅ Sucesso! Nenhuma divergência encontrada nos campos analisados.";
         }
 
-        // 5. Salvar no disco
         fs.writeFileSync(path.join(__dirname, OUTPUT_FILE), conteudoArquivo, 'utf-8');
-
-        console.log(`\nSucesso! O arquivo "${OUTPUT_FILE}" foi gerado na pasta do projeto.`);
+        console.log(`Relatório gerado com sucesso: ${OUTPUT_FILE}`);
 
     } catch (e) {
-        console.error("Erro fatal:", e.message);
+        console.error("Erro fatal durante o processamento:", e.message);
     }
 }
 

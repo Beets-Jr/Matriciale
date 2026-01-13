@@ -1,0 +1,665 @@
+Tenho uma planilha excel com alguns dados e que usam calculos:
+
+A Classificação
+
+B Nome Item
+
+C cod_item
+
+D até DQ: valores de movimentações semanais, nome da coluna D é 2023_37, E é 2023_38. sao numeros
+
+DR Total Geral: soma dos valores de todas as movimentações semanais
+
+medianas:
+ DS Md04: =SE(ÉERROS(ARRED(MED(DN2:DQ2);0));0;ARRED(MED(DN2:DQ2);0))
+
+ DT Md08: =SE(ÉERROS(ARRED(MED(DJ2:DQ2);0));0;ARRED(MED(DJ2:DQ2);0))
+
+ DU Md12: =SE(ÉERROS(ARRED(MED(DF2:DQ2);0));0;ARRED(MED(DF2:DQ2);0))
+
+ DV Md16: =SE(ÉERROS(ARRED(MED(DB2:DQ2);0));0;ARRED(MED(DB2:DQ2);0))
+
+ DW Md26: =SE(ÉERROS(ARRED(MED(CR2:DQ2);0));0;ARRED(MED(CR2:DQ2);0))
+
+ DX Md52: =SE(ÉERROS(ARRED(MED(BR2:DQ2);0));0;ARRED(MED(BR2:DQ2);0))
+
+ DY MdAno:=SE(ÉERROS(ARRED(MED(BT2:DQ2);0));0;ARRED(MED(BT2:DQ2);0))
+
+ DZ MdTotal: =SE(ÉERROS(ARRED(MED(D2:DQ2);0));0;ARRED(MED(D2:DQ2);0))
+
+
+Estou com dificuldade para traduzir esses calculos para codigos JavaScript.
+
+Veja os calculos que tenho e que atualmente precisam ser corrigidos:
+
+
+const historicoSemanas = converterMovimentacoesParaHistorico(medicamento.movimentacoes_semanais);
+
+function converterMovimentacoesParaHistorico(movimentacoes: { [key: string]: number }): SemanaHistorico[] {
+  // 1. Extrai as chaves (ex: "2024_08", "2023_45")
+  const chaves = Object.keys(movimentacoes);
+
+  if (chaves.length === 0) return [];
+
+  // 2. ORDENAÇÃO CRÍTICA
+  // Isso garante que 2023 venha antes de 2024, e semana 08 antes da 09.
+  const chavesOrdenadas = chaves.sort((a, b) => {
+    // Método seguro: divide "2024_08" em [2024, 8]
+    const [anoA, semA] = a.split('_').map(Number);
+    const [anoB, semB] = b.split('_').map(Number);
+
+    if (anoA !== anoB) return anoA - anoB; // Compara ano
+    return semA - semB; // Compara semana
+  });
+
+  // 3. Constrói o histórico ordenado
+  const historico: SemanaHistorico[] = [];
+  
+  for (const semana of chavesOrdenadas) {
+    historico.push({
+      week: semana,
+      value: movimentacoes[semana]
+    });
+  }
+
+  return historico;
+}
+
+/**
+ * Calcula todas as medianas espelhando a lógica do Excel.
+ * CORREÇÃO: Removemos o filtro de zeros no MdTotal e MdAno para bater com a fórmula =MED().
+ */
+function calcularMedianasParaHistorico(historicoSemanas: SemanaHistorico[]): Medianas {
+
+  // Mapeia apenas os valores. O Excel considera ZEROS na função MED().
+  const valoresComZeros = historicoSemanas.map(s => s.value);
+  
+  // Medianas Móveis
+  const md04 = calcularMediana(valoresComZeros.slice(-4)); 
+  const md08 = calcularMediana(valoresComZeros.slice(-8));
+  const md12 = calcularMediana(valoresComZeros.slice(-12));
+  const md16 = calcularMediana(valoresComZeros.slice(-16));
+  const md26 = calcularMediana(valoresComZeros.slice(-26));
+  const md52 = calcularMediana(valoresComZeros.slice(-52));
+  
+  // MdTotal (DZ)
+  // Fórmula Excel: =MED(D2:DQ2) -> Considera zeros.
+  // CODIGO CORRIGIDO: Usar valoresComZeros em vez de filtrar > 0.
+  const mdTotal = calcularMediana(valoresComZeros);
+
+  // MdAno (DY)
+  // Fórmula Excel: =MED(BT2:DQ2) -> Considera zeros no range do ano.
+  let mdAno = 0;
+  if (historicoSemanas.length > 0) {
+    const anoMaisRecente = historicoSemanas[historicoSemanas.length - 1].week.substring(0, 4);
+    const valoresDoAno = historicoSemanas
+      .filter(s => s.week.startsWith(anoMaisRecente))
+      .map(s => s.value); 
+      
+    // CODIGO CORRIGIDO: Passamos o array com zeros direto para o cálculo
+    mdAno = calcularMediana(valoresDoAno);
+  }
+
+  return {
+    Md04: md04,
+    Md08: md08,
+    Md12: md12,
+    Md16: md16,
+    Md26: md26,
+    Md52: md52,
+    MdAno: mdAno,
+    MdTt: mdTotal
+  };
+}
+
+
+Abaixo estão as divergencias entre JSON (resultados atuais) com o TXT (resultados esperados):
+
+
+
+Obs.: Note que preciso corrigir os calculos de medianas, essencialmente. Foque nas correções das medianas.
+
+[4] ID: 09W43eDQzqcoQxKf9wt5 | COD: 021.001.073
+   -> Md08 | JSON: 0 | TXT: 90
+   -> Md12 | JSON: 0 | TXT: 90
+   -> Md16 | JSON: 0 | TXT: 90
+   -> Md26 | JSON: 0 | TXT: 90
+   -> Md52 | JSON: 0 | TXT: 90
+   -> MdAno | JSON: 0 | TXT: 90
+   -> MdTt | JSON: 0 | TXT: 90
+
+"id": "09W43eDQzqcoQxKf9wt5",
+    "dados": {
+      "nome": "DOMPERIDONA 10 MG",
+      "classificacao": "20.ASSISTENCIAL",
+      "data_criacao": {
+        "_seconds": 1754942909,
+        "_nanoseconds": 463000000
+      },
+      "maximo": 90,
+      "tp_unidade_medicamento": "CP",
+      "analise_reposicao": {
+        "estoque_atual": 0,
+        "metEst": 270,
+        "percentual_cobertura": "0",
+        "status": "NECESSITA_REPOSICAO",
+        "reposicao_calculada": 270
+      },
+      "ultima_semana_calculo": "2025_50",
+      "cod_item": "021.001.073",
+      "data_atualizacao": {
+        "_seconds": 1766437750,
+        "_nanoseconds": 124000000
+      },
+      "estoque": 390,
+      "movimentacoes_semanais": {
+        "2024_08": 0,
+        "2024_22": 0,
+        "2025_24": 0,
+        "2024_50": 0,
+        "2025_37": 0,
+        "2023_47": 0,
+        "2024_06": 0,
+        "2025_49": 0,
+        "2024_11": 90,
+        "2024_48": 0,
+        "2025_45": 0,
+        "2024_45": 0,
+        "2025_12": 0,
+        "2024_10": 0,
+        "2024_05": 0,
+        "2025_34": 0,
+        "2025_16": 0,
+        "2024_24": 0,
+        "2024_30": 0,
+        "2024_40": 0,
+        "2025_38": 0,
+        "2024_44": 90,
+        "2024_26": 0,
+        "2024_39": 0,
+        "2024_07": 90,
+        "2023_39": 0,
+        "2024_47": 0,
+        "2025_29": 0,
+        "2023_52": 30,
+        "2024_01": 0,
+        "2023_49": 60,
+        "2025_39": 0,
+        "2025_03": 60,
+        "2025_28": 0,
+        "2024_25": 0,
+        "2025_04": 0,
+        "2025_48": 0,
+        "2024_35": 60,
+        "2024_28": 30,
+        "2024_42": 0,
+        "2025_46": 0,
+        "2025_01": 0,
+        "2023_43": 0,
+        "2025_20": 0,
+        "2024_21": 90,
+        "2024_13": 0,
+        "2024_09": 0,
+        "2025_41": 0,
+        "2024_36": 0,
+        "2024_31": 0,
+        "2025_44": 90,
+        "2024_37": 0,
+        "2024_20": 0,
+        "2024_16": 90,
+        "2023_44": 0,
+        "2025_31": 90,
+        "2025_27": 0,
+        "2023_48": 0,
+        "2025_18": 30,
+        "2023_51": 0,
+        "2023_50": 0,
+        "2025_06": 0,
+        "2024_52": 90,
+        "2024_41": 0,
+        "2024_32": 0,
+        "2025_05": 0,
+        "2024_14": 0,
+        "2025_22": 0,
+        "2024_23": 0,
+        "2023_42": 0,
+        "2025_33": 0,
+        "2024_49": 0,
+        "2025_40": 0,
+        "2025_15": 0,
+        "2024_12": 0,
+        "2023_41": 0,
+        "2023_37": 0,
+        "2025_47": 0,
+        "2025_25": 30,
+        "2025_07": 0,
+        "2025_43": 0,
+        "2024_02": 0,
+        "2023_40": 0,
+        "2023_38": 60,
+        "2025_30": 0,
+        "2025_11": 0,
+        "2024_43": 0,
+        "2025_50": 0,
+        "2025_09": 90,
+        "2025_32": 0,
+        "2024_51": 0,
+        "2024_38": 90,
+        "2025_21": 0,
+        "2025_36": 0,
+        "2024_17": 0,
+        "2024_03": 0,
+        "2024_29": 60,
+        "2025_02": 0,
+        "2024_27": 60,
+        "2024_46": 0,
+        "2025_23": 0,
+        "2025_19": 0,
+        "2024_34": 90,
+        "2024_04": 0,
+        "2025_17": 0,
+        "2025_14": 0,
+        "2025_35": 0,
+        "2024_18": 0,
+        "2025_13": 90,
+        "2023_46": 0,
+        "2025_26": 0,
+        "2024_33": 0,
+        "2025_42": 0,
+        "2024_19": 0,
+        "2025_08": 0,
+        "2025_10": 0,
+        "2024_15": 0,
+        "2023_45": 0
+      },
+      "tp_metodo": "2.INTERMITENTES",
+      "medianas": {
+        "MdAno": 0,
+        "Md16": 0,
+        "Md04": 0,
+        "Md08": 0,
+        "MdTt": 0,
+        "Md12": 0,
+        "Md26": 0,
+        "Md52": 0
+      },
+      "reposicao": 90,
+      "total_geral": 1560,
+      "contagens": {
+        "Cont16": 1,
+        "Cont08": 1,
+        "ContTt": 22,
+        "ContAno": 7,
+        "Cont26": 3,
+        "Cont12": 1,
+        "Cont04": 0,
+        "Cont52": 8
+      },
+      "met_est": 480,
+      "data_ultimo_calculo": "2026-01-07T02:20:16.490Z",
+      "metodo": 30
+}
+
+[7] ID: 0ZZw2LpzKVUZeLcKDwwZ | COD: 325.034.002
+   -> Md12 | JSON: 0 | TXT: 1
+   -> Md16 | JSON: 0 | TXT: 1
+   -> Md26 | JSON: 0 | TXT: 1
+   -> Md52 | JSON: 0 | TXT: 1
+   -> MdAno | JSON: 0 | TXT: 1
+   -> MdTt | JSON: 0 | TXT: 1
+
+"id": "0ZZw2LpzKVUZeLcKDwwZ",
+    "dados": {
+      "nome": "ANESTESICO COLIRIO - OXINEST",
+      "classificacao": "20.ASSISTENCIAL",
+      "data_criacao": {
+        "_seconds": 1754942908,
+        "_nanoseconds": 420000000
+      },
+      "tp_unidade_medicamento": "UN",
+      "metodo": 0,
+      "total_geral": 12,
+      "maximo": 2,
+      "estoque": 0,
+      "analise_reposicao": {
+        "estoque_atual": 0,
+        "percentual_cobertura": "0",
+        "status": "NECESSITA_REPOSICAO",
+        "reposicao_calculada": 6,
+        "metEst": 6
+      },
+      "ultima_semana_calculo": "2025_50",
+      "cod_item": "325.034.002",
+      "data_atualizacao": {
+        "_seconds": 1766437747,
+        "_nanoseconds": 992000000
+      },
+      "movimentacoes_semanais": {
+        "2024_29": 0,
+        "2024_04": 0,
+        "2025_21": 0,
+        "2024_34": 0,
+        "2025_39": 1,
+        "2025_24": 0,
+        "2025_03": 0,
+        "2025_19": 0,
+        "2023_44": 0,
+        "2024_27": 0,
+        "2024_26": 0,
+        "2023_45": 0,
+        "2024_02": 0,
+        "2025_28": 1,
+        "2025_35": 0,
+        "2025_14": 0,
+        "2025_18": 1,
+        "2025_46": 0,
+        "2023_38": 0,
+        "2024_49": 0,
+        "2025_10": 0,
+        "2024_08": 0,
+        "2024_16": 0,
+        "2025_27": 0,
+        "2025_05": 0,
+        "2025_34": 1,
+        "2024_06": 0,
+        "2024_21": 0,
+        "2025_11": 0,
+        "2024_24": 0,
+        "2023_47": 0,
+        "2025_15": 0,
+        "2024_36": 0,
+        "2025_38": 1,
+        "2024_23": 0,
+        "2025_45": 0,
+        "2024_40": 0,
+        "2025_23": 0,
+        "2025_09": 0,
+        "2024_17": 0,
+        "2024_10": 0,
+        "2023_46": 0,
+        "2025_50": 0,
+        "2024_47": 0,
+        "2025_04": 0,
+        "2023_49": 0,
+        "2025_37": 0,
+        "2024_38": 0,
+        "2025_32": 0,
+        "2025_22": 1,
+        "2024_22": 0,
+        "2023_52": 0,
+        "2024_15": 0,
+        "2024_52": 0,
+        "2025_13": 0,
+        "2025_08": 0,
+        "2024_48": 0,
+        "2024_30": 0,
+        "2025_17": 0,
+        "2024_05": 0,
+        "2024_03": 0,
+        "2023_50": 0,
+        "2025_41": 0,
+        "2024_42": 0,
+        "2024_32": 0,
+        "2025_30": 0,
+        "2024_43": 0,
+        "2024_31": 0,
+        "2023_39": 0,
+        "2025_12": 0,
+        "2024_11": 0,
+        "2023_43": 0,
+        "2025_36": 0,
+        "2025_33": 1,
+        "2024_19": 0,
+        "2025_20": 1,
+        "2025_43": 0,
+        "2024_25": 0,
+        "2025_49": 0,
+        "2025_47": 0,
+        "2025_06": 0,
+        "2024_41": 0,
+        "2024_12": 0,
+        "2025_01": 0,
+        "2025_07": 0,
+        "2024_45": 0,
+        "2024_35": 0,
+        "2025_42": 0,
+        "2024_50": 0,
+        "2024_37": 0,
+        "2025_40": 0,
+        "2023_37": 0,
+        "2024_28": 0,
+        "2025_02": 0,
+        "2024_39": 0,
+        "2025_44": 0,
+        "2024_07": 0,
+        "2024_13": 0,
+        "2024_09": 0,
+        "2023_42": 0,
+        "2024_44": 0,
+        "2025_26": 1,
+        "2025_48": 0,
+        "2025_29": 0,
+        "2024_46": 0,
+        "2024_01": 0,
+        "2025_31": 2,
+        "2024_18": 0,
+        "2025_25": 1,
+        "2023_51": 0,
+        "2023_40": 0,
+        "2025_16": 0,
+        "2024_51": 0,
+        "2024_33": 0,
+        "2023_48": 0,
+        "2024_14": 0,
+        "2023_41": 0,
+        "2024_20": 0
+      },
+      "contagens": {
+        "Cont26": 8,
+        "ContTt": 11,
+        "Cont12": 1,
+        "Cont04": 0,
+        "Cont16": 2,
+        "Cont52": 11,
+        "Cont08": 0,
+        "ContAno": 11
+      },
+      "tp_metodo": "2.INTERMITENTES",
+      "reposicao": 0,
+      "met_est": 0,
+      "medianas": {
+        "Md12": 0,
+        "Md08": 0,
+        "MdTt": 0,
+        "Md26": 0,
+        "MdAno": 0,
+        "Md52": 0,
+        "Md16": 0,
+        "Md04": 0
+      },
+      "data_ultimo_calculo": "2026-01-07T02:20:16.713Z"
+    }
+
+[8] ID: 0dtX2C7XcuNMQSaKg3PK | COD: 313.001.002
+   -> Metodo | JSON: 1 | TXT: 10
+   -> MetEst | JSON: 16 | TXT: 160
+   -> Md04 | JSON: 0 | TXT: 10
+   -> Md08 | JSON: 0 | TXT: 10
+   -> Md12 | JSON: 1 | TXT: 2
+   -> Md16 | JSON: 1 | TXT: 3
+   -> Md26 | JSON: 1 | TXT: 2
+   -> Md52 | JSON: 1 | TXT: 2
+   -> MdAno | JSON: 1 | TXT: 2
+   -> MdTt | JSON: 1 | TXT: 3
+
+"id": "0dtX2C7XcuNMQSaKg3PK",
+    "dados": {
+      "nome": "DERSANI 200ML (ACIDOS GRAXOS ESSENCIAIS)",
+      "classificacao": "10.REMUME",
+      "data_criacao": {
+        "_seconds": 1754942903,
+        "_nanoseconds": 554000000
+      },
+      "tp_metodo": "1.ORDINÁRIOS",
+      "tp_unidade_medicamento": "FR",
+      "maximo": 12,
+      "analise_reposicao": {
+        "status": "NECESSITA_REPOSICAO",
+        "metEst": 160,
+        "estoque_atual": 11,
+        "percentual_cobertura": "6.88",
+        "reposicao_calculada": 149
+      },
+      "ultima_semana_calculo": "2025_50",
+      "cod_item": "313.001.002",
+      "data_atualizacao": {
+        "_seconds": 1766437739,
+        "_nanoseconds": 301000000
+      },
+      "estoque": 11,
+      "movimentacoes_semanais": {
+        "2025_45": 1,
+        "2024_02": 9,
+        "2024_39": 0,
+        "2023_37": 5,
+        "2024_33": 5,
+        "2025_40": 4,
+        "2025_04": 0,
+        "2024_45": 2,
+        "2025_02": 3,
+        "2024_44": 4,
+        "2024_16": 0,
+        "2025_24": 2,
+        "2025_49": 10,
+        "2025_41": 2,
+        "2024_48": 0,
+        "2023_43": 3,
+        "2024_51": 0,
+        "2025_23": 5,
+        "2025_43": 0,
+        "2024_52": 0,
+        "2024_43": 1,
+        "2024_29": 0,
+        "2024_38": 1,
+        "2024_35": 1,
+        "2025_42": 1,
+        "2024_42": 4,
+        "2025_16": 5,
+        "2024_25": 2,
+        "2024_04": 0,
+        "2025_35": 2,
+        "2025_29": 1,
+        "2025_11": 1,
+        "2024_19": 7,
+        "2025_34": 0,
+        "2025_28": 1,
+        "2025_08": 0,
+        "2025_33": 0,
+        "2025_05": 1,
+        "2024_22": 0,
+        "2025_18": 0,
+        "2023_49": 5,
+        "2023_51": 0,
+        "2024_28": 7,
+        "2024_18": 0,
+        "2023_39": 1,
+        "2024_05": 0,
+        "2025_27": 5,
+        "2023_41": 3,
+        "2024_34": 0,
+        "2025_36": 6,
+        "2024_26": 0,
+        "2025_20": 0,
+        "2024_21": 0,
+        "2025_13": 8,
+        "2024_41": 7,
+        "2025_12": 0,
+        "2024_46": 3,
+        "2025_48": 0,
+        "2025_32": 3,
+        "2023_52": 1,
+        "2025_14": 1,
+        "2023_44": 0,
+        "2024_30": 0,
+        "2025_38": 0,
+        "2024_03": 1,
+        "2023_48": 0,
+        "2025_21": 1,
+        "2024_47": 0,
+        "2024_20": 5,
+        "2025_07": 2,
+        "2024_40": 4,
+        "2024_15": 0,
+        "2025_47": 0,
+        "2025_15": 0,
+        "2024_27": 10,
+        "2024_11": 4,
+        "2023_50": 7,
+        "2025_37": 7,
+        "2024_31": 0,
+        "2025_46": 0,
+        "2024_09": 2,
+        "2024_49": 7,
+        "2024_36": 4,
+        "2025_17": 1,
+        "2025_10": 4,
+        "2025_06": 6,
+        "2024_17": 0,
+        "2025_09": 4,
+        "2024_06": 2,
+        "2025_39": 1,
+        "2025_50": 0,
+        "2025_26": 2,
+        "2024_24": 3,
+        "2025_30": 0,
+        "2024_50": 3,
+        "2024_37": 2,
+        "2024_12": 1,
+        "2024_01": 0,
+        "2023_46": 0,
+        "2024_08": 2,
+        "2023_45": 8,
+        "2025_25": 0,
+        "2024_23": 2,
+        "2025_22": 1,
+        "2023_42": 8,
+        "2023_47": 2,
+        "2023_40": 1,
+        "2023_38": 1,
+        "2024_14": 0,
+        "2025_03": 0,
+        "2025_01": 0,
+        "2024_10": 3,
+        "2025_44": 12,
+        "2025_19": 11,
+        "2025_31": 0,
+        "2024_32": 7,
+        "2024_07": 7,
+        "2024_13": 0
+      },
+      "reposicao": 5,
+      "medianas": {
+        "Md26": 1,
+        "Md16": 1,
+        "MdTt": 1,
+        "MdAno": 1,
+        "Md52": 1,
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 1
+      },
+      "met_est": 16,
+      "metodo": 1,
+      "total_geral": 281,
+      "contagens": {
+        "Cont52": 31,
+        "ContTt": 74,
+        "Cont26": 15,
+        "ContAno": 31,
+        "Cont16": 10,
+        "Cont12": 7,
+        "Cont04": 1,
+        "Cont08": 3
+      },
+      "data_ultimo_calculo": "2026-01-07T02:20:16.812Z"
+    }

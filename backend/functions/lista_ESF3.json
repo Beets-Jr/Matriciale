@@ -128,7 +128,7 @@
         "Md08": 150,
         "MdTt": 180
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:31.647Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:01.665Z"
     }
   },
   {
@@ -236,9 +236,6 @@
         "2024_36": 60,
         "2024_48": 90
       },
-      "reposicao": -200,
-      "met_est": 300,
-      "metodo": 75,
       "total_geral": 6910,
       "contagens": {
         "Cont08": 5,
@@ -250,17 +247,20 @@
         "Cont04": 2,
         "ContAno": 36
       },
+      "reposicao": 100,
       "medianas": {
-        "Md26": 75,
-        "Md12": 75,
-        "MdTt": 60,
-        "MdAno": 75,
-        "Md04": 60,
-        "Md08": 75,
-        "Md52": 75,
-        "Md16": 75
+        "Md04": 150,
+        "Md08": 120,
+        "Md12": 105,
+        "Md16": 90,
+        "Md26": 135,
+        "Md52": 120,
+        "MdAno": 120,
+        "MdTt": 105
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:31.670Z"
+      "met_est": 600,
+      "metodo": 150,
+      "data_ultimo_calculo": "2026-01-13T22:17:01.690Z"
     }
   },
   {
@@ -370,16 +370,6 @@
         "2024_35": 0
       },
       "tp_metodo": "3.INATIVOS",
-      "medianas": {
-        "Md52": 0,
-        "Md26": 0,
-        "Md12": 0,
-        "Md08": 0,
-        "MdTt": 0,
-        "Md04": 0,
-        "MdAno": 0,
-        "Md16": 0
-      },
       "total_geral": 30,
       "contagens": {
         "Cont26": 0,
@@ -391,8 +381,18 @@
         "Cont16": 0,
         "ContTt": 1
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:31.696Z",
-      "maximo": 30
+      "maximo": 30,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 0,
+        "Md52": 30,
+        "MdAno": 30,
+        "MdTt": 30
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:01.716Z"
     }
   },
   {
@@ -500,19 +500,19 @@
       },
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "reposicao": -66,
       "met_est": 4,
       "medianas": {
-        "MdAno": 0,
-        "Md16": 0,
-        "Md04": 0,
-        "Md12": 0,
-        "Md08": 0,
-        "Md52": 0,
-        "Md26": 0,
-        "MdTt": 0
+        "Md04": 30,
+        "Md08": 30,
+        "Md12": 30,
+        "Md16": 30,
+        "Md26": 30,
+        "Md52": 30,
+        "MdAno": 30,
+        "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:31.728Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:01.743Z"
     }
   },
   {
@@ -621,7 +621,6 @@
       },
       "maximo": 210,
       "metodo": 90,
-      "reposicao": -40,
       "met_est": 360,
       "total_geral": 5440,
       "contagens": {
@@ -635,16 +634,17 @@
         "Cont08": 6
       },
       "medianas": {
-        "Md26": 90,
-        "Md16": 90,
-        "Md08": 60,
-        "MdTt": 60,
-        "MdAno": 75,
         "Md04": 60,
-        "Md52": 60,
-        "Md12": 75
+        "Md08": 75,
+        "Md12": 90,
+        "Md16": 90,
+        "Md26": 90,
+        "Md52": 90,
+        "MdAno": 90,
+        "MdTt": 90
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:31.748Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:01.776Z"
     }
   },
   {
@@ -764,19 +764,19 @@
         "Cont04": 0
       },
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -9,
       "met_est": 0,
       "medianas": {
-        "MdTt": 0,
-        "Md12": 0,
-        "MdAno": 0,
-        "Md26": 0,
-        "Md16": 0,
         "Md04": 0,
-        "Md08": 0,
-        "Md52": 0
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 1,
+        "Md26": 1,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 4
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:31.770Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:01.806Z"
     }
   },
   {
@@ -898,16 +898,16 @@
       },
       "tp_metodo": "3.INATIVOS",
       "medianas": {
-        "MdAno": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "Md16": 0,
         "Md04": 0,
-        "Md12": 0,
         "Md08": 0,
-        "Md26": 0
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 0,
+        "Md52": 0,
+        "MdAno": 0,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:31.798Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:01.842Z"
     }
   },
   {
@@ -1030,16 +1030,16 @@
       "reposicao": 12,
       "met_est": 12,
       "medianas": {
-        "Md52": 0,
-        "Md12": 0,
-        "MdTt": 0,
-        "Md26": 0,
-        "Md16": 0,
         "Md04": 0,
-        "MdAno": 0,
-        "Md08": 0
+        "Md08": 15,
+        "Md12": 15,
+        "Md16": 15,
+        "Md26": 10,
+        "Md52": 15,
+        "MdAno": 15,
+        "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:31.819Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:01.875Z"
     }
   },
   {
@@ -1171,7 +1171,7 @@
         "Md26": 120,
         "Md16": 135
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:31.845Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:01.905Z"
     }
   },
   {
@@ -1282,16 +1282,6 @@
       "maximo": 120,
       "reposicao": 0,
       "met_est": 240,
-      "medianas": {
-        "Md12": 30,
-        "Md16": 60,
-        "MdAno": 30,
-        "Md52": 30,
-        "Md08": 45,
-        "Md04": 30,
-        "MdTt": 30,
-        "Md26": 30
-      },
       "total_geral": 2400,
       "contagens": {
         "Cont26": 18,
@@ -1303,7 +1293,17 @@
         "Cont12": 8,
         "Cont52": 35
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:31.881Z"
+      "medianas": {
+        "Md04": 60,
+        "Md08": 60,
+        "Md12": 60,
+        "Md16": 60,
+        "Md26": 60,
+        "Md52": 30,
+        "MdAno": 45,
+        "MdTt": 30
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:01.937Z"
     }
   },
   {
@@ -1411,17 +1411,6 @@
         "2025_04": 0
       },
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "MdAno": 0,
-        "Md12": 0,
-        "Md08": 0,
-        "Md26": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "Md16": 0,
-        "Md04": 0
-      },
-      "reposicao": -80,
       "total_geral": 505,
       "contagens": {
         "Cont16": 3,
@@ -1434,8 +1423,19 @@
         "ContTt": 13
       },
       "met_est": 40,
-      "data_ultimo_calculo": "2026-01-07T02:20:31.926Z",
-      "metodo": 10
+      "metodo": 10,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 20,
+        "Md12": 60,
+        "Md16": 60,
+        "Md26": 60,
+        "Md52": 20,
+        "MdAno": 20,
+        "MdTt": 20
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:01.967Z"
     }
   },
   {
@@ -1543,9 +1543,6 @@
         "2025_49": 60
       },
       "maximo": 240,
-      "reposicao": 110,
-      "met_est": 240,
-      "metodo": 60,
       "total_geral": 3590,
       "contagens": {
         "Cont16": 12,
@@ -1557,17 +1554,20 @@
         "Cont26": 18,
         "Cont52": 31
       },
+      "reposicao": 230,
       "medianas": {
-        "MdTt": 30,
-        "Md26": 60,
-        "Md16": 60,
-        "Md08": 60,
         "Md04": 60,
+        "Md08": 90,
         "Md12": 60,
-        "MdAno": 30,
-        "Md52": 30
+        "Md16": 60,
+        "Md26": 75,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 75
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:31.953Z"
+      "met_est": 360,
+      "metodo": 90,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.001Z"
     }
   },
   {
@@ -1675,19 +1675,6 @@
         "2025_29": 60
       },
       "maximo": 390,
-      "reposicao": -750,
-      "met_est": 420,
-      "metodo": 105,
-      "medianas": {
-        "MdAno": 60,
-        "Md12": 90,
-        "Md04": 105,
-        "Md08": 105,
-        "Md52": 60,
-        "Md26": 60,
-        "MdTt": 60,
-        "Md16": 90
-      },
       "total_geral": 6572,
       "contagens": {
         "ContTt": 62,
@@ -1699,7 +1686,20 @@
         "Cont08": 7,
         "Cont04": 3
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:31.980Z"
+      "medianas": {
+        "Md04": 120,
+        "Md08": 120,
+        "Md12": 90,
+        "Md16": 90,
+        "Md26": 60,
+        "Md52": 90,
+        "MdAno": 90,
+        "MdTt": 90
+      },
+      "met_est": 480,
+      "metodo": 120,
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.029Z"
     }
   },
   {
@@ -1807,9 +1807,6 @@
         "2025_42": 1
       },
       "maximo": 17,
-      "reposicao": -12,
-      "met_est": 8,
-      "metodo": 2,
       "total_geral": 212,
       "contagens": {
         "Cont12": 6,
@@ -1821,17 +1818,20 @@
         "Cont26": 15,
         "Cont04": 1
       },
+      "met_est": 12,
+      "metodo": 3,
       "medianas": {
-        "MdTt": 2,
-        "Md52": 2,
-        "Md12": 1,
-        "Md04": 0,
+        "Md04": 2,
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 2,
         "Md26": 2,
-        "Md16": 1,
-        "MdAno": 2,
-        "Md08": 0
+        "Md52": 3,
+        "MdAno": 3,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.004Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.060Z"
     }
   },
   {
@@ -1939,19 +1939,6 @@
         "2024_42": 2
       },
       "maximo": 8,
-      "reposicao": 2,
-      "medianas": {
-        "MdTt": 1,
-        "Md52": 1,
-        "Md16": 1,
-        "MdAno": 1,
-        "Md12": 1,
-        "Md08": 1,
-        "Md26": 1,
-        "Md04": 1
-      },
-      "met_est": 4,
-      "metodo": 1,
       "total_geral": 131,
       "contagens": {
         "Cont16": 10,
@@ -1963,7 +1950,20 @@
         "Cont52": 35,
         "Cont04": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.028Z"
+      "reposicao": 10,
+      "medianas": {
+        "Md04": 3,
+        "Md08": 1,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 1,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
+      },
+      "met_est": 12,
+      "metodo": 3,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.089Z"
     }
   },
   {
@@ -2071,17 +2071,6 @@
       },
       "maximo": 220,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "MdTt": 0,
-        "Md04": 0,
-        "Md52": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "MdAno": 0,
-        "Md26": 0,
-        "Md12": 0
-      },
-      "reposicao": -472,
       "total_geral": 3200,
       "contagens": {
         "ContTt": 24,
@@ -2094,8 +2083,19 @@
         "Cont08": 2
       },
       "met_est": 248,
-      "data_ultimo_calculo": "2026-01-07T02:20:32.056Z",
-      "metodo": 62
+      "metodo": 62,
+      "medianas": {
+        "Md04": 210,
+        "Md08": 210,
+        "Md12": 210,
+        "Md16": 210,
+        "Md26": 210,
+        "Md52": 210,
+        "MdAno": 210,
+        "MdTt": 150
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.119Z"
     }
   },
   {
@@ -2218,16 +2218,16 @@
       },
       "tp_metodo": "3.INATIVOS",
       "medianas": {
-        "Md12": 0,
-        "Md08": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "MdAno": 0,
-        "Md16": 0,
         "Md04": 0,
-        "Md26": 0
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 0,
+        "Md52": 17,
+        "MdAno": 17,
+        "MdTt": 17
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.085Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:02.155Z"
     }
   },
   {
@@ -2359,7 +2359,7 @@
         "Md16": 310,
         "Md12": 290
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.111Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:02.181Z"
     }
   },
   {
@@ -2467,19 +2467,6 @@
         "2025_37": 40,
         "2025_21": 0
       },
-      "reposicao": -120,
-      "medianas": {
-        "MdAno": 40,
-        "Md08": 50,
-        "Md12": 40,
-        "Md04": 70,
-        "MdTt": 40,
-        "Md52": 40,
-        "Md26": 40,
-        "Md16": 40
-      },
-      "met_est": 280,
-      "metodo": 70,
       "total_geral": 5250,
       "contagens": {
         "Cont52": 41,
@@ -2491,7 +2478,20 @@
         "Cont12": 9,
         "Cont08": 6
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.139Z"
+      "met_est": 320,
+      "metodo": 80,
+      "medianas": {
+        "Md04": 70,
+        "Md08": 70,
+        "Md12": 60,
+        "Md16": 40,
+        "Md26": 40,
+        "Md52": 80,
+        "MdAno": 80,
+        "MdTt": 60
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.212Z"
     }
   },
   {
@@ -2602,16 +2602,6 @@
       },
       "reposicao": 3,
       "met_est": 12,
-      "medianas": {
-        "Md26": 2,
-        "Md04": 2,
-        "Md12": 3,
-        "Md16": 2,
-        "Md52": 2,
-        "MdTt": 2,
-        "MdAno": 2,
-        "Md08": 3
-      },
       "total_geral": 180,
       "contagens": {
         "Cont04": 4,
@@ -2623,7 +2613,17 @@
         "ContTt": 70,
         "Cont12": 10
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.172Z"
+      "medianas": {
+        "Md04": 2,
+        "Md08": 3,
+        "Md12": 3,
+        "Md16": 3,
+        "Md26": 2,
+        "Md52": 3,
+        "MdAno": 3,
+        "MdTt": 2
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:02.243Z"
     }
   },
   {
@@ -2730,9 +2730,6 @@
         "2024_39": 120,
         "2025_11": 54
       },
-      "reposicao": -28,
-      "met_est": 276,
-      "metodo": 69,
       "total_geral": 3584,
       "contagens": {
         "Cont52": 43,
@@ -2744,18 +2741,21 @@
         "ContAno": 42,
         "Cont16": 15
       },
+      "maximo": 192,
       "medianas": {
-        "MdTt": 32,
-        "MdAno": 49,
-        "Md08": 42,
-        "Md26": 58,
-        "Md12": 63,
-        "Md52": 47,
-        "Md16": 69,
-        "Md04": 24
+        "Md04": 30,
+        "Md08": 54,
+        "Md12": 72,
+        "Md16": 72,
+        "Md26": 69,
+        "Md52": 54,
+        "MdAno": 54,
+        "MdTt": 51
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.202Z",
-      "maximo": 192
+      "met_est": 288,
+      "metodo": 72,
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.269Z"
     }
   },
   {
@@ -2866,16 +2866,16 @@
       "reposicao": 8,
       "met_est": 8,
       "medianas": {
-        "MdTt": 0,
-        "Md08": 0,
-        "Md16": 0,
         "Md04": 0,
-        "MdAno": 0,
-        "Md52": 0,
-        "Md26": 0,
-        "Md12": 0
+        "Md08": 64,
+        "Md12": 64,
+        "Md16": 64,
+        "Md26": 57,
+        "Md52": 57,
+        "MdAno": 57,
+        "MdTt": 57
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.234Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:02.297Z"
     }
   },
   {
@@ -2983,9 +2983,6 @@
         "2024_33": 266
       },
       "maximo": 420,
-      "reposicao": 286,
-      "met_est": 896,
-      "metodo": 224,
       "total_geral": 13592,
       "contagens": {
         "Cont16": 15,
@@ -2997,17 +2994,20 @@
         "ContAno": 49,
         "Cont08": 7
       },
+      "reposicao": 342,
       "medianas": {
-        "MdAno": 175,
-        "Md16": 201,
-        "Md52": 189,
-        "Md26": 198,
-        "Md04": 224,
-        "Md08": 224,
-        "MdTt": 168,
-        "Md12": 198
+        "Md04": 238,
+        "Md08": 238,
+        "Md12": 200,
+        "Md16": 202,
+        "Md26": 200,
+        "Md52": 196,
+        "MdAno": 182,
+        "MdTt": 168
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.264Z"
+      "met_est": 952,
+      "metodo": 238,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.320Z"
     }
   },
   {
@@ -3115,17 +3115,6 @@
       },
       "maximo": 35,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "Md12": 0,
-        "Md08": 0,
-        "Md26": 0,
-        "Md04": 0,
-        "Md52": 0,
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md16": 0
-      },
-      "reposicao": -3,
       "total_geral": 268,
       "contagens": {
         "Cont08": 2,
@@ -3138,8 +3127,19 @@
         "Cont52": 13
       },
       "met_est": 20,
-      "data_ultimo_calculo": "2026-01-07T02:20:32.300Z",
-      "metodo": 5
+      "metodo": 5,
+      "medianas": {
+        "Md04": 6,
+        "Md08": 8,
+        "Md12": 8,
+        "Md16": 9,
+        "Md26": 19,
+        "Md52": 16,
+        "MdAno": 16,
+        "MdTt": 11
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.351Z"
     }
   },
   {
@@ -3248,18 +3248,7 @@
       },
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "reposicao": -1,
       "met_est": 4,
-      "medianas": {
-        "Md16": 0,
-        "Md12": 0,
-        "Md26": 0,
-        "Md52": 0,
-        "Md04": 0,
-        "MdAno": 0,
-        "Md08": 0,
-        "MdTt": 0
-      },
       "total_geral": 30,
       "contagens": {
         "Cont52": 13,
@@ -3271,7 +3260,18 @@
         "Cont16": 1,
         "Cont26": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.329Z"
+      "medianas": {
+        "Md04": 0,
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.381Z"
     }
   },
   {
@@ -3394,16 +3394,16 @@
         "Cont04": 4
       },
       "medianas": {
-        "MdAno": 84,
+        "Md04": 96,
         "Md08": 120,
-        "MdTt": 96,
-        "Md52": 96,
-        "Md16": 132,
         "Md12": 120,
+        "Md16": 132,
         "Md26": 132,
-        "Md04": 96
+        "Md52": 96,
+        "MdAno": 96,
+        "MdTt": 96
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.353Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:02.411Z"
     }
   },
   {
@@ -3511,7 +3511,6 @@
         "2024_31": 29,
         "2025_17": 38
       },
-      "reposicao": 72,
       "total_geral": 1544,
       "contagens": {
         "ContTt": 64,
@@ -3523,19 +3522,20 @@
         "Cont08": 0,
         "ContAno": 37
       },
+      "reposicao": 84,
+      "met_est": 84,
+      "metodo": 21,
       "medianas": {
-        "Md08": 0,
-        "MdAno": 16,
-        "MdTt": 18,
-        "Md26": 3,
-        "Md52": 16,
-        "Md12": 0,
         "Md04": 0,
-        "Md16": 0
+        "Md08": 0,
+        "Md12": 1,
+        "Md16": 13,
+        "Md26": 11,
+        "Md52": 21,
+        "MdAno": 21,
+        "MdTt": 21
       },
-      "met_est": 72,
-      "data_ultimo_calculo": "2026-01-07T02:20:32.387Z",
-      "metodo": 18
+      "data_ultimo_calculo": "2026-01-13T22:17:02.442Z"
     }
   },
   {
@@ -3646,16 +3646,6 @@
       "metodo": 40,
       "reposicao": 20,
       "met_est": 160,
-      "medianas": {
-        "MdAno": 20,
-        "Md26": 20,
-        "Md52": 20,
-        "Md04": 40,
-        "Md16": 21,
-        "Md12": 31,
-        "MdTt": 20,
-        "Md08": 40
-      },
       "total_geral": 1770,
       "contagens": {
         "ContTt": 51,
@@ -3667,7 +3657,17 @@
         "Cont16": 14,
         "Cont12": 11
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.421Z"
+      "medianas": {
+        "Md04": 40,
+        "Md08": 40,
+        "Md12": 40,
+        "Md16": 26,
+        "Md26": 20,
+        "Md52": 21,
+        "MdAno": 21,
+        "MdTt": 21
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:02.469Z"
     }
   },
   {
@@ -3790,16 +3790,16 @@
         "Cont16": 14
       },
       "medianas": {
-        "MdAno": 60,
-        "Md52": 60,
+        "Md04": 60,
         "Md08": 60,
         "Md12": 60,
-        "Md26": 50,
-        "Md04": 60,
-        "MdTt": 60,
-        "Md16": 60
+        "Md16": 60,
+        "Md26": 60,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.446Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:02.508Z"
     }
   },
   {
@@ -3907,9 +3907,6 @@
         "2024_26": 190
       },
       "maximo": 280,
-      "reposicao": -70,
-      "met_est": 320,
-      "metodo": 80,
       "total_geral": 7420,
       "contagens": {
         "ContTt": 67,
@@ -3921,17 +3918,20 @@
         "Cont26": 21,
         "Cont04": 2
       },
+      "reposicao": 90,
       "medianas": {
-        "MdTt": 80,
+        "Md04": 100,
+        "Md08": 120,
+        "Md12": 90,
         "Md16": 80,
-        "Md12": 80,
-        "MdAno": 80,
+        "Md26": 80,
         "Md52": 80,
-        "Md26": 60,
-        "Md08": 80,
-        "Md04": 20
+        "MdAno": 80,
+        "MdTt": 80
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.475Z"
+      "met_est": 480,
+      "metodo": 120,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.541Z"
     }
   },
   {
@@ -4039,17 +4039,6 @@
       },
       "maximo": 100,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "Md08": 0,
-        "Md04": 14,
-        "MdTt": 0,
-        "Md52": 0,
-        "Md12": 0,
-        "MdAno": 0,
-        "Md16": 0,
-        "Md26": 0
-      },
-      "reposicao": -304,
       "total_geral": 1158,
       "contagens": {
         "Cont04": 2,
@@ -4062,8 +4051,19 @@
         "Cont08": 2
       },
       "met_est": 88,
-      "data_ultimo_calculo": "2026-01-07T02:20:32.502Z",
-      "metodo": 22
+      "metodo": 22,
+      "medianas": {
+        "Md04": 34,
+        "Md08": 34,
+        "Md12": 28,
+        "Md16": 40,
+        "Md26": 34,
+        "Md52": 40,
+        "MdAno": 40,
+        "MdTt": 40
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.572Z"
     }
   },
   {
@@ -4195,7 +4195,7 @@
         "Md12": 505,
         "Md08": 510
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.532Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:02.603Z"
     }
   },
   {
@@ -4306,16 +4306,6 @@
       "maximo": 80,
       "metodo": 0,
       "tp_metodo": "3.INATIVOS",
-      "medianas": {
-        "Md12": 0,
-        "Md52": 0,
-        "Md08": 0,
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md26": 0,
-        "Md16": 0,
-        "Md04": 0
-      },
       "total_geral": 760,
       "contagens": {
         "ContAno": 6,
@@ -4327,7 +4317,17 @@
         "Cont12": 0,
         "Cont04": 0
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.567Z"
+      "medianas": {
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 40,
+        "Md52": 40,
+        "MdAno": 40,
+        "MdTt": 40
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:02.636Z"
     }
   },
   {
@@ -4437,7 +4437,6 @@
       "met_est": 0,
       "maximo": 30,
       "metodo": 0,
-      "reposicao": -120,
       "contagens": {
         "ContTt": 3,
         "Cont52": 0,
@@ -4450,16 +4449,17 @@
       },
       "tp_metodo": "3.INATIVOS",
       "medianas": {
-        "MdAno": 0,
+        "Md04": 0,
         "Md08": 0,
-        "Md26": 0,
         "Md12": 0,
         "Md16": 0,
-        "MdTt": 0,
+        "Md26": 0,
         "Md52": 0,
-        "Md04": 0
+        "MdAno": 0,
+        "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.601Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.665Z"
     }
   },
   {
@@ -4568,18 +4568,7 @@
       "met_est": 0,
       "maximo": 42,
       "metodo": 0,
-      "reposicao": -42,
       "tp_metodo": "3.INATIVOS",
-      "medianas": {
-        "Md12": 0,
-        "Md26": 0,
-        "Md08": 0,
-        "Md52": 0,
-        "MdTt": 0,
-        "Md04": 0,
-        "MdAno": 0,
-        "Md16": 0
-      },
       "total_geral": 114,
       "contagens": {
         "Cont26": 0,
@@ -4591,7 +4580,18 @@
         "Cont16": 0,
         "ContTt": 6
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.622Z"
+      "medianas": {
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 0,
+        "Md52": 28,
+        "MdAno": 28,
+        "MdTt": 14
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.693Z"
     }
   },
   {
@@ -4700,18 +4700,7 @@
       "maximo": 2,
       "metodo": 0,
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -7,
       "met_est": 0,
-      "medianas": {
-        "Md04": 0,
-        "Md26": 0,
-        "MdAno": 0,
-        "Md12": 0,
-        "MdTt": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "Md52": 0
-      },
       "total_geral": 18,
       "contagens": {
         "ContAno": 12,
@@ -4723,7 +4712,18 @@
         "Cont04": 1,
         "ContTt": 14
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.651Z"
+      "medianas": {
+        "Md04": 1,
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 2,
+        "Md26": 1,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 1
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.723Z"
     }
   },
   {
@@ -4831,7 +4831,6 @@
       },
       "maximo": 3,
       "metodo": 1,
-      "reposicao": -3,
       "met_est": 4,
       "total_geral": 57,
       "contagens": {
@@ -4844,18 +4843,19 @@
         "Cont08": 3,
         "ContAno": 26
       },
+      "tp_metodo": "1.ORDINÁRIOS",
       "medianas": {
+        "Md04": 1,
+        "Md08": 1,
         "Md12": 1,
-        "Md04": 0,
         "Md16": 1,
-        "MdAno": 1,
         "Md26": 1,
-        "MdTt": 0,
         "Md52": 1,
-        "Md08": 0
+        "MdAno": 1,
+        "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.677Z",
-      "tp_metodo": "1.ORDINÁRIOS"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.758Z"
     }
   },
   {
@@ -4964,7 +4964,6 @@
         "2025_25": 50,
         "2024_44": 130
       },
-      "reposicao": -450,
       "met_est": 900,
       "total_geral": 11465,
       "contagens": {
@@ -4978,16 +4977,17 @@
         "Cont08": 8
       },
       "medianas": {
-        "MdTt": 140,
-        "Md26": 151,
-        "Md52": 155,
-        "Md12": 218,
-        "Md16": 171,
-        "Md08": 225,
         "Md04": 225,
-        "MdAno": 163
+        "Md08": 225,
+        "Md12": 218,
+        "Md16": 177,
+        "Md26": 160,
+        "Md52": 165,
+        "MdAno": 170,
+        "MdTt": 146
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.712Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.792Z"
     }
   },
   {
@@ -5094,16 +5094,6 @@
         "2024_48": 0
       },
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "Md52": 0,
-        "Md08": 0,
-        "Md16": 0,
-        "Md26": 0,
-        "Md12": 0,
-        "MdAno": 0,
-        "Md04": 10,
-        "MdTt": 0
-      },
       "reposicao": 28,
       "total_geral": 370,
       "contagens": {
@@ -5117,9 +5107,19 @@
         "Cont52": 14
       },
       "met_est": 28,
-      "data_ultimo_calculo": "2026-01-07T02:20:32.742Z",
       "maximo": 80,
-      "metodo": 7
+      "metodo": 7,
+      "medianas": {
+        "Md04": 25,
+        "Md08": 20,
+        "Md12": 20,
+        "Md16": 20,
+        "Md26": 20,
+        "Md52": 25,
+        "MdAno": 20,
+        "MdTt": 25
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:02.820Z"
     }
   },
   {
@@ -5229,7 +5229,6 @@
       },
       "total_geral": 3,
       "met_est": 0,
-      "reposicao": -6,
       "contagens": {
         "ContTt": 2,
         "Cont04": 0,
@@ -5242,16 +5241,17 @@
       },
       "tp_metodo": "3.INATIVOS",
       "medianas": {
-        "Md16": 0,
         "Md04": 0,
+        "Md08": 0,
         "Md12": 0,
-        "Md52": 0,
+        "Md16": 0,
         "Md26": 0,
-        "MdAno": 0,
-        "MdTt": 0,
-        "Md08": 0
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.769Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.848Z"
     }
   },
   {
@@ -5359,7 +5359,6 @@
       },
       "maximo": 4,
       "metodo": 1,
-      "reposicao": -5,
       "met_est": 4,
       "total_geral": 63,
       "contagens": {
@@ -5372,18 +5371,19 @@
         "ContTt": 35,
         "ContAno": 24
       },
+      "tp_metodo": "1.ORDINÁRIOS",
       "medianas": {
-        "Md12": 0,
-        "Md08": 1,
-        "Md26": 0,
-        "Md16": 0,
-        "MdAno": 0,
-        "Md52": 1,
         "Md04": 1,
-        "MdTt": 0
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 1,
+        "Md26": 1,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.791Z",
-      "tp_metodo": "1.ORDINÁRIOS"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.876Z"
     }
   },
   {
@@ -5492,7 +5492,6 @@
         "2024_34": 30
       },
       "metodo": 60,
-      "reposicao": -90,
       "met_est": 240,
       "total_geral": 3630,
       "contagens": {
@@ -5506,16 +5505,17 @@
         "Cont08": 8
       },
       "medianas": {
-        "MdTt": 30,
-        "Md16": 60,
-        "Md12": 60,
-        "Md08": 60,
-        "Md26": 60,
         "Md04": 60,
+        "Md08": 60,
+        "Md12": 60,
+        "Md16": 60,
+        "Md26": 60,
         "Md52": 60,
-        "MdAno": 60
+        "MdAno": 60,
+        "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.818Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.906Z"
     }
   },
   {
@@ -5623,17 +5623,6 @@
       },
       "maximo": 100,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "MdAno": 0,
-        "Md12": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "Md26": 0,
-        "Md08": 0,
-        "Md04": 0,
-        "Md16": 0
-      },
-      "reposicao": -68,
       "total_geral": 342,
       "contagens": {
         "ContAno": 9,
@@ -5646,8 +5635,19 @@
         "Cont08": 1
       },
       "met_est": 28,
-      "data_ultimo_calculo": "2026-01-07T02:20:32.851Z",
-      "metodo": 7
+      "metodo": 7,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 12,
+        "Md12": 12,
+        "Md16": 12,
+        "Md26": 12,
+        "Md52": 18,
+        "MdAno": 20,
+        "MdTt": 12
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.937Z"
     }
   },
   {
@@ -5754,9 +5754,6 @@
         "2025_23": 400
       },
       "maximo": 400,
-      "reposicao": 115,
-      "met_est": 660,
-      "metodo": 165,
       "total_geral": 11670,
       "contagens": {
         "Cont26": 25,
@@ -5768,17 +5765,20 @@
         "Cont16": 15,
         "Cont04": 4
       },
+      "reposicao": 175,
+      "met_est": 720,
+      "metodo": 180,
       "medianas": {
-        "Md52": 150,
-        "Md12": 135,
-        "Md16": 165,
-        "Md08": 135,
-        "MdAno": 150,
-        "MdTt": 150,
+        "Md04": 90,
+        "Md08": 150,
+        "Md12": 150,
+        "Md16": 180,
         "Md26": 150,
-        "Md04": 90
+        "Md52": 180,
+        "MdAno": 180,
+        "MdTt": 150
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.879Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:02.968Z"
     }
   },
   {
@@ -5885,20 +5885,9 @@
         "2024_41": 0
       },
       "maximo": 4,
-      "reposicao": -8,
       "met_est": 4,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "medianas": {
-        "Md26": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "Md16": 2,
-        "Md12": 0,
-        "Md08": 0,
-        "MdAno": 0,
-        "Md04": 0
-      },
       "total_geral": 53,
       "contagens": {
         "Cont52": 23,
@@ -5910,7 +5899,18 @@
         "ContTt": 27,
         "Cont26": 12
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.912Z"
+      "medianas": {
+        "Md04": 2,
+        "Md08": 3,
+        "Md12": 3,
+        "Md16": 3,
+        "Md26": 3,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:02.997Z"
     }
   },
   {
@@ -6017,9 +6017,6 @@
         "2025_32": 0,
         "2024_48": 0
       },
-      "reposicao": -16,
-      "met_est": 16,
-      "metodo": 4,
       "total_geral": 239,
       "contagens": {
         "Cont08": 5,
@@ -6031,18 +6028,21 @@
         "Cont52": 31,
         "Cont26": 18
       },
+      "tp_metodo": "1.ORDINÁRIOS",
+      "reposicao": 12,
       "medianas": {
-        "MdAno": 2,
-        "Md08": 3,
-        "Md16": 4,
-        "MdTt": 2,
-        "Md52": 2,
-        "Md26": 3,
-        "Md12": 4,
-        "Md04": 0
+        "Md04": 11,
+        "Md08": 10,
+        "Md12": 7,
+        "Md16": 5,
+        "Md26": 4,
+        "Md52": 4,
+        "MdAno": 4,
+        "MdTt": 4
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.937Z",
-      "tp_metodo": "1.ORDINÁRIOS"
+      "met_est": 44,
+      "metodo": 11,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.029Z"
     }
   },
   {
@@ -6151,18 +6151,7 @@
       "maximo": 6,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "reposicao": -7,
       "met_est": 4,
-      "medianas": {
-        "Md04": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "Md26": 0,
-        "Md12": 0,
-        "Md52": 0,
-        "MdTt": 0,
-        "MdAno": 0
-      },
       "total_geral": 57,
       "contagens": {
         "ContTt": 31,
@@ -6174,7 +6163,18 @@
         "ContAno": 24,
         "Cont04": 1
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.968Z"
+      "medianas": {
+        "Md04": 2,
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 1
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.061Z"
     }
   },
   {
@@ -6283,7 +6283,6 @@
       },
       "maximo": 1008,
       "metodo": 425,
-      "reposicao": -18,
       "met_est": 1700,
       "total_geral": 34354,
       "contagens": {
@@ -6306,7 +6305,8 @@
         "Md16": 417,
         "Md08": 345
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:32.997Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.088Z"
     }
   },
   {
@@ -6414,17 +6414,6 @@
       },
       "maximo": 25,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "MdAno": 0,
-        "Md52": 0,
-        "Md16": 2,
-        "Md04": 0,
-        "Md26": 0,
-        "MdTt": 0,
-        "Md12": 0,
-        "Md08": 0
-      },
-      "reposicao": -1,
       "total_geral": 193,
       "contagens": {
         "ContTt": 26,
@@ -6437,8 +6426,19 @@
         "Cont26": 12
       },
       "met_est": 16,
-      "data_ultimo_calculo": "2026-01-07T02:20:33.031Z",
-      "metodo": 4
+      "metodo": 4,
+      "medianas": {
+        "Md04": 3,
+        "Md08": 12,
+        "Md12": 12,
+        "Md16": 7,
+        "Md26": 7,
+        "Md52": 6,
+        "MdAno": 5,
+        "MdTt": 5
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.114Z"
     }
   },
   {
@@ -6546,19 +6546,6 @@
         "2025_34": 8
       },
       "maximo": 10,
-      "reposicao": -4,
-      "met_est": 12,
-      "metodo": 3,
-      "medianas": {
-        "Md12": 2,
-        "Md16": 2,
-        "MdTt": 1,
-        "MdAno": 1,
-        "Md52": 1,
-        "Md04": 1,
-        "Md26": 3,
-        "Md08": 2
-      },
       "total_geral": 142,
       "contagens": {
         "Cont26": 21,
@@ -6570,7 +6557,20 @@
         "Cont52": 33,
         "Cont04": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.063Z"
+      "reposicao": 0,
+      "medianas": {
+        "Md04": 2,
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 3,
+        "Md26": 4,
+        "Md52": 2,
+        "MdAno": 3,
+        "MdTt": 2
+      },
+      "met_est": 16,
+      "metodo": 4,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.150Z"
     }
   },
   {
@@ -6679,18 +6679,7 @@
       "maximo": 5,
       "metodo": 0,
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -2,
       "met_est": 0,
-      "medianas": {
-        "Md26": 0,
-        "Md16": 0,
-        "MdAno": 0,
-        "Md12": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "Md08": 0,
-        "Md04": 0
-      },
       "total_geral": 20,
       "contagens": {
         "Cont16": 2,
@@ -6702,7 +6691,18 @@
         "Cont26": 3,
         "ContAno": 5
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.093Z"
+      "medianas": {
+        "Md04": 1,
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 1,
+        "Md52": 2,
+        "MdAno": 1,
+        "MdTt": 2
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.177Z"
     }
   },
   {
@@ -6811,7 +6811,6 @@
       },
       "maximo": 120,
       "metodo": 60,
-      "reposicao": -30,
       "met_est": 240,
       "total_geral": 2520,
       "contagens": {
@@ -6825,16 +6824,17 @@
         "Cont26": 16
       },
       "medianas": {
-        "Md08": 45,
-        "Md04": 45,
-        "MdTt": 30,
-        "Md52": 30,
-        "Md26": 45,
+        "Md04": 60,
+        "Md08": 60,
+        "Md12": 60,
         "Md16": 60,
-        "Md12": 45,
-        "MdAno": 30
+        "Md26": 60,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.119Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.204Z"
     }
   },
   {
@@ -6943,18 +6943,7 @@
       },
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 4,
-      "reposicao": -4,
       "met_est": 16,
-      "medianas": {
-        "Md52": 0,
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md04": 0,
-        "Md26": 0,
-        "Md08": 0,
-        "Md16": 0,
-        "Md12": 0
-      },
       "total_geral": 229,
       "contagens": {
         "ContTt": 28,
@@ -6966,7 +6955,18 @@
         "Cont26": 8,
         "Cont08": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.151Z"
+      "medianas": {
+        "Md04": 0,
+        "Md08": 6,
+        "Md12": 6,
+        "Md16": 4,
+        "Md26": 4,
+        "Md52": 4,
+        "MdAno": 4,
+        "MdTt": 4
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.232Z"
     }
   },
   {
@@ -7077,16 +7077,16 @@
       },
       "tp_metodo": "3.INATIVOS",
       "medianas": {
-        "Md12": 0,
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md16": 0,
-        "Md52": 0,
-        "Md26": 0,
         "Md04": 0,
-        "Md08": 0
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 1,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.180Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:03.260Z"
     }
   },
   {
@@ -7194,19 +7194,6 @@
         "2025_22": 3,
         "2025_50": 2
       },
-      "reposicao": 4,
-      "medianas": {
-        "Md16": 2,
-        "MdTt": 2,
-        "Md12": 2,
-        "Md08": 2,
-        "Md04": 2,
-        "Md52": 2,
-        "MdAno": 2,
-        "Md26": 2
-      },
-      "met_est": 8,
-      "metodo": 2,
       "total_geral": 151,
       "contagens": {
         "Cont08": 6,
@@ -7218,7 +7205,20 @@
         "Cont12": 10,
         "Cont04": 3
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.214Z"
+      "reposicao": 8,
+      "met_est": 12,
+      "metodo": 3,
+      "medianas": {
+        "Md04": 2,
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 3,
+        "MdAno": 3,
+        "MdTt": 2
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:03.294Z"
     }
   },
   {
@@ -7325,7 +7325,6 @@
         "2025_21": 150,
         "2025_15": 180
       },
-      "reposicao": 40,
       "total_geral": 10990,
       "contagens": {
         "Cont52": 50,
@@ -7337,20 +7336,21 @@
         "ContAno": 48,
         "Cont04": 4
       },
-      "medianas": {
-        "MdAno": 125,
-        "Md26": 120,
-        "Md04": 105,
-        "Md16": 110,
-        "MdTt": 120,
-        "Md12": 110,
-        "Md52": 130,
-        "Md08": 75
-      },
-      "met_est": 520,
-      "data_ultimo_calculo": "2026-01-07T02:20:33.244Z",
       "maximo": 445,
-      "metodo": 130
+      "reposicao": 80,
+      "medianas": {
+        "Md04": 105,
+        "Md08": 75,
+        "Md12": 130,
+        "Md16": 130,
+        "Md26": 120,
+        "Md52": 140,
+        "MdAno": 130,
+        "MdTt": 120
+      },
+      "met_est": 560,
+      "metodo": 140,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.322Z"
     }
   },
   {
@@ -7458,17 +7458,6 @@
         "2024_47": 20
       },
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "Md04": 0,
-        "Md08": 0,
-        "Md16": 0,
-        "MdAno": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "Md26": 0,
-        "Md12": 0
-      },
-      "reposicao": -34,
       "total_geral": 710,
       "contagens": {
         "ContTt": 20,
@@ -7481,8 +7470,19 @@
         "Cont04": 1
       },
       "met_est": 56,
-      "data_ultimo_calculo": "2026-01-07T02:20:33.271Z",
-      "metodo": 14
+      "metodo": 14,
+      "medianas": {
+        "Md04": 90,
+        "Md08": 90,
+        "Md12": 90,
+        "Md16": 90,
+        "Md26": 90,
+        "Md52": 20,
+        "MdAno": 30,
+        "MdTt": 20
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.349Z"
     }
   },
   {
@@ -7579,7 +7579,6 @@
       "maximo": 4,
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "reposicao": -7,
       "contagens": {
         "Cont52": 17,
         "Cont12": 4,
@@ -7593,16 +7592,17 @@
       "met_est": 4,
       "tp_metodo": "2.INTERMITENTES",
       "medianas": {
-        "MdTt": 0,
-        "Md26": 1,
-        "Md52": 0,
-        "Md12": 0,
-        "MdAno": 0,
-        "Md08": 1,
-        "Md16": 0,
-        "Md04": 1
+        "Md04": 3,
+        "Md08": 3,
+        "Md12": 3,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 3,
+        "MdAno": 3,
+        "MdTt": 3
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.304Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.373Z"
     }
   },
   {
@@ -7725,16 +7725,16 @@
         "Cont12": 12
       },
       "medianas": {
-        "Md26": 82,
-        "MdAno": 60,
-        "Md52": 60,
         "Md04": 60,
-        "MdTt": 49,
-        "Md16": 63,
+        "Md08": 62,
         "Md12": 62,
-        "Md08": 62
+        "Md16": 63,
+        "Md26": 82,
+        "Md52": 63,
+        "MdAno": 63,
+        "MdTt": 63
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.328Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:03.402Z"
     }
   },
   {
@@ -7844,16 +7844,6 @@
       "metodo": 2,
       "reposicao": 8,
       "met_est": 8,
-      "medianas": {
-        "Md52": 0,
-        "Md04": 0,
-        "Md26": 0,
-        "Md12": 0,
-        "Md08": 0,
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md16": 0
-      },
       "total_geral": 113,
       "contagens": {
         "Cont04": 0,
@@ -7865,8 +7855,18 @@
         "ContAno": 24,
         "Cont16": 6
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.363Z",
-      "maximo": 9
+      "maximo": 9,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 3,
+        "MdTt": 2
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:03.430Z"
     }
   },
   {
@@ -7973,20 +7973,20 @@
         "Cont16": 4
       },
       "tp_metodo": "4.RECENTES",
-      "reposicao": -1,
+      "reposicao": 11,
       "medianas": {
-        "Md26": 0,
-        "Md12": 0,
-        "Md04": 1,
-        "MdAno": 0,
-        "Md08": 1,
-        "Md16": 0,
-        "MdTt": 0,
-        "Md52": 0
+        "Md04": 4,
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
       },
-      "met_est": 4,
-      "metodo": 1,
-      "data_ultimo_calculo": "2026-01-07T02:20:33.393Z"
+      "met_est": 16,
+      "metodo": 4,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.460Z"
     }
   },
   {
@@ -8094,18 +8094,7 @@
         "2024_50": 0,
         "2025_50": 0
       },
-      "reposicao": -1,
       "tp_metodo": "3.INATIVOS",
-      "medianas": {
-        "Md16": 0,
-        "Md12": 0,
-        "Md04": 0,
-        "MdTt": 0,
-        "Md26": 0,
-        "MdAno": 0,
-        "Md52": 0,
-        "Md08": 0
-      },
       "total_geral": 18,
       "contagens": {
         "ContAno": 7,
@@ -8117,8 +8106,19 @@
         "Cont16": 0,
         "Cont08": 0
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.416Z",
-      "maximo": 4
+      "maximo": 4,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 1,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 1
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.483Z"
     }
   },
   {
@@ -8229,16 +8229,16 @@
       "reposicao": 89,
       "met_est": 128,
       "medianas": {
-        "Md16": 28,
-        "MdAno": 2,
-        "Md12": 30,
-        "Md52": 0,
-        "Md08": 32,
         "Md04": 31,
-        "MdTt": 0,
-        "Md26": 25
+        "Md08": 32,
+        "Md12": 30,
+        "Md16": 28,
+        "Md26": 25,
+        "Md52": 25,
+        "MdAno": 25,
+        "MdTt": 25
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.445Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:03.508Z"
     }
   },
   {
@@ -8347,18 +8347,7 @@
       "maximo": 17,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 2,
-      "reposicao": -2,
       "met_est": 8,
-      "medianas": {
-        "MdAno": 0,
-        "Md52": 0,
-        "Md04": 0,
-        "Md08": 0,
-        "MdTt": 0,
-        "Md26": 0,
-        "Md16": 0,
-        "Md12": 0
-      },
       "total_geral": 113,
       "contagens": {
         "Cont04": 1,
@@ -8370,7 +8359,18 @@
         "Cont26": 10,
         "ContTt": 17
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.476Z"
+      "medianas": {
+        "Md04": 2,
+        "Md08": 2,
+        "Md12": 5,
+        "Md16": 11,
+        "Md26": 8,
+        "Md52": 5,
+        "MdAno": 5,
+        "MdTt": 5
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.536Z"
     }
   },
   {
@@ -8490,19 +8490,19 @@
         "ContAno": 3
       },
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -3,
       "met_est": 0,
       "medianas": {
-        "MdTt": 0,
+        "Md04": 0,
         "Md08": 0,
-        "Md26": 0,
-        "MdAno": 0,
-        "Md52": 0,
-        "Md12": 0,
-        "Md16": 0,
-        "Md04": 0
+        "Md12": 3,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.505Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.564Z"
     }
   },
   {
@@ -8611,7 +8611,6 @@
         "2025_13": 15
       },
       "metodo": 124,
-      "reposicao": -492,
       "met_est": 496,
       "total_geral": 4102,
       "contagens": {
@@ -8625,16 +8624,17 @@
         "Cont08": 8
       },
       "medianas": {
-        "Md16": 105,
-        "Md12": 107,
-        "Md08": 110,
         "Md04": 124,
-        "MdAno": 42,
-        "MdTt": 35,
-        "Md52": 40,
-        "Md26": 94
+        "Md08": 110,
+        "Md12": 107,
+        "Md16": 105,
+        "Md26": 113,
+        "Md52": 47,
+        "MdAno": 49,
+        "MdTt": 40
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.531Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.596Z"
     }
   },
   {
@@ -8766,7 +8766,7 @@
         "MdTt": 180,
         "MdAno": 210
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.567Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:03.635Z"
     }
   },
   {
@@ -8886,19 +8886,19 @@
       },
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 19,
-      "reposicao": -24,
       "met_est": 76,
       "medianas": {
-        "MdTt": 0,
-        "Md16": 0,
-        "Md12": 0,
-        "Md04": 20,
-        "Md26": 0,
-        "MdAno": 0,
-        "Md08": 0,
-        "Md52": 0
+        "Md04": 40,
+        "Md08": 40,
+        "Md12": 40,
+        "Md16": 40,
+        "Md26": 40,
+        "Md52": 40,
+        "MdAno": 40,
+        "MdTt": 45
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.596Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.663Z"
     }
   },
   {
@@ -9008,7 +9008,6 @@
       },
       "total_geral": 19,
       "maximo": 6,
-      "reposicao": -2,
       "contagens": {
         "ContAno": 4,
         "Cont26": 2,
@@ -9021,16 +9020,17 @@
       },
       "tp_metodo": "3.INATIVOS",
       "medianas": {
-        "Md26": 0,
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md52": 0,
-        "Md16": 0,
         "Md04": 0,
+        "Md08": 0,
         "Md12": 0,
-        "Md08": 0
+        "Md16": 0,
+        "Md26": 1,
+        "Md52": 1,
+        "MdAno": 2,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.621Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.701Z"
     }
   },
   {
@@ -9138,17 +9138,6 @@
       },
       "maximo": 60,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "Md04": 0,
-        "Md26": 0,
-        "MdTt": 0,
-        "Md12": 0,
-        "MdAno": 0,
-        "Md16": 0,
-        "Md52": 0,
-        "Md08": 0
-      },
-      "reposicao": -134,
       "total_geral": 480,
       "contagens": {
         "Cont52": 11,
@@ -9161,8 +9150,19 @@
         "ContAno": 11
       },
       "met_est": 36,
-      "data_ultimo_calculo": "2026-01-07T02:20:33.650Z",
-      "metodo": 9
+      "metodo": 9,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 30,
+        "Md12": 30,
+        "Md16": 30,
+        "Md26": 30,
+        "Md52": 30,
+        "MdAno": 30,
+        "MdTt": 30
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.730Z"
     }
   },
   {
@@ -9271,7 +9271,6 @@
       },
       "maximo": 480,
       "metodo": 120,
-      "reposicao": -90,
       "met_est": 480,
       "total_geral": 8070,
       "contagens": {
@@ -9285,16 +9284,17 @@
         "Cont52": 48
       },
       "medianas": {
-        "MdTt": 90,
-        "Md16": 90,
+        "Md04": 120,
         "Md08": 90,
-        "Md52": 90,
-        "Md26": 90,
-        "MdAno": 90,
         "Md12": 90,
-        "Md04": 120
+        "Md16": 90,
+        "Md26": 90,
+        "Md52": 105,
+        "MdAno": 90,
+        "MdTt": 90
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.674Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.757Z"
     }
   },
   {
@@ -9403,7 +9403,6 @@
       },
       "maximo": 165,
       "metodo": 66,
-      "reposicao": -17,
       "met_est": 264,
       "total_geral": 4155,
       "contagens": {
@@ -9417,16 +9416,17 @@
         "Cont26": 26
       },
       "medianas": {
-        "MdAno": 54,
-        "Md12": 48,
-        "MdTt": 48,
-        "Md16": 62,
         "Md04": 66,
-        "Md52": 54,
+        "Md08": 56,
+        "Md12": 48,
+        "Md16": 62,
         "Md26": 61,
-        "Md08": 56
+        "Md52": 54,
+        "MdAno": 54,
+        "MdTt": 52
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.703Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.787Z"
     }
   },
   {
@@ -9535,18 +9535,7 @@
       "maximo": 10,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "reposicao": -26,
       "met_est": 4,
-      "medianas": {
-        "Md16": 0,
-        "MdAno": 0,
-        "Md26": 0,
-        "Md12": 0,
-        "Md08": 0,
-        "Md52": 0,
-        "MdTt": 0,
-        "Md04": 0
-      },
       "total_geral": 40,
       "contagens": {
         "ContTt": 4,
@@ -9558,7 +9547,18 @@
         "ContAno": 2,
         "Cont08": 1
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.734Z"
+      "medianas": {
+        "Md04": 0,
+        "Md08": 10,
+        "Md12": 10,
+        "Md16": 10,
+        "Md26": 10,
+        "Md52": 10,
+        "MdAno": 10,
+        "MdTt": 10
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.811Z"
     }
   },
   {
@@ -9666,17 +9666,6 @@
       },
       "maximo": 60,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "MdAno": 0,
-        "Md26": 0,
-        "Md16": 0,
-        "Md04": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "Md12": 0,
-        "Md08": 0
-      },
-      "reposicao": -56,
       "total_geral": 330,
       "contagens": {
         "Cont52": 7,
@@ -9689,8 +9678,19 @@
         "ContTt": 11
       },
       "met_est": 24,
-      "data_ultimo_calculo": "2026-01-07T02:20:33.767Z",
-      "metodo": 6
+      "metodo": 6,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 30,
+        "Md26": 30,
+        "Md52": 30,
+        "MdAno": 30,
+        "MdTt": 30
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.839Z"
     }
   },
   {
@@ -9813,16 +9813,16 @@
         "Cont12": 12
       },
       "medianas": {
+        "Md04": 105,
+        "Md08": 75,
         "Md12": 80,
         "Md16": 70,
-        "Md26": 70,
-        "MdAno": 60,
-        "Md52": 60,
-        "MdTt": 40,
-        "Md08": 75,
-        "Md04": 105
+        "Md26": 80,
+        "Md52": 70,
+        "MdAno": 70,
+        "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.795Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:03.872Z"
     }
   },
   {
@@ -9930,19 +9930,19 @@
         "Cont04": 0
       },
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -20,
       "met_est": 0,
       "medianas": {
         "Md04": 0,
-        "MdAno": 0,
-        "Md26": 0,
-        "Md12": 0,
-        "MdTt": 0,
         "Md08": 0,
-        "Md16": 0,
-        "Md52": 0
+        "Md12": 0,
+        "Md16": 20,
+        "Md26": 20,
+        "Md52": 20,
+        "MdAno": 20,
+        "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.820Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.904Z"
     }
   },
   {
@@ -10051,18 +10051,7 @@
       },
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 0,
-      "reposicao": -5,
       "met_est": 0,
-      "medianas": {
-        "Md04": 0,
-        "Md52": 0,
-        "Md26": 0,
-        "Md12": 0,
-        "Md08": 1,
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md16": 0
-      },
       "total_geral": 23,
       "contagens": {
         "Cont26": 7,
@@ -10074,7 +10063,18 @@
         "ContTt": 18,
         "ContAno": 14
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.846Z"
+      "medianas": {
+        "Md04": 1,
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 1,
+        "Md26": 1,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 1
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:03.936Z"
     }
   },
   {
@@ -10206,7 +10206,7 @@
         "Cont04": 4,
         "ContTt": 76
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.871Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:03.965Z"
     }
   },
   {
@@ -10338,7 +10338,7 @@
         "Md26": 375,
         "Md04": 420
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.900Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:03.994Z"
     }
   },
   {
@@ -10445,17 +10445,6 @@
         "2025_49": 60
       },
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "MdTt": 0,
-        "Md52": 0,
-        "MdAno": 0,
-        "Md12": 0,
-        "Md08": 0,
-        "Md26": 0,
-        "Md04": 0,
-        "Md16": 0
-      },
-      "reposicao": -78,
       "total_geral": 1740,
       "contagens": {
         "Cont12": 3,
@@ -10468,9 +10457,20 @@
         "Cont26": 6
       },
       "met_est": 132,
-      "data_ultimo_calculo": "2026-01-07T02:20:33.935Z",
       "maximo": 120,
-      "metodo": 33
+      "metodo": 33,
+      "medianas": {
+        "Md04": 60,
+        "Md08": 60,
+        "Md12": 60,
+        "Md16": 60,
+        "Md26": 60,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 60
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.022Z"
     }
   },
   {
@@ -10602,7 +10602,7 @@
         "Md08": 535,
         "Md16": 615
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.968Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:04.050Z"
     }
   },
   {
@@ -10722,19 +10722,19 @@
         "Cont04": 0
       },
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -17,
       "met_est": 0,
       "medianas": {
-        "Md12": 0,
         "Md04": 0,
-        "Md26": 0,
-        "Md16": 0,
         "Md08": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "MdAno": 0
+        "Md12": 0,
+        "Md16": 1,
+        "Md26": 1,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:33.998Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.084Z"
     }
   },
   {
@@ -10842,7 +10842,6 @@
         "2024_36": 28
       },
       "maximo": 125,
-      "reposicao": -215,
       "total_geral": 3713,
       "contagens": {
         "Cont26": 26,
@@ -10856,17 +10855,18 @@
       },
       "medianas": {
         "Md04": 13,
-        "Md52": 37,
-        "Md26": 25,
-        "Md16": 24,
-        "Md12": 25,
         "Md08": 18,
+        "Md12": 25,
+        "Md16": 24,
+        "Md26": 25,
+        "Md52": 37,
         "MdAno": 37,
-        "MdTt": 41
+        "MdTt": 42
       },
-      "met_est": 164,
-      "data_ultimo_calculo": "2026-01-07T02:20:34.022Z",
-      "metodo": 41
+      "met_est": 168,
+      "metodo": 42,
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.131Z"
     }
   },
   {
@@ -10975,18 +10975,7 @@
         "2024_50": 0,
         "2025_19": 0
       },
-      "reposicao": -153,
       "tp_metodo": "3.INATIVOS",
-      "medianas": {
-        "MdTt": 0,
-        "Md26": 0,
-        "Md12": 0,
-        "Md04": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "MdAno": 0,
-        "Md52": 0
-      },
       "total_geral": 1717,
       "contagens": {
         "Cont12": 0,
@@ -10998,7 +10987,18 @@
         "Cont08": 0,
         "Cont52": 9
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.051Z"
+      "medianas": {
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 34,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 60
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.173Z"
     }
   },
   {
@@ -11130,7 +11130,7 @@
         "MdTt": 570,
         "Md08": 945
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.084Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:04.203Z"
     }
   },
   {
@@ -11240,7 +11240,6 @@
       "total_geral": 2,
       "met_est": 0,
       "maximo": 1,
-      "reposicao": -8,
       "contagens": {
         "Cont08": 0,
         "Cont26": 0,
@@ -11253,16 +11252,17 @@
       },
       "tp_metodo": "3.INATIVOS",
       "medianas": {
+        "Md04": 0,
         "Md08": 0,
-        "Md52": 0,
-        "Md26": 0,
-        "Md16": 0,
-        "MdTt": 0,
-        "MdAno": 0,
         "Md12": 0,
-        "Md04": 0
+        "Md16": 0,
+        "Md26": 0,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.116Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.231Z"
     }
   },
   {
@@ -11393,8 +11393,8 @@
         "Md08": 200,
         "Md16": 180
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.145Z",
-      "maximo": 420
+      "maximo": 420,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.274Z"
     }
   },
   {
@@ -11526,7 +11526,7 @@
         "MdAno": 60,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.170Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:04.297Z"
     }
   },
   {
@@ -11634,19 +11634,19 @@
         "Cont04": 1
       },
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -11,
       "met_est": 0,
       "medianas": {
-        "Md52": 0,
-        "Md26": 0,
-        "Md16": 0,
-        "Md12": 0,
-        "MdAno": 0,
-        "Md08": 0,
-        "MdTt": 0,
-        "Md04": 0
+        "Md04": 1,
+        "Md08": 1,
+        "Md12": 2,
+        "Md16": 1,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.204Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.322Z"
     }
   },
   {
@@ -11754,16 +11754,6 @@
       },
       "maximo": 90,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "Md08": 0,
-        "MdTt": 0,
-        "Md12": 0,
-        "Md26": 0,
-        "Md16": 0,
-        "Md04": 0,
-        "MdAno": 0,
-        "Md52": 0
-      },
       "reposicao": 56,
       "total_geral": 750,
       "contagens": {
@@ -11777,8 +11767,18 @@
         "Cont04": 0
       },
       "met_est": 56,
-      "data_ultimo_calculo": "2026-01-07T02:20:34.233Z",
-      "metodo": 14
+      "metodo": 14,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 75,
+        "Md12": 53,
+        "Md16": 30,
+        "Md26": 30,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 60
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:04.349Z"
     }
   },
   {
@@ -11887,7 +11887,6 @@
         "2025_03": 0
       },
       "maximo": 9,
-      "reposicao": -8,
       "met_est": 12,
       "total_geral": 136,
       "contagens": {
@@ -11901,16 +11900,17 @@
         "ContAno": 39
       },
       "medianas": {
-        "Md16": 2,
-        "MdAno": 2,
+        "Md04": 3,
         "Md08": 3,
-        "Md04": 1,
-        "Md52": 2,
-        "Md12": 2,
+        "Md12": 3,
+        "Md16": 2,
         "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.266Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.377Z"
     }
   },
   {
@@ -12031,18 +12031,18 @@
         "Cont26": 14,
         "Cont12": 6
       },
+      "tp_metodo": "1.ORDINÁRIOS",
       "medianas": {
-        "MdAno": 10,
-        "Md16": 5,
-        "Md12": 5,
-        "Md26": 10,
-        "MdTt": 10,
-        "Md04": 10,
-        "Md52": 10,
-        "Md08": 20
+        "Md04": 20,
+        "Md08": 20,
+        "Md12": 20,
+        "Md16": 20,
+        "Md26": 20,
+        "Md52": 20,
+        "MdAno": 20,
+        "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.367Z",
-      "tp_metodo": "1.ORDINÁRIOS"
+      "data_ultimo_calculo": "2026-01-13T22:17:04.408Z"
     }
   },
   {
@@ -12151,18 +12151,7 @@
       "maximo": 4,
       "metodo": 0,
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -5,
       "met_est": 0,
-      "medianas": {
-        "Md12": 0,
-        "Md52": 0,
-        "Md04": 0,
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "Md26": 0
-      },
       "total_geral": 16,
       "contagens": {
         "Cont16": 2,
@@ -12174,7 +12163,18 @@
         "Cont12": 1,
         "ContAno": 7
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.398Z"
+      "medianas": {
+        "Md04": 4,
+        "Md08": 4,
+        "Md12": 4,
+        "Md16": 3,
+        "Md26": 3,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 1
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.434Z"
     }
   },
   {
@@ -12306,7 +12306,7 @@
         "Md12": 80,
         "Md16": 70
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.422Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:04.462Z"
     }
   },
   {
@@ -12416,16 +12416,6 @@
         "2025_34": 0
       },
       "tp_metodo": "3.INATIVOS",
-      "medianas": {
-        "Md16": 0,
-        "Md08": 0,
-        "Md12": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "Md04": 0,
-        "MdAno": 0,
-        "Md26": 0
-      },
       "total_geral": 25,
       "contagens": {
         "Cont12": 0,
@@ -12437,8 +12427,18 @@
         "Cont26": 0,
         "Cont52": 1
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.453Z",
-      "maximo": 25
+      "maximo": 25,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 0,
+        "Md52": 25,
+        "MdAno": 25,
+        "MdTt": 25
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:04.495Z"
     }
   },
   {
@@ -12546,7 +12546,6 @@
       },
       "maximo": 6,
       "metodo": 2,
-      "reposicao": -1,
       "met_est": 8,
       "total_geral": 98,
       "contagens": {
@@ -12559,18 +12558,19 @@
         "Cont52": 28,
         "Cont26": 13
       },
+      "tp_metodo": "1.ORDINÁRIOS",
       "medianas": {
-        "Md16": 1,
-        "Md08": 2,
         "Md04": 2,
-        "MdAno": 1,
-        "MdTt": 1,
-        "Md52": 1,
-        "Md26": 1,
-        "Md12": 1
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.488Z",
-      "tp_metodo": "1.ORDINÁRIOS"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.519Z"
     }
   },
   {
@@ -12678,19 +12678,8 @@
       },
       "maximo": 4,
       "metodo": 1,
-      "reposicao": -3,
       "met_est": 4,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "MdAno": 0,
-        "Md52": 0,
-        "Md26": 1,
-        "Md12": 1,
-        "Md04": 1,
-        "MdTt": 0,
-        "Md16": 1,
-        "Md08": 1
-      },
       "total_geral": 50,
       "contagens": {
         "Cont16": 10,
@@ -12702,7 +12691,18 @@
         "ContTt": 37,
         "Cont52": 25
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.519Z"
+      "medianas": {
+        "Md04": 1,
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 1,
+        "Md26": 1,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 1
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.544Z"
     }
   },
   {
@@ -12809,7 +12809,6 @@
         "2024_50": 60
       },
       "maximo": 180,
-      "reposicao": 0,
       "total_geral": 3780,
       "contagens": {
         "Cont16": 7,
@@ -12821,20 +12820,21 @@
         "Cont12": 5,
         "Cont04": 1
       },
-      "medianas": {
-        "Md26": 15,
-        "Md08": 0,
-        "MdAno": 45,
-        "Md52": 30,
-        "Md04": 0,
-        "MdTt": 30,
-        "Md12": 0,
-        "Md16": 0
-      },
-      "met_est": 180,
-      "data_ultimo_calculo": "2026-01-07T02:20:34.545Z",
       "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 45
+      "reposicao": 540,
+      "medianas": {
+        "Md04": 180,
+        "Md08": 135,
+        "Md12": 90,
+        "Md16": 90,
+        "Md26": 90,
+        "Md52": 90,
+        "MdAno": 90,
+        "MdTt": 60
+      },
+      "met_est": 720,
+      "metodo": 180,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.569Z"
     }
   },
   {
@@ -12945,16 +12945,6 @@
       "metodo": 7,
       "reposicao": 28,
       "met_est": 28,
-      "medianas": {
-        "MdAno": 0,
-        "Md08": 0,
-        "Md04": 0,
-        "Md16": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "Md26": 0,
-        "Md12": 0
-      },
       "total_geral": 380,
       "contagens": {
         "ContTt": 10,
@@ -12966,7 +12956,17 @@
         "Cont52": 10,
         "Cont16": 4
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.577Z"
+      "medianas": {
+        "Md04": 40,
+        "Md08": 40,
+        "Md12": 40,
+        "Md16": 40,
+        "Md26": 40,
+        "Md52": 40,
+        "MdAno": 40,
+        "MdTt": 40
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:04.600Z"
     }
   },
   {
@@ -13075,18 +13075,7 @@
       "maximo": 6,
       "metodo": 1,
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -3,
       "met_est": 4,
-      "medianas": {
-        "MdAno": 0,
-        "Md08": 1,
-        "MdTt": 0,
-        "Md12": 0,
-        "Md52": 0,
-        "Md26": 0,
-        "Md16": 0,
-        "Md04": 1
-      },
       "total_geral": 70,
       "contagens": {
         "Cont52": 17,
@@ -13098,7 +13087,18 @@
         "Cont26": 7,
         "ContTt": 31
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.603Z"
+      "medianas": {
+        "Md04": 1,
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 1,
+        "Md26": 1,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.637Z"
     }
   },
   {
@@ -13205,9 +13205,6 @@
         "2024_27": 0,
         "2025_20": 14
       },
-      "reposicao": -400,
-      "met_est": 224,
-      "metodo": 56,
       "total_geral": 3737,
       "contagens": {
         "Cont16": 11,
@@ -13219,18 +13216,21 @@
         "Cont26": 21,
         "Cont12": 7
       },
+      "maximo": 175,
       "medianas": {
-        "MdTt": 42,
-        "MdAno": 56,
-        "Md08": 21,
-        "Md52": 56,
-        "Md12": 35,
+        "Md04": 91,
+        "Md08": 72,
+        "Md12": 56,
+        "Md16": 84,
         "Md26": 56,
-        "Md04": 21,
-        "Md16": 56
+        "Md52": 56,
+        "MdAno": 56,
+        "MdTt": 56
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.654Z",
-      "maximo": 175
+      "met_est": 364,
+      "metodo": 91,
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.662Z"
     }
   },
   {
@@ -13350,19 +13350,19 @@
       },
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 8,
-      "reposicao": -48,
       "met_est": 32,
       "medianas": {
-        "Md08": 0,
-        "Md52": 0,
-        "MdAno": 0,
-        "Md12": 0,
-        "Md16": 0,
         "Md04": 0,
-        "MdTt": 0,
-        "Md26": 0
+        "Md08": 60,
+        "Md12": 60,
+        "Md16": 60,
+        "Md26": 60,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.684Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.697Z"
     }
   },
   {
@@ -13493,8 +13493,8 @@
         "Md26": 120,
         "Md08": 120
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.725Z",
-      "maximo": 330
+      "maximo": 330,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.724Z"
     }
   },
   {
@@ -13626,7 +13626,7 @@
         "MdTt": 240,
         "Md26": 270
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.753Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:04.749Z"
     }
   },
   {
@@ -13749,16 +13749,16 @@
       },
       "tp_metodo": "3.INATIVOS",
       "medianas": {
-        "MdTt": 0,
+        "Md04": 0,
+        "Md08": 0,
         "Md12": 0,
         "Md16": 0,
-        "Md04": 0,
-        "Md26": 0,
-        "MdAno": 0,
-        "Md08": 0,
-        "Md52": 0
+        "Md26": 60,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 40
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.779Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:04.781Z"
     }
   },
   {
@@ -13867,18 +13867,7 @@
       },
       "maximo": 15,
       "metodo": 6,
-      "reposicao": -1,
       "met_est": 24,
-      "medianas": {
-        "Md26": 5,
-        "MdAno": 4,
-        "Md52": 4,
-        "Md12": 5,
-        "Md08": 5,
-        "Md04": 4,
-        "Md16": 6,
-        "MdTt": 3
-      },
       "total_geral": 286,
       "contagens": {
         "Cont52": 47,
@@ -13890,7 +13879,18 @@
         "ContTt": 64,
         "Cont04": 4
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.803Z"
+      "medianas": {
+        "Md04": 4,
+        "Md08": 5,
+        "Md12": 5,
+        "Md16": 6,
+        "Md26": 5,
+        "Md52": 4,
+        "MdAno": 4,
+        "MdTt": 4
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.809Z"
     }
   },
   {
@@ -14010,19 +14010,19 @@
       },
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 15,
-      "reposicao": -150,
       "met_est": 60,
       "medianas": {
-        "Md12": 0,
-        "Md08": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "Md16": 0,
-        "MdAno": 0,
-        "Md26": 0,
-        "Md04": 0
+        "Md04": 30,
+        "Md08": 30,
+        "Md12": 30,
+        "Md16": 30,
+        "Md26": 30,
+        "Md52": 30,
+        "MdAno": 30,
+        "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.834Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.838Z"
     }
   },
   {
@@ -14154,7 +14154,7 @@
         "MdAno": 378,
         "Md16": 503
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.892Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:04.868Z"
     }
   },
   {
@@ -14261,7 +14261,6 @@
         "2025_29": 30
       },
       "maximo": 140,
-      "reposicao": -175,
       "total_geral": 2405,
       "contagens": {
         "Cont16": 9,
@@ -14273,20 +14272,21 @@
         "ContAno": 29,
         "Cont26": 15
       },
-      "medianas": {
-        "Md08": 35,
-        "Md52": 30,
-        "Md26": 30,
-        "Md16": 49,
-        "Md04": 0,
-        "MdAno": 30,
-        "Md12": 70,
-        "MdTt": 0
-      },
-      "met_est": 280,
-      "data_ultimo_calculo": "2026-01-07T02:20:34.921Z",
       "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 70
+      "reposicao": 105,
+      "medianas": {
+        "Md04": 140,
+        "Md08": 105,
+        "Md12": 70,
+        "Md16": 70,
+        "Md26": 70,
+        "Md52": 65,
+        "MdAno": 70,
+        "MdTt": 70
+      },
+      "met_est": 560,
+      "metodo": 140,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.895Z"
     }
   },
   {
@@ -14409,16 +14409,16 @@
         "Cont26": 26
       },
       "medianas": {
-        "Md26": 120,
         "Md04": 90,
-        "Md12": 120,
-        "MdAno": 120,
-        "MdTt": 90,
-        "Md52": 120,
         "Md08": 120,
-        "Md16": 135
+        "Md12": 120,
+        "Md16": 135,
+        "Md26": 120,
+        "Md52": 120,
+        "MdAno": 120,
+        "MdTt": 105
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.954Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:04.923Z"
     }
   },
   {
@@ -14526,18 +14526,7 @@
       },
       "met_est": 0,
       "metodo": 0,
-      "reposicao": -315,
       "tp_metodo": "3.INATIVOS",
-      "medianas": {
-        "MdAno": 0,
-        "MdTt": 0,
-        "Md12": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "Md04": 0,
-        "Md52": 0,
-        "Md26": 0
-      },
       "total_geral": 35,
       "contagens": {
         "Cont26": 0,
@@ -14549,8 +14538,19 @@
         "Cont12": 0,
         "Cont04": 0
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:34.983Z",
-      "maximo": 35
+      "maximo": 35,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 0,
+        "Md52": 35,
+        "MdAno": 35,
+        "MdTt": 35
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:04.956Z"
     }
   },
   {
@@ -14661,16 +14661,6 @@
       },
       "reposicao": 3,
       "met_est": 8,
-      "medianas": {
-        "Md26": 1,
-        "Md16": 1,
-        "Md08": 1,
-        "Md04": 2,
-        "MdTt": 1,
-        "Md52": 1,
-        "Md12": 1,
-        "MdAno": 1
-      },
       "total_geral": 147,
       "contagens": {
         "Cont04": 3,
@@ -14682,7 +14672,17 @@
         "ContAno": 37,
         "Cont12": 7
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.006Z"
+      "medianas": {
+        "Md04": 2,
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:04.986Z"
     }
   },
   {
@@ -14790,19 +14790,19 @@
         "ContTt": 1
       },
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -6,
       "met_est": 0,
       "medianas": {
-        "Md12": 0,
         "Md04": 0,
         "Md08": 0,
-        "Md16": 0,
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md52": 0,
-        "Md26": 0
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.036Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.018Z"
     }
   },
   {
@@ -14910,9 +14910,6 @@
         "2025_48": 60
       },
       "maximo": 420,
-      "reposicao": 30,
-      "met_est": 720,
-      "metodo": 180,
       "total_geral": 11490,
       "contagens": {
         "Cont52": 48,
@@ -14924,17 +14921,20 @@
         "Cont12": 11,
         "ContTt": 70
       },
+      "reposicao": 150,
       "medianas": {
-        "Md16": 150,
-        "Md12": 150,
-        "MdTt": 120,
-        "Md04": 135,
-        "MdAno": 150,
-        "Md52": 150,
-        "Md26": 180,
-        "Md08": 120
+        "Md04": 210,
+        "Md08": 180,
+        "Md12": 180,
+        "Md16": 180,
+        "Md26": 195,
+        "Md52": 180,
+        "MdAno": 180,
+        "MdTt": 150
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.061Z"
+      "met_est": 840,
+      "metodo": 210,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.045Z"
     }
   },
   {
@@ -15043,7 +15043,6 @@
       },
       "maximo": 400,
       "metodo": 190,
-      "reposicao": -60,
       "met_est": 760,
       "total_geral": 12961,
       "contagens": {
@@ -15057,16 +15056,17 @@
         "Cont08": 8
       },
       "medianas": {
-        "Md52": 170,
-        "Md16": 190,
-        "Md08": 150,
-        "MdAno": 170,
-        "Md26": 170,
-        "Md12": 160,
         "Md04": 170,
-        "MdTt": 150
+        "Md08": 150,
+        "Md12": 160,
+        "Md16": 190,
+        "Md26": 170,
+        "Md52": 180,
+        "MdAno": 170,
+        "MdTt": 155
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.114Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.075Z"
     }
   },
   {
@@ -15175,7 +15175,6 @@
       },
       "maximo": 10,
       "metodo": 3,
-      "reposicao": -7,
       "met_est": 12,
       "total_geral": 178,
       "contagens": {
@@ -15189,16 +15188,17 @@
         "Cont52": 44
       },
       "medianas": {
-        "Md12": 2,
-        "Md08": 2,
-        "MdAno": 2,
-        "MdTt": 2,
-        "Md52": 2,
-        "Md16": 1,
         "Md04": 3,
-        "Md26": 1
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.146Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.107Z"
     }
   },
   {
@@ -15321,16 +15321,16 @@
       },
       "tp_metodo": "3.INATIVOS",
       "medianas": {
-        "MdTt": 0,
-        "Md12": 0,
-        "Md52": 0,
         "Md04": 0,
-        "Md26": 0,
+        "Md08": 0,
+        "Md12": 0,
         "Md16": 0,
-        "MdAno": 0,
-        "Md08": 0
+        "Md26": 0,
+        "Md52": 20,
+        "MdAno": 20,
+        "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.171Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:05.137Z"
     }
   },
   {
@@ -15439,7 +15439,6 @@
       },
       "maximo": 340,
       "metodo": 80,
-      "reposicao": -80,
       "met_est": 320,
       "total_geral": 7580,
       "contagens": {
@@ -15453,16 +15452,17 @@
         "Cont26": 24
       },
       "medianas": {
-        "Md04": 40,
-        "MdTt": 80,
-        "Md26": 70,
+        "Md04": 50,
         "Md08": 80,
-        "MdAno": 73,
-        "Md16": 78,
-        "Md52": 73,
-        "Md12": 80
+        "Md12": 80,
+        "Md16": 80,
+        "Md26": 73,
+        "Md52": 80,
+        "MdAno": 80,
+        "MdTt": 80
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.195Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.168Z"
     }
   },
   {
@@ -15573,16 +15573,6 @@
       "metodo": 1,
       "reposicao": 0,
       "met_est": 4,
-      "medianas": {
-        "MdAno": 0,
-        "Md52": 0,
-        "Md26": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "MdTt": 0,
-        "Md12": 0,
-        "Md04": 0
-      },
       "total_geral": 49,
       "contagens": {
         "Cont12": 1,
@@ -15594,7 +15584,17 @@
         "ContAno": 7,
         "Cont52": 8
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.223Z"
+      "medianas": {
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 6,
+        "Md16": 6,
+        "Md26": 6,
+        "Md52": 6,
+        "MdAno": 6,
+        "MdTt": 6
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:05.200Z"
     }
   },
   {
@@ -15702,9 +15702,6 @@
         "2025_04": 6
       },
       "maximo": 22,
-      "reposicao": -26,
-      "met_est": 24,
-      "metodo": 6,
       "total_geral": 405,
       "contagens": {
         "Cont26": 15,
@@ -15717,16 +15714,19 @@
         "Cont16": 10
       },
       "medianas": {
-        "Md04": 3,
-        "Md08": 3,
-        "MdTt": 5,
-        "MdAno": 6,
+        "Md04": 12,
+        "Md08": 6,
+        "Md12": 8,
+        "Md16": 9,
+        "Md26": 7,
         "Md52": 6,
-        "Md26": 4,
-        "Md16": 6,
-        "Md12": 3
+        "MdAno": 6,
+        "MdTt": 6
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.251Z"
+      "met_est": 48,
+      "metodo": 12,
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.232Z"
     }
   },
   {
@@ -15846,19 +15846,19 @@
         "Cont04": 0
       },
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -6,
       "met_est": 0,
       "medianas": {
-        "MdTt": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "MdAno": 0,
-        "Md26": 0,
         "Md04": 0,
-        "Md52": 0,
-        "Md12": 0
+        "Md08": 0,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.279Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.254Z"
     }
   },
   {
@@ -15990,7 +15990,7 @@
         "Md16": 1279,
         "Md08": 1279
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.331Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:05.284Z"
     }
   },
   {
@@ -16098,9 +16098,6 @@
         "2024_32": 80
       },
       "maximo": 280,
-      "reposicao": 230,
-      "met_est": 520,
-      "metodo": 130,
       "total_geral": 9105,
       "contagens": {
         "Cont12": 12,
@@ -16112,17 +16109,20 @@
         "Cont52": 51,
         "Cont08": 8
       },
+      "reposicao": 270,
       "medianas": {
-        "Md12": 130,
         "Md04": 130,
-        "MdTt": 120,
         "Md08": 120,
-        "Md16": 130,
+        "Md12": 130,
+        "Md16": 140,
         "Md26": 120,
+        "Md52": 120,
         "MdAno": 120,
-        "Md52": 120
+        "MdTt": 120
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.356Z"
+      "met_est": 560,
+      "metodo": 140,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.315Z"
     }
   },
   {
@@ -16217,9 +16217,6 @@
       "cod_item": "002.000.068",
       "tp_metodo": "1.ORDINÁRIOS",
       "ultima_semana_calculo": "2025_50",
-      "reposicao": -60,
-      "met_est": 120,
-      "metodo": 30,
       "total_geral": 2895,
       "contagens": {
         "ContAno": 33,
@@ -16231,18 +16228,21 @@
         "Cont52": 33,
         "Cont12": 7
       },
+      "maximo": 240,
+      "reposicao": 60,
+      "met_est": 240,
+      "metodo": 60,
       "medianas": {
-        "MdAno": 30,
-        "Md26": 30,
-        "Md52": 30,
+        "Md04": 45,
+        "Md08": 30,
         "Md12": 30,
-        "Md08": 15,
-        "Md16": 30,
-        "MdTt": 30,
-        "Md04": 15
+        "Md16": 45,
+        "Md26": 60,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.384Z",
-      "maximo": 240
+      "data_ultimo_calculo": "2026-01-13T22:17:05.360Z"
     }
   },
   {
@@ -16348,7 +16348,6 @@
         "2024_33": 0
       },
       "maximo": 200,
-      "reposicao": -345,
       "total_geral": 2425,
       "contagens": {
         "Cont26": 14,
@@ -16360,20 +16359,21 @@
         "Cont16": 10,
         "Cont04": 3
       },
-      "medianas": {
-        "MdTt": 25,
-        "Md08": 13,
-        "MdAno": 13,
-        "Md26": 28,
-        "Md16": 30,
-        "Md52": 13,
-        "Md12": 28,
-        "Md04": 28
-      },
-      "met_est": 120,
-      "data_ultimo_calculo": "2026-01-07T02:20:35.411Z",
       "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 30
+      "met_est": 200,
+      "metodo": 50,
+      "medianas": {
+        "Md04": 30,
+        "Md08": 30,
+        "Md12": 30,
+        "Md16": 30,
+        "Md26": 30,
+        "Md52": 30,
+        "MdAno": 30,
+        "MdTt": 50
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.390Z"
     }
   },
   {
@@ -16481,17 +16481,6 @@
       },
       "maximo": 200,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "Md12": 0,
-        "MdTt": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "MdAno": 0,
-        "Md26": 0,
-        "Md52": 0,
-        "Md04": 0
-      },
-      "reposicao": -76,
       "total_geral": 1600,
       "contagens": {
         "Cont26": 5,
@@ -16504,8 +16493,19 @@
         "Cont04": 1
       },
       "met_est": 124,
-      "data_ultimo_calculo": "2026-01-07T02:20:35.437Z",
-      "metodo": 31
+      "metodo": 31,
+      "medianas": {
+        "Md04": 100,
+        "Md08": 100,
+        "Md12": 100,
+        "Md16": 100,
+        "Md26": 100,
+        "Md52": 100,
+        "MdAno": 100,
+        "MdTt": 100
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.419Z"
     }
   },
   {
@@ -16616,16 +16616,6 @@
       "metodo": 3,
       "reposicao": 5,
       "met_est": 12,
-      "medianas": {
-        "Md08": 0,
-        "Md52": 0,
-        "Md04": 2,
-        "MdAno": 0,
-        "Md26": 0,
-        "Md16": 0,
-        "Md12": 0,
-        "MdTt": 0
-      },
       "total_geral": 169,
       "contagens": {
         "ContAno": 15,
@@ -16637,7 +16627,17 @@
         "Cont52": 15,
         "Cont16": 5
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.470Z"
+      "medianas": {
+        "Md04": 5,
+        "Md08": 5,
+        "Md12": 8,
+        "Md16": 5,
+        "Md26": 10,
+        "Md52": 10,
+        "MdAno": 10,
+        "MdTt": 5
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:05.489Z"
     }
   },
   {
@@ -16748,16 +16748,6 @@
       "metodo": 6,
       "reposicao": 1,
       "met_est": 24,
-      "medianas": {
-        "MdTt": 6,
-        "Md26": 6,
-        "Md04": 2,
-        "Md52": 6,
-        "Md08": 3,
-        "MdAno": 6,
-        "Md16": 5,
-        "Md12": 3
-      },
       "total_geral": 512,
       "contagens": {
         "Cont04": 3,
@@ -16769,7 +16759,17 @@
         "ContAno": 49,
         "Cont16": 15
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.500Z"
+      "medianas": {
+        "Md04": 3,
+        "Md08": 3,
+        "Md12": 3,
+        "Md16": 5,
+        "Md26": 6,
+        "Md52": 6,
+        "MdAno": 6,
+        "MdTt": 6
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:05.531Z"
     }
   },
   {
@@ -16865,19 +16865,6 @@
       "maximo": 700,
       "tp_metodo": "1.ORDINÁRIOS",
       "ultima_semana_calculo": "2025_50",
-      "reposicao": 100,
-      "met_est": 900,
-      "metodo": 225,
-      "medianas": {
-        "Md16": 200,
-        "Md12": 225,
-        "Md04": 200,
-        "MdAno": 200,
-        "Md52": 200,
-        "Md26": 200,
-        "MdTt": 200,
-        "Md08": 200
-      },
       "total_geral": 16375,
       "contagens": {
         "ContTt": 71,
@@ -16889,7 +16876,20 @@
         "Cont16": 15,
         "Cont04": 3
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.552Z"
+      "reposicao": 200,
+      "medianas": {
+        "Md04": 200,
+        "Md08": 200,
+        "Md12": 250,
+        "Md16": 200,
+        "Md26": 200,
+        "Md52": 225,
+        "MdAno": 225,
+        "MdTt": 200
+      },
+      "met_est": 1000,
+      "metodo": 250,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.557Z"
     }
   },
   {
@@ -16997,17 +16997,6 @@
       },
       "maximo": 300,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "Md26": 0,
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md16": 0,
-        "Md04": 0,
-        "Md52": 0,
-        "Md12": 0,
-        "Md08": 0
-      },
-      "reposicao": -72,
       "total_geral": 1680,
       "contagens": {
         "Cont04": 0,
@@ -17020,8 +17009,19 @@
         "Cont52": 11
       },
       "met_est": 128,
-      "data_ultimo_calculo": "2026-01-07T02:20:35.577Z",
-      "metodo": 32
+      "metodo": 32,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 150,
+        "Md12": 150,
+        "Md16": 240,
+        "Md26": 120,
+        "Md52": 120,
+        "MdAno": 120,
+        "MdTt": 120
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.592Z"
     }
   },
   {
@@ -17128,7 +17128,6 @@
         "2024_48": 0
       },
       "maximo": 70,
-      "reposicao": -22,
       "total_geral": 880,
       "contagens": {
         "ContAno": 24,
@@ -17140,20 +17139,21 @@
         "Cont26": 14,
         "Cont16": 8
       },
-      "medianas": {
-        "MdTt": 10,
-        "Md12": 4,
-        "Md08": 7,
-        "MdAno": 0,
-        "Md16": 4,
-        "Md26": 7,
-        "Md04": 9,
-        "Md52": 4
-      },
-      "met_est": 40,
-      "data_ultimo_calculo": "2026-01-07T02:20:35.601Z",
       "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 10
+      "reposicao": 18,
+      "met_est": 80,
+      "metodo": 20,
+      "medianas": {
+        "Md04": 9,
+        "Md08": 10,
+        "Md12": 10,
+        "Md16": 12,
+        "Md26": 17,
+        "Md52": 20,
+        "MdAno": 20,
+        "MdTt": 20
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:05.621Z"
     }
   },
   {
@@ -17261,17 +17261,6 @@
         "2024_41": 0
       },
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "Md52": 0,
-        "Md04": 0,
-        "MdTt": 0,
-        "Md12": 0,
-        "Md08": 0,
-        "MdAno": 0,
-        "Md26": 0,
-        "Md16": 0
-      },
-      "reposicao": -18,
       "total_geral": 960,
       "contagens": {
         "Cont26": 7,
@@ -17284,8 +17273,19 @@
         "ContAno": 17
       },
       "met_est": 72,
-      "data_ultimo_calculo": "2026-01-07T02:20:35.629Z",
-      "metodo": 18
+      "metodo": 18,
+      "medianas": {
+        "Md04": 30,
+        "Md08": 75,
+        "Md12": 75,
+        "Md16": 30,
+        "Md26": 30,
+        "Md52": 30,
+        "MdAno": 30,
+        "MdTt": 30
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.649Z"
     }
   },
   {
@@ -17393,17 +17393,6 @@
       },
       "maximo": 60,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md26": 0,
-        "Md08": 0,
-        "Md16": 0,
-        "Md04": 0,
-        "Md52": 0,
-        "Md12": 0
-      },
-      "reposicao": -60,
       "total_geral": 755,
       "contagens": {
         "ContAno": 16,
@@ -17416,8 +17405,19 @@
         "Cont26": 8
       },
       "met_est": 60,
-      "data_ultimo_calculo": "2026-01-07T02:20:35.660Z",
-      "metodo": 15
+      "metodo": 15,
+      "medianas": {
+        "Md04": 30,
+        "Md08": 30,
+        "Md12": 30,
+        "Md16": 30,
+        "Md26": 30,
+        "Md52": 30,
+        "MdAno": 30,
+        "MdTt": 30
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.687Z"
     }
   },
   {
@@ -17524,16 +17524,6 @@
         "2024_34": 30
       },
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "Md52": 0,
-        "MdTt": 0,
-        "Md12": 40,
-        "Md08": 20,
-        "Md26": 20,
-        "Md04": 40,
-        "MdAno": 0,
-        "Md16": 20
-      },
       "reposicao": 24,
       "total_geral": 2110,
       "contagens": {
@@ -17547,8 +17537,18 @@
         "Cont08": 5
       },
       "met_est": 164,
-      "data_ultimo_calculo": "2026-01-07T02:20:35.687Z",
-      "metodo": 41
+      "metodo": 41,
+      "medianas": {
+        "Md04": 40,
+        "Md08": 60,
+        "Md12": 60,
+        "Md16": 60,
+        "Md26": 60,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 60
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:05.717Z"
     }
   },
   {
@@ -17655,7 +17655,6 @@
         "2024_36": 0,
         "2024_34": 0
       },
-      "reposicao": -540,
       "total_geral": 2820,
       "contagens": {
         "Cont08": 4,
@@ -17667,20 +17666,21 @@
         "ContTt": 36,
         "Cont26": 16
       },
-      "medianas": {
-        "Md52": 30,
-        "MdAno": 30,
-        "Md26": 60,
-        "Md08": 30,
-        "Md16": 60,
-        "Md04": 60,
-        "MdTt": 0,
-        "Md12": 45
-      },
-      "met_est": 240,
-      "data_ultimo_calculo": "2026-01-07T02:20:35.714Z",
       "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 60
+      "medianas": {
+        "Md04": 60,
+        "Md08": 120,
+        "Md12": 60,
+        "Md16": 75,
+        "Md26": 60,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 60
+      },
+      "met_est": 480,
+      "metodo": 120,
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.743Z"
     }
   },
   {
@@ -17800,19 +17800,19 @@
       },
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 5,
-      "reposicao": -50,
       "met_est": 20,
       "medianas": {
-        "Md08": 0,
         "Md04": 0,
-        "MdTt": 0,
+        "Md08": 0,
         "Md12": 0,
-        "Md26": 0,
-        "MdAno": 0,
-        "Md16": 0,
-        "Md52": 0
+        "Md16": 30,
+        "Md26": 30,
+        "Md52": 30,
+        "MdAno": 30,
+        "MdTt": 120
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.755Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.779Z"
     }
   },
   {
@@ -17919,20 +17919,9 @@
         "2025_29": 0
       },
       "maximo": 4,
-      "reposicao": -5,
       "met_est": 4,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "medianas": {
-        "MdAno": 0,
-        "MdTt": 0,
-        "Md16": 1,
-        "Md08": 1,
-        "Md26": 0,
-        "Md52": 0,
-        "Md04": 2,
-        "Md12": 1
-      },
       "total_geral": 61,
       "contagens": {
         "ContTt": 34,
@@ -17944,7 +17933,18 @@
         "Cont26": 12,
         "Cont08": 5
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.780Z"
+      "medianas": {
+        "Md04": 2,
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 1,
+        "Md26": 1,
+        "Md52": 2,
+        "MdAno": 1,
+        "MdTt": 2
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.803Z"
     }
   },
   {
@@ -18052,9 +18052,6 @@
         "2024_46": 30
       },
       "maximo": 540,
-      "reposicao": 480,
-      "met_est": 1260,
-      "metodo": 315,
       "total_geral": 13950,
       "contagens": {
         "Cont26": 24,
@@ -18066,17 +18063,20 @@
         "Cont52": 49,
         "Cont12": 11
       },
+      "reposicao": 900,
       "medianas": {
-        "Md04": 315,
-        "MdAno": 180,
-        "MdTt": 150,
-        "Md08": 255,
+        "Md04": 420,
+        "Md08": 270,
+        "Md12": 240,
+        "Md16": 240,
         "Md26": 210,
-        "Md16": 225,
-        "Md12": 225,
-        "Md52": 180
+        "Md52": 180,
+        "MdAno": 180,
+        "MdTt": 180
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.807Z"
+      "met_est": 1680,
+      "metodo": 420,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.831Z"
     }
   },
   {
@@ -18183,7 +18183,6 @@
         "2024_45": 40
       },
       "maximo": 120,
-      "reposicao": -170,
       "total_geral": 1901,
       "contagens": {
         "ContTt": 45,
@@ -18195,20 +18194,21 @@
         "Cont16": 10,
         "Cont08": 4
       },
+      "tp_metodo": "1.ORDINÁRIOS",
+      "met_est": 160,
+      "metodo": 40,
       "medianas": {
         "Md04": 0,
-        "MdTt": 20,
-        "Md52": 20,
-        "MdAno": 20,
-        "Md26": 20,
-        "Md16": 20,
-        "Md08": 10,
-        "Md12": 10
+        "Md08": 20,
+        "Md12": 30,
+        "Md16": 30,
+        "Md26": 21,
+        "Md52": 40,
+        "MdAno": 40,
+        "MdTt": 40
       },
-      "met_est": 80,
-      "data_ultimo_calculo": "2026-01-07T02:20:35.835Z",
-      "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 20
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.857Z"
     }
   },
   {
@@ -18316,7 +18316,6 @@
         "2025_12": 50
       },
       "maximo": 250,
-      "reposicao": -70,
       "total_geral": 4410,
       "contagens": {
         "Cont26": 20,
@@ -18328,19 +18327,20 @@
         "ContAno": 43,
         "Cont16": 13
       },
-      "medianas": {
-        "Md26": 30,
-        "Md04": 45,
-        "MdTt": 50,
-        "Md12": 30,
-        "Md08": 30,
-        "Md52": 45,
-        "Md16": 30,
-        "MdAno": 50
-      },
       "met_est": 200,
-      "data_ultimo_calculo": "2026-01-07T02:20:35.863Z",
-      "metodo": 50
+      "metodo": 50,
+      "medianas": {
+        "Md04": 45,
+        "Md08": 30,
+        "Md12": 30,
+        "Md16": 30,
+        "Md26": 40,
+        "Md52": 50,
+        "MdAno": 50,
+        "MdTt": 50
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.885Z"
     }
   },
   {
@@ -18448,19 +18448,6 @@
         "2024_46": 0
       },
       "maximo": 6,
-      "reposicao": -5,
-      "medianas": {
-        "MdAno": 1,
-        "Md04": 1,
-        "Md52": 1,
-        "MdTt": 1,
-        "Md26": 1,
-        "Md12": 1,
-        "Md08": 1,
-        "Md16": 1
-      },
-      "met_est": 4,
-      "metodo": 1,
       "total_geral": 81,
       "contagens": {
         "ContTt": 44,
@@ -18472,7 +18459,20 @@
         "Cont52": 33,
         "Cont16": 13
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.893Z"
+      "met_est": 8,
+      "metodo": 2,
+      "medianas": {
+        "Md04": 1,
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 1,
+        "Md26": 1,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 1
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.914Z"
     }
   },
   {
@@ -18581,18 +18581,7 @@
       "maximo": 3,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "reposicao": -6,
       "met_est": 4,
-      "medianas": {
-        "Md12": 0,
-        "MdTt": 0,
-        "Md16": 0,
-        "MdAno": 0,
-        "Md26": 0,
-        "Md08": 0,
-        "Md52": 0,
-        "Md04": 0
-      },
       "total_geral": 50,
       "contagens": {
         "ContTt": 33,
@@ -18604,7 +18593,18 @@
         "Cont08": 1,
         "Cont12": 3
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.921Z"
+      "medianas": {
+        "Md04": 0,
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 1,
+        "Md26": 1,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 1
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.945Z"
     }
   },
   {
@@ -18712,9 +18712,6 @@
         "2024_39": 0
       },
       "maximo": 110,
-      "reposicao": -340,
-      "met_est": 80,
-      "metodo": 20,
       "total_geral": 1800,
       "contagens": {
         "Cont52": 32,
@@ -18727,16 +18724,19 @@
         "Cont04": 0
       },
       "medianas": {
-        "Md26": 20,
-        "Md16": 15,
-        "MdAno": 20,
-        "Md52": 20,
-        "Md08": 0,
-        "MdTt": 20,
-        "Md12": 15,
-        "Md04": 0
+        "Md04": 0,
+        "Md08": 30,
+        "Md12": 40,
+        "Md16": 50,
+        "Md26": 30,
+        "Md52": 30,
+        "MdAno": 30,
+        "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.950Z"
+      "met_est": 200,
+      "metodo": 50,
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:05.982Z"
     }
   },
   {
@@ -18844,9 +18844,6 @@
         "2024_47": 0
       },
       "maximo": 8,
-      "reposicao": -11,
-      "met_est": 8,
-      "metodo": 2,
       "total_geral": 96,
       "contagens": {
         "Cont16": 9,
@@ -18859,16 +18856,19 @@
         "Cont04": 3
       },
       "medianas": {
-        "Md12": 1,
-        "Md08": 0,
-        "MdTt": 1,
-        "MdAno": 1,
         "Md04": 2,
-        "Md52": 1,
-        "Md26": 1,
-        "Md16": 1
+        "Md08": 2,
+        "Md12": 3,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:35.984Z"
+      "met_est": 12,
+      "metodo": 3,
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.010Z"
     }
   },
   {
@@ -18990,16 +18990,16 @@
       },
       "tp_metodo": "3.INATIVOS",
       "medianas": {
-        "Md52": 0,
-        "MdTt": 0,
-        "Md16": 0,
-        "MdAno": 0,
         "Md04": 0,
-        "Md26": 0,
+        "Md08": 0,
         "Md12": 0,
-        "Md08": 0
+        "Md16": 0,
+        "Md26": 0,
+        "Md52": 0,
+        "MdAno": 0,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.015Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:06.039Z"
     }
   },
   {
@@ -19121,16 +19121,16 @@
       },
       "tp_metodo": "3.INATIVOS",
       "medianas": {
-        "MdAno": 0,
-        "Md12": 0,
-        "Md52": 0,
-        "Md26": 0,
-        "MdTt": 0,
-        "Md16": 0,
+        "Md04": 0,
         "Md08": 0,
-        "Md04": 0
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 0,
+        "Md52": 0,
+        "MdAno": 0,
+        "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.038Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:06.067Z"
     }
   },
   {
@@ -19253,16 +19253,16 @@
         "Cont52": 49
       },
       "medianas": {
-        "Md26": 6,
-        "Md16": 4,
-        "Md12": 4,
         "Md04": 4,
         "Md08": 4,
+        "Md12": 4,
+        "Md16": 4,
+        "Md26": 6,
         "Md52": 4,
-        "MdTt": 4,
-        "MdAno": 4
+        "MdAno": 5,
+        "MdTt": 4
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.068Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:06.095Z"
     }
   },
   {
@@ -19370,9 +19370,6 @@
         "2024_47": 0
       },
       "maximo": 240,
-      "reposicao": -440,
-      "met_est": 240,
-      "metodo": 60,
       "total_geral": 3880,
       "contagens": {
         "Cont12": 9,
@@ -19384,17 +19381,20 @@
         "Cont04": 3,
         "ContTt": 44
       },
+      "met_est": 360,
+      "metodo": 90,
       "medianas": {
-        "Md26": 30,
-        "Md12": 45,
-        "Md04": 60,
-        "MdAno": 30,
-        "Md52": 30,
-        "Md16": 30,
-        "Md08": 60,
-        "MdTt": 30
+        "Md04": 90,
+        "Md08": 90,
+        "Md12": 90,
+        "Md16": 90,
+        "Md26": 90,
+        "Md52": 90,
+        "MdAno": 90,
+        "MdTt": 90
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.102Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.122Z"
     }
   },
   {
@@ -19500,7 +19500,6 @@
         "2025_41": 0,
         "2025_08": 18
       },
-      "reposicao": -6,
       "total_geral": 245,
       "contagens": {
         "Cont52": 28,
@@ -19512,21 +19511,22 @@
         "Cont16": 8,
         "Cont12": 5
       },
-      "medianas": {
-        "Md08": 2,
-        "MdTt": 1,
-        "Md12": 0,
-        "Md52": 2,
-        "Md26": 2,
-        "Md04": 5,
-        "MdAno": 2,
-        "Md16": 1
-      },
-      "met_est": 20,
-      "data_ultimo_calculo": "2026-01-07T02:20:36.126Z",
       "maximo": 42,
       "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 5
+      "reposicao": 6,
+      "medianas": {
+        "Md04": 6,
+        "Md08": 8,
+        "Md12": 6,
+        "Md16": 5,
+        "Md26": 4,
+        "Md52": 6,
+        "MdAno": 5,
+        "MdTt": 4
+      },
+      "met_est": 32,
+      "metodo": 8,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.153Z"
     }
   },
   {
@@ -19634,17 +19634,6 @@
         "2025_29": 0
       },
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "MdAno": 0,
-        "Md16": 30,
-        "Md12": 30,
-        "MdTt": 0,
-        "Md26": 0,
-        "Md52": 0,
-        "Md04": 30,
-        "Md08": 30
-      },
-      "reposicao": -452,
       "total_geral": 3480,
       "contagens": {
         "Cont16": 8,
@@ -19657,8 +19646,19 @@
         "Cont52": 16
       },
       "met_est": 268,
-      "data_ultimo_calculo": "2026-01-07T02:20:36.156Z",
-      "metodo": 67
+      "metodo": 67,
+      "medianas": {
+        "Md04": 150,
+        "Md08": 135,
+        "Md12": 135,
+        "Md16": 135,
+        "Md26": 150,
+        "Md52": 180,
+        "MdAno": 180,
+        "MdTt": 180
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.186Z"
     }
   },
   {
@@ -19767,7 +19767,6 @@
       },
       "maximo": 29,
       "metodo": 14,
-      "reposicao": -41,
       "met_est": 56,
       "total_geral": 971,
       "contagens": {
@@ -19781,16 +19780,17 @@
         "Cont52": 50
       },
       "medianas": {
-        "MdTt": 12,
         "Md04": 14,
-        "MdAno": 13,
+        "Md08": 12,
+        "Md12": 14,
         "Md16": 14,
         "Md26": 12,
-        "Md52": 12,
-        "Md12": 14,
-        "Md08": 12
+        "Md52": 13,
+        "MdAno": 13,
+        "MdTt": 12
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.179Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.216Z"
     }
   },
   {
@@ -19897,9 +19897,6 @@
         "2024_27": 2
       },
       "maximo": 5,
-      "reposicao": -3,
-      "met_est": 4,
-      "metodo": 1,
       "total_geral": 75,
       "contagens": {
         "ContAno": 26,
@@ -19911,18 +19908,21 @@
         "Cont04": 1,
         "Cont16": 6
       },
+      "tp_metodo": "1.ORDINÁRIOS",
+      "reposicao": 1,
+      "met_est": 8,
+      "metodo": 2,
       "medianas": {
-        "MdAno": 1,
-        "Md52": 1,
-        "Md12": 0,
-        "Md08": 0,
-        "MdTt": 1,
-        "Md16": 0,
-        "Md26": 0,
-        "Md04": 0
+        "Md04": 1,
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 2,
+        "Md26": 1,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.203Z",
-      "tp_metodo": "1.ORDINÁRIOS"
+      "data_ultimo_calculo": "2026-01-13T22:17:06.240Z"
     }
   },
   {
@@ -20033,16 +20033,6 @@
       "met_est": 4,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "medianas": {
-        "Md52": 0,
-        "MdAno": 0,
-        "MdTt": 0,
-        "Md08": 0,
-        "Md04": 0,
-        "Md16": 0,
-        "Md12": 0,
-        "Md26": 0
-      },
       "total_geral": 43,
       "contagens": {
         "ContTt": 23,
@@ -20054,7 +20044,17 @@
         "Cont26": 6,
         "Cont16": 5
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.235Z"
+      "medianas": {
+        "Md04": 3,
+        "Md08": 3,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:06.266Z"
     }
   },
   {
@@ -20163,18 +20163,7 @@
       "maximo": 3,
       "metodo": 0,
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -6,
       "met_est": 0,
-      "medianas": {
-        "MdAno": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "Md12": 0,
-        "Md04": 0,
-        "Md52": 0,
-        "MdTt": 0,
-        "Md26": 0
-      },
       "total_geral": 14,
       "contagens": {
         "Cont08": 0,
@@ -20186,7 +20175,18 @@
         "ContTt": 9,
         "Cont12": 0
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.266Z"
+      "medianas": {
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 3,
+        "Md26": 3,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 1
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.294Z"
     }
   },
   {
@@ -20297,16 +20297,6 @@
       "metodo": 45,
       "reposicao": 71,
       "met_est": 180,
-      "medianas": {
-        "Md12": 38,
-        "MdTt": 28,
-        "Md26": 33,
-        "Md52": 28,
-        "Md16": 45,
-        "Md08": 38,
-        "Md04": 45,
-        "MdAno": 28
-      },
       "total_geral": 2510,
       "contagens": {
         "Cont04": 3,
@@ -20318,7 +20308,17 @@
         "Cont08": 7,
         "ContAno": 42
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.300Z"
+      "medianas": {
+        "Md04": 45,
+        "Md08": 45,
+        "Md12": 45,
+        "Md16": 45,
+        "Md26": 42,
+        "Md52": 30,
+        "MdAno": 33,
+        "MdTt": 30
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:06.333Z"
     }
   },
   {
@@ -20427,7 +20427,6 @@
       },
       "maximo": 240,
       "metodo": 60,
-      "reposicao": -280,
       "met_est": 240,
       "total_geral": 5340,
       "contagens": {
@@ -20450,7 +20449,8 @@
         "Md04": 45,
         "Md08": 60
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.336Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.362Z"
     }
   },
   {
@@ -20573,16 +20573,16 @@
       },
       "tp_metodo": "3.INATIVOS",
       "medianas": {
-        "MdTt": 0,
-        "Md52": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "MdAno": 0,
         "Md04": 0,
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
         "Md26": 0,
-        "Md12": 0
+        "Md52": 0,
+        "MdAno": 0,
+        "MdTt": 100
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.368Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:06.391Z"
     }
   },
   {
@@ -20689,17 +20689,6 @@
         "2024_27": 0
       },
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "MdTt": 0,
-        "Md12": 0,
-        "Md26": 0,
-        "Md08": 0,
-        "Md04": 0,
-        "MdAno": 0,
-        "Md16": 0,
-        "Md52": 0
-      },
-      "reposicao": -38,
       "total_geral": 1460,
       "contagens": {
         "ContTt": 33,
@@ -20712,9 +20701,20 @@
         "Cont04": 1
       },
       "met_est": 112,
-      "data_ultimo_calculo": "2026-01-07T02:20:36.394Z",
       "maximo": 100,
-      "metodo": 28
+      "metodo": 28,
+      "medianas": {
+        "Md04": 30,
+        "Md08": 30,
+        "Md12": 30,
+        "Md16": 30,
+        "Md26": 30,
+        "Md52": 40,
+        "MdAno": 40,
+        "MdTt": 40
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.420Z"
     }
   },
   {
@@ -20837,16 +20837,16 @@
         "ContTt": 68
       },
       "medianas": {
+        "Md04": 7,
         "Md08": 7,
+        "Md12": 7,
         "Md16": 6,
-        "Md12": 6,
-        "MdAno": 5,
-        "Md52": 4,
-        "MdTt": 4,
-        "Md26": 5,
-        "Md04": 7
+        "Md26": 6,
+        "Md52": 6,
+        "MdAno": 6,
+        "MdTt": 4
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.422Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:06.452Z"
     }
   },
   {
@@ -20955,7 +20955,6 @@
       },
       "maximo": 23,
       "metodo": 3,
-      "reposicao": -4,
       "met_est": 12,
       "total_geral": 156,
       "contagens": {
@@ -20969,16 +20968,17 @@
         "Cont16": 11
       },
       "medianas": {
-        "MdTt": 2,
-        "MdAno": 1,
-        "Md52": 1,
-        "Md26": 2,
-        "Md16": 2,
-        "Md12": 2,
+        "Md04": 3,
         "Md08": 2,
-        "Md04": 3
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.452Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.476Z"
     }
   },
   {
@@ -21086,19 +21086,19 @@
       },
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "reposicao": -26,
       "met_est": 4,
       "medianas": {
         "Md04": 0,
-        "Md52": 0,
-        "Md12": 0,
-        "Md26": 0,
-        "Md16": 0,
-        "MdAno": 0,
         "Md08": 0,
-        "MdTt": 0
+        "Md12": 0,
+        "Md16": 30,
+        "Md26": 30,
+        "Md52": 30,
+        "MdAno": 30,
+        "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.487Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.504Z"
     }
   },
   {
@@ -21205,7 +21205,6 @@
         "2025_31": 0,
         "2025_10": 0
       },
-      "reposicao": -3,
       "total_geral": 200,
       "contagens": {
         "Cont26": 15,
@@ -21217,20 +21216,21 @@
         "Cont52": 29,
         "Cont12": 8
       },
-      "medianas": {
-        "MdTt": 0,
-        "MdAno": 4,
-        "Md16": 4,
-        "Md08": 3,
-        "Md52": 4,
-        "Md26": 4,
-        "Md12": 4,
-        "Md04": 3
-      },
-      "met_est": 16,
-      "data_ultimo_calculo": "2026-01-07T02:20:36.522Z",
       "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 4
+      "reposicao": 13,
+      "medianas": {
+        "Md04": 8,
+        "Md08": 6,
+        "Md12": 5,
+        "Md16": 5,
+        "Md26": 4,
+        "Md52": 4,
+        "MdAno": 4,
+        "MdTt": 4
+      },
+      "met_est": 32,
+      "metodo": 8,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.528Z"
     }
   },
   {
@@ -21337,7 +21337,6 @@
         "2025_22": 5
       },
       "maximo": 16,
-      "reposicao": -24,
       "total_geral": 107,
       "contagens": {
         "ContTt": 42,
@@ -21349,20 +21348,21 @@
         "Cont26": 9,
         "Cont52": 28
       },
-      "medianas": {
-        "MdAno": 1,
-        "Md26": 0,
-        "Md08": 0,
-        "Md12": 0,
-        "Md52": 1,
-        "MdTt": 1,
-        "Md16": 0,
-        "Md04": 0
-      },
-      "met_est": 4,
-      "data_ultimo_calculo": "2026-01-07T02:20:36.551Z",
       "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 1
+      "met_est": 8,
+      "metodo": 2,
+      "medianas": {
+        "Md04": 2,
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.566Z"
     }
   },
   {
@@ -21494,7 +21494,7 @@
         "Md26": 370,
         "Md12": 390
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.583Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:06.594Z"
     }
   },
   {
@@ -21613,20 +21613,20 @@
         "Cont26": 17,
         "Cont12": 9
       },
-      "medianas": {
-        "Md52": 7,
-        "Md08": 17,
-        "Md04": 20,
-        "Md12": 14,
-        "MdAno": 7,
-        "MdTt": 7,
-        "Md26": 14,
-        "Md16": 14
-      },
       "met_est": 80,
-      "data_ultimo_calculo": "2026-01-07T02:20:36.614Z",
       "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 20
+      "metodo": 20,
+      "medianas": {
+        "Md04": 20,
+        "Md08": 20,
+        "Md12": 16,
+        "Md16": 16,
+        "Md26": 16,
+        "Md52": 14,
+        "MdAno": 14,
+        "MdTt": 14
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:06.623Z"
     }
   },
   {
@@ -21734,7 +21734,6 @@
       },
       "total_geral": 38,
       "maximo": 4,
-      "reposicao": -6,
       "contagens": {
         "ContAno": 15,
         "Cont16": 9,
@@ -21749,16 +21748,17 @@
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "medianas": {
-        "Md12": 2,
-        "Md08": 2,
-        "Md16": 2,
-        "MdAno": 0,
-        "Md52": 0,
-        "Md26": 0,
         "Md04": 2,
-        "MdTt": 0
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.647Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.655Z"
     }
   },
   {
@@ -21866,16 +21866,6 @@
       },
       "maximo": 100,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "Md12": 20,
-        "Md08": 20,
-        "Md04": 40,
-        "Md52": 0,
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md26": 0,
-        "Md16": 0
-      },
       "reposicao": 12,
       "total_geral": 1190,
       "contagens": {
@@ -21889,8 +21879,18 @@
         "Cont26": 10
       },
       "met_est": 92,
-      "data_ultimo_calculo": "2026-01-07T02:20:36.680Z",
-      "metodo": 23
+      "metodo": 23,
+      "medianas": {
+        "Md04": 40,
+        "Md08": 40,
+        "Md12": 40,
+        "Md16": 40,
+        "Md26": 40,
+        "Md52": 40,
+        "MdAno": 40,
+        "MdTt": 40
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:06.683Z"
     }
   },
   {
@@ -21999,7 +21999,6 @@
       },
       "maximo": 420,
       "metodo": 230,
-      "reposicao": -180,
       "met_est": 920,
       "total_geral": 14510,
       "contagens": {
@@ -22022,7 +22021,8 @@
         "Md04": 210,
         "Md52": 210
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.718Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.711Z"
     }
   },
   {
@@ -22131,7 +22131,6 @@
       },
       "maximo": 360,
       "metodo": 170,
-      "reposicao": -220,
       "met_est": 680,
       "total_geral": 10260,
       "contagens": {
@@ -22154,7 +22153,8 @@
         "Md26": 140,
         "Md12": 170
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.752Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.739Z"
     }
   },
   {
@@ -22265,16 +22265,6 @@
       "metodo": 105,
       "reposicao": 80,
       "met_est": 420,
-      "medianas": {
-        "MdTt": 60,
-        "Md26": 75,
-        "Md08": 90,
-        "Md16": 90,
-        "Md12": 75,
-        "Md04": 105,
-        "MdAno": 60,
-        "Md52": 60
-      },
       "total_geral": 5240,
       "contagens": {
         "ContTt": 74,
@@ -22286,7 +22276,17 @@
         "Cont04": 4,
         "Cont16": 15
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.785Z"
+      "medianas": {
+        "Md04": 105,
+        "Md08": 90,
+        "Md12": 90,
+        "Md16": 90,
+        "Md26": 90,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 60
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:06.768Z"
     }
   },
   {
@@ -22406,19 +22406,19 @@
         "Cont08": 2
       },
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -5,
       "met_est": 0,
       "medianas": {
-        "MdTt": 0,
-        "Md12": 0,
-        "MdAno": 0,
-        "Md52": 0,
-        "Md26": 0,
-        "Md08": 0,
-        "Md16": 0,
-        "Md04": 0
+        "Md04": 1,
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 1,
+        "Md26": 1,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.809Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.795Z"
     }
   },
   {
@@ -22527,18 +22527,7 @@
       },
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "reposicao": -46,
       "met_est": 4,
-      "medianas": {
-        "Md52": 0,
-        "Md04": 0,
-        "MdTt": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "Md26": 0,
-        "Md12": 0,
-        "MdAno": 0
-      },
       "total_geral": 70,
       "contagens": {
         "ContAno": 4,
@@ -22550,7 +22539,18 @@
         "ContTt": 4,
         "Cont12": 3
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.831Z"
+      "medianas": {
+        "Md04": 0,
+        "Md08": 20,
+        "Md12": 20,
+        "Md16": 20,
+        "Md26": 20,
+        "Md52": 15,
+        "MdAno": 15,
+        "MdTt": 15
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.827Z"
     }
   },
   {
@@ -22661,16 +22661,6 @@
       "tp_metodo": "2.INTERMITENTES",
       "reposicao": 0,
       "met_est": 0,
-      "medianas": {
-        "MdAno": 0,
-        "Md16": 0,
-        "Md12": 0,
-        "Md04": 0,
-        "Md52": 0,
-        "Md08": 0,
-        "MdTt": 0,
-        "Md26": 0
-      },
       "total_geral": 25,
       "contagens": {
         "ContAno": 12,
@@ -22682,7 +22672,17 @@
         "ContTt": 15,
         "Cont52": 12
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.856Z"
+      "medianas": {
+        "Md04": 1,
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:06.858Z"
     }
   },
   {
@@ -22802,19 +22802,19 @@
       },
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "reposicao": -1,
       "met_est": 4,
       "medianas": {
-        "Md16": 0,
-        "MdTt": 0,
-        "Md08": 0,
-        "Md26": 0,
         "Md04": 0,
-        "Md12": 0,
-        "MdAno": 0,
-        "Md52": 0
+        "Md08": 2,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 3
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.887Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.888Z"
     }
   },
   {
@@ -22944,9 +22944,9 @@
         "Md08": 157
       },
       "met_est": 720,
-      "data_ultimo_calculo": "2026-01-07T02:20:36.914Z",
       "maximo": 300,
-      "metodo": 180
+      "metodo": 180,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.915Z"
     }
   },
   {
@@ -23053,7 +23053,6 @@
         "2024_40": 0
       },
       "maximo": 180,
-      "reposicao": -300,
       "total_geral": 3600,
       "contagens": {
         "Cont12": 7,
@@ -23065,20 +23064,21 @@
         "ContTt": 38,
         "Cont04": 1
       },
-      "medianas": {
-        "Md26": 15,
-        "MdAno": 30,
-        "Md52": 30,
-        "Md08": 15,
-        "Md04": 0,
-        "Md12": 45,
-        "MdTt": 0,
-        "Md16": 45
-      },
-      "met_est": 180,
-      "data_ultimo_calculo": "2026-01-07T02:20:36.955Z",
       "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 45
+      "met_est": 360,
+      "metodo": 90,
+      "medianas": {
+        "Md04": 30,
+        "Md08": 90,
+        "Md12": 60,
+        "Md16": 60,
+        "Md26": 90,
+        "Md52": 90,
+        "MdAno": 90,
+        "MdTt": 90
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.943Z"
     }
   },
   {
@@ -23187,18 +23187,7 @@
       },
       "maximo": 16,
       "metodo": 4,
-      "reposicao": -4,
       "met_est": 16,
-      "medianas": {
-        "Md52": 3,
-        "Md16": 4,
-        "MdTt": 3,
-        "Md12": 3,
-        "Md08": 3,
-        "Md04": 4,
-        "MdAno": 3,
-        "Md26": 3
-      },
       "total_geral": 292,
       "contagens": {
         "Cont08": 6,
@@ -23210,7 +23199,18 @@
         "Cont12": 10,
         "Cont04": 4
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:36.988Z"
+      "medianas": {
+        "Md04": 4,
+        "Md08": 4,
+        "Md12": 4,
+        "Md16": 4,
+        "Md26": 4,
+        "Md52": 4,
+        "MdAno": 4,
+        "MdTt": 4
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:06.973Z"
     }
   },
   {
@@ -23317,7 +23317,6 @@
         "2025_48": 0
       },
       "maximo": 120,
-      "reposicao": -110,
       "total_geral": 1150,
       "contagens": {
         "ContAno": 27,
@@ -23329,20 +23328,21 @@
         "Cont08": 3,
         "Cont04": 1
       },
-      "medianas": {
-        "Md16": 5,
-        "Md04": 0,
-        "MdAno": 10,
-        "MdTt": 0,
-        "Md12": 0,
-        "Md52": 10,
-        "Md26": 10,
-        "Md08": 0
-      },
-      "met_est": 40,
-      "data_ultimo_calculo": "2026-01-07T02:20:37.017Z",
       "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 10
+      "reposicao": 10,
+      "medianas": {
+        "Md04": 40,
+        "Md08": 20,
+        "Md12": 20,
+        "Md16": 35,
+        "Md26": 30,
+        "Md52": 30,
+        "MdAno": 30,
+        "MdTt": 20
+      },
+      "met_est": 160,
+      "metodo": 40,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.001Z"
     }
   },
   {
@@ -23450,17 +23450,6 @@
       },
       "maximo": 13,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "Md52": 0,
-        "Md08": 3,
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md04": 3,
-        "Md26": 4,
-        "Md12": 2,
-        "Md16": 2
-      },
-      "reposicao": -1,
       "total_geral": 215,
       "contagens": {
         "ContTt": 32,
@@ -23473,8 +23462,19 @@
         "Cont12": 6
       },
       "met_est": 16,
-      "data_ultimo_calculo": "2026-01-07T02:20:37.046Z",
-      "metodo": 4
+      "metodo": 4,
+      "medianas": {
+        "Md04": 7,
+        "Md08": 7,
+        "Md12": 7,
+        "Md16": 7,
+        "Md26": 7,
+        "Md52": 8,
+        "MdAno": 8,
+        "MdTt": 8
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.028Z"
     }
   },
   {
@@ -23582,9 +23582,6 @@
         "2024_45": 0
       },
       "maximo": 230,
-      "reposicao": 11,
-      "met_est": 296,
-      "metodo": 74,
       "total_geral": 5791,
       "contagens": {
         "Cont12": 9,
@@ -23596,17 +23593,20 @@
         "ContTt": 67,
         "Cont16": 13
       },
+      "reposicao": 75,
       "medianas": {
-        "MdTt": 64,
-        "MdAno": 69,
-        "Md52": 66,
-        "Md04": 49,
-        "Md12": 74,
-        "Md26": 74,
-        "Md16": 74,
-        "Md08": 49
+        "Md04": 67,
+        "Md08": 79,
+        "Md12": 90,
+        "Md16": 88,
+        "Md26": 80,
+        "Md52": 80,
+        "MdAno": 80,
+        "MdTt": 80
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.084Z"
+      "met_est": 360,
+      "metodo": 90,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.062Z"
     }
   },
   {
@@ -23715,18 +23715,7 @@
       },
       "met_est": 0,
       "metodo": 0,
-      "reposicao": -120,
       "tp_metodo": "3.INATIVOS",
-      "medianas": {
-        "Md26": 0,
-        "Md52": 0,
-        "Md08": 0,
-        "MdTt": 0,
-        "Md12": 0,
-        "Md04": 0,
-        "Md16": 0,
-        "MdAno": 0
-      },
       "total_geral": 240,
       "contagens": {
         "Cont26": 0,
@@ -23738,7 +23727,18 @@
         "Cont12": 0,
         "Cont16": 0
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.117Z"
+      "medianas": {
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 0,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 60
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.092Z"
     }
   },
   {
@@ -23861,16 +23861,16 @@
         "Cont04": 4
       },
       "medianas": {
-        "Md08": 78,
-        "Md26": 78,
-        "Md52": 66,
-        "Md12": 78,
-        "MdTt": 60,
         "Md04": 99,
-        "MdAno": 66,
-        "Md16": 79
+        "Md08": 78,
+        "Md12": 78,
+        "Md16": 79,
+        "Md26": 78,
+        "Md52": 69,
+        "MdAno": 69,
+        "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.151Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:07.124Z"
     }
   },
   {
@@ -23978,17 +23978,6 @@
       },
       "maximo": 2,
       "tp_metodo": "2.INTERMITENTES",
-      "medianas": {
-        "Md26": 0,
-        "Md08": 1,
-        "MdAno": 0,
-        "Md16": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "Md12": 0,
-        "Md04": 1
-      },
-      "reposicao": -1,
       "total_geral": 29,
       "contagens": {
         "ContAno": 19,
@@ -24001,8 +23990,19 @@
         "Cont04": 3
       },
       "met_est": 4,
-      "data_ultimo_calculo": "2026-01-07T02:20:37.183Z",
-      "metodo": 1
+      "metodo": 1,
+      "medianas": {
+        "Md04": 1,
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 1,
+        "Md26": 1,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 1
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.155Z"
     }
   },
   {
@@ -24134,7 +24134,7 @@
         "MdAno": 5,
         "Md04": 5
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.214Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:07.184Z"
     }
   },
   {
@@ -24257,16 +24257,16 @@
       },
       "tp_metodo": "3.INATIVOS",
       "medianas": {
-        "MdTt": 0,
-        "Md12": 0,
-        "Md26": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "Md52": 0,
         "Md04": 0,
-        "MdAno": 0
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 1,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.245Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:07.208Z"
     }
   },
   {
@@ -24386,19 +24386,19 @@
         "Cont08": 0
       },
       "tp_metodo": "2.INTERMITENTES",
-      "reposicao": -5,
       "met_est": 0,
       "medianas": {
-        "Md26": 0,
-        "Md08": 0,
-        "MdTt": 0,
-        "Md16": 0,
-        "Md12": 0,
-        "Md52": 0,
         "Md04": 0,
-        "MdAno": 0
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 2,
+        "Md26": 1,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.271Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.236Z"
     }
   },
   {
@@ -24517,20 +24517,20 @@
         "ContAno": 29,
         "Cont52": 30
       },
-      "medianas": {
-        "Md16": 2,
-        "Md12": 2,
-        "Md08": 2,
-        "MdTt": 1,
-        "Md26": 1,
-        "MdAno": 1,
-        "Md04": 3,
-        "Md52": 1
-      },
       "met_est": 12,
-      "data_ultimo_calculo": "2026-01-07T02:20:37.300Z",
       "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 3
+      "metodo": 3,
+      "medianas": {
+        "Md04": 3,
+        "Md08": 3,
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:07.266Z"
     }
   },
   {
@@ -24638,19 +24638,6 @@
         "2024_30": 0,
         "2025_37": 150
       },
-      "reposicao": -130,
-      "medianas": {
-        "Md52": 60,
-        "Md16": 60,
-        "Md08": 60,
-        "Md04": 60,
-        "MdTt": 60,
-        "Md12": 60,
-        "MdAno": 60,
-        "Md26": 60
-      },
-      "met_est": 240,
-      "metodo": 60,
       "total_geral": 6100,
       "contagens": {
         "Cont52": 38,
@@ -24662,7 +24649,20 @@
         "Cont08": 6,
         "Cont16": 12
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.331Z"
+      "reposicao": 230,
+      "medianas": {
+        "Md04": 150,
+        "Md08": 90,
+        "Md12": 120,
+        "Md16": 120,
+        "Md26": 120,
+        "Md52": 100,
+        "MdAno": 105,
+        "MdTt": 90
+      },
+      "met_est": 600,
+      "metodo": 150,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.295Z"
     }
   },
   {
@@ -24770,7 +24770,6 @@
         "2025_03": 16
       },
       "maximo": 38,
-      "reposicao": -20,
       "total_geral": 653,
       "contagens": {
         "ContTt": 70,
@@ -24783,18 +24782,19 @@
         "Cont08": 6
       },
       "medianas": {
-        "Md26": 7,
-        "MdAno": 8,
+        "Md04": 2,
+        "Md08": 4,
         "Md12": 4,
+        "Md16": 9,
+        "Md26": 8,
         "Md52": 8,
-        "Md16": 6,
-        "Md08": 3,
-        "MdTt": 6,
-        "Md04": 2
+        "MdAno": 8,
+        "MdTt": 8
       },
-      "met_est": 32,
-      "data_ultimo_calculo": "2026-01-07T02:20:37.357Z",
-      "metodo": 8
+      "met_est": 36,
+      "metodo": 9,
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.327Z"
     }
   },
   {
@@ -24901,7 +24901,6 @@
         "2024_34": 1
       },
       "maximo": 8,
-      "reposicao": -11,
       "total_geral": 111,
       "contagens": {
         "Cont26": 16,
@@ -24913,20 +24912,21 @@
         "Cont12": 10,
         "ContTt": 46
       },
+      "met_est": 16,
+      "tp_metodo": "1.ORDINÁRIOS",
+      "metodo": 4,
       "medianas": {
         "Md04": 4,
-        "MdAno": 1,
-        "Md52": 1,
-        "Md12": 3,
         "Md08": 4,
-        "MdTt": 1,
-        "Md26": 2,
-        "Md16": 3
+        "Md12": 4,
+        "Md16": 3,
+        "Md26": 3,
+        "Md52": 2,
+        "MdAno": 2,
+        "MdTt": 2
       },
-      "met_est": 16,
-      "data_ultimo_calculo": "2026-01-07T02:20:37.384Z",
-      "tp_metodo": "1.ORDINÁRIOS",
-      "metodo": 4
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.354Z"
     }
   },
   {
@@ -25034,9 +25034,6 @@
         "2024_44": 0
       },
       "maximo": 300,
-      "reposicao": -60,
-      "met_est": 480,
-      "metodo": 120,
       "total_geral": 7840,
       "contagens": {
         "Cont16": 14,
@@ -25048,17 +25045,20 @@
         "Cont26": 22,
         "Cont12": 10
       },
+      "reposicao": 100,
       "medianas": {
-        "Md26": 120,
-        "MdAno": 120,
-        "Md04": 60,
-        "Md52": 120,
-        "Md16": 120,
-        "Md12": 120,
+        "Md04": 160,
         "Md08": 120,
+        "Md12": 150,
+        "Md16": 120,
+        "Md26": 120,
+        "Md52": 120,
+        "MdAno": 120,
         "MdTt": 120
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.419Z"
+      "met_est": 640,
+      "metodo": 160,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.386Z"
     }
   },
   {
@@ -25166,7 +25166,6 @@
         "2025_20": 180
       },
       "maximo": 350,
-      "reposicao": 40,
       "total_geral": 7330,
       "contagens": {
         "Cont08": 8,
@@ -25178,19 +25177,20 @@
         "Cont12": 12,
         "Cont52": 50
       },
+      "reposicao": 120,
       "medianas": {
-        "Md52": 70,
-        "Md12": 45,
-        "MdAno": 70,
-        "Md08": 35,
         "Md04": 40,
-        "MdTt": 70,
+        "Md08": 35,
+        "Md12": 45,
         "Md16": 45,
-        "Md26": 58
+        "Md26": 58,
+        "Md52": 70,
+        "MdAno": 70,
+        "MdTt": 90
       },
-      "met_est": 280,
-      "data_ultimo_calculo": "2026-01-07T02:20:37.450Z",
-      "metodo": 70
+      "met_est": 360,
+      "metodo": 90,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.415Z"
     }
   },
   {
@@ -25298,9 +25298,6 @@
         "2025_49": 1
       },
       "maximo": 5,
-      "reposicao": -15,
-      "met_est": 4,
-      "metodo": 1,
       "total_geral": 66,
       "contagens": {
         "ContTt": 41,
@@ -25313,16 +25310,19 @@
         "Cont04": 3
       },
       "medianas": {
-        "Md08": 1,
-        "MdAno": 1,
         "Md04": 1,
-        "Md16": 1,
-        "MdTt": 1,
+        "Md08": 1,
         "Md12": 1,
+        "Md16": 2,
+        "Md26": 1,
         "Md52": 1,
-        "Md26": 1
+        "MdAno": 1,
+        "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.485Z"
+      "met_est": 8,
+      "metodo": 2,
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.450Z"
     }
   },
   {
@@ -25430,9 +25430,6 @@
         "2025_13": 0
       },
       "maximo": 360,
-      "reposicao": -100,
-      "met_est": 600,
-      "metodo": 150,
       "total_geral": 10320,
       "contagens": {
         "ContAno": 44,
@@ -25444,17 +25441,20 @@
         "ContTt": 70,
         "Cont52": 46
       },
+      "reposicao": 260,
       "medianas": {
-        "Md04": 150,
-        "MdTt": 120,
-        "MdAno": 120,
+        "Md04": 240,
+        "Md08": 210,
+        "Md12": 150,
+        "Md16": 140,
+        "Md26": 120,
         "Md52": 120,
-        "Md12": 120,
-        "Md08": 120,
-        "Md16": 120,
-        "Md26": 120
+        "MdAno": 120,
+        "MdTt": 120
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.521Z"
+      "met_est": 960,
+      "metodo": 240,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.481Z"
     }
   },
   {
@@ -25562,19 +25562,6 @@
         "2025_09": 80
       },
       "maximo": 220,
-      "reposicao": 120,
-      "medianas": {
-        "Md52": 60,
-        "Md12": 60,
-        "MdAno": 60,
-        "Md26": 60,
-        "Md16": 60,
-        "Md08": 60,
-        "MdTt": 60,
-        "Md04": 60
-      },
-      "met_est": 240,
-      "metodo": 60,
       "total_geral": 5620,
       "contagens": {
         "Cont52": 49,
@@ -25586,7 +25573,20 @@
         "ContAno": 47,
         "Cont08": 8
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.556Z"
+      "reposicao": 140,
+      "medianas": {
+        "Md04": 60,
+        "Md08": 60,
+        "Md12": 60,
+        "Md16": 60,
+        "Md26": 60,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 65
+      },
+      "met_est": 260,
+      "metodo": 65,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.506Z"
     }
   },
   {
@@ -25696,16 +25696,6 @@
         "2025_26": 0
       },
       "tp_metodo": "3.INATIVOS",
-      "medianas": {
-        "Md12": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "Md04": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "MdAno": 0,
-        "Md26": 0
-      },
       "total_geral": 60,
       "contagens": {
         "ContAno": 1,
@@ -25717,8 +25707,18 @@
         "Cont12": 0,
         "Cont04": 0
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.586Z",
-      "maximo": 60
+      "maximo": 60,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 0,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 60
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:07.536Z"
     }
   },
   {
@@ -25850,7 +25850,7 @@
         "ContTt": 77,
         "ContAno": 50
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.611Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:07.565Z"
     }
   },
   {
@@ -25960,16 +25960,6 @@
       "met_est": 0,
       "metodo": 0,
       "tp_metodo": "3.INATIVOS",
-      "medianas": {
-        "Md04": 0,
-        "MdTt": 0,
-        "Md16": 0,
-        "Md08": 0,
-        "Md12": 0,
-        "MdAno": 0,
-        "Md52": 0,
-        "Md26": 0
-      },
       "total_geral": 180,
       "contagens": {
         "ContAno": 3,
@@ -25981,8 +25971,18 @@
         "Cont16": 0,
         "Cont04": 0
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.637Z",
-      "maximo": 70
+      "maximo": 70,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 0,
+        "Md12": 0,
+        "Md16": 0,
+        "Md26": 0,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 45
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:07.596Z"
     }
   },
   {
@@ -26090,19 +26090,19 @@
       },
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "reposicao": -56,
       "met_est": 4,
       "medianas": {
-        "Md26": 0,
         "Md04": 0,
-        "MdAno": 0,
-        "Md12": 0,
-        "MdTt": 0,
-        "Md16": 0,
         "Md08": 0,
-        "Md52": 0
+        "Md12": 0,
+        "Md16": 60,
+        "Md26": 60,
+        "Md52": 60,
+        "MdAno": 60,
+        "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.670Z"
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.627Z"
     }
   },
   {
@@ -26234,7 +26234,7 @@
         "Md26": 100,
         "Md12": 110
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.695Z"
+      "data_ultimo_calculo": "2026-01-13T22:17:07.656Z"
     }
   },
   {
@@ -26365,8 +26365,8 @@
         "Md08": 840,
         "Md26": 790
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.728Z",
-      "maximo": 1460
+      "maximo": 1460,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.684Z"
     }
   },
   {
@@ -26476,16 +26476,6 @@
       "tp_metodo": "2.INTERMITENTES",
       "reposicao": 0,
       "met_est": 0,
-      "medianas": {
-        "MdTt": 0,
-        "MdAno": 0,
-        "Md12": 0,
-        "Md08": 0,
-        "Md26": 0,
-        "Md52": 0,
-        "Md16": 0,
-        "Md04": 0
-      },
       "total_geral": 21,
       "contagens": {
         "Cont16": 2,
@@ -26497,8 +26487,18 @@
         "Cont26": 4,
         "ContAno": 11
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.755Z",
-      "maximo": 2
+      "maximo": 2,
+      "medianas": {
+        "Md04": 0,
+        "Md08": 1,
+        "Md12": 1,
+        "Md16": 1,
+        "Md26": 1,
+        "Md52": 1,
+        "MdAno": 1,
+        "MdTt": 1
+      },
+      "data_ultimo_calculo": "2026-01-13T22:17:07.714Z"
     }
   },
   {
@@ -26606,9 +26606,6 @@
         "2025_38": 60
       },
       "maximo": 240,
-      "reposicao": -90,
-      "met_est": 240,
-      "metodo": 60,
       "total_geral": 4200,
       "contagens": {
         "Cont52": 35,
@@ -26621,16 +26618,19 @@
         "Cont16": 11
       },
       "medianas": {
-        "Md16": 60,
-        "MdAno": 60,
-        "Md26": 60,
         "Md04": 60,
-        "MdTt": 60,
+        "Md08": 75,
+        "Md12": 60,
+        "Md16": 60,
+        "Md26": 60,
         "Md52": 60,
-        "Md12": 45,
-        "Md08": 60
+        "MdAno": 60,
+        "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.784Z"
+      "met_est": 300,
+      "metodo": 75,
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.750Z"
     }
   },
   {
@@ -26737,9 +26737,6 @@
         "2024_41": 0
       },
       "maximo": 120,
-      "reposicao": -12,
-      "met_est": 72,
-      "metodo": 18,
       "total_geral": 1224,
       "contagens": {
         "ContAno": 27,
@@ -26751,18 +26748,21 @@
         "Cont52": 28,
         "Cont12": 6
       },
+      "tp_metodo": "1.ORDINÁRIOS",
+      "reposicao": 12,
+      "met_est": 96,
+      "metodo": 24,
       "medianas": {
-        "MdTt": 0,
-        "Md26": 12,
-        "Md04": 12,
-        "Md16": 18,
-        "Md12": 12,
-        "MdAno": 18,
-        "Md52": 18,
-        "Md08": 0
+        "Md04": 24,
+        "Md08": 24,
+        "Md12": 24,
+        "Md16": 24,
+        "Md26": 24,
+        "Md52": 24,
+        "MdAno": 24,
+        "MdTt": 24
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.818Z",
-      "tp_metodo": "1.ORDINÁRIOS"
+      "data_ultimo_calculo": "2026-01-13T22:17:07.774Z"
     }
   },
   {
@@ -26870,9 +26870,6 @@
         "2025_38": 0,
         "2025_22": 3
       },
-      "reposicao": 7,
-      "met_est": 8,
-      "metodo": 2,
       "total_geral": 211,
       "contagens": {
         "Cont26": 18,
@@ -26884,17 +26881,20 @@
         "ContTt": 61,
         "ContAno": 39
       },
+      "reposicao": 15,
       "medianas": {
-        "MdAno": 2,
-        "Md12": 2,
-        "Md26": 2,
-        "Md04": 1,
-        "Md16": 2,
+        "Md04": 4,
         "Md08": 2,
-        "MdTt": 2,
-        "Md52": 2
+        "Md12": 2,
+        "Md16": 2,
+        "Md26": 2,
+        "Md52": 3,
+        "MdAno": 3,
+        "MdTt": 3
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.846Z"
+      "met_est": 16,
+      "metodo": 4,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.800Z"
     }
   },
   {
@@ -27003,18 +27003,7 @@
       },
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "reposicao": -16,
       "met_est": 4,
-      "medianas": {
-        "Md08": 0,
-        "MdTt": 0,
-        "Md52": 0,
-        "Md26": 0,
-        "Md04": 0,
-        "MdAno": 0,
-        "Md16": 0,
-        "Md12": 0
-      },
       "total_geral": 59,
       "contagens": {
         "ContAno": 10,
@@ -27026,7 +27015,18 @@
         "Cont26": 6,
         "Cont04": 1
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.878Z"
+      "medianas": {
+        "Md04": 5,
+        "Md08": 5,
+        "Md12": 5,
+        "Md16": 5,
+        "Md26": 6,
+        "Md52": 6,
+        "MdAno": 6,
+        "MdTt": 6
+      },
+      "reposicao": 0,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.822Z"
     }
   },
   {
@@ -27134,9 +27134,6 @@
         "2024_48": 9
       },
       "maximo": 20,
-      "reposicao": 13,
-      "met_est": 44,
-      "metodo": 11,
       "total_geral": 660,
       "contagens": {
         "ContAno": 45,
@@ -27148,17 +27145,20 @@
         "Cont16": 15,
         "Cont26": 24
       },
+      "reposicao": 17,
       "medianas": {
-        "Md26": 10,
-        "Md16": 10,
-        "Md12": 10,
-        "Md08": 11,
-        "MdTt": 9,
         "Md04": 11,
-        "Md52": 9,
-        "MdAno": 9
+        "Md08": 12,
+        "Md12": 10,
+        "Md16": 10,
+        "Md26": 10,
+        "Md52": 10,
+        "MdAno": 10,
+        "MdTt": 9
       },
-      "data_ultimo_calculo": "2026-01-07T02:20:37.907Z"
+      "met_est": 48,
+      "metodo": 12,
+      "data_ultimo_calculo": "2026-01-13T22:17:07.851Z"
     }
   }
 ]
