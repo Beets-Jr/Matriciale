@@ -128,7 +128,7 @@
         "Md08": 150,
         "MdTt": 180
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:01.665Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.309Z"
     }
   },
   {
@@ -260,7 +260,7 @@
       },
       "met_est": 600,
       "metodo": 150,
-      "data_ultimo_calculo": "2026-01-13T22:17:01.690Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.332Z"
     }
   },
   {
@@ -392,7 +392,7 @@
         "MdAno": 30,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:01.716Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.354Z"
     }
   },
   {
@@ -512,7 +512,7 @@
         "MdTt": 30
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:01.743Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.376Z"
     }
   },
   {
@@ -644,7 +644,7 @@
         "MdTt": 90
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:01.776Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.405Z"
     }
   },
   {
@@ -776,7 +776,7 @@
         "MdTt": 4
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:01.806Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.434Z"
     }
   },
   {
@@ -907,7 +907,7 @@
         "MdAno": 0,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:01.842Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.456Z"
     }
   },
   {
@@ -1039,7 +1039,7 @@
         "MdAno": 15,
         "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:01.875Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.484Z"
     }
   },
   {
@@ -1171,7 +1171,7 @@
         "Md26": 120,
         "Md16": 135
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:01.905Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.507Z"
     }
   },
   {
@@ -1303,7 +1303,7 @@
         "MdAno": 45,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:01.937Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.534Z"
     }
   },
   {
@@ -1435,7 +1435,7 @@
         "MdTt": 20
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:01.967Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.556Z"
     }
   },
   {
@@ -1567,7 +1567,7 @@
       },
       "met_est": 360,
       "metodo": 90,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.001Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.579Z"
     }
   },
   {
@@ -1699,7 +1699,7 @@
       "met_est": 480,
       "metodo": 120,
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.029Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.611Z"
     }
   },
   {
@@ -1831,7 +1831,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.060Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.634Z"
     }
   },
   {
@@ -1963,7 +1963,7 @@
       },
       "met_est": 12,
       "metodo": 3,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.089Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.656Z"
     }
   },
   {
@@ -2095,7 +2095,7 @@
         "MdTt": 150
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.119Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.684Z"
     }
   },
   {
@@ -2227,7 +2227,7 @@
         "MdAno": 17,
         "MdTt": 17
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:02.155Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.710Z"
     }
   },
   {
@@ -2359,7 +2359,7 @@
         "Md16": 310,
         "Md12": 290
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:02.181Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.734Z"
     }
   },
   {
@@ -2491,7 +2491,7 @@
         "MdTt": 60
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.212Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.757Z"
     }
   },
   {
@@ -2623,7 +2623,7 @@
         "MdAno": 3,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:02.243Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.783Z"
     }
   },
   {
@@ -2755,7 +2755,7 @@
       "met_est": 288,
       "metodo": 72,
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.269Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.806Z"
     }
   },
   {
@@ -2875,7 +2875,7 @@
         "MdAno": 57,
         "MdTt": 57
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:02.297Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.834Z"
     }
   },
   {
@@ -3007,7 +3007,7 @@
       },
       "met_est": 952,
       "metodo": 238,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.320Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.860Z"
     }
   },
   {
@@ -3139,7 +3139,7 @@
         "MdTt": 11
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.351Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.883Z"
     }
   },
   {
@@ -3271,7 +3271,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.381Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.905Z"
     }
   },
   {
@@ -3403,7 +3403,7 @@
         "MdAno": 96,
         "MdTt": 96
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:02.411Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.929Z"
     }
   },
   {
@@ -3535,7 +3535,7 @@
         "MdAno": 21,
         "MdTt": 21
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:02.442Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.959Z"
     }
   },
   {
@@ -3667,7 +3667,7 @@
         "MdAno": 21,
         "MdTt": 21
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:02.469Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:58.984Z"
     }
   },
   {
@@ -3799,7 +3799,7 @@
         "MdAno": 60,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:02.508Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.009Z"
     }
   },
   {
@@ -3931,7 +3931,7 @@
       },
       "met_est": 480,
       "metodo": 120,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.541Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.033Z"
     }
   },
   {
@@ -4063,7 +4063,7 @@
         "MdTt": 40
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.572Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.056Z"
     }
   },
   {
@@ -4195,7 +4195,7 @@
         "Md12": 505,
         "Md08": 510
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:02.603Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.083Z"
     }
   },
   {
@@ -4327,7 +4327,7 @@
         "MdAno": 40,
         "MdTt": 40
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:02.636Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.105Z"
     }
   },
   {
@@ -4459,7 +4459,7 @@
         "MdTt": 20
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.665Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.129Z"
     }
   },
   {
@@ -4591,7 +4591,7 @@
         "MdTt": 14
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.693Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.155Z"
     }
   },
   {
@@ -4723,7 +4723,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.723Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.182Z"
     }
   },
   {
@@ -4855,7 +4855,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.758Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.292Z"
     }
   },
   {
@@ -4987,7 +4987,7 @@
         "MdTt": 146
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.792Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.318Z"
     }
   },
   {
@@ -5119,7 +5119,7 @@
         "MdAno": 20,
         "MdTt": 25
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:02.820Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.344Z"
     }
   },
   {
@@ -5251,7 +5251,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.848Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.370Z"
     }
   },
   {
@@ -5383,7 +5383,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.876Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.396Z"
     }
   },
   {
@@ -5515,7 +5515,7 @@
         "MdTt": 60
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.906Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.422Z"
     }
   },
   {
@@ -5647,7 +5647,7 @@
         "MdTt": 12
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.937Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.445Z"
     }
   },
   {
@@ -5778,7 +5778,7 @@
         "MdAno": 180,
         "MdTt": 150
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:02.968Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.470Z"
     }
   },
   {
@@ -5910,7 +5910,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:02.997Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.494Z"
     }
   },
   {
@@ -6042,7 +6042,7 @@
       },
       "met_est": 44,
       "metodo": 11,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.029Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.517Z"
     }
   },
   {
@@ -6174,7 +6174,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.061Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.537Z"
     }
   },
   {
@@ -6306,7 +6306,7 @@
         "Md08": 345
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.088Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.560Z"
     }
   },
   {
@@ -6438,7 +6438,7 @@
         "MdTt": 5
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.114Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.584Z"
     }
   },
   {
@@ -6570,7 +6570,7 @@
       },
       "met_est": 16,
       "metodo": 4,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.150Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.617Z"
     }
   },
   {
@@ -6702,7 +6702,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.177Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.640Z"
     }
   },
   {
@@ -6834,7 +6834,7 @@
         "MdTt": 60
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.204Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.660Z"
     }
   },
   {
@@ -6966,7 +6966,7 @@
         "MdTt": 4
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.232Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.684Z"
     }
   },
   {
@@ -7086,7 +7086,7 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:03.260Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.709Z"
     }
   },
   {
@@ -7218,7 +7218,7 @@
         "MdAno": 3,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:03.294Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.733Z"
     }
   },
   {
@@ -7350,7 +7350,7 @@
       },
       "met_est": 560,
       "metodo": 140,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.322Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.755Z"
     }
   },
   {
@@ -7482,7 +7482,7 @@
         "MdTt": 20
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.349Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.784Z"
     }
   },
   {
@@ -7602,7 +7602,7 @@
         "MdTt": 3
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.373Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.806Z"
     }
   },
   {
@@ -7734,7 +7734,7 @@
         "MdAno": 63,
         "MdTt": 63
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:03.402Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.839Z"
     }
   },
   {
@@ -7866,7 +7866,7 @@
         "MdAno": 3,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:03.430Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.866Z"
     }
   },
   {
@@ -7986,7 +7986,7 @@
       },
       "met_est": 16,
       "metodo": 4,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.460Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.889Z"
     }
   },
   {
@@ -8118,7 +8118,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.483Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.916Z"
     }
   },
   {
@@ -8238,7 +8238,7 @@
         "MdAno": 25,
         "MdTt": 25
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:03.508Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.939Z"
     }
   },
   {
@@ -8370,7 +8370,7 @@
         "MdTt": 5
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.536Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.966Z"
     }
   },
   {
@@ -8502,7 +8502,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.564Z"
+      "data_ultimo_calculo": "2026-01-13T22:26:59.989Z"
     }
   },
   {
@@ -8634,7 +8634,7 @@
         "MdTt": 40
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.596Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.017Z"
     }
   },
   {
@@ -8766,7 +8766,7 @@
         "MdTt": 180,
         "MdAno": 210
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:03.635Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.041Z"
     }
   },
   {
@@ -8898,7 +8898,7 @@
         "MdTt": 45
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.663Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.068Z"
     }
   },
   {
@@ -9030,7 +9030,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.701Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.092Z"
     }
   },
   {
@@ -9162,7 +9162,7 @@
         "MdTt": 30
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.730Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.117Z"
     }
   },
   {
@@ -9294,7 +9294,7 @@
         "MdTt": 90
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.757Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.138Z"
     }
   },
   {
@@ -9426,7 +9426,7 @@
         "MdTt": 52
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.787Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.162Z"
     }
   },
   {
@@ -9558,7 +9558,7 @@
         "MdTt": 10
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.811Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.193Z"
     }
   },
   {
@@ -9690,7 +9690,7 @@
         "MdTt": 30
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.839Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.216Z"
     }
   },
   {
@@ -9822,7 +9822,7 @@
         "MdAno": 70,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:03.872Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.243Z"
     }
   },
   {
@@ -9942,7 +9942,7 @@
         "MdTt": 20
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.904Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.265Z"
     }
   },
   {
@@ -10074,7 +10074,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:03.936Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.291Z"
     }
   },
   {
@@ -10206,7 +10206,7 @@
         "Cont04": 4,
         "ContTt": 76
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:03.965Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.316Z"
     }
   },
   {
@@ -10338,7 +10338,7 @@
         "Md26": 375,
         "Md04": 420
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:03.994Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.350Z"
     }
   },
   {
@@ -10470,7 +10470,7 @@
         "MdTt": 60
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.022Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.376Z"
     }
   },
   {
@@ -10602,7 +10602,7 @@
         "Md08": 535,
         "Md16": 615
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:04.050Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.401Z"
     }
   },
   {
@@ -10734,7 +10734,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.084Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.428Z"
     }
   },
   {
@@ -10866,7 +10866,7 @@
       "met_est": 168,
       "metodo": 42,
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.131Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.452Z"
     }
   },
   {
@@ -10998,7 +10998,7 @@
         "MdTt": 60
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.173Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.476Z"
     }
   },
   {
@@ -11130,7 +11130,7 @@
         "MdTt": 570,
         "Md08": 945
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:04.203Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.500Z"
     }
   },
   {
@@ -11262,7 +11262,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.231Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.523Z"
     }
   },
   {
@@ -11394,7 +11394,7 @@
         "Md16": 180
       },
       "maximo": 420,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.274Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.550Z"
     }
   },
   {
@@ -11526,7 +11526,7 @@
         "MdAno": 60,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:04.297Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.573Z"
     }
   },
   {
@@ -11646,7 +11646,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.322Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.600Z"
     }
   },
   {
@@ -11778,7 +11778,7 @@
         "MdAno": 60,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:04.349Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.624Z"
     }
   },
   {
@@ -11910,7 +11910,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.377Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.655Z"
     }
   },
   {
@@ -12042,7 +12042,7 @@
         "MdAno": 20,
         "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:04.408Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.682Z"
     }
   },
   {
@@ -12174,7 +12174,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.434Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.710Z"
     }
   },
   {
@@ -12306,7 +12306,7 @@
         "Md12": 80,
         "Md16": 70
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:04.462Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.735Z"
     }
   },
   {
@@ -12438,7 +12438,7 @@
         "MdAno": 25,
         "MdTt": 25
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:04.495Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.763Z"
     }
   },
   {
@@ -12570,7 +12570,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.519Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.788Z"
     }
   },
   {
@@ -12702,7 +12702,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.544Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.817Z"
     }
   },
   {
@@ -12834,7 +12834,7 @@
       },
       "met_est": 720,
       "metodo": 180,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.569Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.842Z"
     }
   },
   {
@@ -12966,7 +12966,7 @@
         "MdAno": 40,
         "MdTt": 40
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:04.600Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.869Z"
     }
   },
   {
@@ -13098,7 +13098,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.637Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.889Z"
     }
   },
   {
@@ -13230,7 +13230,7 @@
       "met_est": 364,
       "metodo": 91,
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.662Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.911Z"
     }
   },
   {
@@ -13362,7 +13362,7 @@
         "MdTt": 30
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.697Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.936Z"
     }
   },
   {
@@ -13494,7 +13494,7 @@
         "Md08": 120
       },
       "maximo": 330,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.724Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.961Z"
     }
   },
   {
@@ -13626,7 +13626,7 @@
         "MdTt": 240,
         "Md26": 270
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:04.749Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:00.986Z"
     }
   },
   {
@@ -13758,7 +13758,7 @@
         "MdAno": 60,
         "MdTt": 40
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:04.781Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.014Z"
     }
   },
   {
@@ -13890,7 +13890,7 @@
         "MdTt": 4
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.809Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.044Z"
     }
   },
   {
@@ -14022,7 +14022,7 @@
         "MdTt": 30
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.838Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.067Z"
     }
   },
   {
@@ -14154,7 +14154,7 @@
         "MdAno": 378,
         "Md16": 503
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:04.868Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.092Z"
     }
   },
   {
@@ -14286,7 +14286,7 @@
       },
       "met_est": 560,
       "metodo": 140,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.895Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.113Z"
     }
   },
   {
@@ -14418,7 +14418,7 @@
         "MdAno": 120,
         "MdTt": 105
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:04.923Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.142Z"
     }
   },
   {
@@ -14550,7 +14550,7 @@
         "MdTt": 35
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:04.956Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.168Z"
     }
   },
   {
@@ -14682,7 +14682,7 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:04.986Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.192Z"
     }
   },
   {
@@ -14802,7 +14802,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.018Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.219Z"
     }
   },
   {
@@ -14934,7 +14934,7 @@
       },
       "met_est": 840,
       "metodo": 210,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.045Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.244Z"
     }
   },
   {
@@ -15066,7 +15066,7 @@
         "MdTt": 155
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.075Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.272Z"
     }
   },
   {
@@ -15198,7 +15198,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.107Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.295Z"
     }
   },
   {
@@ -15330,7 +15330,7 @@
         "MdAno": 20,
         "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:05.137Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.320Z"
     }
   },
   {
@@ -15462,7 +15462,7 @@
         "MdTt": 80
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.168Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.342Z"
     }
   },
   {
@@ -15594,7 +15594,7 @@
         "MdAno": 6,
         "MdTt": 6
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:05.200Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.367Z"
     }
   },
   {
@@ -15726,7 +15726,7 @@
       "met_est": 48,
       "metodo": 12,
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.232Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.391Z"
     }
   },
   {
@@ -15858,7 +15858,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.254Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.411Z"
     }
   },
   {
@@ -15990,7 +15990,7 @@
         "Md16": 1279,
         "Md08": 1279
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:05.284Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.437Z"
     }
   },
   {
@@ -16122,7 +16122,7 @@
       },
       "met_est": 560,
       "metodo": 140,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.315Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.460Z"
     }
   },
   {
@@ -16242,7 +16242,7 @@
         "MdAno": 60,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:05.360Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.481Z"
     }
   },
   {
@@ -16373,7 +16373,7 @@
         "MdTt": 50
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.390Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.503Z"
     }
   },
   {
@@ -16505,7 +16505,7 @@
         "MdTt": 100
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.419Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.533Z"
     }
   },
   {
@@ -16637,7 +16637,7 @@
         "MdAno": 10,
         "MdTt": 5
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:05.489Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.558Z"
     }
   },
   {
@@ -16769,7 +16769,7 @@
         "MdAno": 6,
         "MdTt": 6
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:05.531Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.582Z"
     }
   },
   {
@@ -16889,7 +16889,7 @@
       },
       "met_est": 1000,
       "metodo": 250,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.557Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.608Z"
     }
   },
   {
@@ -17021,7 +17021,7 @@
         "MdTt": 120
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.592Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.636Z"
     }
   },
   {
@@ -17153,7 +17153,7 @@
         "MdAno": 20,
         "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:05.621Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.661Z"
     }
   },
   {
@@ -17285,7 +17285,7 @@
         "MdTt": 30
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.649Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.692Z"
     }
   },
   {
@@ -17417,7 +17417,7 @@
         "MdTt": 30
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.687Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.713Z"
     }
   },
   {
@@ -17548,7 +17548,7 @@
         "MdAno": 60,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:05.717Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.739Z"
     }
   },
   {
@@ -17680,7 +17680,7 @@
       "met_est": 480,
       "metodo": 120,
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.743Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.766Z"
     }
   },
   {
@@ -17812,7 +17812,7 @@
         "MdTt": 120
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.779Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.790Z"
     }
   },
   {
@@ -17944,7 +17944,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.803Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.816Z"
     }
   },
   {
@@ -18076,7 +18076,7 @@
       },
       "met_est": 1680,
       "metodo": 420,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.831Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.845Z"
     }
   },
   {
@@ -18208,7 +18208,7 @@
         "MdTt": 40
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.857Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.870Z"
     }
   },
   {
@@ -18340,7 +18340,7 @@
         "MdTt": 50
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.885Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.892Z"
     }
   },
   {
@@ -18472,7 +18472,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.914Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.916Z"
     }
   },
   {
@@ -18604,7 +18604,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.945Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.937Z"
     }
   },
   {
@@ -18736,7 +18736,7 @@
       "met_est": 200,
       "metodo": 50,
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:05.982Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.959Z"
     }
   },
   {
@@ -18868,7 +18868,7 @@
       "met_est": 12,
       "metodo": 3,
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.010Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:01.983Z"
     }
   },
   {
@@ -18999,7 +18999,7 @@
         "MdAno": 0,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:06.039Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.007Z"
     }
   },
   {
@@ -19130,7 +19130,7 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:06.067Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.035Z"
     }
   },
   {
@@ -19262,7 +19262,7 @@
         "MdAno": 5,
         "MdTt": 4
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:06.095Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.061Z"
     }
   },
   {
@@ -19394,7 +19394,7 @@
         "MdTt": 90
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.122Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.085Z"
     }
   },
   {
@@ -19526,7 +19526,7 @@
       },
       "met_est": 32,
       "metodo": 8,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.153Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.107Z"
     }
   },
   {
@@ -19658,7 +19658,7 @@
         "MdTt": 180
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.186Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.133Z"
     }
   },
   {
@@ -19790,7 +19790,7 @@
         "MdTt": 12
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.216Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.154Z"
     }
   },
   {
@@ -19922,7 +19922,7 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:06.240Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.178Z"
     }
   },
   {
@@ -20054,7 +20054,7 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:06.266Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.202Z"
     }
   },
   {
@@ -20186,7 +20186,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.294Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.225Z"
     }
   },
   {
@@ -20318,7 +20318,7 @@
         "MdAno": 33,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:06.333Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.253Z"
     }
   },
   {
@@ -20450,7 +20450,7 @@
         "Md08": 60
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.362Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.277Z"
     }
   },
   {
@@ -20582,7 +20582,7 @@
         "MdAno": 0,
         "MdTt": 100
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:06.391Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.301Z"
     }
   },
   {
@@ -20714,7 +20714,7 @@
         "MdTt": 40
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.420Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.323Z"
     }
   },
   {
@@ -20846,7 +20846,7 @@
         "MdAno": 6,
         "MdTt": 4
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:06.452Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.345Z"
     }
   },
   {
@@ -20978,7 +20978,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.476Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.369Z"
     }
   },
   {
@@ -21098,7 +21098,7 @@
         "MdTt": 30
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.504Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.392Z"
     }
   },
   {
@@ -21230,7 +21230,7 @@
       },
       "met_est": 32,
       "metodo": 8,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.528Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.417Z"
     }
   },
   {
@@ -21362,7 +21362,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.566Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.441Z"
     }
   },
   {
@@ -21494,7 +21494,7 @@
         "Md26": 370,
         "Md12": 390
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:06.594Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.466Z"
     }
   },
   {
@@ -21626,7 +21626,7 @@
         "MdAno": 14,
         "MdTt": 14
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:06.623Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.491Z"
     }
   },
   {
@@ -21758,7 +21758,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.655Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.517Z"
     }
   },
   {
@@ -21890,7 +21890,7 @@
         "MdAno": 40,
         "MdTt": 40
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:06.683Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.542Z"
     }
   },
   {
@@ -22022,7 +22022,7 @@
         "Md52": 210
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.711Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.566Z"
     }
   },
   {
@@ -22154,7 +22154,7 @@
         "Md12": 170
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.739Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.597Z"
     }
   },
   {
@@ -22286,7 +22286,7 @@
         "MdAno": 60,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:06.768Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.624Z"
     }
   },
   {
@@ -22418,7 +22418,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.795Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.656Z"
     }
   },
   {
@@ -22550,7 +22550,7 @@
         "MdTt": 15
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.827Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.685Z"
     }
   },
   {
@@ -22682,7 +22682,7 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:06.858Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.709Z"
     }
   },
   {
@@ -22814,7 +22814,7 @@
         "MdTt": 3
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.888Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.732Z"
     }
   },
   {
@@ -22946,7 +22946,7 @@
       "met_est": 720,
       "maximo": 300,
       "metodo": 180,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.915Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.760Z"
     }
   },
   {
@@ -23078,7 +23078,7 @@
         "MdTt": 90
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.943Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.785Z"
     }
   },
   {
@@ -23210,7 +23210,7 @@
         "MdTt": 4
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:06.973Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.810Z"
     }
   },
   {
@@ -23342,7 +23342,7 @@
       },
       "met_est": 160,
       "metodo": 40,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.001Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.836Z"
     }
   },
   {
@@ -23474,7 +23474,7 @@
         "MdTt": 8
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.028Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.861Z"
     }
   },
   {
@@ -23606,7 +23606,7 @@
       },
       "met_est": 360,
       "metodo": 90,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.062Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.885Z"
     }
   },
   {
@@ -23738,7 +23738,7 @@
         "MdTt": 60
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.092Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.911Z"
     }
   },
   {
@@ -23870,7 +23870,7 @@
         "MdAno": 69,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:07.124Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.938Z"
     }
   },
   {
@@ -24002,7 +24002,7 @@
         "MdTt": 1
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.155Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.965Z"
     }
   },
   {
@@ -24134,7 +24134,7 @@
         "MdAno": 5,
         "Md04": 5
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:07.184Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:02.988Z"
     }
   },
   {
@@ -24266,7 +24266,7 @@
         "MdAno": 1,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:07.208Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.013Z"
     }
   },
   {
@@ -24398,7 +24398,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.236Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.038Z"
     }
   },
   {
@@ -24530,7 +24530,7 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:07.266Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.066Z"
     }
   },
   {
@@ -24662,7 +24662,7 @@
       },
       "met_est": 600,
       "metodo": 150,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.295Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.092Z"
     }
   },
   {
@@ -24794,7 +24794,7 @@
       "met_est": 36,
       "metodo": 9,
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.327Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.121Z"
     }
   },
   {
@@ -24926,7 +24926,7 @@
         "MdTt": 2
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.354Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.150Z"
     }
   },
   {
@@ -25058,7 +25058,7 @@
       },
       "met_est": 640,
       "metodo": 160,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.386Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.174Z"
     }
   },
   {
@@ -25190,7 +25190,7 @@
       },
       "met_est": 360,
       "metodo": 90,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.415Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.200Z"
     }
   },
   {
@@ -25322,7 +25322,7 @@
       "met_est": 8,
       "metodo": 2,
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.450Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.220Z"
     }
   },
   {
@@ -25454,7 +25454,7 @@
       },
       "met_est": 960,
       "metodo": 240,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.481Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.243Z"
     }
   },
   {
@@ -25586,7 +25586,7 @@
       },
       "met_est": 260,
       "metodo": 65,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.506Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.267Z"
     }
   },
   {
@@ -25718,7 +25718,7 @@
         "MdAno": 60,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:07.536Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.293Z"
     }
   },
   {
@@ -25850,7 +25850,7 @@
         "ContTt": 77,
         "ContAno": 50
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:07.565Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.318Z"
     }
   },
   {
@@ -25982,7 +25982,7 @@
         "MdAno": 60,
         "MdTt": 45
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:07.596Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.345Z"
     }
   },
   {
@@ -26102,7 +26102,7 @@
         "MdTt": 60
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.627Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.370Z"
     }
   },
   {
@@ -26234,7 +26234,7 @@
         "Md26": 100,
         "Md12": 110
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:07.656Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.396Z"
     }
   },
   {
@@ -26366,7 +26366,7 @@
         "Md26": 790
       },
       "maximo": 1460,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.684Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.421Z"
     }
   },
   {
@@ -26498,7 +26498,7 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:07.714Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.445Z"
     }
   },
   {
@@ -26630,7 +26630,7 @@
       "met_est": 300,
       "metodo": 75,
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.750Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.469Z"
     }
   },
   {
@@ -26762,7 +26762,7 @@
         "MdAno": 24,
         "MdTt": 24
       },
-      "data_ultimo_calculo": "2026-01-13T22:17:07.774Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.493Z"
     }
   },
   {
@@ -26894,7 +26894,7 @@
       },
       "met_est": 16,
       "metodo": 4,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.800Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.519Z"
     }
   },
   {
@@ -27026,7 +27026,7 @@
         "MdTt": 6
       },
       "reposicao": 0,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.822Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.544Z"
     }
   },
   {
@@ -27158,7 +27158,7 @@
       },
       "met_est": 48,
       "metodo": 12,
-      "data_ultimo_calculo": "2026-01-13T22:17:07.851Z"
+      "data_ultimo_calculo": "2026-01-13T22:27:03.571Z"
     }
   }
 ]

@@ -1,15 +1,9 @@
 === RELATÓRIO DE DIVERGÊNCIAS ATUALIZADO ===
-Data: 13/01/2026, 19:18:28
+Data: 13/01/2026, 19:27:56
 Itens analisados: 467
-Itens com divergência: 2
+Itens com divergência: 1
 ===========================================
 
 [1] ID: NB6O3v2lrjliFDtLWG0p | COD: 325.001.004
    -> Md04 | JSON: 1330 | TXT: 133
--------------------------------------------
-[2] ID: YTBeBEKQq1OhxwRyI5Pe | COD: 311.001.005
-   -> Metodo | JSON: 1 | TXT: 2
-   -> MetEst | JSON: 16 | TXT: 32
-   -> Reposição | JSON: 14 | TXT: 30
-   -> TP_Metodo | JSON: "2.INTERMITENTES" | TXT: "4.RECENTES"
 -------------------------------------------

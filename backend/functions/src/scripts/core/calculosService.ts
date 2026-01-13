@@ -333,44 +333,52 @@ function calcularTPMetodo(dadosCalculados: DadosCalculados): string {
   const { contagens, semanas } = dadosCalculados;
 
   const ultimaSemanaHistorico = semanas[semanas.length - 1];
-  //=SE(E(DD2=1;DI2=1;CO2<>"");"5.ENTRANTES";
+
+  // 1. ENTRANTES (Fórmula: EG=1 e EL=1 e DQ<>"")
+  // Aqui comparamos Cont04 e Cont52 para garantir que ele só apareceu agora no radar do Excel
   if (contagens.Cont04 === 1 && contagens.Cont52 === 1 && ultimaSemanaHistorico && ultimaSemanaHistorico.value > 0) {
     return "5.ENTRANTES";
   }
 
-  //SE(E(DD2<>0;DD2/DIREITA($DD$1;1)>=0,5;DI2=DD2);"4.RECENTES";
-  //SE(E(DE2<>0;DE2/DIREITA($DE$1;1)>=0,5;DI2=DE2);"4.RECENTES";
-  //SE(E(DF2<>0;DF2/DIREITA($DF$1;2)>=0,5;DI2=DF2);"4.RECENTES";
-  //SE(E(DG2<>0;DG2/DIREITA($DG$1;2)>=0,5;DI2=DG2);"4.RECENTES";
-  //SE(E(DH2<>0;DH2/DIREITA($DH$1;2)>=0,5;DI2=DH2);"4.RECENTES";
-  if (contagens.Cont04 > 0 && (contagens.Cont04 / 4) >= 0.5 && contagens.ContTt === contagens.Cont04) {
+  // 2. RECENTES
+  // CRÍTICO: Usamos Cont52 no lugar de ContTt. 
+  // Isso diz ao código: "Se tudo o que aconteceu no último ano (Cont52) 
+  // aconteceu apenas nesta janela curta, então ele é Recente para o Excel".
+
+  // Recente 04 semanas
+  if (contagens.Cont04 > 0 && (contagens.Cont04 / 4) >= 0.5 && contagens.Cont52 === contagens.Cont04) {
     return "4.RECENTES";
   }
-  if (contagens.Cont08 > 0 && (contagens.Cont08 / 8) >= 0.5 && contagens.ContTt === contagens.Cont08) {
+  // Recente 08 semanas
+  if (contagens.Cont08 > 0 && (contagens.Cont08 / 8) >= 0.5 && contagens.Cont52 === contagens.Cont08) {
     return "4.RECENTES";
   }
-  if (contagens.Cont12 > 0 && (contagens.Cont12 / 12) >= 0.5 && contagens.ContTt === contagens.Cont12) {
+  // Recente 12 semanas
+  if (contagens.Cont12 > 0 && (contagens.Cont12 / 12) >= 0.5 && contagens.Cont52 === contagens.Cont12) {
     return "4.RECENTES";
   }
-  if (contagens.Cont16 > 0 && (contagens.Cont16 / 16) >= 0.5 && contagens.ContTt === contagens.Cont16) {
+  // Recente 16 semanas
+  if (contagens.Cont16 > 0 && (contagens.Cont16 / 16) >= 0.5 && contagens.Cont52 === contagens.Cont16) {
     return "4.RECENTES";
   }
-  if (contagens.Cont26 > 0 && (contagens.Cont26 / 26) >= 0.5 && contagens.ContTt === contagens.Cont26) {
+  // Recente 26 semanas
+  if (contagens.Cont26 > 0 && (contagens.Cont26 / 26) >= 0.5 && contagens.Cont52 === contagens.Cont26) {
     return "4.RECENTES";
   }
 
-  //SE(E(DD2=0;DE2=0;DF2=0;DG2=0);"3.INATIVOS";
+  // 3. INATIVOS (Fórmula: EG=0 e EH=0 e EI=0 e EJ=0)
+  // Se não vendeu nada nas últimas 16 semanas
   if (contagens.Cont16 === 0) {
     return "3.INATIVOS";
   }
 
-  //SE(DI2/DIREITA($DI$1;2)<0,5;"2.INTERMITENTES";
-  const periodo = Math.min(semanas.length, 52);
-  if (periodo > 0 && (contagens.Cont52 / periodo) < 0.5) {
+  // 4. INTERMITENTES (Fórmula: EL/52 < 0.5)
+  // Usamos 52 como base fixa, que é o padrão das colunas do Excel
+  if ((contagens.Cont52 / 52) < 0.5) {
     return "2.INTERMITENTES";
   }
 
-  //"1.ORDINÁRIOS"))))))))
+  // 5. ORDINÁRIOS
   return "1.ORDINÁRIOS";
 }
 
@@ -484,6 +492,33 @@ function converterMovimentacoesParaHistorico(movimentacoes) {
   return historico;
 }
 
+function calcularGiro(metodo: number, estoque: number): number {
+  // Fórmula Excel: =SE(EC2=0;0;ARRED(EE2/EC2;0))
+  if (metodo <= 0) return 0;
+  return Math.round(estoque / metodo);
+}
+
+function calcularFxGiro(tpMetodo: string, estoque: number, giro: number): string {
+  // Regra 1: Inativos
+  if (tpMetodo === "3.INATIVOS") {
+    return estoque > 0 ? "I.INATIVOS COM ESTOQUE" : "A.ZERADOS INATIVOS";
+  }
+
+  // Regra 2: Itens com giro zero (sem estoque mas com demanda ou erro de cálculo)
+  if (giro === 0) {
+    return "B.ZERADOS COM DISPENSAÇÕES";
+  }
+
+  // Regra 3: Escala de cobertura (em semanas, assumindo que cada 4 semanas = 1 mês)
+  if (giro <= 4) return "C.ATÉ UM MÊS DE ESTOQUE";
+  if (giro <= 8) return "D.ATÉ DOIS MESES DE ESTOQUE";
+  if (giro <= 12) return "E.ATÉ TRÊS MESES DE ESTOQUE";
+  if (giro <= 16) return "F.ATÉ QUATRO MESES DE ESTOQUE";
+  if (giro <= 52) return "G.ATÉ DOZE MESES DE ESTOQUE";
+
+  return "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE";
+}
+
 // --- FUNÇÃO PRINCIPAL DE CÁLCULO (O "Motor") ---
 /**
  * Calcula todos os campos para um único medicamento.
@@ -500,10 +535,12 @@ export async function calcularCamposParaMedicamento(
   metodo: number;
   metEst: number;
   reposicao: number;
-  analise_reposicao: AnaliseReposicao;
   totalGeral: number;
   estoque: number;
+  giro: number;
+  fx_giro: string;
   ultimaSemana: string;
+  data_ultimo_calculo: string;
 }> {
   // Esta função é exatamente a sua 'calcularCamposMedicamentoSemSalvar'
   // Apenas renomeei para clareza e a exportei.
@@ -538,6 +575,10 @@ export async function calcularCamposParaMedicamento(
   const metEst = calcularMetEst(tp_metodo, metodo, unidadeId, maximo);
   // const estoque = await buscarEstoqueMedicamento(medicamento.nome, unidadeId);
   const estoque = medicamento.estoque;
+
+  const giro = calcularGiro(metodo, estoque);
+  const fx_giro = calcularFxGiro(tp_metodo, estoque, giro);
+
   const reposicao = calcularReposicao(metEst, estoque);
 
   const analise_reposicao: AnaliseReposicao = {
@@ -548,19 +589,19 @@ export async function calcularCamposParaMedicamento(
     percentual_cobertura: estoque > 0 ? ((estoque / metEst) * 100).toFixed(2) : '0'
   };
 
-  const ultimaSemana = historicoSemanas.length > 0 ? historicoSemanas[historicoSemanas.length - 1].week : 'N/A';
-
   return {
     contagens,
     maximo,
     medianas,
     tp_metodo,
+    totalGeral,
     metodo,
     metEst,
-    reposicao,
-    analise_reposicao,
-    totalGeral,
     estoque,
-    ultimaSemana
+    giro,         // Novo campo
+    fx_giro,      // Novo campo
+    reposicao,
+    ultimaSemana: historicoSemanas.length > 0 ? historicoSemanas[historicoSemanas.length - 1].week : 'N/A',
+    data_ultimo_calculo: new Date().toISOString()
   };
 }
