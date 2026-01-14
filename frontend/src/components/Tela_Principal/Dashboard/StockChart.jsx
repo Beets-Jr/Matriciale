@@ -17,7 +17,7 @@ const StockChart = () => {
 
   // Mapeamento de labels do gráfico para classes de status
   const labelToStatusClass = {
-    'INATIVOS ZERADOS': 'zerado-inativo',
+    'ZERADOS INATIVOS': 'zerado-inativo',
     'ZERADOS COM DISPENSAÇÕES': 'zerado-dispensacao',
     'ATÉ UM MÊS DE ESTOQUE': 'quatro-semanas',
     'ATÉ DOIS MESES DE ESTOQUE': 'oito-semanas',
@@ -26,6 +26,13 @@ const StockChart = () => {
     'ATÉ DOZE MESES DE ESTOQUE': 'azul-claro',
     'ACIMA DE DOZE MESES DE ESTOQUE': 'azul-escuro',
     'INATIVOS COM ESTOQUES': 'dezesseis-semanas-inativo'
+  };
+
+  // Função para limpar o prefixo (letra + ponto) do fx_giro
+  const cleanFxGiro = (fxGiro) => {
+    if (!fxGiro || typeof fxGiro !== 'string') return '';
+    // Remove o padrão "X." do início (onde X é qualquer letra)
+    return fxGiro.replace(/^[A-Z]\./, '').trim();
   };
 
   useEffect(() => {
@@ -45,7 +52,7 @@ const StockChart = () => {
         }
 
         const statusCounts = {
-          'INATIVOS ZERADOS': 0,
+          'ZERADOS INATIVOS': 0,
           'ZERADOS COM DISPENSAÇÕES': 0,
           'ATÉ UM MÊS DE ESTOQUE': 0,
           'ATÉ DOIS MESES DE ESTOQUE': 0,
@@ -56,53 +63,19 @@ const StockChart = () => {
           'INATIVOS COM ESTOQUES': 0
         };
 
+        // Utiliza a classificação fx_giro que já vem do banco
         medicines.forEach(med => {
-          const status = med.status;
-          const isInativo = med.isInativo || med.tp_metodo === "3.INATIVOS";
-          const estoque = med.estoque || med.estoque_atual || 0;
+          const fxGiro = cleanFxGiro(med.fx_giro);
           
-          // Seguindo a ordem do padrão em a.txt:
-          // 1. INATIVOS COM ESTOQUE (tp_metodo="3.INATIVOS" e estoque<>0)
-          if (isInativo && estoque !== 0) {
-            statusCounts['INATIVOS COM ESTOQUES']++;
-          }
-          // 2. ZERADOS INATIVOS (tp_metodo="3.INATIVOS" e estoque=0)
-          else if (isInativo && estoque === 0) {
-            statusCounts['INATIVOS ZERADOS']++;
-          }
-          // 3. ZERADOS COM DISPENSAÇÕES (status=0)
-          else if (estoque === 0) {
-            statusCounts['ZERADOS COM DISPENSAÇÕES']++;
-          }
-          // 4. ATÉ UM MÊS DE ESTOQUE (status<=4)
-          else if (status <= 4) {
-            statusCounts['ATÉ UM MÊS DE ESTOQUE']++;
-          }
-          // 5. ATÉ DOIS MESES DE ESTOQUE (status<=8)
-          else if (status <= 8) {
-            statusCounts['ATÉ DOIS MESES DE ESTOQUE']++;
-          }
-          // 6. ATÉ TRÊS MESES DE ESTOQUE (status<=12)
-          else if (status <= 12) {
-            statusCounts['ATÉ TRÊS MESES DE ESTOQUE']++;
-          }
-          // 7. ATÉ QUATRO MESES DE ESTOQUE (status<=16)
-          else if (status <= 16) {
-            statusCounts['ATÉ QUATRO MESES DE ESTOQUE']++;
-          }
-          // 8. ATÉ DOZE MESES DE ESTOQUE (status<=52)
-          else if (status <= 52) {
-            statusCounts['ATÉ DOZE MESES DE ESTOQUE']++;
-          }
-          // 9. OUTROS COM MAIS DE DOZE MESES DE ESTOQUE (status>52)
-          else {
-            statusCounts['ACIMA DE DOZE MESES DE ESTOQUE']++;
+          // Incrementa o contador correspondente
+          if (fxGiro && statusCounts.hasOwnProperty(fxGiro)) {
+            statusCounts[fxGiro]++;
           }
         });
 
         // Cores correspondentes à ColorLegend
         const chartData = [
-          { label: 'INATIVOS ZERADOS', value: statusCounts['INATIVOS ZERADOS'], color: '#CC99FF' },
+          { label: 'ZERADOS INATIVOS', value: statusCounts['ZERADOS INATIVOS'], color: '#CC99FF' },
           { label: 'ZERADOS COM DISPENSAÇÕES', value: statusCounts['ZERADOS COM DISPENSAÇÕES'], color: '#C00000' },
           { label: 'ATÉ UM MÊS DE ESTOQUE', value: statusCounts['ATÉ UM MÊS DE ESTOQUE'], color: '#FF0000' },
           { label: 'ATÉ DOIS MESES DE ESTOQUE', value: statusCounts['ATÉ DOIS MESES DE ESTOQUE'], color: '#FF9900' },
@@ -164,8 +137,8 @@ const StockChart = () => {
           }}>
             <Skeleton 
               variant="circular" 
-              width={{ xs: 250, sm: 300 }} 
-              height={{ xs: 250, sm: 300 }} 
+              width={isMobile ? 250 : 300} 
+              height={isMobile ? 250 : 300} 
             />
           </Box>
         ) : (

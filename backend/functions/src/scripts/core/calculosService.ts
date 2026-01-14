@@ -527,81 +527,45 @@ function calcularFxGiro(tpMetodo: string, estoque: number, giro: number): string
 export async function calcularCamposParaMedicamento(
   medicamento: MedicamentoCalculado,
   unidadeId: string
-): Promise<{
-  contagens: Contagens;
-  maximo: number;
-  medianas: Medianas;
-  tp_metodo: string;
-  metodo: number;
-  metEst: number;
-  reposicao: number;
-  totalGeral: number;
-  estoque: number;
-  giro: number;
-  fx_giro: string;
-  ultimaSemana: string;
-  data_ultimo_calculo: string;
-}> {
-  // Esta função é exatamente a sua 'calcularCamposMedicamentoSemSalvar'
-  // Apenas renomeei para clareza e a exportei.
-
+): Promise<any> {
+  // 1. Gera histórico ordenado e preenche semanas faltantes com 0
   const historicoSemanas = converterMovimentacoesParaHistorico(medicamento.movimentacoes_semanais);
-  const totalGeral = historicoSemanas.reduce((acc, curr) => acc + curr.value, 0);
-
-  if (historicoSemanas.length === 0) {
-    throw new Error(`Medicamento sem movimentações: ${medicamento.nome}`);
-  }
-
+  
+  // 2. Agregações Base
+  const totalGeral = historicoSemanas.reduce((acc, curr) => acc + (curr.value || 0), 0);
   const contagens = calcularContagensParaHistorico(historicoSemanas);
   const maximo = calcularMaximaMedicamento(historicoSemanas);
   const medianas = calcularMedianasParaHistorico(historicoSemanas);
 
-  const dadosCalculados: DadosCalculados = {
-    contagens,
-    semanas: historicoSemanas,
-    totalSemanasHistorico: historicoSemanas.length
-  };
-  const tp_metodo = calcularTPMetodo(dadosCalculados);
+  // 3. Classificação (Ajustada para bater com a "miopia" de 52 semanas do Excel)
+  const dadosCalc: DadosCalculados = { contagens, semanas: historicoSemanas, totalSemanasHistorico: historicoSemanas.length };
+  const tp_metodo = calcularTPMetodo(dadosCalc);
 
-  const metodo = calcularMetodo({
-    historicoSemanas,
-    medianas,
-    contagens,
-    maximo,
-    tp_metodo,
-    totalGeral
-  });
-
+  // 4. Método e Meta de Estoque
+  const metodo = calcularMetodo({ historicoSemanas, medianas, contagens, maximo, tp_metodo, totalGeral });
   const metEst = calcularMetEst(tp_metodo, metodo, unidadeId, maximo);
-  // const estoque = await buscarEstoqueMedicamento(medicamento.nome, unidadeId);
-  const estoque = medicamento.estoque;
 
-  const giro = calcularGiro(metodo, estoque);
+  // 5. Giro e Faixa de Giro (Novos Campos)
+  const estoque = medicamento.estoque || 0;
+  const giro = metodo > 0 ? Math.round(estoque / metodo) : 0;
   const fx_giro = calcularFxGiro(tp_metodo, estoque, giro);
 
-  const reposicao = calcularReposicao(metEst, estoque);
+  // 6. Reposição
+  const reposicao = Math.max(0, metEst - estoque);
 
-  const analise_reposicao: AnaliseReposicao = {
-    metEst,
-    estoque_atual: estoque,
-    reposicao_calculada: reposicao,
-    status: reposicao > 0 ? 'NECESSITA_REPOSICAO' : 'ESTOQUE_SUFICIENTE',
-    percentual_cobertura: estoque > 0 ? ((estoque / metEst) * 100).toFixed(2) : '0'
-  };
-
+  // Retorno limpo e direto
   return {
     contagens,
-    maximo,
     medianas,
-    tp_metodo,
     totalGeral,
+    maximo,
     metodo,
     metEst,
-    estoque,
-    giro,         // Novo campo
-    fx_giro,      // Novo campo
     reposicao,
-    ultimaSemana: historicoSemanas.length > 0 ? historicoSemanas[historicoSemanas.length - 1].week : 'N/A',
-    data_ultimo_calculo: new Date().toISOString()
+    tp_metodo,
+    giro,
+    fx_giro,
+    // preciso rever essa ultima semana, pq não está funcionando e colocando N/A em tudo
+    ultimaSemana: historicoSemanas.length > 0 ? historicoSemanas[historicoSemanas.length - 1].week : 'N/A'
   };
 }

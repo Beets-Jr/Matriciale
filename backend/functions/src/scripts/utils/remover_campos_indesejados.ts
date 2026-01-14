@@ -7,14 +7,12 @@ import { FieldValue } from 'firebase-admin/firestore'; // (Se estiver usando o A
 
 // --- CONFIGURAÇÕES ---
 const CAMPOS_A_DELETAR = [
-  'Cont04', 'Cont08', 'Cont12', 'Cont16', 'Cont26', 'Cont52', 'ContAno', 'ContTt', 'Md04', 'Md08', 'Md12', 'Md16', 'Md26', 'Md52', 'MdAno', 'MdTt',
-  'MetEst', 'metEst', 'Metodo', 'Máximo', 'Reposição', 'TP_Metodo', 'Total Geral',
-  'totalGeral', 'analise_reposicao', 'Estoque'
+  'dados'
 ];
 
 // --- FUNÇÕES DE LIMPEZA ---
 
-/**
+/** 
  * Remove os campos especificados de um documento de medicamento
  */
 async function limparCamposMedicamento(

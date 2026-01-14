@@ -19,6 +19,9 @@ interface ResumoMedicamento {
 async function listarIdsNomes() {
   console.log('--- Iniciando exportação de IDs e Nomes ---\n');
 
+  // Caminho absoluto para salvar os arquivos
+  const outputDir = 'D:\\Beets\\Matriciale\\Well\\auxiliar\\calculos';
+
   try {
     for (const unidade of UNIDADES) {
       console.log(`🔄 Lendo dados da unidade: ${unidade}...`);
@@ -37,8 +40,8 @@ async function listarIdsNomes() {
         });
       });
 
-      // Define o nome do arquivo de saída
-      const nomeArquivo = `lista_${unidade}.json`;
+      // Define o nome do arquivo de saída com o caminho especificado
+      const nomeArquivo = `${outputDir}\\lista_${unidade}.json`;
 
       // Escreve o arquivo no disco
       fs.writeFileSync(nomeArquivo, JSON.stringify(listaMedicamentos, null, 2));

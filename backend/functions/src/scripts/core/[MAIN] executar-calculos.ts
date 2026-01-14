@@ -17,7 +17,7 @@ import { prepararDadosParaCalculos, listarUnidadesDisponiveis } from './preparar
  * @param unidades - Array opcional com nomes das unidades. Se não fornecido, busca automaticamente
  */
 export async function atualizarCamposCalculadosNoFirestore(
-  municipioId: string, 
+  municipioId: string,
   unidades?: string[]
 ): Promise<any> {
   try {
@@ -37,11 +37,11 @@ export async function atualizarCamposCalculadosNoFirestore(
     // if (!unidades || unidades.length === 0) {
     //   console.log('🔍 Buscando unidades disponíveis no Cloud Storage...');
     //   unidades = await listarUnidadesDisponiveis(municipioId);
-      
+
     //   if (unidades.length === 0) {
     //     throw new Error(`Nenhuma unidade encontrada no Cloud Storage para ${municipioId}`);
     //   }
-      
+
     //   console.log(`✅ Unidades encontradas: ${unidades.join(', ')}\n`);
     // }
 
@@ -64,85 +64,98 @@ export async function atualizarCamposCalculadosNoFirestore(
     console.log('║  ETAPA 2: CÁLCULO DOS CAMPOS RESTANTES                            ║');
     console.log('╚════════════════════════════════════════════════════════════════════╝\n');
 
-      let totalProcessados = 0;
-      let totalSucessos = 0;
-      let totalErros = 0;
+    let totalProcessados = 0;
+    let totalSucessos = 0;
+    let totalErros = 0;
 
-      // 1. Busca o município específico
-      const municipioDoc = await db.collection('municipio').doc(municipioId).get();
-      
-      if (!municipioDoc.exists) {
-        throw new Error(`Município com ID "${municipioId}" não encontrado`);
-      }
+    // 1. Busca o município específico
+    const municipioDoc = await db.collection('municipio').doc(municipioId).get();
 
-      console.log(`Processando Município: ${municipioDoc.id}`);
-      
-      // 2. Busca unidades do município
-      const unidadesSnapshot = await municipioDoc.ref.collection('unidades').get();
+    if (!municipioDoc.exists) {
+      throw new Error(`Município com ID "${municipioId}" não encontrado`);
+    }
+
+    console.log(`Processando Município: ${municipioDoc.id}`);
+
+    // 2. Busca unidades do município
+    const unidadesSnapshot = await municipioDoc.ref.collection('unidades').get();
 
     // 2. Itera sobre Unidades
     for (const unidadeDoc of unidadesSnapshot.docs) {
       const medicamentosSnapshot = await unidadeDoc.ref.collection('medicamentos_unidade').get();
-      console.log(`  Processando Unidade: ${unidadeDoc.id} (${medicamentosSnapshot.size} medicamentos)`);
+      console.log(`🚀 Iniciando Batch para Unidade: ${unidadeDoc.id} (${medicamentosSnapshot.size} medicamentos)`);
+
+      // Inicializa o primeiro Batch da unidade
+      let batch = db.batch();
+      let contadorBatch = 0;
 
       // 3. Itera sobre Medicamentos
       for (const medicamentoDoc of medicamentosSnapshot.docs) {
         totalProcessados++;
-        const medicamento = medicamentoDoc.data() as MedicamentoCalculado;
+        const medicamentoData = medicamentoDoc.data();
+
+        // Prepara dados para o motor de cálculo
+        const medicamentoParaCalculo = {
+          ...medicamentoData.dados,
+          id: medicamentoDoc.id,
+          movimentacoes_semanais: medicamentoData.dados?.movimentacoes_semanais || {}
+        };
 
         try {
           // 4. CHAMA A LÓGICA DE CÁLCULO
-          const camposCalculados = await calcularCamposParaMedicamento(medicamento, unidadeDoc.id);
+          const campos = await calcularCamposParaMedicamento(medicamentoParaCalculo, unidadeDoc.id);
 
-          // 5. FORMATA O OBJETO PARA SALVAR NO FIRESTORE
-            const dadosParaSalvar = {
-            // Mapeia as medianas (Md04, Md08, ...) como objetos
-            medianas: {
-              ...Object.entries(camposCalculados.medianas).reduce((acc, [key, value]) => {
-              acc[key] = value;
-              return acc;
-              }, {})
-            },
-            // Mapeia as contagens (Cont04, Cont08, ...) como objetos
-            contagens: {
-              ...Object.entries(camposCalculados.contagens).reduce((acc, [key, value]) => {
-              acc[key] = value;
-              return acc;
-              }, {})
-            },
+          // 5. PREPARA O UPDATE COM NOTAÇÃO DE PONTO
+          const updateData = {
+            "medianas": campos.medianas,
+            "contagens": campos.contagens,
+            "total_geral": campos.totalGeral,
+            "maximo": campos.maximo,
+            "metodo": campos.metodo,
+            "met_est": campos.metEst,
+            "reposicao": campos.reposicao,
+            "tp_metodo": campos.tp_metodo,
+            "giro": campos.giro,
+            "fx_giro": campos.fx_giro,
+            "ultima_semana_calculo": campos.ultimaSemana,
+            "data_ultimo_calculo": new Date().toISOString()
+          };
 
-            "total_geral": camposCalculados.totalGeral,
-            "maximo": camposCalculados.maximo,
-            "metodo": camposCalculados.metodo,
-            "met_est": camposCalculados.metEst,
-            "reposicao": camposCalculados.reposicao,
-            "tp_metodo": camposCalculados.tp_metodo,
+          // 6. ADICIONA AO BATCH
+          batch.update(medicamentoDoc.ref, updateData);
+          contadorBatch++;
 
-            // Bônus: Salva a análise e a data do cálculo para rastreabilidade
-            // "analise_reposicao": camposCalculados.analise_reposicao, // isso aqui é espurio, pois não é usado em lugar nenhum so consome dados
-            "data_ultimo_calculo": new Date().toISOString(),
-            "ultima_semana_calculo": camposCalculados.ultimaSemana
-            };
+          // Se atingir o limite de 500 do Firestore, envia e começa um novo
+          if (contadorBatch === 500) {
+            await batch.commit();
+            console.log(`  📦 Lote de 500 itens enviado para ${unidadeDoc.id}`);
+            batch = db.batch();
+            contadorBatch = 0;
+          }
 
-          // 6. ATUALIZA O DOCUMENTO NO FIRESTORE
-          //    Usamos 'update' para adicionar/sobrescrever apenas estes campos.
-          await medicamentoDoc.ref.update(dadosParaSalvar);
-
-          console.log(`    ✅ Sucesso: ${medicamento.nome}`);
           totalSucessos++;
 
         } catch (error: any) {
-          console.error(`    ❌ Erro ao processar ${medicamento.nome} (${unidadeDoc.id}):`, error.message);
+          console.error(`    ❌ Erro no cálculo de ${medicamentoDoc.id}:`, error.message);
           totalErros++;
         }
       }
+
+      // 7. ENVIA O RESTANTE (O que sobrou no último batch da unidade)
+      if (contadorBatch > 0) {
+        await batch.commit();
+        console.log(`  ✅ Finalizado Batch da Unidade ${unidadeDoc.id}: ${contadorBatch} itens enviados.`);
+      }
     }
+
+    console.log(`\n=== PROCESSAMENTO CONCLUÍDO ===`);
+    console.log(`Total Processados: ${totalProcessados} | Sucessos: ${totalSucessos} | Erros: ${totalErros}`);
 
     // Relatório final
     console.log('\n╔════════════════════════════════════════════════════════════════════╗');
     console.log('║  PROCESSO CONCLUÍDO COM SUCESSO!                                  ║');
     console.log('╚════════════════════════════════════════════════════════════════════╝\n');
-    
+
     console.log('📊 RESUMO GERAL:');
     console.log('─'.repeat(70));
     console.log('ETAPA 1 - Preparação de Dados:');

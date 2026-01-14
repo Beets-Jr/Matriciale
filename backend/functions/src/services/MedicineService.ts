@@ -55,8 +55,8 @@ export class MedicineService {
         tp_metodo: med.tp_metodo,
         tp_unidade_medicamento: med.tp_unidade_medicamento,
         estoque: med.estoque,
-        status: Math.floor(status),
         metodo: med.metodo,
+        fx_giro: med.fx_giro,
         // Indica se é inativo para facilitar a classificação no frontend
         isInativo: med.tp_metodo === "3.INATIVOS"
       };
