@@ -59,29 +59,42 @@ export async function atualizarEstoqueEMovimentacaoSemanal(
     const medicamentosSnapshot = await unidadeRef.collection('medicamentos_unidade').get();
     console.log(`📦 Total de medicamentos na unidade: ${medicamentosSnapshot.size}`);
 
-    // 3. Encontrar o maior índice ano_semana existente em TODOS os medicamentos
-    let maiorIndiceExistente = '';
-    const todosIndices: string[] = [];
-    
+    // 3. Encontrar a ÚLTIMA semana movimentada em TODOS os medicamentos da unidade
+    // IMPORTANTE: Todos os medicamentos devem ter a movimentação na mesma semana
+    // A lógica é: "qual foi a semana mais recente que teve ALGUMA movimentação nesta unidade?"
+    let ultimaSemanaMovimentada = '';
+    const todasSemanasMovimentadas: string[] = [];
+
     medicamentosSnapshot.docs.forEach(doc => {
       const medicamento = doc.data();
       if (medicamento.movimentacoes_semanais) {
-        const indices = Object.keys(medicamento.movimentacoes_semanais);
-        todosIndices.push(...indices);
+        const semanasDesseMedicamento = Object.keys(medicamento.movimentacoes_semanais);
+        todasSemanasMovimentadas.push(...semanasDesseMedicamento);
       }
     });
 
-    // Ordenar e pegar o maior (mais recente)
-    if (todosIndices.length > 0) {
-      todosIndices.sort();
-      maiorIndiceExistente = todosIndices[todosIndices.length - 1];
-      console.log(`📊 Maior índice existente encontrado: ${maiorIndiceExistente}`);
+    // Encontrar a semana mais recente (ordenada numericamente por ano/semana)
+    if (todasSemanasMovimentadas.length > 0) {
+      // Ordenação numérica: primeiro por ano, depois por semana
+      todasSemanasMovimentadas.sort((a, b) => {
+        const [anoA, semanaA] = a.split('_').map(Number);
+        const [anoB, semanaB] = b.split('_').map(Number);
+        return anoA !== anoB ? anoA - anoB : semanaA - semanaB;
+      });
+
+      ultimaSemanaMovimentada = todasSemanasMovimentadas[todasSemanasMovimentadas.length - 1];
+      console.log(`📊 Última semana movimentada na unidade: ${ultimaSemanaMovimentada}`);
+      console.log(`📊 Total de semanas encontradas: ${todasSemanasMovimentadas.length}`);
+    } else {
+      console.log(`📊 Nenhum histórico de movimentação encontrado - será a primeira semana`);
     }
 
-    // 4. Calcular o próximo índice sequencial
-    const movimentacoesBase = maiorIndiceExistente ? { [maiorIndiceExistente]: 0 } : {};
+    // 4. Calcular a PRÓXIMA semana sequencial para TODOS os medicamentos
+    // Exemplo: se última foi "2025_51", próxima será "2025_52"
+    // Exemplo: se última foi "2025_52", próxima será "2026_01"
+    const movimentacoesBase = ultimaSemanaMovimentada ? { [ultimaSemanaMovimentada]: 0 } : {};
     const indiceAnoSemana = calcularProximoIndiceAnoSemana(movimentacoesBase);
-    console.log(`📊 Próximo índice sequencial calculado: ${indiceAnoSemana}`);
+    console.log(`📊 Próxima semana calculada para todos os medicamentos: ${indiceAnoSemana}`);
 
     // 5. Criar mapa de medicamentos processados para busca rápida
     // MUDANÇA: Agora usa cod_sistemico_item como chave para melhor correspondência

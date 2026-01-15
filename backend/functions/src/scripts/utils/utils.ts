@@ -59,7 +59,7 @@ export function verificarVariaveisAmbiente(): void {
  */
 export function calcularProximoIndiceAnoSemana(movimentacoesSemanais: { [key: string]: number }): string {
   const indices = Object.keys(movimentacoesSemanais);
-  
+
   // Se não houver índices, usar a data atual
   if (indices.length === 0) {
     const agora = new Date();
@@ -68,8 +68,21 @@ export function calcularProximoIndiceAnoSemana(movimentacoesSemanais: { [key: st
     return `${ano}_${String(semana).padStart(2, '0')}`;
   }
 
-  // Ordenar índices para pegar o mais recente
-  const indicesOrdenados = indices.sort();
+  // Ordenar índices NUMERICAMENTE por ano/semana (não lexicograficamente)
+  // Exemplo: ["2025_1", "2025_2", "2025_10", "2026_1"] em vez de ["2025_1", "2025_10", "2025_2", "2026_1"]
+  const indicesOrdenados = indices.sort((a, b) => {
+    const [anoA, semanaA] = a.split('_').map(Number);
+    const [anoB, semanaB] = b.split('_').map(Number);
+
+    // Primeiro compara ano
+    if (anoA !== anoB) {
+      return anoA - anoB;
+    }
+
+    // Se mesmo ano, compara semana
+    return semanaA - semanaB;
+  });
+
   const ultimoIndice = indicesOrdenados[indicesOrdenados.length - 1];
   
   // Parse do último índice (formato: YYYY_WW)
@@ -88,6 +101,15 @@ export function calcularProximoIndiceAnoSemana(movimentacoesSemanais: { [key: st
   
   return `${ano}_${String(semana).padStart(2, '0')}`;
 }
+
+/**
+ * TESTE DA ORDENAÇÃO DE SEMANAS
+ * Executar este teste: npx ts-node -e "
+ * const { calcularProximoIndiceAnoSemana } = require('./utils.ts');
+ * const teste = { '2025_10': 0, '2025_2': 0, '2025_1': 0, '2024_52': 0 };
+ * console.log('Próxima semana:', calcularProximoIndiceAnoSemana(teste));
+ * "
+ */
 
 /**
  * Calcula o número da semana do ano para uma data específica
