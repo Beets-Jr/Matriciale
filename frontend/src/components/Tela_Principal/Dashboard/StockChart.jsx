@@ -24,8 +24,8 @@ const StockChart = () => {
     'ATÉ TRÊS MESES DE ESTOQUE': 'doze-semanas',
     'ATÉ QUATRO MESES DE ESTOQUE': 'dezesseis-semanas',
     'ATÉ DOZE MESES DE ESTOQUE': 'azul-claro',
-    'ACIMA DE DOZE MESES DE ESTOQUE': 'azul-escuro',
-    'INATIVOS COM ESTOQUES': 'dezesseis-semanas-inativo'
+    'OUTROS COM MAIS DE DOZE MESES DE ESTOQUE': 'azul-escuro',
+    'INATIVOS COM ESTOQUE': 'dezesseis-semanas-inativo'
   };
 
   // Função para limpar o prefixo (letra + ponto) do fx_giro
@@ -59,10 +59,9 @@ const StockChart = () => {
           'ATÉ TRÊS MESES DE ESTOQUE': 0,
           'ATÉ QUATRO MESES DE ESTOQUE': 0,
           'ATÉ DOZE MESES DE ESTOQUE': 0,
-          'ACIMA DE DOZE MESES DE ESTOQUE': 0,
-          'INATIVOS COM ESTOQUES': 0
+          'OUTROS COM MAIS DE DOZE MESES DE ESTOQUE': 0,
+          'INATIVOS COM ESTOQUE': 0
         };
-
         // Utiliza a classificação fx_giro que já vem do banco
         medicines.forEach(med => {
           const fxGiro = cleanFxGiro(med.fx_giro);
@@ -82,8 +81,8 @@ const StockChart = () => {
           { label: 'ATÉ TRÊS MESES DE ESTOQUE', value: statusCounts['ATÉ TRÊS MESES DE ESTOQUE'], color: '#00CC00' },
           { label: 'ATÉ QUATRO MESES DE ESTOQUE', value: statusCounts['ATÉ QUATRO MESES DE ESTOQUE'], color: '#008000' },
           { label: 'ATÉ DOZE MESES DE ESTOQUE', value: statusCounts['ATÉ DOZE MESES DE ESTOQUE'], color: '#0000FF' },
-          { label: 'ACIMA DE DOZE MESES DE ESTOQUE', value: statusCounts['ACIMA DE DOZE MESES DE ESTOQUE'], color: '#000099' },
-          { label: 'INATIVOS COM ESTOQUES', value: statusCounts['INATIVOS COM ESTOQUES'], color: '#6600CC' },
+          { label: 'OUTROS COM MAIS DE DOZE MESES DE ESTOQUE', value: statusCounts['OUTROS COM MAIS DE DOZE MESES DE ESTOQUE'], color: '#000099' },
+          { label: 'INATIVOS COM ESTOQUE', value: statusCounts['INATIVOS COM ESTOQUE'], color: '#6600CC' },
         ].filter(item => item.value > 0);
 
         setData(chartData);

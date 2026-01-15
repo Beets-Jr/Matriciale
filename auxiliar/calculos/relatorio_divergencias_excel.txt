@@ -1,0 +1,2695 @@
+=== RELATÓRIO DE DIVERGÊNCIAS (VIA EXCEL) ===
+Data: 14/01/2026, 13:07:53
+Planilha Base: [COMPLETO] Palmares - Base de Movimentações.xlsx (Aba: MetodologiaCAF)
+Itens analisados: 467
+Itens com divergência: 467
+=============================================
+
+[1] ID: 0080eMOHAR6Xaw7KITGT | COD: 002.000.010
+ITEM: CEFALEXINA 500 MG
+   -> Giro | JSON: 20 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[2] ID: 03xukFiKViEfrwg603S1 | COD: 315.002.002
+ITEM: MAXIDEX - DEXAMETASONA 1MG/ML COLIRIO
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[3] ID: 07OsYcmU03iWz3VotUGW | COD: 325.019.002
+ITEM: NAPROXENO 500MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[4] ID: 09W43eDQzqcoQxKf9wt5 | COD: 021.001.073
+ITEM: DOMPERIDONA 10 MG
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[5] ID: 0HUdWaCvd8cGVs1s3dWH | COD: 010.001.003
+ITEM: LORATADINA 1 MG/ML - XAROPE
+   -> Giro | JSON: 27 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "27"
+---------------------------------------------
+[6] ID: 0UzmCcfqoK39sEAf6Rwf | COD: 005.000.021
+ITEM: VALPROATO DE SÓDIO 50 MG/ML - XPE
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[7] ID: 0ZQT8TIgDGevRLg9qYT8 | COD: 005.000.048
+ITEM: HALOPERIDOL,DECANOATO 70,52MG/ML
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[8] ID: 0ZZw2LpzKVUZeLcKDwwZ | COD: 325.034.002
+ITEM: ANESTESICO COLIRIO - OXINEST
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[9] ID: 0dtX2C7XcuNMQSaKg3PK | COD: 313.001.002
+ITEM: DERSANI 200ML (ACIDOS GRAXOS ESSENCIAIS)
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "1"
+---------------------------------------------
+[10] ID: 0h3oFBQuqfA2g5KduUMQ | COD: 002.000.039
+ITEM: NIMESULIDA GTS
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[11] ID: 0j02HLpxyERdvCmoU6D4 | COD: 002.000.047
+ITEM: NORETISTERONA 0,35MG CAIXA COM 35 CPR
+   -> Giro | JSON: 642 | XLS: 1
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "642"
+---------------------------------------------
+[12] ID: 0r07lukfiRG013r1NUT9 | COD: 325.016.001
+ITEM: DIPROGENTA - DIPROP DE BETAMETASONA + GENTAMICINA CREME
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[13] ID: 0vBTBgj71echtFl8jbhc | COD: 325.005.002
+ITEM: INSULINA HUMANA NPH - REUTILIZÁVEL
+   -> Giro | JSON: 1 | XLS: 0
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "1"
+---------------------------------------------
+[14] ID: 13gLOOpsVgz8OroJeUOY | COD: 311.001.015
+ITEM: LEITE NAN ESPESSAR- LATA 800 G
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[15] ID: 19Jxt9OroinRNtefpnXo | COD: 302.008.002
+ITEM: ROCURÔNIO 50 MG/ 5 ML - IV
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[16] ID: 19tGQni3pqGnzpl8jpLj | COD: 325.012.001
+ITEM: LISDEXANFETAMINA, DIMESILATO DE 30MG - VENVANSE
+   -> Giro | JSON: 25 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "25"
+---------------------------------------------
+[17] ID: 1n4al9b30pDIWsyPHwWE | COD: 005.000.033
+ITEM: SERTRALINA 50MG
+   -> Giro | JSON: 12 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "12"
+---------------------------------------------
+[18] ID: 1p0y0U62rEZWGhShq2pa | COD: 325.029.003
+ITEM: AMIODARONA, CLORIDRATO  200 MG
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[19] ID: 1zOCi8SfjBWCfmohrhEM | COD: 325.027.001
+ITEM: ACIDO TRANEXÂMICO 250MG - TRANSAMIN
+   -> Giro | JSON: 25 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "25"
+---------------------------------------------
+[20] ID: 2A3Rs9qginsrbwJ3I20Q | COD: 311.002.002
+ITEM: NEOCATE LCP
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[21] ID: 2QJQOTIYHDNEZwMvY6Gv | COD: 005.000.001
+ITEM: DIAZEPAM 10 MG
+   -> Giro | JSON: 6 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "6"
+---------------------------------------------
+[22] ID: 2QMF7N834L50x3EzxGw3 | COD: 005.000.015
+ITEM: CLONAZEPAM 2MG
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[23] ID: 2eW3vLaiFqi3ChhSNowB | COD: 315.001.002
+ITEM: TOBRAMICINA 0,3 % COLIRIO - FRASCO 5 ML
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[24] ID: 2n8I86Tv3rQcHMeBSFMD | COD: 021.001.103
+ITEM: PREVDERM SPRAY 50ML
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[25] ID: 2t7XTo7OGzG4qO7cuULT | COD: 021.001.028
+ITEM: TAMARINE CP
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[26] ID: 2tzpAbxhQFo9r3SVRZyg | COD: 325.016.006
+ITEM: AMOXICILINA + CLAVULANATO SUSP 250 MG/5 ML
+   -> Giro | JSON: 14 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[27] ID: 3By7ejcJuY3J6gM2IScN | COD: 002.000.013
+ITEM: DEXAMETASONA 0.1% CREME 10 GR
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[28] ID: 3HbIItfasiveaTbsyMAD | COD: 010.001.010
+ITEM: DESLORATADINA SOLUÇÃO ORAL
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[29] ID: 3MXMAwoKO7Q32Ywgtutg | COD: 325.017.001
+ITEM: ROSUVASTATINA 10MG + EZETIMIBA 10MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[30] ID: 3QTsCWQ1lntjW1fE9M7R | COD: 325.021.001
+ITEM: GUACO XAROPE - MIKANIA GLOMERATA 117,5MG/ML
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[31] ID: 3oGdVlNa059ZVrN80juJ | COD: 010.001.005
+ITEM: DEXAMETASONA 0,5 MG/5ML- ELIXIR
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[32] ID: 3tirqyk36kwx1ff8U08C | COD: 021.001.101
+ITEM: MEIA 3/4 20-30MM
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[33] ID: 4OmR30yxPaiJO7ZQ3GTF | COD: 021.001.091
+ITEM: TRAMADOL 100 MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[34] ID: 4PGLiZ16rU66BmBx0ro7 | COD: 311.002.006
+ITEM: ISOSOURCE 1.5
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[35] ID: 4T4qEzwmxJYy56sut147 | COD: 321.001.230
+ITEM: SORO MANITOL 250ML
+   -> Giro | JSON: 14 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[36] ID: 4bHy4TLRW6yaEq6YA4Jk | COD: 002.000.048
+ITEM: NORETISTERONA + ESTRADIOL 50 + 5 MG/ML  (MESIGYNA) INJETAVEL
+   -> Giro | JSON: 6 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "6"
+---------------------------------------------
+[37] ID: 4mPPUkosxWeFeGVQ79Y7 | COD: 002.000.106
+ITEM: CETOPROFENO  50MG/ML IM (PROFENID)
+   -> Giro | JSON: 3 | XLS: 1
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "3"
+---------------------------------------------
+[38] ID: 4p2zBB4ewDF6IlloufKm | COD: 308.001.002
+ITEM: LEVONORGESTREL 0,15MG+ETINILESTRADIOL 0,03MG- CICLO 21
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[39] ID: 4q0bckGlRtLfELiglo4t | COD: 313.004.005
+ITEM: BANDAGEM BOTA DE UNNA
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[40] ID: 4t1rqrLwT4vXCN1Au6dF | COD: 321.001.457
+ITEM: TALA METALICA
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[41] ID: 50vzIDjU9aprGKKnfceC | COD: 021.002.001
+ITEM: DESVENLAFAXINA 100 MG
+   -> Giro | JSON: 8 | XLS: 0
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[42] ID: 56pfa7KDa4oLBJZGifky | COD: 325.023.001
+ITEM: AAS - ÁCIDO ACETIL SALICILICO 100MG
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[43] ID: 5Auij8873CW92QAyECdA | COD: 325.039.001
+ITEM: BISACODIL 5MG - DULCOLAX
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[44] ID: 5COFKL9cvlFEbeIWC5nR | COD: 011.001.004
+ITEM: DECONGEX PLUS GOTAS
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[45] ID: 5XZUljmQmktuZFbTeji0 | COD: 325.028.003
+ITEM: CARBAMAZEPINA 200 MG
+   -> Giro | JSON: 2 | XLS: 1
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "2"
+---------------------------------------------
+[46] ID: 5aydPCmQ4qqpNkq7IBhn | COD: 021.001.063
+ITEM: PARACETAMOL 750 MG
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[47] ID: 5fkEDG5c03LYs7cUySqc | COD: 021.001.110
+ITEM: BIOVISC ORTHO SINGLE 90MG 3ML
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[48] ID: 5n8sD6IOzL2aYJ5R8zrC | COD: 325.028.001
+ITEM: ACIDO VALPROICO 250MG
+   -> Giro | JSON: 9 | XLS: 0
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "9"
+---------------------------------------------
+[49] ID: 5nPi6KGKn9FlILDho39n | COD: 325.031.001
+ITEM: ALBENDAZOL 40 MG/ML FRASCO 10 ML
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[50] ID: 69EfGhC5FGRKuKiAtAne | COD: 005.000.054
+ITEM: MIDAZOLAM, CLORIDRATO 5MG/ML 3ML
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[51] ID: 6DDkEYy3gAwPOoUoe3sX | COD: 325.019.005
+ITEM: BUDESONIDA 50MCG SPRAY
+   -> Giro | JSON: 20 | XLS: 0
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[52] ID: 6LMyWnfxcNYiDldJLLL3 | COD: 005.000.020
+ITEM: CLOMIPRAMINA, CLORIDRATO 25 MG
+   -> Giro | JSON: 20 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[53] ID: 6SgxCvM6iiyeZZUZQmxI | COD: 002.000.009
+ITEM: BUSCOPAM COMPOSTO  GOTAS
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[54] ID: 6U3OsKtk6SDK5owtoLQ4 | COD: 325.042.003
+ITEM: BUSCOPAM SIMPLES CP
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[55] ID: 6XcVIKT1RkuhgIFMTALB | COD: 002.000.099
+ITEM: RIFOCINA SPRAY
+   -> Giro | JSON: 7 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "7"
+---------------------------------------------
+[56] ID: 6dFlmOMvVOKSLjhKl1CC | COD: 005.000.009
+ITEM: LEVOMEPROMAZINA 25MG
+   -> Giro | JSON: 10 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "10"
+---------------------------------------------
+[57] ID: 6ys2yC1k8vGdC2HtW3yr | COD: 022.001.001
+ITEM: GENTAMICINA 80 MG INJ- AMPOLA
+   -> Giro | JSON: 20 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[58] ID: 7D0haFb7SnW7PW1K9DRx | COD: 230.001.014
+ITEM: CITONEURIN 5000 MCG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[59] ID: 7Hm6SIMbBmauCttFJMxL | COD: 021.001.030
+ITEM: DIOSMINA + HESPERIDINA 450/50 MG
+   -> Giro | JSON: 6 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "6"
+---------------------------------------------
+[60] ID: 7NmKnCCb7ji6E1DDHdFr | COD: 002.000.140
+ITEM: NORFLOXACINO 400MG
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[61] ID: 7dwCmC66WfX4pcBRzmgs | COD: 002.000.082
+ITEM: CETOPROFENO 50 MG
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[62] ID: 7nqlElQCZGw1OCQ1U3H9 | COD: 056.002.001
+ITEM: NEULEPTIL - PERICIAZINA 40MG/ML
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[63] ID: 882r7HgKgsw7NDFtOCAD | COD: 325.048.001
+ITEM: ESOMEPRAZOL 40MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[64] ID: 8AL8fcCMigUZqDvIvcIS | COD: 007.000.001
+ITEM: PREDNISONA 5 MG - CP
+   -> Giro | JSON: 10 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "10"
+---------------------------------------------
+[65] ID: 8BhUDa0uaKtDrF32jSjE | COD: 325.042.005
+ITEM: BUSCOPAM SIMPLES INJETAVEL
+   -> Giro | JSON: 12 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "12"
+---------------------------------------------
+[66] ID: 8EQKbDHBb8aKVpzyLWZk | COD: 021.001.109
+ITEM: MEIA 3/4 30-40MM
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[67] ID: 8GSjqvk8AQCwqv9SQdRc | COD: 002.000.038
+ITEM: SUPLEMENTO VITAMINICO A-Z
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[68] ID: 8RL7Ebjkn7xOlkKyTvQW | COD: 001.001.006
+ITEM: TESTE RAPIDO DE GRAVIDEZ
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[69] ID: 8b0oAgadQN5cd0HcFtBl | COD: 001.000.020
+ITEM: OLMESARTANA 40MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[70] ID: 8hQIWv1uToNf0w0dJ3hc | COD: 008.001.009
+ITEM: DOBUTAMINA 12,5MG/ML
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[71] ID: 8rO3Q4wBT5kCF8zdzygx | COD: 325.040.003
+ITEM: BROMOPRIDA GTS
+   -> Giro | JSON: 19 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "19"
+---------------------------------------------
+[72] ID: 94pnJDsNkVvEuTXeGMjS | COD: 311.002.009
+ITEM: TROPHIC 1.5 1L
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[73] ID: 95oQoYhgP6egDawHRrX7 | COD: 021.001.058
+ITEM: NISTATINA 100.000 SUSP FRASCO 60 ML
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[74] ID: 98Y4aUei09v22k3Lghu5 | COD: 000.001.002
+ITEM: BETAISTINA, DICLORIDRATO 16MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[75] ID: 98m981as3l4Ih5DayJFR | COD: 055.001.002
+ITEM: RIVAROXABANA 10 MG (XARELTO)
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[76] ID: 9tBuT8IT4DPf9EDUWqwK | COD: 007.000.004
+ITEM: DEXCLORFENIRAMINA, MALEATO  2MG/5ML - SUSPENSÃO
+   -> Giro | JSON: 18 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "18"
+---------------------------------------------
+[77] ID: 9vXdAVxBHpTn7zOCOFvy | COD: 325.031.002
+ITEM: ALBENDAZOL 400 MG
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[78] ID: 9wullEaa3dQ2EBotlTzB | COD: 005.001.001
+ITEM: CLOBAZAM 10MG (URBANIL)
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[79] ID: 9xkBe5FaLqDO1pbGtTlt | COD: 021.001.013
+ITEM: HIDROGEL COM ALGINATO - SAF GEL 85 GR
+   -> Giro | JSON: 14 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[80] ID: A1Hx5rKefA8PMNJV10Yu | COD: 228.001.010
+ITEM: MIRTAZAPINA 15MG COMPRIMIDO
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[81] ID: AOAWIppJtCTZGSqJxt9y | COD: 324.001.001
+ITEM: COLCHICINA0,5MG
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[82] ID: APjy5lCrCAV2RV1tTJD1 | COD: 321.003.001
+ITEM: AGULHA PARA CANETA DE INSULINA 4MM
+   -> Giro | JSON: 4 | XLS: 1
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "4"
+---------------------------------------------
+[83] ID: ATcCziPeN5Q399wrNQjl | COD: 005.000.003
+ITEM: FENOBARBITAL 100 MG
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[84] ID: AhX3QLsBeypbxsFWWMqe | COD: 325.016.003
+ITEM: OTOSPORIN GOTAS
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[85] ID: ApinTW1CHNX94E5CMW9T | COD: 010.001.009
+ITEM: FLUTINOL COLIRIO
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[86] ID: AsfwwaQi1KQerQUMt8hn | COD: 002.000.137
+ITEM: CEFTRIAXONA 500 MG INJ -IM
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[87] ID: AspdbvJmWoVCORYURLxf | COD: 301.002.005
+ITEM: FOSFATO OSELTAMIVIR 75 MG - TAMIFLU
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[88] ID: Awf2gbPNSmMl5p0a9QZm | COD: 313.001.003
+ITEM: TROK-G (BETAMETASONA+ GENTAMICINA) POMADA
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[89] ID: AzZQFCFXWxKaSrXJwUi8 | COD: 002.000.093
+ITEM: METOCLOPRAMIDA 10 MG/ 2ML
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[90] ID: B3MNnwdTOM7272bHx5HM | COD: 304.001.003
+ITEM: ENOXAPARINA SÓDICA 40 MG/0,4ML - CLEXANE
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[91] ID: B4uaYbs78PcgBWXcoPHv | COD: 228.001.011
+ITEM: ARIPIPRAZOL 20MG/ML SUSP GTS
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[92] ID: BDRBMEQRb53tUxpZ3GgX | COD: 002.000.091
+ITEM: HIDROCORTISONA, SUCCINATO 500 MG - PÓ P/ SOL. INJ
+   -> Giro | JSON: 19 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "19"
+---------------------------------------------
+[93] ID: BHQackUU2RPmCk7UZSqj | COD: 022.001.006
+ITEM: DESPACILINA - BENZILPENICILINA PROCAINA 300.000UI + BENZILPENICILINA OTASSICA 100.000UI
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[94] ID: BHTWHIpseAqErTkbKUvk | COD: 325.027.002
+ITEM: ACIDO TRANEXAMICO 50 MG/ML -AMP (TRANSAMIN)
+   -> Giro | JSON: 7 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "7"
+---------------------------------------------
+[95] ID: BLJXgqUYz7ilA09dySs8 | COD: 002.000.049
+ITEM: SORO NASAL ADULTO -30 ML
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[96] ID: BQW5qeJbatnGQ6Kdx2ov | COD: 325.048.002
+ITEM: ESPINHEIRA SANTA CP - MAYTENUS ILICIFOLIA
+   -> Giro | JSON: 1755 | XLS: 0
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "1755"
+---------------------------------------------
+[97] ID: BoJJeaG3DzWWxitoV4Yd | COD: 002.000.108
+ITEM: CLORETO DE SODIO 20% - 10 ML
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[98] ID: C6gTpWB17MUDhyOwpjH4 | COD: 079.001.003
+ITEM: SILIMARINA 200MG (FIGMED)
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[99] ID: CD2qZwyRmCJIdhcMWrZv | COD: 311.001.004
+ITEM: LEITE NAN COMFOR 1 - LATA 800 G
+   -> Giro | JSON: 3 | XLS: 1
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "3"
+---------------------------------------------
+[100] ID: CDPqxd9oTiVbjr9NwrZb | COD: 002.000.023
+ITEM: METOCLOPRAMIDA 10 MG
+   -> Giro | JSON: 18 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "18"
+---------------------------------------------
+[101] ID: CIsf4DnWmPHhh0SxEOg9 | COD: 002.000.095
+ITEM: TERBUTALINA 0,5MG/ML
+   -> Giro | JSON: 62 | XLS: 1
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "62"
+---------------------------------------------
+[102] ID: CSqJcb3TBXbbxAV2OEpG | COD: 325.034.001
+ITEM: ANESTESICO COLIRIO
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[103] ID: CTC28iTkZtAj72RtoGbh | COD: 305.002.004
+ITEM: DEXAMETASONA 4 MG
+   -> Giro | JSON: 25 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "25"
+---------------------------------------------
+[104] ID: D1IPbVFWQgAy8PdnI0qy | COD: 002.000.060
+ITEM: FLUCONAZOL 150 MG
+   -> Giro | JSON: 12 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "12"
+---------------------------------------------
+[105] ID: DMX1vO8BBZtpxVyufK84 | COD: 321.001.097
+ITEM: ESPAÇADOR P/ MEDICAMENTO ADULTO E INFANTILL
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[106] ID: DOAnfCR9evVvCEMzhfip | COD: 002.000.067
+ITEM: LOSARTANA POTASSICA 50MG
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[107] ID: DPavErRGBCftcFqKUv2V | COD: 230.001.018
+ITEM: SUSTAGEN ADULTOS+
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[108] ID: DRFzshvap5fD11wRvdiz | COD: 021.001.023
+ITEM: NALTREXONA 50 MG
+   -> Giro | JSON: 30 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "30"
+---------------------------------------------
+[109] ID: DgTaJH3Uyc5yDJatr8Mo | COD: 005.000.014
+ITEM: CLORPROMAZINA, CLORIDRATO 100MG
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[110] ID: DrTDtCxTpd4EXePMOogj | COD: 325.045.001
+ITEM: CAPTOPRIL 25 MG
+   -> Giro | JSON: 18 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "18"
+---------------------------------------------
+[111] ID: Dy20KseCwfDRVp3tp8Bd | COD: 326.001.001
+ITEM: LURASIDONA, CLORIDRATO DE 40MG (LATUDA)
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[112] ID: E3hM7B60nc95IKNveJpd | COD: 041.001.005
+ITEM: LIDOCAINA 2% - S/ VASO - SOL. INJETAVEL 5ML
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[113] ID: E9C2UVwPFuQ6EQz7wquc | COD: 021.001.035
+ITEM: LACTULOSE XAROPE 120 ML
+   -> Giro | JSON: 4 | XLS: 1
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "4"
+---------------------------------------------
+[114] ID: EByZ18ZsY4wKflC9aJTj | COD: 002.000.024
+ITEM: METRONIDAZOL 100 MG/G - GEL VAGINAL
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[115] ID: EWmZRPac8tZM46tn81EE | COD: 021.001.068
+ITEM: FRALDA DESC GERIATRICA - M
+   -> Giro | JSON: 5 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "5"
+---------------------------------------------
+[116] ID: EYaXTEZ05VkVjw9uJmYF | COD: 021.001.116
+ITEM: PALMILHA PLANA COMPENSAÇÃO 0,5CM
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[117] ID: EbGdBfopFqlpd4fTrDrj | COD: 325.044.001
+ITEM: MIRABEGRONA 50MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[118] ID: EpJ8og89rBADtGSoq7XC | COD: 050.001.005
+ITEM: IBUPROFENO 50MG/ML - GOTAS
+   -> Giro | JSON: 44 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "44"
+---------------------------------------------
+[119] ID: EvsMpmDaKbdAEAso1nrM | COD: 021.001.032
+ITEM: LEVOTIROXINA SÓDICA 100MCG
+   -> Giro | JSON: 20 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[120] ID: F1xC4EyjEoZdNBKv3lvp | COD: 303.002.004
+ITEM: CARVEDILOL 6,25 MG
+   -> Giro | JSON: 6 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "6"
+---------------------------------------------
+[121] ID: F2Prcb1OpyPLVH3FcCng | COD: 325.046.001
+ITEM: TOPCOID GEL - POLISSULFATO DE MUCOPOLISSACARIDEO
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[122] ID: F9u3Jrsshv9tqwB4j1fn | COD: 325.026.001
+ITEM: ACIDO FOLICO 5MG
+   -> Giro | JSON: 28 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "28"
+---------------------------------------------
+[123] ID: FiQRvlEAZ4xXqGjcdilP | COD: 002.000.068
+ITEM: CARBONATO DE CALCIO 500MG
+   -> Giro | JSON: 14 | XLS: 0
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[124] ID: FvzRUa4xpMLqpMmGvZKk | COD: 022.001.012
+ITEM: CEFTRIAXONA 1 G - PÓ P/ SOL. INJ EV
+   -> Giro | JSON: 10 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "10"
+---------------------------------------------
+[125] ID: FwACT0nUN8St05ELhQE5 | COD: 002.000.143
+ITEM: GLICOSE 25% - 10 ML
+   -> Giro | JSON: 24 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "24"
+---------------------------------------------
+[126] ID: GAa6AD63zZ3CBA14RRL6 | COD: 005.000.032
+ITEM: FENOBARBITAL 40 MG/ML - GOTAS
+   -> Giro | JSON: 10 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "10"
+---------------------------------------------
+[127] ID: GFn8q9hkFcV9LWqHpUuk | COD: 002.000.032
+ITEM: POLIVITAMINICO GTS
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[128] ID: GPb4IuzhqIZQoPKUSXXj | COD: 303.007.002
+ITEM: CARVEDILOL 25 MG
+   -> Giro | JSON: 18 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "18"
+---------------------------------------------
+[129] ID: GW6LrwI2MpYoFVOwMJXi | COD: 325.001.002
+ITEM: DESVENLAFAXINA 50MG
+   -> Giro | JSON: 105 | XLS: 1
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "105"
+---------------------------------------------
+[130] ID: GcDMF2v2e5s3d0q0XAW4 | COD: 005.000.025
+ITEM: NITRAZEPAN 5 MG
+   -> Giro | JSON: 82 | XLS: 1
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "82"
+---------------------------------------------
+[131] ID: GfxXvMBDTl08yr410jgV | COD: 005.000.066
+ITEM: CARBAMAZEPINA SUSP. 100 ML- 20 MG/ML
+   -> Giro | JSON: 14 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[132] ID: Gz2njaOUSH3JOHjUfmCq | COD: 021.001.053
+ITEM: HEPARINA SÓDICA 5.000 UI
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[133] ID: H0Mty9mwMBytoJgc9Epk | COD: 002.000.046
+ITEM: SULFATO FERROSO 40 MG
+   -> Giro | JSON: 21 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "21"
+---------------------------------------------
+[134] ID: H6vqTSQNU7kMGUVXjLuL | COD: 308.001.001
+ITEM: TIBOLONA 1,25MG
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[135] ID: H99uvzb5MTIbFRe6pwoI | COD: 230.001.019
+ITEM: CARBONATO DE CALCIO 1.250MG + VITAMINA D 400UI
+   -> Giro | JSON: 22 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "22"
+---------------------------------------------
+[136] ID: HC5caGAMBZDMM36rvjgA | COD: 325.013.001
+ITEM: CROMOLERG 4%
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[137] ID: HGPbVR1SaPRlNH9A2iv4 | COD: 005.000.024
+ITEM: CARBONATO DE LITIO 300 MG
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[138] ID: HLJEdXd21INYUv05lkTH | COD: 001.000.011
+ITEM: PROPRANOLOL 40MG
+   -> Giro | JSON: 18 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "18"
+---------------------------------------------
+[139] ID: HQ91S9Rbm4QVBWjY2jJS | COD: 055.001.001
+ITEM: RIVAROXABANA 20MG (XARELTO)
+   -> Giro | JSON: 14 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[140] ID: HZCQCNK29JRZhSPnYRSb | COD: 002.000.036
+ITEM: SULFAM. + TRIMETROP. 40 + 8 MG/ML - SUSPENSÃO ORAL 100 ML
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[141] ID: HitgMH1qX5Nt6QqanGB7 | COD: 030.001.008
+ITEM: PARACETAMOL 10MG/ML - 1% SOLUÇÃO INJETAVEL
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[142] ID: HvrcXGBTYRoBShzsvZkP | COD: 325.016.005
+ITEM: AMOXICILINA + CLAVULANATO 500/125 MCG
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[143] ID: IB8ZvSzr8GlQSYB1QXFn | COD: 321.001.191
+ITEM: SERINGA DESC. (1) 1ML PARA INSULINA
+   -> Giro | JSON: 1 | XLS: 0
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "1"
+---------------------------------------------
+[144] ID: IeqdHuULWqS8hJj2N0yB | COD: 325.038.001
+ITEM: BIPERIDENO, CLORIDRATO 2 MG
+   -> Giro | JSON: 21 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "21"
+---------------------------------------------
+[145] ID: ImM838wEkxf6WlBmAiHn | COD: 311.002.005
+ITEM: GLUCERNA 400G
+   -> Giro | JSON: 9 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "9"
+---------------------------------------------
+[146] ID: Iz6pJB9xr6jBqkEFvROS | COD: 022.001.013
+ITEM: DOXICICLINA 100MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[147] ID: J7dkTaFguzeLeB5yfkfD | COD: 010.001.004
+ITEM: LORATADINA 10 MG
+   -> Giro | JSON: 21 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "21"
+---------------------------------------------
+[148] ID: JPyfPllfescUpNsqh1H9 | COD: 325.009.001
+ITEM: QUETIAPINA 100MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[149] ID: JRfBHiICtzGkjoTRyS1c | COD: 325.033.002
+ITEM: AMINOFILINA 24 MG/ML
+   -> Giro | JSON: 43 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "43"
+---------------------------------------------
+[150] ID: JSZIL11se7bJ6zL8P9xn | COD: 022.001.014
+ITEM: CLINDOXYL GEL
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[151] ID: JWWONjOYX2mcM9FA9SIw | COD: 311.001.011
+ITEM: LEITE NESTOGENO 1 - LATA 800G
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[152] ID: JatoPcC7zNNLAaBoPJu0 | COD: 021.001.025
+ITEM: COMPLEXO B CP
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[153] ID: JqmU8WKAqGbsLZsVmi9I | COD: 311.001.002
+ITEM: VITAMINA D 200 UI - GOTAS
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[154] ID: K8qNPhoM8cuuNpX6uvUQ | COD: 001.000.004
+ITEM: HIDROCLOROTIAZIADA 25MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[155] ID: KMlEtoC6XtrsuyAMISov | COD: 003.000.004
+ITEM: INSULINA HUMANA NPH 100 UI/ML - FRASCO 10 ML
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[156] ID: KZeoKt7z0mLf3GZdrxL5 | COD: 330.001.001
+ITEM: IZIZ C/28
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[157] ID: KgXPPZ971FhQPgd6CkIg | COD: 325.028.002
+ITEM: ACIDO VALPROICO 500MG
+   -> Giro | JSON: 10 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "10"
+---------------------------------------------
+[158] ID: KzhsRnoIURyy5BxZqwdL | COD: 327.001.001
+ITEM: LEVODOPA + BENSERAZIDA 200/50MG - PROLOPA
+   -> Giro | JSON: 23 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "23"
+---------------------------------------------
+[159] ID: L1XjFJCqNhzezk1GQ0ec | COD: 013.001.001
+ITEM: TORVAL 500MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[160] ID: L3ruHFDo0Nn38JLOMt61 | COD: 321.003.006
+ITEM: PO PARA ESTOMIA
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[161] ID: L4XgzFbK5ELxtfnu7jaM | COD: 021.001.100
+ITEM: CINTO P/ BOLSA DE OSTOMIA
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[162] ID: LIfnnCUwlnvQ6j4kIyCX | COD: 002.000.141
+ITEM: OLEO MINERAL 100 ML
+   -> Giro | JSON: 22 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "22"
+---------------------------------------------
+[163] ID: LLZ3ayxpwz7os2ZDV6Xs | COD: 002.000.019
+ITEM: FUROSEMIDA 40MG
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[164] ID: LPesqvxdJlBpKy4cojfq | COD: 325.032.002
+ITEM: ALOPURINOL 100MG
+   -> Giro | JSON: 14 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[165] ID: LT6dyVhjx0YDIyHfakHd | COD: 325.002.003
+ITEM: ARIPIPRAZOL 10 MG - CP
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[166] ID: LV6hs8LIRsCYA7lcIw6x | COD: 325.028.005
+ITEM: TORVAL CR 500MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[167] ID: LWvbFZwbnDAj6KP3ll6a | COD: 005.000.022
+ITEM: CLONAZEPAM 2,5 MG/ ML - GOTAS
+   -> Giro | JSON: 14 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[168] ID: LqUsROsACRRkxB15wm2r | COD: 002.000.059
+ITEM: MICONAZOL, NITRATO 0,02 MG/G -  80 G CREME VAGINAL
+   -> Giro | JSON: 21 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "21"
+---------------------------------------------
+[169] ID: M4g15BF3472srpMLxx2R | COD: 021.001.097
+ITEM: CARVAO ATIVADO EM PO
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[170] ID: M7PcBqTegT2YeQ38lgGD | COD: 311.001.029
+ITEM: LEITE APTAMIL PRO EXPERT SOJA
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[171] ID: M8o6281pyoPqBrSPTvVP | COD: 021.001.074
+ITEM: PANTOPRAZOL 40 MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[172] ID: MAUFyz1jl4RcqnXrjYTx | COD: 325.033.001
+ITEM: AMINOFILINA 100 MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[173] ID: MAxfhJnqgoYibEvwsg4A | COD: 325.025.001
+ITEM: ACICLOVIR 200 MG CPR
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[174] ID: MD3c0KFRfTkZrERhSFaT | COD: 021.001.066
+ITEM: FRALDA DESC GERIATRICA - G
+   -> Giro | JSON: 6 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "6"
+---------------------------------------------
+[175] ID: MejxRDFFOsggZLHsNCXH | COD: 230.001.017
+ITEM: VITAMINA D 2000UI
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[176] ID: MkIXeBIAEZEaNkkeAkt8 | COD: 005.000.006
+ITEM: HALOPERIDOL 5MG
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[177] ID: MkUItNIa99H9Vis78Wc0 | COD: 003.000.017
+ITEM: METFORMINA, CLORIDRATO 500MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[178] ID: MwlTHGO2TUhepUbU27Gx | COD: 325.005.001
+ITEM: FORXIGA 10MG (DAPAGLIFLOZINA)
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[179] ID: N5L0bTWXlCrUnRcrOznE | COD: 009.000.001
+ITEM: LEVONORGESTREL 0,75 MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[180] ID: N7gYusqFhoxvv3Osolz1 | COD: 302.004.003
+ITEM: OXCARBAZEPINA 300 MG
+   -> Giro | JSON: 12 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "12"
+---------------------------------------------
+[181] ID: NAMDqbsNQpih2yjkoLRY | COD: 030.001.001
+ITEM: PARACETAMOL + TRAMADOL 325/37,5MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[182] ID: NB6O3v2lrjliFDtLWG0p | COD: 325.001.004
+ITEM: AMITRIPTILINA, CLORIDRATO  25 MG
+   -> Giro | JSON: 7 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "7"
+---------------------------------------------
+[183] ID: NFZsTnnq8qwmHDKquABP | COD: 002.000.134
+ITEM: CETOCONAZOL + BETAMETASONA POMADA 30 GR
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[184] ID: NI8GS3kl1eMLSHJo3WoW | COD: 003.000.002
+ITEM: METFORMINA, CLORIDRATO 850MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[185] ID: NJks0S26PveorCeDPgQb | COD: 315.002.001
+ITEM: OFTPRED COLIRIO
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[186] ID: NNPlmIEDCCQujeWNm1rN | COD: 321.001.392
+ITEM: AGULHA PARA CANETA DE INSULINA 6MM
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[187] ID: NSke2BrzZl67sb4q101x | COD: 325.053.002
+ITEM: SULFADIAZINA 500 MG
+   -> Giro | JSON: 60 | XLS: 0
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "60"
+---------------------------------------------
+[188] ID: NWoQNOV9u0lOsDSAIhvD | COD: 021.001.057
+ITEM: DESLANOSIDEO 0,2 MG/ML- AMP
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[189] ID: Nsiizo5oeODpZx9PMMPP | COD: 325.004.005
+ITEM: SUPLEMENTO VITAMINICO A-Z LIQUIDO
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[190] ID: Nvt7QHS31SneVvwTkhFL | COD: 005.000.063
+ITEM: BUPROPIONA 150 MG - TABAGISMO
+   -> Giro | JSON: 31 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "31"
+---------------------------------------------
+[191] ID: Nyld68otgN4WDSIaz5t3 | COD: 005.000.102
+ITEM: MIDAZOLAM, CLORIDRATO 5MG/ML 10ML
+   -> Giro | JSON: 27 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "27"
+---------------------------------------------
+[192] ID: O1nXHMn4kACm2rm9PuHY | COD: 005.000.062
+ITEM: NITROPRUSSETO DE SÓDIO 25 MG/ML - NITROP
+   -> Giro | JSON: 47 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "47"
+---------------------------------------------
+[193] ID: ODy1bHylMb3P7LQBpkct | COD: 005.000.091
+ITEM: DIFENIDRAMINA 50 MG/ML - AMP
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[194] ID: OOiVlSyT5Z0tPi8Lrmup | COD: 009.000.005
+ITEM: MEDROXIPROGESTERONA, ACETATO 150MG/ML (DEPOPROVERA)
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[195] ID: ORoe2dIZIyGyED7S2bP9 | COD: 002.000.116
+ITEM: DIPROSPAN AMP 2 ML
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[196] ID: OgnEhUhO0bTMJI84iPo1 | COD: 325.025.002
+ITEM: ACICLOVIR 5 % CREME 10 G
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[197] ID: OkB0krDlwWExy2P6LO11 | COD: 325.042.004
+ITEM: BUSCOPAM SIMPLES GOTAS
+   -> Giro | JSON: 18 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "18"
+---------------------------------------------
+[198] ID: PZC8uTZ7cXB91hZJwubI | COD: 002.000.098
+ITEM: EPITEZAN POMADA OFTALMICA 3,5 GR
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[199] ID: PcRwIBw1hEXOmdWVMjHP | COD: 002.000.025
+ITEM: METRONIDAZOL 250 MG
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[200] ID: PfmcJVFRZZ6AbPvYhaFQ | COD: 228.001.004
+ITEM: DULOXETINA, CLORIDRATO 60MG
+   -> Giro | JSON: 5 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "5"
+---------------------------------------------
+[201] ID: PnJ3gJ6g7oszGLv91275 | COD: 304.002.003
+ITEM: ACIDO FOLINICO 15MG
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[202] ID: Pr63wxqUImB2mzmujRVe | COD: 002.000.144
+ITEM: DROPROPIZINA 1,5 MG/ML -XAROPE PEDIATRICO
+   -> Giro | JSON: 33 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "33"
+---------------------------------------------
+[203] ID: PtoMQeeFKOBajjPcYzcS | COD: 005.000.100
+ITEM: CINARIZINA 75MG
+   -> Giro | JSON: 12 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "12"
+---------------------------------------------
+[204] ID: PzDtDOL1Z75lHTMXZTYc | COD: 005.000.064
+ITEM: PAROXETINA 20 MG
+   -> Giro | JSON: 9 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "9"
+---------------------------------------------
+[205] ID: Q1Wen7HkRWNjO47N1frr | COD: 005.000.004
+ITEM: CLORPROMAZINA, CLORIDRATO 25MG
+   -> Giro | JSON: 12 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "12"
+---------------------------------------------
+[206] ID: Q9mx1w1gqtE3CVn2GeWo | COD: 023.001.002
+ITEM: INSULINA NOVORRAPID FLEX PEN
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[207] ID: QDVPqQMjOYszZANBiy0J | COD: 002.000.011
+ITEM: CEFALEXINA SUSPENSÃO 250 MG/ 5 ML
+   -> Giro | JSON: 22 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "22"
+---------------------------------------------
+[208] ID: QMUK4Xt0WQ3BIlIDbGKj | COD: 005.000.036
+ITEM: HALOPERIDOL 5 MG /ML - AMPOLA
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[209] ID: QO4I6SGPARdr2EnWQ3jD | COD: 021.001.115
+ITEM: DERMA PROTECT SPRAY BARREIRA 28ML
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[210] ID: QPcg4NF1FLInXf8AaKVp | COD: 325.016.011
+ITEM: BENZILPENICILINA 1.200.000 UI - PÓ P/ SUSP. INJ
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "1"
+---------------------------------------------
+[211] ID: QeX3lfZhvIyVkUysujiZ | COD: 002.000.090
+ITEM: HIDROCORTISONA, SUCCINATO 100 MG - PÓ P/ SOL. INJ
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[212] ID: QedbtYv4v0IkcxQdxccC | COD: 002.000.086
+ITEM: DRAMIN B6 DL EV
+   -> Giro | JSON: 10 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "10"
+---------------------------------------------
+[213] ID: QvRSOoIEZRS9PdZx0v6f | COD: 329.001.001
+ITEM: COLAGENO TIPO II + VITAMINAS
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[214] ID: R6XNm7p2dJO5DHd4iv5E | COD: 009.000.008
+ITEM: ESTRIOL 1MG/G - CR VAGINAL 50 GR
+   -> Giro | JSON: 18 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "18"
+---------------------------------------------
+[215] ID: RDXCFe15NY5cGdJCODwa | COD: 308.003.001
+ITEM: TIAMAZOL 5MG
+   -> Giro | JSON: 870 | XLS: 0
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "870"
+---------------------------------------------
+[216] ID: RdfvdBBjmR0wBBvpxC7O | COD: 315.003.001
+ITEM: CILODEX COLIRIO
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[217] ID: RivLPqxYggjlSiHtjzBb | COD: 228.001.001
+ITEM: MIRTAZAPINA 15MG
+   -> Giro | JSON: 40 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "40"
+---------------------------------------------
+[218] ID: RtPgBqsst5FJymohBetm | COD: 325.016.002
+ITEM: VIGADEXA COL - MOXIFLOXACINO + DEXAMETASONA
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[219] ID: Ru9ngfjA74SkV1UgTkNT | COD: 311.001.006
+ITEM: LEITE NAN SUPREME 1- 800G
+   -> Giro | JSON: 5 | XLS: 0
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "5"
+---------------------------------------------
+[220] ID: RvCLE8rrI6WlVdsbXCuU | COD: 311.001.023
+ITEM: LEITE NINHO FASE I
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[221] ID: RyNd0PfihDPiHQboavCC | COD: 002.000.130
+ITEM: IBUPROFENO 100MG/ML -  GOTAS
+   -> Giro | JSON: 3 | XLS: 1
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "3"
+---------------------------------------------
+[222] ID: RyNxNaeVvTnfmgjWFXZj | COD: 303.007.005
+ITEM: RIVAROXABANA 15 MG (XARELTO)
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[223] ID: SLPbpcG5Pb7NEVolVUYi | COD: 021.001.064
+ITEM: BACLOFENO 10 MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[224] ID: SOCRfdwTqG60lfAPK8pd | COD: 301.001.002
+ITEM: AMOXICILINA + CLAVULANATO 1000MG + 200MG - INJETÁVEL
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[225] ID: SSw3pBZbTmyx8jSNe8o4 | COD: 325.050.001
+ITEM: CUTISANOL BABY 120G
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[226] ID: SUBVSXADczJ3pnnELTq1 | COD: 005.000.013
+ITEM: FLUOXETINA, CLORIDRATO 20 MG
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[227] ID: SUuNiwGv28CHq5U2sUdt | COD: 325.002.002
+ITEM: ZIPRASIDONA, CLORIDRATO DE 40MG (GEODON)
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[228] ID: SraMhaaWroF3PIbQ6qfs | COD: 002.000.109
+ITEM: CLORETO DE POTASSIO 19,1% - 10 ML
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[229] ID: Sv7vBJO9kleMNQGnwOGa | COD: 325.001.003
+ITEM: ESCITALOPRAM 20MG
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[230] ID: Sz1dDl8opRFHwKCh6TvK | COD: 325.016.004
+ITEM: MEROPENEM TRI-HIDRATADO 1G IV
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[231] ID: SznnW3tdowjbifaVTKFn | COD: 321.003.002
+ITEM: CANETA PARA APLICAÇÃO DE INSULINAS HUMANAS - REUTILIZAVEL
+   -> Giro | JSON: 23 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "23"
+---------------------------------------------
+[232] ID: TDgwN7ITx69tfOez9J0v | COD: 050.001.004
+ITEM: MELOXICAM 15MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[233] ID: TKXO5Jrc9WK7hbABer1N | COD: 002.000.027
+ITEM: NEOMICINA + BACITRACINA POMADA
+   -> Giro | JSON: 20 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[234] ID: TMGB9Vcm8kKf3feRCSrC | COD: 005.000.060
+ITEM: FLUMAZENIL 0,1 MG/ 5 ML SOL INJ.
+   -> Giro | JSON: 42 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "42"
+---------------------------------------------
+[235] ID: TPWWnWt24YQbzX8oLhwi | COD: 021.001.096
+ITEM: CETAPHIL LOCAO HIDRATANTE
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[236] ID: TPmNeAmZWfMnxpNtpYz0 | COD: 005.000.082
+ITEM: PAROXETINA 12,5MG - PONDERA XR
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[237] ID: Tn1EFXXVq86QAd30gzLV | COD: 325.042.002
+ITEM: BUSCOPAM COMPOSTO CPR
+   -> Giro | JSON: 7 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "7"
+---------------------------------------------
+[238] ID: TrqWwOISNJemstLha0Nb | COD: 325.014.001
+ITEM: PERMETRINA 5% LOÇÃO
+   -> Giro | JSON: 7 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "7"
+---------------------------------------------
+[239] ID: TwnLk2XLCOXfWk15nZvW | COD: 306.002.004
+ITEM: ENTEROGERMINA
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[240] ID: Tytodluzuy9UGORTwC8N | COD: 325.053.001
+ITEM: PIRIMETAMINA 25MG
+   -> Giro | JSON: 30 | XLS: 0
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "30"
+---------------------------------------------
+[241] ID: UVOhucSTdWGTdVNKfHzJ | COD: 228.001.007
+ITEM: RISPERIDONA 1 MG/ML SOLUÇÃO
+   -> Giro | JSON: 34 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "34"
+---------------------------------------------
+[242] ID: UYi5uq1ifhoGdHlRZxnG | COD: 022.001.002
+ITEM: LEVOFLOXACINO 500 MG
+   -> Giro | JSON: 7 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "7"
+---------------------------------------------
+[243] ID: UcY1o7bjFnmOJ9Es5WJI | COD: 306.001.005
+ITEM: ENTEROGERMINA PLUS FLAC
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[244] ID: UfuclvzO32nzTjpZ0zat | COD: 315.001.003
+ITEM: CIPROFLOXACINO + DEXAMETASONA COLIRIO
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[245] ID: UtfJGlUYQY97C5AWMNmP | COD: 008.001.002
+ITEM: NIMODIPINO 30 MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[246] ID: UuXgwbvMsDxupN1UQdkH | COD: 325.035.001
+ITEM: ANLODIPINO, BESILATO 5MG
+   -> Giro | JSON: 7 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "7"
+---------------------------------------------
+[247] ID: UvWJHiijp79TzHRgubfa | COD: 304.001.004
+ITEM: VARFARINA SODICA 5MG - MAREVAN
+   -> Giro | JSON: 30 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "30"
+---------------------------------------------
+[248] ID: VKebIuqj1wKGQaKOlVWz | COD: 325.016.007
+ITEM: AMOXICILINA 250 MG/5ML - 150 ML
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[249] ID: VQQsb9LC1cycPtYIqDzC | COD: 325.040.001
+ITEM: BROMOPRIDA 10MG CPR
+   -> Giro | JSON: 19 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "19"
+---------------------------------------------
+[250] ID: VQVaXnKrtkJRFItNT8an | COD: 009.000.011
+ITEM: LEVOTIROXINA SODICA 25 MG
+   -> Giro | JSON: 14 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[251] ID: VSzBqGGSJNulUOiQRPZx | COD: 325.021.002
+ITEM: AMBROXOL XAROPE ADULTO
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[252] ID: W7LscucW5tHYMjbmc0NB | COD: 002.000.127
+ITEM: DEXCLORFENIRAMINA + BETAMETASONA SUSP ORAL 120
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[253] ID: W9oRz64u78M0Gj4HvEiq | COD: 002.000.087
+ITEM: EPINEFRINA 1MG/ML
+   -> Giro | JSON: 23 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "23"
+---------------------------------------------
+[254] ID: WHpBYcwEGzirCTzIVJ9H | COD: 005.000.046
+ITEM: FENOBARBITAL 200 MG/ ML - AMPOLA
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[255] ID: WMHwZMb2EBJAXATKLbLu | COD: 002.000.084
+ITEM: DOPAMINA 5 MG/ ML
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[256] ID: WWZ4BYfYPLB10PYdoCJV | COD: 005.000.079
+ITEM: NOREPINEFRINA 2MG/4ML - AMP
+   -> Giro | JSON: 26 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "26"
+---------------------------------------------
+[257] ID: WWwsLJKLLs5wOIcOz8l9 | COD: 008.001.008
+ITEM: METOPROLOL 25 MG
+   -> Giro | JSON: 9 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "9"
+---------------------------------------------
+[258] ID: WcyqEEh4Fc4EYjxrrpNX | COD: 023.001.003
+ITEM: INSULINA TRESIBA FLEX PEN
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[259] ID: Wlvoc7dBw2sRPIJ8RJGg | COD: 040.001.001
+ITEM: ESPIRAMICINA 1,5 MG CP
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[260] ID: WyTj0WWMKmlWFTWnmO7o | COD: 021.001.012
+ITEM: IBUPROFENO 300 MG
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[261] ID: XBnbBtanjyVzI1Degupg | COD: 303.003.001
+ITEM: ESPIRONOLACTONA 25 MG
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[262] ID: XES0KoO074StqVRY52PC | COD: 325.001.005
+ITEM: BUPROPIONA 150 MG - ASSISTENCIAL
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[263] ID: XFqTEkA6JbJlFrmsw5oq | COD: 002.000.096
+ITEM: IPRATROPIO,BROMETO 0,25 MG/ML SOLUÇÃO PARA INALAÇÃO 20 ML
+   -> Giro | JSON: 6 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "6"
+---------------------------------------------
+[264] ID: XVEBotF7X8s4VNmX2NW7 | COD: 325.021.003
+ITEM: AMBROXOL XAROPE INFANTIL
+   -> Giro | JSON: 20 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[265] ID: Xt8VbHIYjLPVr9Jwpvf6 | COD: 325.035.002
+ITEM: ATENOLOL 25MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[266] ID: XtiYebtSxs1wElQm2EKc | COD: 005.000.052
+ITEM: TRAMADOL 50MG/ML(TRAMAL)- AMP
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[267] ID: Xze3I7yOZcEPDaUe1i5T | COD: 002.000.085
+ITEM: DRAMIN B6 IM
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[268] ID: Y8elAqaC5Kq1HJFm11lf | COD: 021.001.094
+ITEM: DOXAZOSINA MESILATO 4MG
+   -> Giro | JSON: 20 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[269] ID: YJAiDSLRkMXdCG3P0qqF | COD: 021.001.024
+ITEM: CARVEDILOL 12,5 MG
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[270] ID: YSwFda36jJsmvGnfegSI | COD: 325.032.001
+ITEM: ALOPURINOL  300MG
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[271] ID: YTBeBEKQq1OhxwRyI5Pe | COD: 311.001.005
+ITEM: LEITE NAN COMFOR 2 - LATA 800 G
+   -> Giro | JSON: 1 | XLS: 0
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "1"
+---------------------------------------------
+[272] ID: YVQ14zLcmflNF2DhLziH | COD: 002.000.020
+ITEM: HIDROXIDO DE ALUMINIO 6.2% SUSP
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[273] ID: YVT2YxcRe6YEMdMZGY1g | COD: 321.003.005
+ITEM: ANEL PARA ESTOMIA PLANO
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[274] ID: YeLFXp9w10wtRyrYPITJ | COD: 321.003.007
+ITEM: CATETER VENOSO CENTRAL DUPLO LUMEN
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[275] ID: Z1cKPvQNVtZnS3i3CaS7 | COD: 228.001.008
+ITEM: REXULTI 1 MG
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[276] ID: Z49OqLPpqLl0XSeGs9P5 | COD: 001.000.024
+ITEM: CLONIDINA 0,150MG - ATENSINA
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[277] ID: Z5tJACp5i198O5nTQQPT | COD: 008.001.001
+ITEM: CILOSTAZOL 100 MG
+   -> Giro | JSON: 6 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "6"
+---------------------------------------------
+[278] ID: ZJa9CxNSJn4YfA9tkFHR | COD: 002.000.119
+ITEM: ISOSSORBIDA, DINITRATO 5 MG - SUB LINGUAL
+   -> Giro | JSON: 10 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "10"
+---------------------------------------------
+[279] ID: ZNjo9cGBSuHR6PFq3lxV | COD: 021.001.088
+ITEM: HIDROXIZINA, CLORIDRATO DE 25 MG
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[280] ID: ZO8akO0o9xeUoafmZIss | COD: 005.000.002
+ITEM: FENITOINA 100 MG
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[281] ID: ZyYUcta8OxB69JaRMr1f | COD: 001.001.001
+ITEM: GLICONATO DE CALCIO 10% - AMP
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[282] ID: Zyzp1rmN7IuAYFhLaq5V | COD: 329.003.001
+ITEM: IMPACT NUTRICAO ORAL E ENTERAL
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[283] ID: aD3I7Q42ShYKsAq5KiQH | COD: 002.000.012
+ITEM: CIMETIDINA 200MG COMPRIMIDO
+   -> Giro | JSON: 14 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[284] ID: aHk79gkBb0S1T3VFT1km | COD: 306.001.004
+ITEM: URSACOL 300 MG - ÁCIDO URSODESOXICOLICO
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[285] ID: aI3TeiVNbCodCjFVa1KE | COD: 321.002.001
+ITEM: TESTE RAPIDO COMBO (COVID-19/ INFLUENZA A/B)
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[286] ID: aIVvqE2sDdaluqI4G5VR | COD: 306.001.003
+ITEM: ONDANSETRONA 4 MG/ 2 ML INJ
+   -> Giro | JSON: 9 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "9"
+---------------------------------------------
+[287] ID: aQWAtjVgpF1kF54jO0tf | COD: 021.001.071
+ITEM: DELTAMETRINA 0,2MG/ML
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[288] ID: asv8ANfc7DB0ez4Wzih1 | COD: 307.001.002
+ITEM: FINASTERIDA 5 MG
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[289] ID: b5rtVtITjxkJU7xTGyew | COD: 002.000.058
+ITEM: NIMESULIDA 100 MG  CP
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[290] ID: bEhvqoNj6FFpUHv3q2dt | COD: 300.001.005
+ITEM: GOMA NICOTINA 2 MG (NICORETTE)
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[291] ID: bRJjbuW1KK9I4TbZMGoC | COD: 021.001.112
+ITEM: ESENTA SPRAY BARREIRA - CONVATEC
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[292] ID: bTUH4tyOjUfMlYImT9MW | COD: 308.002.001
+ITEM: PREDNISONA 20 MG
+   -> Giro | JSON: 23 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "23"
+---------------------------------------------
+[293] ID: bdgH9O7yKc2aql3VChkM | COD: 001.000.025
+ITEM: HIDRALAZINA 25MG, CLORIDRATO DE
+   -> Giro | JSON: 85 | XLS: 1
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "85"
+---------------------------------------------
+[294] ID: be8ZK8PxhMykXammDkPw | COD: 230.001.012
+ITEM: METILCOBALAMINA 1.000MCG - DOZEMAST - MECOBE
+   -> Giro | JSON: 31 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "31"
+---------------------------------------------
+[295] ID: bj0aU8kwmo2aLuHpDJFV | COD: 003.000.005
+ITEM: INSULINA HUMANA REGULAR 100 UI/ ML - FRASCO 10 ML
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[296] ID: bnDNWjqqJB5LHOm13mCp | COD: 011.001.001
+ITEM: PERMANGANTO DE POTASSIO 100 MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[297] ID: bq7miTmU2vjt19uGrmH4 | COD: 005.000.059
+ITEM: NALOXONA, CLORIDRATO DE  0,4 MG/ 1 ML
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[298] ID: bxdRCRoBy4jkVvs1ujfv | COD: 230.001.016
+ITEM: DOZEMAST 1000MCG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[299] ID: c3ftTbJoOAeptQZIfEku | COD: 325.037.001
+ITEM: ATROPINA, SULFATO 0,50MG/ML
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[300] ID: c5nKpQDvirnn2gwUrOhU | COD: 021.001.095
+ITEM: SORO NASAL INFANTIL/ADULTO -30 ML
+   -> Giro | JSON: 24 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "24"
+---------------------------------------------
+[301] ID: cPQYHGJQHa6qzWMGNzXS | COD: 100.001.001
+ITEM: PROPATILNITRATO 10MG - SUSTRATE
+   -> Giro | JSON: 50 | XLS: 0
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "50"
+---------------------------------------------
+[302] ID: cjZBdxbXM80XcmFkPmhW | COD: 325.040.002
+ITEM: BROMOPRIDA 10MG/2ML - INJ
+   -> Giro | JSON: 6 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "6"
+---------------------------------------------
+[303] ID: clCjD9TVH5wMU60o7VRh | COD: 325.023.002
+ITEM: BISSULFATO DE CLOPIDOGREL 75 MG
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[304] ID: coDu8DVlfNI88cRryg2O | COD: 325.003.001
+ITEM: CIMEGRIPE GTS
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[305] ID: cveG6asAv3IOJpS5d8H7 | COD: 325.030.001
+ITEM: AGUA DESTILADA AMPOLA 10 ML
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[306] ID: d2PpmfmPZkT7yisrV45Q | COD: 021.001.113
+ITEM: STOMAHESIVE PÓ PROTETOR - CONVATEC
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[307] ID: dfGzwhQ0BtVeIhlWWDQc | COD: 005.000.045
+ITEM: DIAZEPAM 10 MG/ 2ML - AMP
+   -> Giro | JSON: 22 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "22"
+---------------------------------------------
+[308] ID: dkMaXa5gbzXWWNGfILzX | COD: 005.000.061
+ITEM: NITROGLICERINA 5 MG/ML - TRIDIL
+   -> Giro | JSON: 25 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "25"
+---------------------------------------------
+[309] ID: dm2rIz0rhRrlSQNDkjW1 | COD: 002.000.015
+ITEM: DIPIRONA SÓDICA GOTAS 500 MG / ML 10 ML
+   -> Giro | JSON: 12 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "12"
+---------------------------------------------
+[310] ID: dxT2SA3ZcjWBHEgXqZN7 | COD: 301.001.005
+ITEM: CLINDAMICINA, CLORIDRATO 300 MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[311] ID: e5OqCuFHfsj3Ob3zTcw5 | COD: 325.010.001
+ITEM: PREGABALINA 100MG - PREBICTAL
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[312] ID: eBO4BTdlLCexzseFnlyT | COD: 325.012.002
+ITEM: METILFENIDATO 18MG - CONCERTA
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[313] ID: eEKbxdYXBzxOKArLEIs2 | COD: 230.001.003
+ITEM: ENSURE LATA 400G
+   -> Giro | JSON: 9 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "9"
+---------------------------------------------
+[314] ID: eQPnFCc0i5t23CSvmrNc | COD: 001.000.016
+ITEM: ENALAPRIL 10MG
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[315] ID: ebbs7PfVgFYgOZcAEtBI | COD: 328.001.001
+ITEM: DORZOLAMIDA 2%
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[316] ID: efl9ynEoPMbuZSZjtSWg | COD: 325.016.008
+ITEM: AMOXICILINA 500 MG - CAPSULA
+   -> Giro | JSON: 14 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[317] ID: ehu65Xw6PanbsuaXVOlQ | COD: 005.000.055
+ITEM: SUXAMETONIO 100MG SUSP INJ
+   -> Giro | JSON: 14 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[318] ID: etXuQCbnlqgbUg4NZJMx | COD: 313.001.001
+ITEM: POMADA PARA ASSADURA ( NIST+ OX ZINCO) PMD
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[319] ID: fD56pc3qO86ZwsJxE1Nm | COD: 321.001.222
+ITEM: SORO FISIOLOGICO 250 ML
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[320] ID: fY1BssgaOFUhTmWeXYTM | COD: 002.000.100
+ITEM: LIDOCAINA 2% GELEIA - 30 GR
+   -> Giro | JSON: 4 | XLS: 1
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "4"
+---------------------------------------------
+[321] ID: fjbxYOmvs3a9Eqn1ky4U | COD: 005.000.098
+ITEM: MORFINA 1MG/ML INJ
+   -> Giro | JSON: 4 | XLS: 1
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "4"
+---------------------------------------------
+[322] ID: fju0esXlYLX8rEWVDTmm | COD: 230.001.013
+ITEM: NUTRASENIOR 400 GR
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[323] ID: fkj7oP4n6MezYt0UK64S | COD: 002.000.031
+ITEM: PARACETAMOL 500 MG - COMP
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[324] ID: fp3L47r9UcjndNILA1Kp | COD: 311.001.012
+ITEM: LEITE APTAMIL PREMIUM 1 - LATA 800G
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[325] ID: fqEheyRghlUUOCmh9GiS | COD: 325.011.001
+ITEM: FENAZOPIRIDA 200MG - PYRIDIUM
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[326] ID: fqdgpMD6qrsGW1vI6JDK | COD: 311.001.022
+ITEM: LEITE APTAMIL AR 800G
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[327] ID: g7kLeT7WICheEqQPioP5 | COD: 001.000.015
+ITEM: HIDRALAZINA 20 MG/ML - AMPOLAS
+   -> Giro | JSON: 20 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[328] ID: g9hqgoSQqQJxAFlMb0Q6 | COD: 001.000.003
+ITEM: DIGOXINA 0.25 MG
+   -> Giro | JSON: 52 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "52"
+---------------------------------------------
+[329] ID: gEjOmcMmd9yhB6GuUzRz | COD: 005.000.068
+ITEM: VENLAFAXINA 75 MG
+   -> Giro | JSON: 10 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "10"
+---------------------------------------------
+[330] ID: gFUSmDpP8uC8fXPM0uGq | COD: 002.000.028
+ITEM: NISTATINA POMADA VAG.
+   -> Giro | JSON: 10 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "10"
+---------------------------------------------
+[331] ID: gMMWRPT1VBGYr2C7MK6i | COD: 002.000.113
+ITEM: DEXAMETASONA 4 MG/ML - AMPOLA
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[332] ID: gRgfjDPbPWJYVRjO2xPH | COD: 012.001.004
+ITEM: PANTOPRAZOL 20 MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[333] ID: gWIbA8tTx5DGt13nd2xI | COD: 301.004.001
+ITEM: ITRACONAZOL 100 MG
+   -> Giro | JSON: 12 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "12"
+---------------------------------------------
+[334] ID: h0GQiNa8UInYe8Gv1bLr | COD: 325.052.001
+ITEM: TANSULOSINA, CLORIDRATO DE 0,4MG
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[335] ID: h9WNgxJUzz5eZOzBpTXc | COD: 005.000.083
+ITEM: ADORLAN 25
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[336] ID: hASa42igEW2V4UtCaNTG | COD: 005.000.011
+ITEM: IMIPRAMINA 25 MG
+   -> Giro | JSON: 7 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "7"
+---------------------------------------------
+[337] ID: hDFA1F3viPhOw8vOYbtm | COD: 002.000.083
+ITEM: DIPIRONA 500 MG/2 ML - AMP
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[338] ID: hHGCEAJzgxohrGeqxe49 | COD: 012.001.001
+ITEM: OMEPRAZOL 20MG
+   -> Giro | JSON: 9 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "9"
+---------------------------------------------
+[339] ID: hKDp09qVIgqfMfVHnjyu | COD: 022.001.009
+ITEM: CLARITROMICINA 500 MG
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[340] ID: hNd8TOd86Dz69700VMoi | COD: 305.002.007
+ITEM: SALBUTAMOL GOTAS
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[341] ID: hS9bW6rXkY7sUuTvEOUE | COD: 300.001.002
+ITEM: ADESIVO NICOTINA 14 MG
+   -> Giro | JSON: 325 | XLS: 1
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "325"
+---------------------------------------------
+[342] ID: hddICtUqAgZX87q2RtKA | COD: 001.001.007
+ITEM: OMEPRAZOL SODICO PO INJETAVEL
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[343] ID: hhqXwctMfKgMvqVaUQ4P | COD: 001.000.017
+ITEM: PROPAFENONA 300 MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[344] ID: hwKC6jEYd61qjEUbhOx1 | COD: 002.000.092
+ITEM: FITOMENADIONA 10MG/ML INJ
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[345] ID: iJufesYcE5fE1V1DB1p4 | COD: 002.000.088
+ITEM: FUROSEMIDA 10 MG/ ML- AMPOLA
+   -> Giro | JSON: 2 | XLS: 1
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "2"
+---------------------------------------------
+[346] ID: iOxWYCVu3Vb4ZMlcKK6T | COD: 327.001.002
+ITEM: LEVODOPA + BENSERAZIDA 100/25MG - PROLOPA BD
+   -> Giro | JSON: 172 | XLS: 1
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "172"
+---------------------------------------------
+[347] ID: iWMSs1skdOO7imZtrfKD | COD: 022.001.016
+ITEM: LEVOFLOXACINO 750MG (5MG/ML)
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[348] ID: igbElbC6l3qQRyfBpsOa | COD: 325.047.001
+ITEM: SILYBUM MARIANUM 300MG (FORFIG)
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[349] ID: itWtgRkikuutMPPLynVQ | COD: 002.000.135
+ITEM: DERMACERIUM (SULFADIAZINA PRATA + CERIO)
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[350] ID: itilE0RioXc5AZpJz6RS | COD: 002.000.026
+ITEM: METRONIDAZOL 40 MG/ML -  SUSPENSÃO ORAL
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[351] ID: ivu9tqKY8MXA6xNUJLE7 | COD: 325.004.002
+ITEM: INELATTE 800DKM
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[352] ID: iygjuFivoSWKplZS3itG | COD: 002.000.105
+ITEM: DEXAMETASONA 2MG/ML- AMP
+   -> Giro | JSON: 6 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "6"
+---------------------------------------------
+[353] ID: jHv2oZMcGMxASatNvJKc | COD: 563.001.002
+ITEM: FORMULA
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[354] ID: jVzJ6ZhcmhwUecyEOrWH | COD: 320.002.004
+ITEM: FRALDA DESC GERIATRICA - XG
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[355] ID: jeefPcIg2XRM15dnBASP | COD: 001.000.006
+ITEM: METILDOPA 250 MG
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[356] ID: jiItXVwAniuUCuVFBQdw | COD: 325.029.002
+ITEM: AMIODARONA 50MG/ML - AMP
+   -> Giro | JSON: 29 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "29"
+---------------------------------------------
+[357] ID: jv9vtPzeh5HnMLIXzOpn | COD: 002.000.033
+ITEM: SAIS P/REIDRATAÇÃO ORAL
+   -> Giro | JSON: 9 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "9"
+---------------------------------------------
+[358] ID: jxb0BWzLyS162MYNJkH5 | COD: 010.001.002
+ITEM: PREDNISOLONA 3MG/ML, FOSFATO SODICO DE
+   -> Giro | JSON: 20 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[359] ID: jzkPj7seiSYs2VhMmuJO | COD: 303.006.001
+ITEM: PIRACETAM 400 MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[360] ID: k0TmRRuBVyTHn9ehRcMD | COD: 002.000.114
+ITEM: COMPLEXO B INJ
+   -> Giro | JSON: 6 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "6"
+---------------------------------------------
+[361] ID: k6t7PoZjUEd8VpyDl0tA | COD: 325.001.001
+ITEM: TRAZODONA, CLORIDRATO 50MG
+   -> Giro | JSON: 80 | XLS: 0
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "80"
+---------------------------------------------
+[362] ID: k9Q52ikdimagiGTWLTJG | COD: 010.001.011
+ITEM: HIDROXIZINA XAROPE
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[363] ID: kMFEL6MITcXGCVAUto4x | COD: 002.000.132
+ITEM: PHOSFOENEMA 130ML
+   -> Giro | JSON: 20 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[364] ID: kUc1a8M4JUuqK1ZevS3d | COD: 003.000.007
+ITEM: INSULINA HUMANA REGULAR 100 UI/ML - CANETA
+   -> Giro | JSON: -1 | XLS: 1
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "-1"
+---------------------------------------------
+[365] ID: kjDoYjmKFHAe6SiZvAdr | COD: 003.000.001
+ITEM: GLIBENCLAMIDA 5 MG.
+   -> Giro | JSON: 30 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "30"
+---------------------------------------------
+[366] ID: kp1CZYWdFdQD7XaCfIJI | COD: 005.000.053
+ITEM: LIDOCAINA 2% - S/ VASO - SOL. INJETAVEL 20ML
+   -> Giro | JSON: 28 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "28"
+---------------------------------------------
+[367] ID: l0hrgmHcJwYa5hxrHUSm | COD: 230.001.001
+ITEM: VITAMINA D3 7.000 UI
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[368] ID: lGZEWAbwTEyBbhcLgA62 | COD: 008.001.005
+ITEM: METOPROLOL 50 MG
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[369] ID: lNvFtsQXhZYQA1O5tqVQ | COD: 012.001.002
+ITEM: ONDANSETRONA 8 MG
+   -> Giro | JSON: 7 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "7"
+---------------------------------------------
+[370] ID: lROa2Gs3AimBCtFXRpLs | COD: 321.003.003
+ITEM: CINTA POS OPERATORIA COMPLETA
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[371] ID: lVQpXUf7zv3g8CsH44N1 | COD: 003.000.006
+ITEM: INSULINA HUMANA NPH 100 UI/ML - CANETA
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[372] ID: la5qFTbBKIRhaVm11HId | COD: 325.007.001
+ITEM: MAXIDRATE GEL HIDRATANTE
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[373] ID: lbRMYtmjWOwFo21WzM4C | COD: 021.004.006
+ITEM: CERUMIN GOTAS
+   -> Giro | JSON: 3 | XLS: 1
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "3"
+---------------------------------------------
+[374] ID: m1SAI1Qzx5fCO4vjoweP | COD: 009.000.009
+ITEM: DISPOSITIVO INTRA-UTERINO - DIU
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[375] ID: mD4mVoifdrB4MwI6kwij | COD: 311.002.001
+ITEM: TROPHIC BASIC NUTRICAO ENTERAL E ORAL 800G
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[376] ID: mIqWYaCeRkPmM1ZAAG4p | COD: 005.000.007
+ITEM: PROMETAZINA 25 MG
+   -> Giro | JSON: 7 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "7"
+---------------------------------------------
+[377] ID: mPVhS9kazM4rJZIkIc5Q | COD: 021.001.060
+ITEM: IVERMECTINA 6 MG
+   -> Giro | JSON: 19 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "19"
+---------------------------------------------
+[378] ID: mUDgyIHATRkkkZRGF298 | COD: 323.001.001
+ITEM: DIPIRONA SÓDICA COMPRIMIDO 500MG
+   -> Giro | JSON: 12 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "12"
+---------------------------------------------
+[379] ID: maGZaavZp63S6zI2giKP | COD: 300.001.004
+ITEM: ADESIVO NICOTINA 21 MG
+   -> Giro | JSON: 94 | XLS: 1
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "94"
+---------------------------------------------
+[380] ID: mf2dKoHaemouClQcH7HK | COD: 021.001.098
+ITEM: COLETE PUTTI COMFORT AIR
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[381] ID: mnfSD5oYO79qKksHxlQj | COD: 011.001.002
+ITEM: DRAMIN  GOTAS
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[382] ID: my6AZaewn6pqSwwQX25s | COD: 007.000.002
+ITEM: SALBUTAMOL, SULFATO 100 MCG/ DOSE -  AEROSOL
+   -> Giro | JSON: 21 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "21"
+---------------------------------------------
+[383] ID: n0vYviKWqyGh8eBCuFMo | COD: 005.000.037
+ITEM: LEVOMEPROMAZINA 100 MG
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[384] ID: n1mVvVTMqSduy7h6h4nY | COD: 325.042.001
+ITEM: BUSCOPAM COMPOSTO INJETAVEL
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[385] ID: nA42QCrvNDS7aPYzERCc | COD: 003.000.018
+ITEM: EMPAGLIFLOZINA 25MG (JARDIANCE)
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[386] ID: nK0a0peVtRUYiSCSoPuX | COD: 330.001.002
+ITEM: MEDROXIPROGESTERONA, ACETATO + CIPIONATO DE ESTRADIOL (CYCLOFEMINA)
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[387] ID: nLo5NGr4oziADuekgiiR | COD: 301.004.002
+ITEM: CETOCONAZOL 200 MG
+   -> Giro | JSON: 27 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "27"
+---------------------------------------------
+[388] ID: nQT0sFcuyN3wPyWWiVGv | COD: 325.024.001
+ITEM: ACETILCISTEINA 600 MG - FLUIMUCIL
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[389] ID: nRPwHsUCWNXMeyUtCezk | COD: 021.001.033
+ITEM: LEVOTIROXINA SODICA 50MCG
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[390] ID: nSFvDaejRDKhmQFGJy0U | COD: 300.001.003
+ITEM: ADESIVO NICOTINA 7 MG
+   -> Giro | JSON: 204 | XLS: 0
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "204"
+---------------------------------------------
+[391] ID: nUIcMgmqjfKYe7qbivZJ | COD: 301.002.003
+ITEM: FOSFATO OSELTAMIVIR 45 MG - TAMIFLU
+   -> Giro | JSON: 23 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "23"
+---------------------------------------------
+[392] ID: nbAlVf2c4odbDZO6pqsO | COD: 002.000.115
+ITEM: KOLLAGENASE POMADA
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[393] ID: o5Ng0hCLtrCU2TtIdWX1 | COD: 008.001.007
+ITEM: METOPROLOL 100 MG
+   -> Giro | JSON: 22 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "22"
+---------------------------------------------
+[394] ID: oAsHJoA1Se15gspTa3If | COD: 011.001.006
+ITEM: METILFENIDATO 10 MG
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[395] ID: oIyUT49A80lBGHPVcCYi | COD: 009.000.002
+ITEM: SULFADIAZINA DE PRATA 0,01
+   -> Giro | JSON: 23 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "23"
+---------------------------------------------
+[396] ID: oSLNM5Eiq2ZCLzZZMtve | COD: 325.004.001
+ITEM: TRIADE MULHER
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[397] ID: oXettr5jWlsgohP2E6km | COD: 008.001.010
+ITEM: TESTE DE TROPONINA CARDIACA
+   -> Giro | JSON: 32 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "32"
+---------------------------------------------
+[398] ID: oe2giHGUYF2mLe7WlVxj | COD: 313.004.003
+ITEM: ACIDO FUSIDICO + VALERATO DE BETAMETASONA CREME
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[399] ID: ofJUpurbbdrkn8HSUyRw | COD: 302.004.006
+ITEM: VICOG 5MG - VIMPOCETINA
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[400] ID: okw2jLL0S4Yp0UVk2eBi | COD: 021.001.107
+ITEM: PANT SPRAY
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[401] ID: onOxwh2oBy18w0L5iSxf | COD: 002.000.056
+ITEM: SIMETICONA GTS
+   -> Giro | JSON: 14 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[402] ID: osDAJU7UwBbcW5SL665C | COD: 311.002.004
+ITEM: WHEY PROTEIN ISOLADO
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[403] ID: ozymaRu3txV3w2vuwhOU | COD: 023.001.001
+ITEM: GLICLAZIDA 30 MG
+   -> Giro | JSON: 9 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "9"
+---------------------------------------------
+[404] ID: p6v8Ve69ohbeSfGjuvUo | COD: 302.004.001
+ITEM: PREGABALINA 75MG - LYRICA
+   -> Giro | JSON: 5 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "5"
+---------------------------------------------
+[405] ID: p92VvabmWDLoDrf900uf | COD: 008.001.006
+ITEM: METOPROLOL 1 MG/ML - AMPOLA
+   -> Giro | JSON: 45 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "45"
+---------------------------------------------
+[406] ID: pERQcq3mcLxO5lSikCEC | COD: 002.000.110
+ITEM: CELESTONE SOLUSPAN
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[407] ID: pH5LCRQCRTpnkjZkQCbD | COD: 306.001.002
+ITEM: ONDANSETRONA 4 MG
+   -> Giro | JSON: 18 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "18"
+---------------------------------------------
+[408] ID: pR1rQSQGD5GsIN1TPCZT | COD: 005.000.090
+ITEM: ETOMIDATO 2 MG/ML - AMP
+   -> Giro | JSON: 9 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "9"
+---------------------------------------------
+[409] ID: phJJeAzBBgxwlqCIHobs | COD: 302.008.001
+ITEM: CICLOBENZAPRINA 5MG
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[410] ID: phMru882PJazuffuNMr2 | COD: 325.004.003
+ITEM: VITAMINA E
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[411] ID: pnN8N2uBfSNefEhNh6oE | COD: 325.016.009
+ITEM: AZITROMICINA SUSP. 200MG/5ML
+   -> Giro | JSON: 23 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "23"
+---------------------------------------------
+[412] ID: psPzS4n0uK5yJSsH463L | COD: 002.000.111
+ITEM: CIMETIDINA 150MG/ML IM
+   -> Giro | JSON: 9 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "9"
+---------------------------------------------
+[413] ID: qZhgOZYzszihiHx0Y09r | COD: 325.004.004
+ITEM: ACIDO ASCORBICO AMP 5 ML
+   -> Giro | JSON: 3 | XLS: 1
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "3"
+---------------------------------------------
+[414] ID: qqidJqvTN5DPkTlaSY1V | COD: 302.008.003
+ITEM: COLTRAX INJ (TIOCOLCHICOSIDEO)
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[415] ID: qtK9ZXjqQVBppBrelKVw | COD: 002.000.035
+ITEM: SULFAMET. +TRIMETOPRIMA  400 + 80MG
+   -> Giro | JSON: 11 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "11"
+---------------------------------------------
+[416] ID: r38EfOCdjGoN6NrtsrdS | COD: 222.001.002
+ITEM: SINVASTATINA 10MG
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[417] ID: rOBYq4FwcBZyb8AOJ99z | COD: 325.016.010
+ITEM: AZITROMICINA 500 MG
+   -> Giro | JSON: 22 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "22"
+---------------------------------------------
+[418] ID: rZ5kSMNk2eBqclJjwI13 | COD: 021.001.106
+ITEM: FRALDA DESC GERIATRICA - XXG
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[419] ID: s6Yq6Aaiz7ZO1exj6zji | COD: 005.000.050
+ITEM: PETIDINA 50MG/ML(DOLANTINA)
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[420] ID: sP5HFzyGj5FeehtrpI7g | COD: 002.000.122
+ITEM: CETOPROFENO 100 MG - EV
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[421] ID: sR4MsfzzyqGEIrQ8mj3k | COD: 021.001.069
+ITEM: FRALDA DESC GERIATRICA - P
+   -> Giro | JSON: 9 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "9"
+---------------------------------------------
+[422] ID: sX75xQ2PUQ82QBbA8XVB | COD: 005.000.028
+ITEM: NORTRIPTILINA, CLORIDRATO 25 MG
+   -> Giro | JSON: 19 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "19"
+---------------------------------------------
+[423] ID: sYEg26Fo7hDHW6E7CKOM | COD: 005.000.049
+ITEM: MORFINA 10MG/ML INJ
+   -> Giro | JSON: 52 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "52"
+---------------------------------------------
+[424] ID: sbksi6C5dh8BbPYFqSEJ | COD: 003.000.016
+ITEM: GLICLAZIDA 60 MG
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[425] ID: sd8mTUNGn83cIP3w3dAA | COD: 228.001.006
+ITEM: MIRTAZAPINA 30MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[426] ID: soxzvxvtQjy8fsy9RqYb | COD: 307.001.001
+ITEM: DOXAZOSINA 2 MG
+   -> Giro | JSON: 14 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "14"
+---------------------------------------------
+[427] ID: t9Mv8tFZD6ieDTxKDw6i | COD: 021.001.072
+ITEM: LOPERAMIDA 2 MG
+   -> Giro | JSON: 20 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[428] ID: tGHgK3AhX3gwvjUkWJTQ | COD: 005.000.056
+ITEM: FENTANILA,CITRATO 78,5MCG/5ML EQUIVALENTE A 50MCG
+   -> Giro | JSON: 7 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "7"
+---------------------------------------------
+[429] ID: tR1YAKp88EaqeThFVQ3v | COD: 005.000.093
+ITEM: CLONIDINA, CLORIDRATO DE 150MCG/ML
+   -> Giro | JSON: 42 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "42"
+---------------------------------------------
+[430] ID: tzM5HyBfI8JKl0fVkRxX | COD: 006.000.002
+ITEM: TIAMINA 300 MG - CP
+   -> Giro | JSON: 20 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[431] ID: u1RBTgAqson1RdfjSfBq | COD: 222.001.001
+ITEM: SINVASTATINA 20MG
+   -> Giro | JSON: 51 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "51"
+---------------------------------------------
+[432] ID: u4npOHvNY4cU7uvcq5pa | COD: 021.001.061
+ITEM: DROPROPIZINA 3 MG/ML - XAROPE ADULTO
+   -> Giro | JSON: 8 | XLS: 1
+   -> Fx_Giro | JSON: "D.ATÉ DOIS MESES DE ESTOQUE" | XLS: "8"
+---------------------------------------------
+[433] ID: ubw9Y7U8o1mmRr7TWuvH | COD: 002.000.073
+ITEM: NITROFURANTOINA 100MG CAPSULA
+   -> Giro | JSON: 16 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "16"
+---------------------------------------------
+[434] ID: v1Xp5UxmsAgmqPwJxeY7 | COD: 021.001.099
+ITEM: BOLSA DE OSTOMIA DRENAVEL SOFT CONVEXA
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[435] ID: v3ZPZ2D4Vv25sq6blCjc | COD: 325.009.002
+ITEM: QUETIAPINA 25 MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[436] ID: vHbOBZ4zbWatcr0WzcpC | COD: 021.001.065
+ITEM: ENOXAPARINA SODICA 60 MG
+   -> Fx_Giro | JSON: "I.INATIVOS COM ESTOQUE" | XLS: ""
+---------------------------------------------
+[437] ID: vPTqIE0lST34hTmYqYYH | COD: 005.000.047
+ITEM: FENITOINA 50 MG / ML- AMPOLA
+   -> Giro | JSON: 20 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "20"
+---------------------------------------------
+[438] ID: vm4LJ5Jh5uajOQ7SS4rK | COD: 230.001.015
+ITEM: VITAMINA D 15.000UI
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[439] ID: wHmUnagFZnuJPWIdxliV | COD: 021.001.090
+ITEM: TRAMADOL 50MG
+   -> Giro | JSON: 9 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "9"
+---------------------------------------------
+[440] ID: wP3CCoiGWFa2yur8rBbh | COD: 021.004.008
+ITEM: CERAVE LOÇÃO HIDRATANTE 473ML
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[441] ID: wSmsMyNsmcoI0AHOZsD0 | COD: 002.000.014
+ITEM: DICLOFENACO 50 MG
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[442] ID: wg20dEOvLs84yilKxx2g | COD: 325.005.003
+ITEM: INSULINA HUMANA REGULAR - REUTILIZÁVEL
+   -> Giro | JSON: 10 | XLS: 0
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "10"
+---------------------------------------------
+[443] ID: wsc7OX63zbd0XjgzfJ9j | COD: 005.000.044
+ITEM: CLORPROMAZINA 25MG/5ML INJ
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[444] ID: wtrRuyLsAhYrnLqelXhu | COD: 005.000.092
+ITEM: BUPROPIONA XL 150 MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[445] ID: x2cD8JDXAaNUfW011eak | COD: 311.002.003
+ITEM: CREATINA PROBIOTICA PURA
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[446] ID: x5eil6ATv0YJAnHYEz8Y | COD: 325.029.001
+ITEM: ADENOSINA 3MG/2ML - AMP
+   -> Giro | JSON: 63 | XLS: 1
+   -> Fx_Giro | JSON: "H.OUTROS COM MAIS DE DOZE MESES DE ESTOQUE" | XLS: "63"
+---------------------------------------------
+[447] ID: xJG4xM95BVjKT5OvE2d0 | COD: 325.008.001
+ITEM: FLEX-S COLAGENO HIDROLISADO TIPO II
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[448] ID: xTonu2zccY6sWMErE6wZ | COD: 002.000.103
+ITEM: GLICOSE 50 % - 10 ML
+   -> Giro | JSON: 10 | XLS: 1
+   -> Fx_Giro | JSON: "E.ATÉ TRÊS MESES DE ESTOQUE" | XLS: "10"
+---------------------------------------------
+[449] ID: xXVce28GF6OclKUsmvan | COD: 005.000.016
+ITEM: RISPERIDONA 1MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[450] ID: xe9ag9CCmh7zwbYXJAc7 | COD: 002.000.045
+ITEM: CIPROFLOXACINO 500MG
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[451] ID: xiK9N2birIK4KXeOL3a8 | COD: 001.000.008
+ITEM: NIFEDIPINA 20MG
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[452] ID: xnikQu2YQn0bZLiKnckF | COD: 008.001.003
+ITEM: SULFATO DE MAGNESIO 10%
+   -> Giro | JSON: 19 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "19"
+---------------------------------------------
+[453] ID: y64oy8sLotMN2GanX2DP | COD: 002.000.037
+ITEM: SULFATO FERROSO 25 MG/ML - GOTAS
+   -> Giro | JSON: 23 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "23"
+---------------------------------------------
+[454] ID: y75avTQeD67eWNKJQ15l | COD: 311.001.021
+ITEM: NUTREN SENIOR
+   -> Giro | JSON: 0 | XLS: 1
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[455] ID: yDx6WgbID3OnFCM1dLlm | COD: 335.001.001
+ITEM: OFEV - ESILATO DE NINTEDANIBE 100MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[456] ID: yIaeAARlgH074Y1dfP1X | COD: 022.001.015
+ITEM: FOSFOMICINA TROMETAMOL - MONURIL
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[457] ID: yN2GlugMP2rzYjq3xyey | COD: 002.000.043
+ITEM: PARACETAMOL 200 MG/ ML -  FRASCO 15 ML GOTAS
+   -> Giro | JSON: 23 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "23"
+---------------------------------------------
+[458] ID: yNWX9oxPmoMr6ZzE3X9d | COD: 303.006.004
+ITEM: PENTOXIFILINA 400 MG
+   -> Giro | JSON: 17 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "17"
+---------------------------------------------
+[459] ID: ymL7GXkyn9ogZ7HI8vRj | COD: 002.000.094
+ITEM: OXITOCINA 5UI/ML
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[460] ID: ynn41vY6gUW9GfxBPOUR | COD: 325.002.001
+ITEM: CLOZAPINA 25MG
+   -> Fx_Giro | JSON: "A.ZERADOS INATIVOS" | XLS: ""
+---------------------------------------------
+[461] ID: zUuYGCZDZxoB0nsWBsyp | COD: 304.002.002
+ITEM: NORIPURUM INJ
+   -> Giro | JSON: 13 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "13"
+---------------------------------------------
+[462] ID: zgk7cDgcrR6Xpb6nN8Xu | COD: 325.019.006
+ITEM: ACECLOFENACO 100MG - PROFLAM
+   -> Fx_Giro | JSON: "B.ZERADOS COM DISPENSAÇÕES" | XLS: ""
+---------------------------------------------
+[463] ID: zn1KN1pgJzTUIskpyo9f | COD: 002.000.138
+ITEM: CEFTRIAXONA 1 G - PÓ P/ SOL. INJ IM
+   -> Giro | JSON: 28 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "28"
+---------------------------------------------
+[464] ID: znRGOI0MNcpLAANcTkmp | COD: 005.000.051
+ITEM: PROMETAZINA 50 MG/ 2ML
+   -> Giro | JSON: 24 | XLS: 1
+   -> Fx_Giro | JSON: "G.ATÉ DOZE MESES DE ESTOQUE" | XLS: "24"
+---------------------------------------------
+[465] ID: zqS1qbgrX7qxANwXlYqt | COD: 301.002.004
+ITEM: FOSFATO OSELTAMIVIR 30MG - TAMIFLU
+   -> Giro | JSON: 15 | XLS: 1
+   -> Fx_Giro | JSON: "F.ATÉ QUATRO MESES DE ESTOQUE" | XLS: "15"
+---------------------------------------------
+[466] ID: ztkKXi1alZVIeCXrYrpr | COD: 005.000.080
+ITEM: OXCARBAMAZEPINA 60 MG/ML SUSP ORAL
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "1"
+---------------------------------------------
+[467] ID: ztt7H6QyjKsksbmYTiLO | COD: 030.001.007
+ITEM: PARACETAMOL + CODEINA 500/30 MG
+   -> Fx_Giro | JSON: "C.ATÉ UM MÊS DE ESTOQUE" | XLS: "1"
+---------------------------------------------
+
+
+=== LISTA DE IDs PARA CORREÇÃO ===
+[
+  "0080eMOHAR6Xaw7KITGT",
+  "03xukFiKViEfrwg603S1",
+  "07OsYcmU03iWz3VotUGW",
+  "09W43eDQzqcoQxKf9wt5",
+  "0HUdWaCvd8cGVs1s3dWH",
+  "0UzmCcfqoK39sEAf6Rwf",
+  "0ZQT8TIgDGevRLg9qYT8",
+  "0ZZw2LpzKVUZeLcKDwwZ",
+  "0dtX2C7XcuNMQSaKg3PK",
+  "0h3oFBQuqfA2g5KduUMQ",
+  "0j02HLpxyERdvCmoU6D4",
+  "0r07lukfiRG013r1NUT9",
+  "0vBTBgj71echtFl8jbhc",
+  "13gLOOpsVgz8OroJeUOY",
+  "19Jxt9OroinRNtefpnXo",
+  "19tGQni3pqGnzpl8jpLj",
+  "1n4al9b30pDIWsyPHwWE",
+  "1p0y0U62rEZWGhShq2pa",
+  "1zOCi8SfjBWCfmohrhEM",
+  "2A3Rs9qginsrbwJ3I20Q",
+  "2QJQOTIYHDNEZwMvY6Gv",
+  "2QMF7N834L50x3EzxGw3",
+  "2eW3vLaiFqi3ChhSNowB",
+  "2n8I86Tv3rQcHMeBSFMD",
+  "2t7XTo7OGzG4qO7cuULT",
+  "2tzpAbxhQFo9r3SVRZyg",
+  "3By7ejcJuY3J6gM2IScN",
+  "3HbIItfasiveaTbsyMAD",
+  "3MXMAwoKO7Q32Ywgtutg",
+  "3QTsCWQ1lntjW1fE9M7R",
+  "3oGdVlNa059ZVrN80juJ",
+  "3tirqyk36kwx1ff8U08C",
+  "4OmR30yxPaiJO7ZQ3GTF",
+  "4PGLiZ16rU66BmBx0ro7",
+  "4T4qEzwmxJYy56sut147",
+  "4bHy4TLRW6yaEq6YA4Jk",
+  "4mPPUkosxWeFeGVQ79Y7",
+  "4p2zBB4ewDF6IlloufKm",
+  "4q0bckGlRtLfELiglo4t",
+  "4t1rqrLwT4vXCN1Au6dF",
+  "50vzIDjU9aprGKKnfceC",
+  "56pfa7KDa4oLBJZGifky",
+  "5Auij8873CW92QAyECdA",
+  "5COFKL9cvlFEbeIWC5nR",
+  "5XZUljmQmktuZFbTeji0",
+  "5aydPCmQ4qqpNkq7IBhn",
+  "5fkEDG5c03LYs7cUySqc",
+  "5n8sD6IOzL2aYJ5R8zrC",
+  "5nPi6KGKn9FlILDho39n",
+  "69EfGhC5FGRKuKiAtAne",
+  "6DDkEYy3gAwPOoUoe3sX",
+  "6LMyWnfxcNYiDldJLLL3",
+  "6SgxCvM6iiyeZZUZQmxI",
+  "6U3OsKtk6SDK5owtoLQ4",
+  "6XcVIKT1RkuhgIFMTALB",
+  "6dFlmOMvVOKSLjhKl1CC",
+  "6ys2yC1k8vGdC2HtW3yr",
+  "7D0haFb7SnW7PW1K9DRx",
+  "7Hm6SIMbBmauCttFJMxL",
+  "7NmKnCCb7ji6E1DDHdFr",
+  "7dwCmC66WfX4pcBRzmgs",
+  "7nqlElQCZGw1OCQ1U3H9",
+  "882r7HgKgsw7NDFtOCAD",
+  "8AL8fcCMigUZqDvIvcIS",
+  "8BhUDa0uaKtDrF32jSjE",
+  "8EQKbDHBb8aKVpzyLWZk",
+  "8GSjqvk8AQCwqv9SQdRc",
+  "8RL7Ebjkn7xOlkKyTvQW",
+  "8b0oAgadQN5cd0HcFtBl",
+  "8hQIWv1uToNf0w0dJ3hc",
+  "8rO3Q4wBT5kCF8zdzygx",
+  "94pnJDsNkVvEuTXeGMjS",
+  "95oQoYhgP6egDawHRrX7",
+  "98Y4aUei09v22k3Lghu5",
+  "98m981as3l4Ih5DayJFR",
+  "9tBuT8IT4DPf9EDUWqwK",
+  "9vXdAVxBHpTn7zOCOFvy",
+  "9wullEaa3dQ2EBotlTzB",
+  "9xkBe5FaLqDO1pbGtTlt",
+  "A1Hx5rKefA8PMNJV10Yu",
+  "AOAWIppJtCTZGSqJxt9y",
+  "APjy5lCrCAV2RV1tTJD1",
+  "ATcCziPeN5Q399wrNQjl",
+  "AhX3QLsBeypbxsFWWMqe",
+  "ApinTW1CHNX94E5CMW9T",
+  "AsfwwaQi1KQerQUMt8hn",
+  "AspdbvJmWoVCORYURLxf",
+  "Awf2gbPNSmMl5p0a9QZm",
+  "AzZQFCFXWxKaSrXJwUi8",
+  "B3MNnwdTOM7272bHx5HM",
+  "B4uaYbs78PcgBWXcoPHv",
+  "BDRBMEQRb53tUxpZ3GgX",
+  "BHQackUU2RPmCk7UZSqj",
+  "BHTWHIpseAqErTkbKUvk",
+  "BLJXgqUYz7ilA09dySs8",
+  "BQW5qeJbatnGQ6Kdx2ov",
+  "BoJJeaG3DzWWxitoV4Yd",
+  "C6gTpWB17MUDhyOwpjH4",
+  "CD2qZwyRmCJIdhcMWrZv",
+  "CDPqxd9oTiVbjr9NwrZb",
+  "CIsf4DnWmPHhh0SxEOg9",
+  "CSqJcb3TBXbbxAV2OEpG",
+  "CTC28iTkZtAj72RtoGbh",
+  "D1IPbVFWQgAy8PdnI0qy",
+  "DMX1vO8BBZtpxVyufK84",
+  "DOAnfCR9evVvCEMzhfip",
+  "DPavErRGBCftcFqKUv2V",
+  "DRFzshvap5fD11wRvdiz",
+  "DgTaJH3Uyc5yDJatr8Mo",
+  "DrTDtCxTpd4EXePMOogj",
+  "Dy20KseCwfDRVp3tp8Bd",
+  "E3hM7B60nc95IKNveJpd",
+  "E9C2UVwPFuQ6EQz7wquc",
+  "EByZ18ZsY4wKflC9aJTj",
+  "EWmZRPac8tZM46tn81EE",
+  "EYaXTEZ05VkVjw9uJmYF",
+  "EbGdBfopFqlpd4fTrDrj",
+  "EpJ8og89rBADtGSoq7XC",
+  "EvsMpmDaKbdAEAso1nrM",
+  "F1xC4EyjEoZdNBKv3lvp",
+  "F2Prcb1OpyPLVH3FcCng",
+  "F9u3Jrsshv9tqwB4j1fn",
+  "FiQRvlEAZ4xXqGjcdilP",
+  "FvzRUa4xpMLqpMmGvZKk",
+  "FwACT0nUN8St05ELhQE5",
+  "GAa6AD63zZ3CBA14RRL6",
+  "GFn8q9hkFcV9LWqHpUuk",
+  "GPb4IuzhqIZQoPKUSXXj",
+  "GW6LrwI2MpYoFVOwMJXi",
+  "GcDMF2v2e5s3d0q0XAW4",
+  "GfxXvMBDTl08yr410jgV",
+  "Gz2njaOUSH3JOHjUfmCq",
+  "H0Mty9mwMBytoJgc9Epk",
+  "H6vqTSQNU7kMGUVXjLuL",
+  "H99uvzb5MTIbFRe6pwoI",
+  "HC5caGAMBZDMM36rvjgA",
+  "HGPbVR1SaPRlNH9A2iv4",
+  "HLJEdXd21INYUv05lkTH",
+  "HQ91S9Rbm4QVBWjY2jJS",
+  "HZCQCNK29JRZhSPnYRSb",
+  "HitgMH1qX5Nt6QqanGB7",
+  "HvrcXGBTYRoBShzsvZkP",
+  "IB8ZvSzr8GlQSYB1QXFn",
+  "IeqdHuULWqS8hJj2N0yB",
+  "ImM838wEkxf6WlBmAiHn",
+  "Iz6pJB9xr6jBqkEFvROS",
+  "J7dkTaFguzeLeB5yfkfD",
+  "JPyfPllfescUpNsqh1H9",
+  "JRfBHiICtzGkjoTRyS1c",
+  "JSZIL11se7bJ6zL8P9xn",
+  "JWWONjOYX2mcM9FA9SIw",
+  "JatoPcC7zNNLAaBoPJu0",
+  "JqmU8WKAqGbsLZsVmi9I",
+  "K8qNPhoM8cuuNpX6uvUQ",
+  "KMlEtoC6XtrsuyAMISov",
+  "KZeoKt7z0mLf3GZdrxL5",
+  "KgXPPZ971FhQPgd6CkIg",
+  "KzhsRnoIURyy5BxZqwdL",
+  "L1XjFJCqNhzezk1GQ0ec",
+  "L3ruHFDo0Nn38JLOMt61",
+  "L4XgzFbK5ELxtfnu7jaM",
+  "LIfnnCUwlnvQ6j4kIyCX",
+  "LLZ3ayxpwz7os2ZDV6Xs",
+  "LPesqvxdJlBpKy4cojfq",
+  "LT6dyVhjx0YDIyHfakHd",
+  "LV6hs8LIRsCYA7lcIw6x",
+  "LWvbFZwbnDAj6KP3ll6a",
+  "LqUsROsACRRkxB15wm2r",
+  "M4g15BF3472srpMLxx2R",
+  "M7PcBqTegT2YeQ38lgGD",
+  "M8o6281pyoPqBrSPTvVP",
+  "MAUFyz1jl4RcqnXrjYTx",
+  "MAxfhJnqgoYibEvwsg4A",
+  "MD3c0KFRfTkZrERhSFaT",
+  "MejxRDFFOsggZLHsNCXH",
+  "MkIXeBIAEZEaNkkeAkt8",
+  "MkUItNIa99H9Vis78Wc0",
+  "MwlTHGO2TUhepUbU27Gx",
+  "N5L0bTWXlCrUnRcrOznE",
+  "N7gYusqFhoxvv3Osolz1",
+  "NAMDqbsNQpih2yjkoLRY",
+  "NB6O3v2lrjliFDtLWG0p",
+  "NFZsTnnq8qwmHDKquABP",
+  "NI8GS3kl1eMLSHJo3WoW",
+  "NJks0S26PveorCeDPgQb",
+  "NNPlmIEDCCQujeWNm1rN",
+  "NSke2BrzZl67sb4q101x",
+  "NWoQNOV9u0lOsDSAIhvD",
+  "Nsiizo5oeODpZx9PMMPP",
+  "Nvt7QHS31SneVvwTkhFL",
+  "Nyld68otgN4WDSIaz5t3",
+  "O1nXHMn4kACm2rm9PuHY",
+  "ODy1bHylMb3P7LQBpkct",
+  "OOiVlSyT5Z0tPi8Lrmup",
+  "ORoe2dIZIyGyED7S2bP9",
+  "OgnEhUhO0bTMJI84iPo1",
+  "OkB0krDlwWExy2P6LO11",
+  "PZC8uTZ7cXB91hZJwubI",
+  "PcRwIBw1hEXOmdWVMjHP",
+  "PfmcJVFRZZ6AbPvYhaFQ",
+  "PnJ3gJ6g7oszGLv91275",
+  "Pr63wxqUImB2mzmujRVe",
+  "PtoMQeeFKOBajjPcYzcS",
+  "PzDtDOL1Z75lHTMXZTYc",
+  "Q1Wen7HkRWNjO47N1frr",
+  "Q9mx1w1gqtE3CVn2GeWo",
+  "QDVPqQMjOYszZANBiy0J",
+  "QMUK4Xt0WQ3BIlIDbGKj",
+  "QO4I6SGPARdr2EnWQ3jD",
+  "QPcg4NF1FLInXf8AaKVp",
+  "QeX3lfZhvIyVkUysujiZ",
+  "QedbtYv4v0IkcxQdxccC",
+  "QvRSOoIEZRS9PdZx0v6f",
+  "R6XNm7p2dJO5DHd4iv5E",
+  "RDXCFe15NY5cGdJCODwa",
+  "RdfvdBBjmR0wBBvpxC7O",
+  "RivLPqxYggjlSiHtjzBb",
+  "RtPgBqsst5FJymohBetm",
+  "Ru9ngfjA74SkV1UgTkNT",
+  "RvCLE8rrI6WlVdsbXCuU",
+  "RyNd0PfihDPiHQboavCC",
+  "RyNxNaeVvTnfmgjWFXZj",
+  "SLPbpcG5Pb7NEVolVUYi",
+  "SOCRfdwTqG60lfAPK8pd",
+  "SSw3pBZbTmyx8jSNe8o4",
+  "SUBVSXADczJ3pnnELTq1",
+  "SUuNiwGv28CHq5U2sUdt",
+  "SraMhaaWroF3PIbQ6qfs",
+  "Sv7vBJO9kleMNQGnwOGa",
+  "Sz1dDl8opRFHwKCh6TvK",
+  "SznnW3tdowjbifaVTKFn",
+  "TDgwN7ITx69tfOez9J0v",
+  "TKXO5Jrc9WK7hbABer1N",
+  "TMGB9Vcm8kKf3feRCSrC",
+  "TPWWnWt24YQbzX8oLhwi",
+  "TPmNeAmZWfMnxpNtpYz0",
+  "Tn1EFXXVq86QAd30gzLV",
+  "TrqWwOISNJemstLha0Nb",
+  "TwnLk2XLCOXfWk15nZvW",
+  "Tytodluzuy9UGORTwC8N",
+  "UVOhucSTdWGTdVNKfHzJ",
+  "UYi5uq1ifhoGdHlRZxnG",
+  "UcY1o7bjFnmOJ9Es5WJI",
+  "UfuclvzO32nzTjpZ0zat",
+  "UtfJGlUYQY97C5AWMNmP",
+  "UuXgwbvMsDxupN1UQdkH",
+  "UvWJHiijp79TzHRgubfa",
+  "VKebIuqj1wKGQaKOlVWz",
+  "VQQsb9LC1cycPtYIqDzC",
+  "VQVaXnKrtkJRFItNT8an",
+  "VSzBqGGSJNulUOiQRPZx",
+  "W7LscucW5tHYMjbmc0NB",
+  "W9oRz64u78M0Gj4HvEiq",
+  "WHpBYcwEGzirCTzIVJ9H",
+  "WMHwZMb2EBJAXATKLbLu",
+  "WWZ4BYfYPLB10PYdoCJV",
+  "WWwsLJKLLs5wOIcOz8l9",
+  "WcyqEEh4Fc4EYjxrrpNX",
+  "Wlvoc7dBw2sRPIJ8RJGg",
+  "WyTj0WWMKmlWFTWnmO7o",
+  "XBnbBtanjyVzI1Degupg",
+  "XES0KoO074StqVRY52PC",
+  "XFqTEkA6JbJlFrmsw5oq",
+  "XVEBotF7X8s4VNmX2NW7",
+  "Xt8VbHIYjLPVr9Jwpvf6",
+  "XtiYebtSxs1wElQm2EKc",
+  "Xze3I7yOZcEPDaUe1i5T",
+  "Y8elAqaC5Kq1HJFm11lf",
+  "YJAiDSLRkMXdCG3P0qqF",
+  "YSwFda36jJsmvGnfegSI",
+  "YTBeBEKQq1OhxwRyI5Pe",
+  "YVQ14zLcmflNF2DhLziH",
+  "YVT2YxcRe6YEMdMZGY1g",
+  "YeLFXp9w10wtRyrYPITJ",
+  "Z1cKPvQNVtZnS3i3CaS7",
+  "Z49OqLPpqLl0XSeGs9P5",
+  "Z5tJACp5i198O5nTQQPT",
+  "ZJa9CxNSJn4YfA9tkFHR",
+  "ZNjo9cGBSuHR6PFq3lxV",
+  "ZO8akO0o9xeUoafmZIss",
+  "ZyYUcta8OxB69JaRMr1f",
+  "Zyzp1rmN7IuAYFhLaq5V",
+  "aD3I7Q42ShYKsAq5KiQH",
+  "aHk79gkBb0S1T3VFT1km",
+  "aI3TeiVNbCodCjFVa1KE",
+  "aIVvqE2sDdaluqI4G5VR",
+  "aQWAtjVgpF1kF54jO0tf",
+  "asv8ANfc7DB0ez4Wzih1",
+  "b5rtVtITjxkJU7xTGyew",
+  "bEhvqoNj6FFpUHv3q2dt",
+  "bRJjbuW1KK9I4TbZMGoC",
+  "bTUH4tyOjUfMlYImT9MW",
+  "bdgH9O7yKc2aql3VChkM",
+  "be8ZK8PxhMykXammDkPw",
+  "bj0aU8kwmo2aLuHpDJFV",
+  "bnDNWjqqJB5LHOm13mCp",
+  "bq7miTmU2vjt19uGrmH4",
+  "bxdRCRoBy4jkVvs1ujfv",
+  "c3ftTbJoOAeptQZIfEku",
+  "c5nKpQDvirnn2gwUrOhU",
+  "cPQYHGJQHa6qzWMGNzXS",
+  "cjZBdxbXM80XcmFkPmhW",
+  "clCjD9TVH5wMU60o7VRh",
+  "coDu8DVlfNI88cRryg2O",
+  "cveG6asAv3IOJpS5d8H7",
+  "d2PpmfmPZkT7yisrV45Q",
+  "dfGzwhQ0BtVeIhlWWDQc",
+  "dkMaXa5gbzXWWNGfILzX",
+  "dm2rIz0rhRrlSQNDkjW1",
+  "dxT2SA3ZcjWBHEgXqZN7",
+  "e5OqCuFHfsj3Ob3zTcw5",
+  "eBO4BTdlLCexzseFnlyT",
+  "eEKbxdYXBzxOKArLEIs2",
+  "eQPnFCc0i5t23CSvmrNc",
+  "ebbs7PfVgFYgOZcAEtBI",
+  "efl9ynEoPMbuZSZjtSWg",
+  "ehu65Xw6PanbsuaXVOlQ",
+  "etXuQCbnlqgbUg4NZJMx",
+  "fD56pc3qO86ZwsJxE1Nm",
+  "fY1BssgaOFUhTmWeXYTM",
+  "fjbxYOmvs3a9Eqn1ky4U",
+  "fju0esXlYLX8rEWVDTmm",
+  "fkj7oP4n6MezYt0UK64S",
+  "fp3L47r9UcjndNILA1Kp",
+  "fqEheyRghlUUOCmh9GiS",
+  "fqdgpMD6qrsGW1vI6JDK",
+  "g7kLeT7WICheEqQPioP5",
+  "g9hqgoSQqQJxAFlMb0Q6",
+  "gEjOmcMmd9yhB6GuUzRz",
+  "gFUSmDpP8uC8fXPM0uGq",
+  "gMMWRPT1VBGYr2C7MK6i",
+  "gRgfjDPbPWJYVRjO2xPH",
+  "gWIbA8tTx5DGt13nd2xI",
+  "h0GQiNa8UInYe8Gv1bLr",
+  "h9WNgxJUzz5eZOzBpTXc",
+  "hASa42igEW2V4UtCaNTG",
+  "hDFA1F3viPhOw8vOYbtm",
+  "hHGCEAJzgxohrGeqxe49",
+  "hKDp09qVIgqfMfVHnjyu",
+  "hNd8TOd86Dz69700VMoi",
+  "hS9bW6rXkY7sUuTvEOUE",
+  "hddICtUqAgZX87q2RtKA",
+  "hhqXwctMfKgMvqVaUQ4P",
+  "hwKC6jEYd61qjEUbhOx1",
+  "iJufesYcE5fE1V1DB1p4",
+  "iOxWYCVu3Vb4ZMlcKK6T",
+  "iWMSs1skdOO7imZtrfKD",
+  "igbElbC6l3qQRyfBpsOa",
+  "itWtgRkikuutMPPLynVQ",
+  "itilE0RioXc5AZpJz6RS",
+  "ivu9tqKY8MXA6xNUJLE7",
+  "iygjuFivoSWKplZS3itG",
+  "jHv2oZMcGMxASatNvJKc",
+  "jVzJ6ZhcmhwUecyEOrWH",
+  "jeefPcIg2XRM15dnBASP",
+  "jiItXVwAniuUCuVFBQdw",
+  "jv9vtPzeh5HnMLIXzOpn",
+  "jxb0BWzLyS162MYNJkH5",
+  "jzkPj7seiSYs2VhMmuJO",
+  "k0TmRRuBVyTHn9ehRcMD",
+  "k6t7PoZjUEd8VpyDl0tA",
+  "k9Q52ikdimagiGTWLTJG",
+  "kMFEL6MITcXGCVAUto4x",
+  "kUc1a8M4JUuqK1ZevS3d",
+  "kjDoYjmKFHAe6SiZvAdr",
+  "kp1CZYWdFdQD7XaCfIJI",
+  "l0hrgmHcJwYa5hxrHUSm",
+  "lGZEWAbwTEyBbhcLgA62",
+  "lNvFtsQXhZYQA1O5tqVQ",
+  "lROa2Gs3AimBCtFXRpLs",
+  "lVQpXUf7zv3g8CsH44N1",
+  "la5qFTbBKIRhaVm11HId",
+  "lbRMYtmjWOwFo21WzM4C",
+  "m1SAI1Qzx5fCO4vjoweP",
+  "mD4mVoifdrB4MwI6kwij",
+  "mIqWYaCeRkPmM1ZAAG4p",
+  "mPVhS9kazM4rJZIkIc5Q",
+  "mUDgyIHATRkkkZRGF298",
+  "maGZaavZp63S6zI2giKP",
+  "mf2dKoHaemouClQcH7HK",
+  "mnfSD5oYO79qKksHxlQj",
+  "my6AZaewn6pqSwwQX25s",
+  "n0vYviKWqyGh8eBCuFMo",
+  "n1mVvVTMqSduy7h6h4nY",
+  "nA42QCrvNDS7aPYzERCc",
+  "nK0a0peVtRUYiSCSoPuX",
+  "nLo5NGr4oziADuekgiiR",
+  "nQT0sFcuyN3wPyWWiVGv",
+  "nRPwHsUCWNXMeyUtCezk",
+  "nSFvDaejRDKhmQFGJy0U",
+  "nUIcMgmqjfKYe7qbivZJ",
+  "nbAlVf2c4odbDZO6pqsO",
+  "o5Ng0hCLtrCU2TtIdWX1",
+  "oAsHJoA1Se15gspTa3If",
+  "oIyUT49A80lBGHPVcCYi",
+  "oSLNM5Eiq2ZCLzZZMtve",
+  "oXettr5jWlsgohP2E6km",
+  "oe2giHGUYF2mLe7WlVxj",
+  "ofJUpurbbdrkn8HSUyRw",
+  "okw2jLL0S4Yp0UVk2eBi",
+  "onOxwh2oBy18w0L5iSxf",
+  "osDAJU7UwBbcW5SL665C",
+  "ozymaRu3txV3w2vuwhOU",
+  "p6v8Ve69ohbeSfGjuvUo",
+  "p92VvabmWDLoDrf900uf",
+  "pERQcq3mcLxO5lSikCEC",
+  "pH5LCRQCRTpnkjZkQCbD",
+  "pR1rQSQGD5GsIN1TPCZT",
+  "phJJeAzBBgxwlqCIHobs",
+  "phMru882PJazuffuNMr2",
+  "pnN8N2uBfSNefEhNh6oE",
+  "psPzS4n0uK5yJSsH463L",
+  "qZhgOZYzszihiHx0Y09r",
+  "qqidJqvTN5DPkTlaSY1V",
+  "qtK9ZXjqQVBppBrelKVw",
+  "r38EfOCdjGoN6NrtsrdS",
+  "rOBYq4FwcBZyb8AOJ99z",
+  "rZ5kSMNk2eBqclJjwI13",
+  "s6Yq6Aaiz7ZO1exj6zji",
+  "sP5HFzyGj5FeehtrpI7g",
+  "sR4MsfzzyqGEIrQ8mj3k",
+  "sX75xQ2PUQ82QBbA8XVB",
+  "sYEg26Fo7hDHW6E7CKOM",
+  "sbksi6C5dh8BbPYFqSEJ",
+  "sd8mTUNGn83cIP3w3dAA",
+  "soxzvxvtQjy8fsy9RqYb",
+  "t9Mv8tFZD6ieDTxKDw6i",
+  "tGHgK3AhX3gwvjUkWJTQ",
+  "tR1YAKp88EaqeThFVQ3v",
+  "tzM5HyBfI8JKl0fVkRxX",
+  "u1RBTgAqson1RdfjSfBq",
+  "u4npOHvNY4cU7uvcq5pa",
+  "ubw9Y7U8o1mmRr7TWuvH",
+  "v1Xp5UxmsAgmqPwJxeY7",
+  "v3ZPZ2D4Vv25sq6blCjc",
+  "vHbOBZ4zbWatcr0WzcpC",
+  "vPTqIE0lST34hTmYqYYH",
+  "vm4LJ5Jh5uajOQ7SS4rK",
+  "wHmUnagFZnuJPWIdxliV",
+  "wP3CCoiGWFa2yur8rBbh",
+  "wSmsMyNsmcoI0AHOZsD0",
+  "wg20dEOvLs84yilKxx2g",
+  "wsc7OX63zbd0XjgzfJ9j",
+  "wtrRuyLsAhYrnLqelXhu",
+  "x2cD8JDXAaNUfW011eak",
+  "x5eil6ATv0YJAnHYEz8Y",
+  "xJG4xM95BVjKT5OvE2d0",
+  "xTonu2zccY6sWMErE6wZ",
+  "xXVce28GF6OclKUsmvan",
+  "xe9ag9CCmh7zwbYXJAc7",
+  "xiK9N2birIK4KXeOL3a8",
+  "xnikQu2YQn0bZLiKnckF",
+  "y64oy8sLotMN2GanX2DP",
+  "y75avTQeD67eWNKJQ15l",
+  "yDx6WgbID3OnFCM1dLlm",
+  "yIaeAARlgH074Y1dfP1X",
+  "yN2GlugMP2rzYjq3xyey",
+  "yNWX9oxPmoMr6ZzE3X9d",
+  "ymL7GXkyn9ogZ7HI8vRj",
+  "ynn41vY6gUW9GfxBPOUR",
+  "zUuYGCZDZxoB0nsWBsyp",
+  "zgk7cDgcrR6Xpb6nN8Xu",
+  "zn1KN1pgJzTUIskpyo9f",
+  "znRGOI0MNcpLAANcTkmp",
+  "zqS1qbgrX7qxANwXlYqt",
+  "ztkKXi1alZVIeCXrYrpr",
+  "ztt7H6QyjKsksbmYTiLO"
+]

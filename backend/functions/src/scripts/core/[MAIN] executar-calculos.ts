@@ -1,6 +1,6 @@
 import { db } from '../../config/firebase';
 
-import { MedicamentoCalculado } from '../interfaces/interfaces-campos-calculados';
+import { MedicamentoCalculado, MedicamentoFirebase } from '../interfaces/interfaces-campos-calculados';
 import { calcularCamposParaMedicamento } from './calculosService';
 import { prepararDadosParaCalculos, listarUnidadesDisponiveis } from './preparar-dados-calculos';
 
@@ -95,10 +95,9 @@ export async function atualizarCamposCalculadosNoFirestore(
         const medicamentoData = medicamentoDoc.data();
 
         // Prepara dados para o motor de cálculo
-        const medicamentoParaCalculo = {
-          ...medicamentoData.dados,
-          id: medicamentoDoc.id,
-          movimentacoes_semanais: medicamentoData.dados?.movimentacoes_semanais || {}
+        const medicamentoParaCalculo: MedicamentoCalculado = {
+          ...medicamentoData as MedicamentoFirebase,
+          movimentacoes_semanais: medicamentoData.movimentacoes_semanais || {}
         };
 
         try {
