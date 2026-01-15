@@ -88,26 +88,10 @@ export async function atualizarEstoqueEMovimentacaoSemanal(
     const medicamentosProcessadosMap = new Map<string, ItemProcessado>();
     console.log(`\n📦 Criando mapa com ${inventoryData.itens.length} itens do JSON`);
 
-    //=====================================================
-    // ATENÇÃO:
-    // Se os codigos de itens no banco forem noramlizados em algum momento, essa
-    // função deve ser removida.
-    //=====================================================
-    const normalizarCodigoItem = (codigo: string): string => {
-      if (!codigo) return '';
-    
-      // 1. Remove todos os pontos da string: "001.002.003" -> "001002003"
-      const semPontos = codigo.replace(/\./g, '');
-    
-      // 2. Converte para Number (remove zeros à esquerda) e volta para String
-      // "001002003" -> 1002003 -> "1002003"
-      return Number(semPontos).toString();
-    };
 
     inventoryData.itens.forEach(item => {
       if (item.cod_sistemico_item) {
-        const codigoNormalizado = normalizarCodigoItem(item.cod_sistemico_item);
-        medicamentosProcessadosMap.set(codigoNormalizado, item);
+        medicamentosProcessadosMap.set(item.cod_sistemico_item, item);
       }
     });
 
@@ -190,16 +174,16 @@ export async function atualizarEstoqueEMovimentacaoSemanal(
     for (const item of inventoryData.itens) {
       if (!item.cod_sistemico_item) continue;
       
-      const codigoItemNormalizado = normalizarCodigoItem(item.cod_sistemico_item);
       const existeNoBanco = medicamentosSnapshot.docs.some(
         doc => {
           const codItemBanco = doc.data().cod_item || '';
-          return codItemBanco.toString() === codigoItemNormalizado;
+          return codItemBanco.toString() === item.cod_sistemico_item;
+          ;
         }
       );
       
       if (!existeNoBanco) {
-        console.log(`  ⚠️ AVISO: Medicamento ${item.descricao_item} (${item.cod_sistemico_item} -> ${codigoItemNormalizado}) existe no processamento mas não no banco`);
+        console.log(`  ⚠️ AVISO: Medicamento ${item.descricao_item} (${item.cod_sistemico_item} -> ${item.cod_sistemico_item}) existe no processamento mas não no banco`);
         medicamentosNaoEncontrados++;
       }
     }
