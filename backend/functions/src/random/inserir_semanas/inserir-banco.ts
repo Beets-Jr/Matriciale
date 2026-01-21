@@ -1,3 +1,4 @@
+import { carregarDados, processarMovimentacoes } from '@/scripts/utils/utils';
 import { db } from '../../config/firebase';
 import { 
   Medicamento, 
@@ -6,10 +7,7 @@ import {
   DadosCompletos, 
   MedicamentoFirebase 
 } from '../../interfaces/calculos/interfaces-campos-banco';
-import { 
-  processarMovimentacoes, 
-  carregarDados 
-} from '../utils/utils';
+
 
 // Função para inserir medicamento em uma unidade
 async function inserirMedicamento(unidadeRef: FirebaseFirestore.DocumentReference, medicamento: Medicamento): Promise<boolean> {
