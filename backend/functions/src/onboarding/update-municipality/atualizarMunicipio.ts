@@ -59,8 +59,10 @@ interface RelatorioGeral {
 // ==================== FUNÇÕES AUXILIARES ====================
 
 /**
- * Normaliza código de item removendo pontos e zeros à esquerda
- */
+* Formata o código do item para o padrão XXX.XXX.XXX
+* @param codigo - O código do item a ser formatado
+* @returns O código formatado como XXX.XXX.XXX
+*/
 function normalizarCodigoItem(codigo: string | number): string {
   // 1. Remove tudo que não for dígito (pontos, espaços, traços)
   const apenasNumeros = String(codigo).replace(/\D/g, '');

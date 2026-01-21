@@ -5,30 +5,37 @@
     "serve": "npm run build && node dist/local-dev.js",
     "start": "npm run serve",
     "deploy": "firebase deploy --only functions",
+
     "emulator": "powershell -ExecutionPolicy Bypass -File ./scripts/start-emulator.ps1",
     "emulator:start": "npm run emulator",
     "emulator:test": "powershell -ExecutionPolicy Bypass -File ./scripts/test-emulator.ps1",
     "emulator:ui": "start http://localhost:4000",
+
+    "download-storage": "ts-node src/scripts/utils/executar-download.ts",
+
     "inserir-dados": "ts-node src/scripts/executar-insercao.ts",
     "validar-dados": "ts-node src/scripts/executar-validacao.ts",
-    "inserir-semana": "ts-node src/scripts/auxiliar/executar-inserir-semana.ts",
-    "preencher-nulos": "ts-node src/scripts/utils/executar-preencher-nulos.ts",
+
+    "calcular-campos": "ts-node \"src/scripts/core/[MAIN] executar-calculos.ts\"",
     "extrair-campos-calculados": "ts-node src/scripts/auxiliar/executar-extrair-campos-calculados.ts",
-    "calcular-estoques": "ts-node src/scripts/executar-processamento-estoque.ts",
     "validar-calculos": "ts-node src/scripts/testes/executar-validacao-completa.ts",
+    "calcular-estoques": "ts-node src/scripts/executar-processamento-estoque.ts",
+
+    "inserir-semana": "ts-node src/scripts/auxiliar/executar-inserir-semana.ts",
     "inserir-tipos-medicamentos": "ts-node src/scripts/inserir-tp-medicamentos/inserir-tp-med.ts",
-    "download-storage": "ts-node src/scripts/utils/executar-download.ts",
+    "preencher-nulos": "ts-node src/scripts/utils/executar-preencher-nulos.ts",
     "adicionar-cod-item": "ts-node src/scripts/utils/executar-adicionar-cod-item.ts",
+
+    "remover-espurios": "ts-node src/scripts/utils/remover_campos_indesejados.ts",
+
     "script-deletar-medicamentos": "ts-node src/scripts/testes/script.ts",
-    "atualizar-movimentacoes": "ts-node src/scripts/inserir_semanas/executar-atualizacao.ts",
+    "testar-fluxo": "ts-node src/scripts/testes/testar-fluxo-completo.ts",
+
     "reprocessar-nao-encontrados": "ts-node src/scripts/inserir_semanas/executar-reprocessamento.ts",
     "limpar-duplicados": "ts-node src/scripts/inserir_semanas/executar-limpeza.ts",
-    "remover-espurios": "ts-node src/scripts/utils/remover_campos_indesejados.ts",
-    "calcular-campos": "ts-node \"src/scripts/core/[MAIN] executar-calculos.ts\"",
-    "testar-fluxo": "ts-node src/scripts/testes/testar-fluxo-completo.ts",
-    "inserir-estoques": "ts-node src/scripts/inserir_semanas/atualizarEstoque.ts",
-    "atualizar-meds": "ts-node src/scripts/inserir_semanas/atualizarMedicamentos.ts",
-    "contar-meds": "ts-node src/scripts/utils/contaMeds.ts"
+    
+    "listar-meds-banco": "ts-node src/scripts/utils/listarMeds.ts",
+    "atualizar-meds-municipio": "ts-node src/onboarding/update-municipality/atualizarMunicipio.ts"
   },
   "engines": {
     "node": "20"

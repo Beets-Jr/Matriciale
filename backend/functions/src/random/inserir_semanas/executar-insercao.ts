@@ -1,5 +1,5 @@
+import { verificarVariaveisAmbiente } from '@/scripts/utils/utils';
 import { inserirDadosNoFirebase } from './inserir-banco';
-import { verificarVariaveisAmbiente } from '../utils/utils';
 
 console.log('🏥 Script de Inserção de Dados de Medicamentos no Firebase');
 console.log('========================================================\n');
