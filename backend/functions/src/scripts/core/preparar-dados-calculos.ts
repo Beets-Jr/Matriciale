@@ -1,5 +1,5 @@
 import { bucket } from '../../config/firebase';
-import { atualizarEstoqueEMovimentacaoSemanal } from '../inserir_semanas/atualizar-estoque-movimentacao';
+import { atualizarEstoqueEMovimentacaoSemanal } from './atualizar-estoque-movimentacao';
 
 /**
  * Interface para os dados de um item processado do inventoryData

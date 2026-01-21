@@ -1,5 +1,5 @@
 import { db } from '../config/firebase';
-import { MedicamentoCalculado } from '../scripts/interfaces/interfaces-campos-calculados';
+import { MedicamentoCalculado } from '../interfaces/calculos/interfaces-campos-calculados';
 import { calcularCamposParaMedicamento } from '../scripts/core/calculosService';
 
 export class CalculosService {

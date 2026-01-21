@@ -1,0 +1,61 @@
+import { db } from '@/config/firebase';
+import * as fs from 'fs';
+
+const UNIDADES = ['CAF', 'Olavo', 'ESF3'];
+
+// Define a estrutura do objeto que será salvo
+interface ResumoMedicamento {
+  id: string;
+  // nome: string;
+  // tp_metodo: string;
+  cod_item: string;
+  // metodo: number;
+  // estoque: number;
+  // status: number;
+  met_est: number;
+  metodo: number;
+}
+
+async function listarIdsNomes() {
+  console.log('--- Iniciando exportação de IDs e Nomes ---\n');
+
+  // Caminho absoluto para salvar os arquivos
+  const outputDir = 'D:\\Beets\\Matriciale\\Well\\auxiliar\\calculos';
+
+  try {
+    for (const unidade of UNIDADES) {
+      console.log(`🔄 Lendo dados da unidade: ${unidade}...`);
+
+      const path = `municipio/Palmares/unidades/${unidade}/medicamentos_unidade`;
+      const snapshot = await db.collection(path).get();
+
+      const listaMedicamentos: any[] = [];
+
+      snapshot.forEach((doc) => {
+        const dados = doc.data();
+        
+        listaMedicamentos.push({
+          id: doc.id as string, // O ID do documento (ex: -Mz92...)
+          dados: dados
+        });
+      });
+
+      // Define o nome do arquivo de saída com o caminho especificado
+      const nomeArquivo = `${outputDir}\\lista_${unidade}.json`;
+
+      // Escreve o arquivo no disco
+      fs.writeFileSync(nomeArquivo, JSON.stringify(listaMedicamentos, null, 2));
+      
+      console.log(`✅ Arquivo "${nomeArquivo}" gerado com ${listaMedicamentos.length} itens.`);
+    }
+
+    console.log('\n--- Exportação finalizada com sucesso ---');
+    process.exit(0);
+
+  } catch (error) {
+    console.error('❌ Erro durante a exportação:', error);
+    process.exit(1);
+  }
+}
+
+listarIdsNomes();

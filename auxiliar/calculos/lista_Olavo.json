@@ -166,12 +166,12 @@
         "MdTt": 5
       },
       "met_est": 15,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.032Z",
       "maximo": 82,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 5,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.067Z"
     }
   },
   {
@@ -341,12 +341,12 @@
         "MdTt": 145
       },
       "met_est": 159,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.033Z",
       "maximo": 345,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 53,
       "ultima_semana_calculo": "2025_50",
-      "giro": 9
+      "giro": 9,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.071Z"
     }
   },
   {
@@ -506,10 +506,10 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.034Z",
       "maximo": 1,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.077Z"
     }
   },
   {
@@ -669,10 +669,10 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.034Z",
       "maximo": 2,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.082Z"
     }
   },
   {
@@ -842,12 +842,12 @@
         "MdTt": 60
       },
       "met_est": 180,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.035Z",
       "maximo": 180,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 60,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.085Z"
     }
   },
   {
@@ -1017,12 +1017,12 @@
         "MdTt": 173
       },
       "met_est": 519,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.035Z",
       "maximo": 500,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 173,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.096Z"
     }
   },
   {
@@ -1192,12 +1192,12 @@
         "MdTt": 7
       },
       "met_est": 21,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.036Z",
       "maximo": 18,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 7,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.118Z"
     }
   },
   {
@@ -1370,9 +1370,9 @@
         "MdAno": 10,
         "MdTt": 9
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.036Z",
       "maximo": 10,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.129Z"
     }
   },
   {
@@ -1544,9 +1544,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.036Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.139Z"
     }
   },
   {
@@ -1716,12 +1716,12 @@
         "MdTt": 3
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.037Z",
       "maximo": 19,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 15
+      "giro": 15,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.147Z"
     }
   },
   {
@@ -1891,12 +1891,12 @@
         "MdTt": 10
       },
       "met_est": 42,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.037Z",
       "maximo": 190,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 14,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.156Z"
     }
   },
   {
@@ -2066,12 +2066,12 @@
         "MdTt": 1
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.038Z",
       "maximo": 6,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 14
+      "giro": 14,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.168Z"
     }
   },
   {
@@ -2241,12 +2241,12 @@
         "MdTt": 24
       },
       "met_est": 96,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.038Z",
       "maximo": 106,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 32,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.174Z"
     }
   },
   {
@@ -2419,9 +2419,9 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.038Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.182Z"
     }
   },
   {
@@ -2591,12 +2591,12 @@
         "MdTt": 30
       },
       "met_est": 90,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.039Z",
       "maximo": 130,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 30,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.185Z"
     }
   },
   {
@@ -2766,12 +2766,12 @@
         "MdTt": 200
       },
       "met_est": 630,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.039Z",
       "maximo": 420,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 210,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.200Z"
     }
   },
   {
@@ -2944,9 +2944,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.040Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.216Z"
     }
   },
   {
@@ -3116,12 +3116,12 @@
         "MdTt": 240
       },
       "met_est": 810,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.040Z",
       "maximo": 860,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 270,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.221Z"
     }
   },
   {
@@ -3291,12 +3291,12 @@
         "MdTt": 875
       },
       "met_est": 2625,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.041Z",
       "maximo": 1860,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 875,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.236Z"
     }
   },
   {
@@ -3466,12 +3466,12 @@
         "MdTt": 708
       },
       "met_est": 3510,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.041Z",
       "maximo": 1428,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 1170,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.250Z"
     }
   },
   {
@@ -3641,12 +3641,12 @@
         "MdTt": 180
       },
       "met_est": 570,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.041Z",
       "maximo": 480,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 190,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.269Z"
     }
   },
   {
@@ -3816,12 +3816,12 @@
         "MdTt": 8
       },
       "met_est": 51,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.042Z",
       "maximo": 36,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 17,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.271Z"
     }
   },
   {
@@ -3991,12 +3991,12 @@
         "MdTt": 357
       },
       "met_est": 1071,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.042Z",
       "maximo": 1009,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 357,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.277Z"
     }
   },
   {
@@ -4166,12 +4166,12 @@
         "MdTt": 300
       },
       "met_est": 990,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.043Z",
       "maximo": 720,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 330,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.283Z"
     }
   },
   {
@@ -4341,12 +4341,12 @@
         "MdTt": 4
       },
       "met_est": 12,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.043Z",
       "maximo": 19,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 4,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.290Z"
     }
   },
   {
@@ -4516,12 +4516,12 @@
         "MdTt": 2
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.046Z",
       "maximo": 10,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 7
+      "giro": 7,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.301Z"
     }
   },
   {
@@ -4693,9 +4693,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.046Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.307Z"
     }
   },
   {
@@ -4867,9 +4867,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.047Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.314Z"
     }
   },
   {
@@ -5039,12 +5039,12 @@
         "MdTt": 13
       },
       "met_est": 39,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.047Z",
       "maximo": 31,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 13,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.320Z"
     }
   },
   {
@@ -5214,12 +5214,12 @@
         "MdTt": 60
       },
       "met_est": 108,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.048Z",
       "maximo": 120,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 36,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.328Z"
     }
   },
   {
@@ -5377,12 +5377,12 @@
         "MdTt": 35
       },
       "met_est": 9,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.048Z",
       "maximo": 35,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 3,
       "ultima_semana_calculo": "2025_50",
-      "giro": 70
+      "giro": 70,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.334Z"
     }
   },
   {
@@ -5554,9 +5554,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.050Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.341Z"
     }
   },
   {
@@ -5726,12 +5726,12 @@
         "MdTt": 3
       },
       "met_est": 9,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.051Z",
       "maximo": 128,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 3,
       "ultima_semana_calculo": "2025_50",
-      "giro": 5
+      "giro": 5,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.343Z"
     }
   },
   {
@@ -5904,9 +5904,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.052Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.349Z"
     }
   },
   {
@@ -6076,12 +6076,12 @@
         "MdTt": 4
       },
       "met_est": 12,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.054Z",
       "maximo": 22,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 4,
       "ultima_semana_calculo": "2025_50",
-      "giro": 11
+      "giro": 11,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.356Z"
     }
   },
   {
@@ -6251,12 +6251,12 @@
         "MdTt": 150
       },
       "met_est": 450,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.054Z",
       "maximo": 420,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 150,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.357Z"
     }
   },
   {
@@ -6426,12 +6426,12 @@
         "MdTt": 30
       },
       "met_est": 72,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.055Z",
       "maximo": 112,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 24,
       "ultima_semana_calculo": "2025_50",
-      "giro": 8
+      "giro": 8,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.363Z"
     }
   },
   {
@@ -6601,12 +6601,12 @@
         "MdTt": 3
       },
       "met_est": 9,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.057Z",
       "maximo": 17,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 3,
       "ultima_semana_calculo": "2025_50",
-      "giro": 5
+      "giro": 5,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.369Z"
     }
   },
   {
@@ -6776,12 +6776,12 @@
         "MdTt": 120
       },
       "met_est": 360,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.061Z",
       "maximo": 300,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 120,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.377Z"
     }
   },
   {
@@ -6951,12 +6951,12 @@
         "MdTt": 445
       },
       "met_est": 1335,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.065Z",
       "maximo": 1200,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 445,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.385Z"
     }
   },
   {
@@ -7116,10 +7116,10 @@
         "MdAno": 5,
         "MdTt": 5
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.066Z",
       "maximo": 8,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.391Z"
     }
   },
   {
@@ -7289,12 +7289,12 @@
         "MdTt": 1
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.067Z",
       "maximo": 8,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 20
+      "giro": 20,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.397Z"
     }
   },
   {
@@ -7455,9 +7455,9 @@
         "MdAno": 5,
         "MdTt": 5
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.068Z",
       "maximo": 5,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.403Z"
     }
   },
   {
@@ -7627,12 +7627,12 @@
         "MdTt": 30
       },
       "met_est": 27,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.069Z",
       "maximo": 60,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 9,
       "ultima_semana_calculo": "2025_50",
-      "giro": 11
+      "giro": 11,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.409Z"
     }
   },
   {
@@ -7802,12 +7802,12 @@
         "MdTt": 300
       },
       "met_est": 900,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.069Z",
       "maximo": 600,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 300,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.416Z"
     }
   },
   {
@@ -7977,12 +7977,12 @@
         "MdTt": 2
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.070Z",
       "maximo": 10,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 14
+      "giro": 14,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.427Z"
     }
   },
   {
@@ -8152,12 +8152,12 @@
         "MdTt": 60
       },
       "met_est": 27,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.071Z",
       "maximo": 180,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 9,
       "ultima_semana_calculo": "2025_50",
-      "giro": 30
+      "giro": 30,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.434Z"
     }
   },
   {
@@ -8329,9 +8329,9 @@
         "MdAno": 0,
         "MdTt": 40
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.071Z",
       "maximo": 40,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.443Z"
     }
   },
   {
@@ -8501,12 +8501,12 @@
         "MdTt": 45
       },
       "met_est": 117,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.072Z",
       "maximo": 360,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 39,
       "ultima_semana_calculo": "2025_50",
-      "giro": 16
+      "giro": 16,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.451Z"
     }
   },
   {
@@ -8676,12 +8676,12 @@
         "MdTt": 20
       },
       "met_est": 27,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.072Z",
       "maximo": 100,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 9,
       "ultima_semana_calculo": "2025_50",
-      "giro": 9
+      "giro": 9,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.458Z"
     }
   },
   {
@@ -8853,9 +8853,9 @@
         "MdAno": 0,
         "MdTt": 90
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.073Z",
       "maximo": 150,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.464Z"
     }
   },
   {
@@ -9015,10 +9015,10 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.073Z",
       "maximo": 1,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.468Z"
     }
   },
   {
@@ -9188,12 +9188,12 @@
         "MdTt": 1
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.074Z",
       "maximo": 6,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.475Z"
     }
   },
   {
@@ -9363,12 +9363,12 @@
         "MdTt": 300
       },
       "met_est": 1020,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.074Z",
       "maximo": 555,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 340,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.506Z"
     }
   },
   {
@@ -9538,12 +9538,12 @@
         "MdTt": 150
       },
       "met_est": 327,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.075Z",
       "maximo": 660,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 109,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.518Z"
     }
   },
   {
@@ -9715,9 +9715,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.076Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.523Z"
     }
   },
   {
@@ -9887,12 +9887,12 @@
         "MdTt": 130
       },
       "met_est": 450,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.076Z",
       "maximo": 580,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 150,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.529Z"
     }
   },
   {
@@ -10064,9 +10064,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.077Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.537Z"
     }
   },
   {
@@ -10237,11 +10237,11 @@
         "MdTt": 2
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.077Z",
       "maximo": 5,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.542Z"
     }
   },
   {
@@ -10411,12 +10411,12 @@
         "MdTt": 5
       },
       "met_est": 18,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.079Z",
       "maximo": 18,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 6,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.548Z"
     }
   },
   {
@@ -10588,9 +10588,9 @@
         "MdAno": 0,
         "MdTt": 3
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.080Z",
       "maximo": 5,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.553Z"
     }
   },
   {
@@ -10760,12 +10760,12 @@
         "MdTt": 580
       },
       "met_est": 1740,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.081Z",
       "maximo": 1220,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 580,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.565Z"
     }
   },
   {
@@ -10926,9 +10926,9 @@
         "MdAno": 30,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.081Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.570Z"
     }
   },
   {
@@ -11100,9 +11100,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.082Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.577Z"
     }
   },
   {
@@ -11272,12 +11272,12 @@
         "MdTt": 280
       },
       "met_est": 840,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.082Z",
       "maximo": 940,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 280,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.579Z"
     }
   },
   {
@@ -11450,9 +11450,9 @@
         "MdAno": 40,
         "MdTt": 120
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.083Z",
       "maximo": 220,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.590Z"
     }
   },
   {
@@ -11624,9 +11624,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.084Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.602Z"
     }
   },
   {
@@ -11796,12 +11796,12 @@
         "MdTt": 2
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.084Z",
       "maximo": 6,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.611Z"
     }
   },
   {
@@ -11974,9 +11974,9 @@
         "MdAno": 40,
         "MdTt": 40
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.085Z",
       "maximo": 40,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.613Z"
     }
   },
   {
@@ -12147,10 +12147,10 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.085Z",
       "maximo": 1,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.619Z"
     }
   },
   {
@@ -12320,12 +12320,12 @@
         "MdTt": 63
       },
       "met_est": 612,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.086Z",
       "maximo": 294,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 204,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.623Z"
     }
   },
   {
@@ -12496,10 +12496,10 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.087Z",
       "maximo": 1,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.627Z"
     }
   },
   {
@@ -12669,12 +12669,12 @@
         "MdTt": 2
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.087Z",
       "maximo": 8,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.634Z"
     }
   },
   {
@@ -12835,9 +12835,9 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.088Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.645Z"
     }
   },
   {
@@ -13007,12 +13007,12 @@
         "MdTt": 283
       },
       "met_est": 2007,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.088Z",
       "maximo": 960,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 669,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.664Z"
     }
   },
   {
@@ -13185,9 +13185,9 @@
         "MdAno": 0,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.089Z",
       "maximo": 2,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.666Z"
     }
   },
   {
@@ -13357,12 +13357,12 @@
         "MdTt": 30
       },
       "met_est": 120,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.089Z",
       "maximo": 110,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 40,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.675Z"
     }
   },
   {
@@ -13532,12 +13532,12 @@
         "MdTt": 2
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.090Z",
       "maximo": 6,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 35
+      "giro": 35,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.678Z"
     }
   },
   {
@@ -13707,12 +13707,12 @@
         "MdTt": 2
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.091Z",
       "maximo": 5,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.680Z"
     }
   },
   {
@@ -13884,9 +13884,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.091Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.682Z"
     }
   },
   {
@@ -14059,9 +14059,9 @@
         "MdAno": 6,
         "MdTt": 5
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.092Z",
       "maximo": 10,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.684Z"
     }
   },
   {
@@ -14231,12 +14231,12 @@
         "MdTt": 2
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.092Z",
       "maximo": 9,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.686Z"
     }
   },
   {
@@ -14406,12 +14406,12 @@
         "MdTt": 3
       },
       "met_est": 9,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.093Z",
       "maximo": 21,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 3,
       "ultima_semana_calculo": "2025_50",
-      "giro": 10
+      "giro": 10,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.692Z"
     }
   },
   {
@@ -14581,12 +14581,12 @@
         "MdTt": 27
       },
       "met_est": 84,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.093Z",
       "maximo": 65,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 28,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.695Z"
     }
   },
   {
@@ -14758,9 +14758,9 @@
         "MdAno": 0,
         "MdTt": 32
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.094Z",
       "maximo": 32,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.696Z"
     }
   },
   {
@@ -14930,12 +14930,12 @@
         "MdTt": 224
       },
       "met_est": 690,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.095Z",
       "maximo": 581,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 230,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.699Z"
     }
   },
   {
@@ -15108,9 +15108,9 @@
         "MdAno": 14,
         "MdTt": 14
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.095Z",
       "maximo": 18,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.702Z"
     }
   },
   {
@@ -15271,9 +15271,9 @@
         "MdAno": 30,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.096Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.709Z"
     }
   },
   {
@@ -15445,10 +15445,10 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.096Z",
       "maximo": 5,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.711Z"
     }
   },
   {
@@ -15620,9 +15620,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.097Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.713Z"
     }
   },
   {
@@ -15792,12 +15792,12 @@
         "MdTt": 80
       },
       "met_est": 240,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.097Z",
       "maximo": 360,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 80,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.715Z"
     }
   },
   {
@@ -15967,12 +15967,12 @@
         "MdTt": 30
       },
       "met_est": 153,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.098Z",
       "maximo": 150,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 51,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.717Z"
     }
   },
   {
@@ -16143,11 +16143,11 @@
         "MdTt": 2
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.099Z",
       "maximo": 2,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.719Z"
     }
   },
   {
@@ -16320,9 +16320,9 @@
         "MdAno": 0,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.101Z",
       "maximo": 2,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.721Z"
     }
   },
   {
@@ -16492,12 +16492,12 @@
         "MdTt": 88
       },
       "met_est": 264,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.102Z",
       "maximo": 205,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 88,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.730Z"
     }
   },
   {
@@ -16670,9 +16670,9 @@
         "MdAno": 70,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.103Z",
       "maximo": 120,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.733Z"
     }
   },
   {
@@ -16842,12 +16842,12 @@
         "MdTt": 120
       },
       "met_est": 360,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.103Z",
       "maximo": 345,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 120,
       "ultima_semana_calculo": "2025_50",
-      "giro": 5
+      "giro": 5,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.735Z"
     }
   },
   {
@@ -17019,9 +17019,9 @@
         "MdAno": 42,
         "MdTt": 51
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.104Z",
       "maximo": 60,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.737Z"
     }
   },
   {
@@ -17191,12 +17191,12 @@
         "MdTt": 4
       },
       "met_est": 9,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.104Z",
       "maximo": 9,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 3,
       "ultima_semana_calculo": "2025_50",
-      "giro": 10
+      "giro": 10,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.740Z"
     }
   },
   {
@@ -17366,12 +17366,12 @@
         "MdTt": 90
       },
       "met_est": 318,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.105Z",
       "maximo": 395,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 106,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.742Z"
     }
   },
   {
@@ -17541,12 +17541,12 @@
         "MdTt": 22
       },
       "met_est": 66,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.106Z",
       "maximo": 59,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 22,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.744Z"
     }
   },
   {
@@ -17717,11 +17717,11 @@
         "MdTt": 60
       },
       "met_est": 237,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.106Z",
       "maximo": 240,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 79,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.752Z"
     }
   },
   {
@@ -17892,11 +17892,11 @@
         "MdTt": 8
       },
       "met_est": 24,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.107Z",
       "maximo": 48,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 8,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.757Z"
     }
   },
   {
@@ -18054,12 +18054,12 @@
         "MdTt": 23
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.107Z",
       "maximo": 30,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 555
+      "giro": 555,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.758Z"
     }
   },
   {
@@ -18228,12 +18228,12 @@
         "MdTt": 42
       },
       "met_est": 78,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.108Z",
       "maximo": 315,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 26,
       "ultima_semana_calculo": "2025_50",
-      "giro": 204
+      "giro": 204,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.763Z"
     }
   },
   {
@@ -18403,12 +18403,12 @@
         "MdTt": 90
       },
       "met_est": 60,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.108Z",
       "maximo": 120,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 20,
       "ultima_semana_calculo": "2025_50",
-      "giro": 6
+      "giro": 6,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.770Z"
     }
   },
   {
@@ -18577,12 +18577,12 @@
         "MdTt": 50
       },
       "met_est": 291,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.109Z",
       "maximo": 240,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 97,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.776Z"
     }
   },
   {
@@ -18754,10 +18754,10 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.110Z",
       "maximo": 1,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.780Z"
     }
   },
   {
@@ -18927,12 +18927,12 @@
         "MdTt": 114
       },
       "met_est": 342,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.110Z",
       "maximo": 357,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 114,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.784Z"
     }
   },
   {
@@ -19103,11 +19103,11 @@
         "MdTt": 34
       },
       "met_est": 228,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.111Z",
       "maximo": 87,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 76,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.789Z"
     }
   },
   {
@@ -19277,12 +19277,12 @@
         "MdTt": 1
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.112Z",
       "maximo": 13,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 9
+      "giro": 9,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.800Z"
     }
   },
   {
@@ -19455,9 +19455,9 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.112Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.805Z"
     }
   },
   {
@@ -19627,12 +19627,12 @@
         "MdTt": 4
       },
       "met_est": 12,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.113Z",
       "maximo": 18,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 4,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.811Z"
     }
   },
   {
@@ -19802,12 +19802,12 @@
         "MdTt": 16
       },
       "met_est": 48,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.113Z",
       "maximo": 41,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 16,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.816Z"
     }
   },
   {
@@ -19977,12 +19977,12 @@
         "MdTt": 180
       },
       "met_est": 840,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.114Z",
       "maximo": 690,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 280,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.820Z"
     }
   },
   {
@@ -20152,12 +20152,12 @@
         "MdTt": 1
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.114Z",
       "maximo": 8,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 25
+      "giro": 25,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.825Z"
     }
   },
   {
@@ -20329,9 +20329,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.115Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.838Z"
     }
   },
   {
@@ -20500,12 +20500,12 @@
         "MdTt": 100
       },
       "met_est": 219,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.116Z",
       "maximo": 150,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 73,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.849Z"
     }
   },
   {
@@ -20678,9 +20678,9 @@
         "MdAno": 30,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.117Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.854Z"
     }
   },
   {
@@ -20851,11 +20851,11 @@
         "MdTt": 8
       },
       "met_est": 36,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.118Z",
       "maximo": 18,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 12,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.858Z"
     }
   },
   {
@@ -21025,12 +21025,12 @@
         "MdTt": 28
       },
       "met_est": 63,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.118Z",
       "maximo": 70,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 21,
       "ultima_semana_calculo": "2025_50",
-      "giro": 10
+      "giro": 10,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.861Z"
     }
   },
   {
@@ -21203,9 +21203,9 @@
         "MdAno": 0,
         "MdTt": 5
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.119Z",
       "maximo": 5,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.863Z"
     }
   },
   {
@@ -21363,12 +21363,12 @@
         "MdTt": 120
       },
       "met_est": 360,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.119Z",
       "maximo": 240,
       "tp_metodo": "4.RECENTES",
       "metodo": 120,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.864Z"
     }
   },
   {
@@ -21541,9 +21541,9 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.120Z",
       "maximo": 4,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.866Z"
     }
   },
   {
@@ -21713,12 +21713,12 @@
         "MdTt": 2
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.120Z",
       "maximo": 8,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.867Z"
     }
   },
   {
@@ -21888,12 +21888,12 @@
         "MdTt": 3
       },
       "met_est": 24,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.121Z",
       "maximo": 15,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 8,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.869Z"
     }
   },
   {
@@ -22063,12 +22063,12 @@
         "MdTt": 5
       },
       "met_est": 15,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.122Z",
       "maximo": 19,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 5,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.871Z"
     }
   },
   {
@@ -22241,9 +22241,9 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.123Z",
       "maximo": 2,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.872Z"
     }
   },
   {
@@ -22413,12 +22413,12 @@
         "MdTt": 50
       },
       "met_est": 150,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.123Z",
       "maximo": 220,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 50,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.874Z"
     }
   },
   {
@@ -22588,12 +22588,12 @@
         "MdTt": 5
       },
       "met_est": 24,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.124Z",
       "maximo": 14,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 8,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.877Z"
     }
   },
   {
@@ -22766,9 +22766,9 @@
         "MdAno": 40,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.124Z",
       "maximo": 60,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.879Z"
     }
   },
   {
@@ -22939,11 +22939,11 @@
         "MdTt": 51
       },
       "met_est": 153,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.125Z",
       "maximo": 113,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 51,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.880Z"
     }
   },
   {
@@ -23113,12 +23113,12 @@
         "MdTt": 2
       },
       "met_est": 9,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.125Z",
       "maximo": 9,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 3,
       "ultima_semana_calculo": "2025_50",
-      "giro": 5
+      "giro": 5,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.882Z"
     }
   },
   {
@@ -23287,12 +23287,12 @@
         "MdTt": 63
       },
       "met_est": 210,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.125Z",
       "maximo": 350,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 70,
       "ultima_semana_calculo": "2025_50",
-      "giro": 94
+      "giro": 94,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.884Z"
     }
   },
   {
@@ -23462,12 +23462,12 @@
         "MdTt": 4
       },
       "met_est": 15,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.126Z",
       "maximo": 13,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 5,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.886Z"
     }
   },
   {
@@ -23638,10 +23638,10 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.126Z",
       "maximo": 1,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.887Z"
     }
   },
   {
@@ -23811,12 +23811,12 @@
         "MdTt": 30
       },
       "met_est": 90,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.127Z",
       "maximo": 98,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 30,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.889Z"
     }
   },
   {
@@ -23986,12 +23986,12 @@
         "MdTt": 120
       },
       "met_est": 630,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.127Z",
       "maximo": 540,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 210,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.891Z"
     }
   },
   {
@@ -24161,12 +24161,12 @@
         "MdTt": 624
       },
       "met_est": 2340,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.128Z",
       "maximo": 1357,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 780,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.893Z"
     }
   },
   {
@@ -24327,9 +24327,9 @@
         "MdAno": 30,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.128Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.898Z"
     }
   },
   {
@@ -24501,9 +24501,9 @@
         "MdAno": 0,
         "MdTt": 32
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.128Z",
       "maximo": 32,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.901Z"
     }
   },
   {
@@ -24673,12 +24673,12 @@
         "MdTt": 12
       },
       "met_est": 36,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.129Z",
       "maximo": 34,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 12,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.904Z"
     }
   },
   {
@@ -24848,12 +24848,12 @@
         "MdTt": 1350
       },
       "met_est": 4770,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.129Z",
       "maximo": 2130,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 1590,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.906Z"
     }
   },
   {
@@ -25023,12 +25023,12 @@
         "MdTt": 2
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.130Z",
       "maximo": 10,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 6
+      "giro": 6,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.908Z"
     }
   },
   {
@@ -25201,9 +25201,9 @@
         "MdAno": 30,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.130Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.910Z"
     }
   },
   {
@@ -25375,9 +25375,9 @@
         "MdAno": 0,
         "MdTt": 6
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.131Z",
       "maximo": 6,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.912Z"
     }
   },
   {
@@ -25549,9 +25549,9 @@
         "MdAno": 0,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.131Z",
       "maximo": 60,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.914Z"
     }
   },
   {
@@ -25721,12 +25721,12 @@
         "MdTt": 60
       },
       "met_est": 180,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.132Z",
       "maximo": 480,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 60,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.915Z"
     }
   },
   {
@@ -25896,12 +25896,12 @@
         "MdTt": 120
       },
       "met_est": 420,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.132Z",
       "maximo": 420,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 140,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.917Z"
     }
   },
   {
@@ -26071,12 +26071,12 @@
         "MdTt": 13
       },
       "met_est": 39,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.133Z",
       "maximo": 48,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 13,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.919Z"
     }
   },
   {
@@ -26235,11 +26235,11 @@
         "MdTt": 3
       },
       "met_est": 15,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.133Z",
       "maximo": 13,
       "tp_metodo": "4.RECENTES",
       "metodo": 5,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.922Z"
     }
   },
   {
@@ -26400,9 +26400,9 @@
         "MdAno": 14,
         "MdTt": 14
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.133Z",
       "maximo": 14,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.924Z"
     }
   },
   {
@@ -26561,11 +26561,11 @@
         "MdTt": 30
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.134Z",
       "maximo": 30,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.926Z"
     }
   },
   {
@@ -26735,12 +26735,12 @@
         "MdTt": 160
       },
       "met_est": 480,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.134Z",
       "maximo": 620,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 160,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.930Z"
     }
   },
   {
@@ -26910,12 +26910,12 @@
         "MdTt": 70
       },
       "met_est": 210,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.135Z",
       "maximo": 245,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 70,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.932Z"
     }
   },
   {
@@ -27085,12 +27085,12 @@
         "MdTt": 15
       },
       "met_est": 60,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.135Z",
       "maximo": 50,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 20,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.934Z"
     }
   },
   {
@@ -27260,12 +27260,12 @@
         "MdTt": 185
       },
       "met_est": 555,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.136Z",
       "maximo": 723,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 185,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.936Z"
     }
   },
   {
@@ -27435,12 +27435,12 @@
         "MdTt": 135
       },
       "met_est": 540,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.136Z",
       "maximo": 1770,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 180,
       "ultima_semana_calculo": "2025_50",
-      "giro": 31
+      "giro": 31,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.938Z"
     }
   },
   {
@@ -27610,12 +27610,12 @@
         "MdTt": 2
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.136Z",
       "maximo": 6,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 11
+      "giro": 11,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.939Z"
     }
   },
   {
@@ -27785,12 +27785,12 @@
         "MdTt": 744
       },
       "met_est": 2232,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.137Z",
       "maximo": 1387,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 744,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.942Z"
     }
   },
   {
@@ -27960,12 +27960,12 @@
         "MdTt": 6
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.137Z",
       "maximo": 8,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 6
+      "giro": 6,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.944Z"
     }
   },
   {
@@ -28135,12 +28135,12 @@
         "MdTt": 220
       },
       "met_est": 660,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.138Z",
       "maximo": 730,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 220,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.946Z"
     }
   },
   {
@@ -28310,12 +28310,12 @@
         "MdTt": 120
       },
       "met_est": 360,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.139Z",
       "maximo": 420,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 120,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.947Z"
     }
   },
   {
@@ -28484,12 +28484,12 @@
         "MdTt": 94
       },
       "met_est": 327,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.139Z",
       "maximo": 322,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 109,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.949Z"
     }
   },
   {
@@ -28650,9 +28650,9 @@
         "MdAno": 60,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.140Z",
       "maximo": 60,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.951Z"
     }
   },
   {
@@ -28823,11 +28823,11 @@
         "MdTt": 30
       },
       "met_est": 42,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.140Z",
       "maximo": 60,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 14,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.953Z"
     }
   },
   {
@@ -28997,12 +28997,12 @@
         "MdTt": 200
       },
       "met_est": 720,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.140Z",
       "maximo": 540,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 240,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.954Z"
     }
   },
   {
@@ -29160,12 +29160,12 @@
         "MdTt": 5
       },
       "met_est": 21,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.141Z",
       "maximo": 19,
       "tp_metodo": "4.RECENTES",
       "metodo": 7,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.956Z"
     }
   },
   {
@@ -29335,12 +29335,12 @@
         "MdTt": 1
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.141Z",
       "maximo": 8,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.958Z"
     }
   },
   {
@@ -29510,12 +29510,12 @@
         "MdTt": 80
       },
       "met_est": 270,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.142Z",
       "maximo": 280,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 90,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.961Z"
     }
   },
   {
@@ -29687,9 +29687,9 @@
         "MdAno": 0,
         "MdTt": 90
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.142Z",
       "maximo": 90,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.965Z"
     }
   },
   {
@@ -29859,12 +29859,12 @@
         "MdTt": 30
       },
       "met_est": 18,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.142Z",
       "maximo": 60,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 6,
       "ultima_semana_calculo": "2025_50",
-      "giro": 5
+      "giro": 5,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.967Z"
     }
   },
   {
@@ -30036,9 +30036,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.143Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.969Z"
     }
   },
   {
@@ -30208,12 +30208,12 @@
         "MdTt": 2
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.143Z",
       "maximo": 17,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 24
+      "giro": 24,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.970Z"
     }
   },
   {
@@ -30385,9 +30385,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.144Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.973Z"
     }
   },
   {
@@ -30557,12 +30557,12 @@
         "MdTt": 9
       },
       "met_est": 78,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.144Z",
       "maximo": 35,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 26,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.979Z"
     }
   },
   {
@@ -30732,12 +30732,12 @@
         "MdTt": 2000
       },
       "met_est": 6000,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.144Z",
       "maximo": 3348,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 2000,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:55.986Z"
     }
   },
   {
@@ -30896,11 +30896,11 @@
         "MdTt": 30
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.145Z",
       "maximo": 30,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.987Z"
     }
   },
   {
@@ -31072,9 +31072,9 @@
         "MdAno": 0,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.145Z",
       "maximo": 4,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.991Z"
     }
   },
   {
@@ -31247,9 +31247,9 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.146Z",
       "maximo": 3,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:55.998Z"
     }
   },
   {
@@ -31421,9 +31421,9 @@
         "MdAno": 0,
         "MdTt": 10
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.146Z",
       "maximo": 10,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.007Z"
     }
   },
   {
@@ -31595,9 +31595,9 @@
         "MdAno": 30,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.146Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.009Z"
     }
   },
   {
@@ -31767,12 +31767,12 @@
         "MdTt": 24
       },
       "met_est": 105,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.147Z",
       "maximo": 80,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 35,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.013Z"
     }
   },
   {
@@ -31942,12 +31942,12 @@
         "MdTt": 674
       },
       "met_est": 2484,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.147Z",
       "maximo": 1232,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 828,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.015Z"
     }
   },
   {
@@ -32119,10 +32119,10 @@
         "MdAno": 1,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.148Z",
       "maximo": 6,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.017Z"
     }
   },
   {
@@ -32292,12 +32292,12 @@
         "MdTt": 7
       },
       "met_est": 30,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.148Z",
       "maximo": 32,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 10,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.019Z"
     }
   },
   {
@@ -32455,12 +32455,12 @@
         "MdTt": 30
       },
       "met_est": 99,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.148Z",
       "maximo": 120,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 33,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.021Z"
     }
   },
   {
@@ -32633,9 +32633,9 @@
         "MdAno": 0,
         "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.149Z",
       "maximo": 29,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.022Z"
     }
   },
   {
@@ -32808,9 +32808,9 @@
         "MdAno": 0,
         "MdTt": 5
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.149Z",
       "maximo": 9,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.024Z"
     }
   },
   {
@@ -32980,12 +32980,12 @@
         "MdTt": 24
       },
       "met_est": 189,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.150Z",
       "maximo": 388,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 63,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.025Z"
     }
   },
   {
@@ -33154,12 +33154,12 @@
         "MdTt": 60
       },
       "met_est": 189,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.150Z",
       "maximo": 150,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 63,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.028Z"
     }
   },
   {
@@ -33329,12 +33329,12 @@
         "MdTt": 3
       },
       "met_est": 12,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.151Z",
       "maximo": 13,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 4,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.031Z"
     }
   },
   {
@@ -33506,9 +33506,9 @@
         "MdAno": 10,
         "MdTt": 10
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.151Z",
       "maximo": 10,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.034Z"
     }
   },
   {
@@ -33678,12 +33678,12 @@
         "MdTt": 60
       },
       "met_est": 186,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.151Z",
       "maximo": 150,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 62,
       "ultima_semana_calculo": "2025_50",
-      "giro": 6
+      "giro": 6,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.037Z"
     }
   },
   {
@@ -33841,12 +33841,12 @@
         "MdTt": 518
       },
       "met_est": 1554,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.152Z",
       "maximo": 2356,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 518,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.040Z"
     }
   },
   {
@@ -34018,9 +34018,9 @@
         "MdAno": 0,
         "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.153Z",
       "maximo": 20,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.043Z"
     }
   },
   {
@@ -34190,12 +34190,12 @@
         "MdTt": 12
       },
       "met_est": 36,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.153Z",
       "maximo": 70,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 12,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.045Z"
     }
   },
   {
@@ -34365,12 +34365,12 @@
         "MdTt": 8
       },
       "met_est": 39,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.154Z",
       "maximo": 27,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 13,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.050Z"
     }
   },
   {
@@ -34540,12 +34540,12 @@
         "MdTt": 1535
       },
       "met_est": 4605,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.154Z",
       "maximo": 3450,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 1535,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.051Z"
     }
   },
   {
@@ -34718,9 +34718,9 @@
         "MdAno": 0,
         "MdTt": 40
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.155Z",
       "maximo": 90,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.053Z"
     }
   },
   {
@@ -34890,12 +34890,12 @@
         "MdTt": 270
       },
       "met_est": 945,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.155Z",
       "maximo": 720,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 315,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.055Z"
     }
   },
   {
@@ -35067,9 +35067,9 @@
         "MdAno": 0,
         "MdTt": 13
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.155Z",
       "maximo": 14,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.057Z"
     }
   },
   {
@@ -35242,9 +35242,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.156Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.058Z"
     }
   },
   {
@@ -35414,12 +35414,12 @@
         "MdTt": 30
       },
       "met_est": 18,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.156Z",
       "maximo": 90,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 6,
       "ultima_semana_calculo": "2025_50",
-      "giro": 15
+      "giro": 15,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.060Z"
     }
   },
   {
@@ -35592,9 +35592,9 @@
         "MdAno": 0,
         "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.157Z",
       "maximo": 20,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.062Z"
     }
   },
   {
@@ -35764,12 +35764,12 @@
         "MdTt": 2
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.157Z",
       "maximo": 8,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.063Z"
     }
   },
   {
@@ -35938,12 +35938,12 @@
         "MdTt": 70
       },
       "met_est": 405,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.157Z",
       "maximo": 330,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 135,
       "ultima_semana_calculo": "2025_50",
-      "giro": 5
+      "giro": 5,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.065Z"
     }
   },
   {
@@ -36115,9 +36115,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.158Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.066Z"
     }
   },
   {
@@ -36287,12 +36287,12 @@
         "MdTt": 300
       },
       "met_est": 900,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.158Z",
       "maximo": 690,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 300,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.068Z"
     }
   },
   {
@@ -36462,12 +36462,12 @@
         "MdTt": 25
       },
       "met_est": 90,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.159Z",
       "maximo": 81,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 30,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.070Z"
     }
   },
   {
@@ -36636,12 +36636,12 @@
         "MdTt": 420
       },
       "met_est": 1260,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.159Z",
       "maximo": 960,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 420,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.072Z"
     }
   },
   {
@@ -36811,12 +36811,12 @@
         "MdTt": 4
       },
       "met_est": 12,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.160Z",
       "maximo": 11,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 4,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.074Z"
     }
   },
   {
@@ -36986,12 +36986,12 @@
         "MdTt": 3
       },
       "met_est": 12,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.160Z",
       "maximo": 13,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 4,
       "ultima_semana_calculo": "2025_50",
-      "giro": 5
+      "giro": 5,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.076Z"
     }
   },
   {
@@ -37161,12 +37161,12 @@
         "MdTt": 30
       },
       "met_est": 30,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.160Z",
       "maximo": 30,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 10,
       "ultima_semana_calculo": "2025_50",
-      "giro": 6
+      "giro": 6,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.079Z"
     }
   },
   {
@@ -37336,12 +37336,12 @@
         "MdTt": 700
       },
       "met_est": 2100,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.161Z",
       "maximo": 1360,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 700,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.083Z"
     }
   },
   {
@@ -37499,12 +37499,12 @@
         "MdTt": 30
       },
       "met_est": 12,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.161Z",
       "maximo": 30,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 4,
       "ultima_semana_calculo": "2025_50",
-      "giro": 8
+      "giro": 8,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.086Z"
     }
   },
   {
@@ -37674,12 +37674,12 @@
         "MdTt": 515
       },
       "met_est": 1740,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.162Z",
       "maximo": 1180,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 580,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.088Z"
     }
   },
   {
@@ -37850,11 +37850,11 @@
         "MdTt": 45
       },
       "met_est": 9,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.162Z",
       "maximo": 60,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 3,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.091Z"
     }
   },
   {
@@ -38026,9 +38026,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.163Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.096Z"
     }
   },
   {
@@ -38201,9 +38201,9 @@
         "MdAno": 0,
         "MdTt": 28
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.163Z",
       "maximo": 28,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.098Z"
     }
   },
   {
@@ -38375,9 +38375,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.164Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.100Z"
     }
   },
   {
@@ -38547,12 +38547,12 @@
         "MdTt": 90
       },
       "met_est": 270,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.165Z",
       "maximo": 210,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 90,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.102Z"
     }
   },
   {
@@ -38722,12 +38722,12 @@
         "MdTt": 21
       },
       "met_est": 84,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.165Z",
       "maximo": 102,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 28,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.108Z"
     }
   },
   {
@@ -38897,12 +38897,12 @@
         "MdTt": 630
       },
       "met_est": 1890,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.166Z",
       "maximo": 1340,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 630,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.115Z"
     }
   },
   {
@@ -39072,12 +39072,12 @@
         "MdTt": 8
       },
       "met_est": 51,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.167Z",
       "maximo": 39,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 17,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.119Z"
     }
   },
   {
@@ -39250,9 +39250,9 @@
         "MdAno": 13,
         "MdTt": 5
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.167Z",
       "maximo": 18,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.121Z"
     }
   },
   {
@@ -39422,12 +39422,12 @@
         "MdTt": 5
       },
       "met_est": 21,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.167Z",
       "maximo": 22,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 7,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.123Z"
     }
   },
   {
@@ -39587,10 +39587,10 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.168Z",
       "maximo": 2,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.125Z"
     }
   },
   {
@@ -39762,9 +39762,9 @@
         "MdAno": 0,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.168Z",
       "maximo": 60,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.128Z"
     }
   },
   {
@@ -39936,9 +39936,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.169Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.130Z"
     }
   },
   {
@@ -40111,9 +40111,9 @@
         "MdAno": 28,
         "MdTt": 28
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.170Z",
       "maximo": 28,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.131Z"
     }
   },
   {
@@ -40283,12 +40283,12 @@
         "MdTt": 170
       },
       "met_est": 510,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.171Z",
       "maximo": 559,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 170,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.133Z"
     }
   },
   {
@@ -40458,12 +40458,12 @@
         "MdTt": 270
       },
       "met_est": 810,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.171Z",
       "maximo": 600,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 270,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.134Z"
     }
   },
   {
@@ -40633,12 +40633,12 @@
         "MdTt": 36
       },
       "met_est": 114,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.171Z",
       "maximo": 113,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 38,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.136Z"
     }
   },
   {
@@ -40809,11 +40809,11 @@
         "MdTt": 2
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.172Z",
       "maximo": 4,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.138Z"
     }
   },
   {
@@ -40984,11 +40984,11 @@
         "MdTt": 60
       },
       "met_est": 60,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.172Z",
       "maximo": 60,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 20,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.140Z"
     }
   },
   {
@@ -41160,10 +41160,10 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.173Z",
       "maximo": 4,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.143Z"
     }
   },
   {
@@ -41333,12 +41333,12 @@
         "MdTt": 180
       },
       "met_est": 675,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.173Z",
       "maximo": 435,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 225,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.146Z"
     }
   },
   {
@@ -41508,12 +41508,12 @@
         "MdTt": 240
       },
       "met_est": 810,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.173Z",
       "maximo": 750,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 270,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.148Z"
     }
   },
   {
@@ -41683,12 +41683,12 @@
         "MdTt": 48
       },
       "met_est": 252,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.174Z",
       "maximo": 165,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 84,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.150Z"
     }
   },
   {
@@ -41860,9 +41860,9 @@
         "MdAno": 20,
         "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.174Z",
       "maximo": 20,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.153Z"
     }
   },
   {
@@ -42033,11 +42033,11 @@
         "MdTt": 2
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.175Z",
       "maximo": 6,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.157Z"
     }
   },
   {
@@ -42207,12 +42207,12 @@
         "MdTt": 4
       },
       "met_est": 15,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.175Z",
       "maximo": 15,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 5,
       "ultima_semana_calculo": "2025_50",
-      "giro": 10
+      "giro": 10,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.174Z"
     }
   },
   {
@@ -42382,12 +42382,12 @@
         "MdTt": 180
       },
       "met_est": 720,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.176Z",
       "maximo": 480,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 240,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.180Z"
     }
   },
   {
@@ -42557,12 +42557,12 @@
         "MdTt": 90
       },
       "met_est": 360,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.176Z",
       "maximo": 280,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 120,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.182Z"
     }
   },
   {
@@ -42720,12 +42720,12 @@
         "MdTt": 100
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.177Z",
       "maximo": 100,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 50
+      "giro": 50,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.183Z"
     }
   },
   {
@@ -42897,9 +42897,9 @@
         "MdAno": 0,
         "MdTt": 120
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.177Z",
       "maximo": 120,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.185Z"
     }
   },
   {
@@ -43069,12 +43069,12 @@
         "MdTt": 80
       },
       "met_est": 453,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.177Z",
       "maximo": 580,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 151,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.186Z"
     }
   },
   {
@@ -43246,9 +43246,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.178Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.188Z"
     }
   },
   {
@@ -43418,12 +43418,12 @@
         "MdTt": 60
       },
       "met_est": 300,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.178Z",
       "maximo": 190,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 100,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.190Z"
     }
   },
   {
@@ -43595,9 +43595,9 @@
         "MdAno": 0,
         "MdTt": 10
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.179Z",
       "maximo": 10,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.192Z"
     }
   },
   {
@@ -43767,12 +43767,12 @@
         "MdTt": 610
       },
       "met_est": 1830,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.179Z",
       "maximo": 1440,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 610,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.196Z"
     }
   },
   {
@@ -43945,9 +43945,9 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.180Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.197Z"
     }
   },
   {
@@ -44117,12 +44117,12 @@
         "MdTt": 830
       },
       "met_est": 2490,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.180Z",
       "maximo": 1920,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 830,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.199Z"
     }
   },
   {
@@ -44294,9 +44294,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.180Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.200Z"
     }
   },
   {
@@ -44466,12 +44466,12 @@
         "MdTt": 7
       },
       "met_est": 21,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.181Z",
       "maximo": 37,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 7,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.202Z"
     }
   },
   {
@@ -44641,12 +44641,12 @@
         "MdTt": 2
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.181Z",
       "maximo": 12,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 5
+      "giro": 5,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.204Z"
     }
   },
   {
@@ -44804,12 +44804,12 @@
         "MdTt": 4
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.182Z",
       "maximo": 12,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 55
+      "giro": 55,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.205Z"
     }
   },
   {
@@ -44981,9 +44981,9 @@
         "MdAno": 0,
         "MdTt": 29
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.182Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.207Z"
     }
   },
   {
@@ -45153,12 +45153,12 @@
         "MdTt": 1140
       },
       "met_est": 3420,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.183Z",
       "maximo": 1830,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 1140,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.210Z"
     }
   },
   {
@@ -45319,9 +45319,9 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.183Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.214Z"
     }
   },
   {
@@ -45493,10 +45493,10 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.184Z",
       "maximo": 2,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.216Z"
     }
   },
   {
@@ -45668,9 +45668,9 @@
         "MdAno": 0,
         "MdTt": 3
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.184Z",
       "maximo": 3,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.217Z"
     }
   },
   {
@@ -45843,9 +45843,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.185Z",
       "maximo": 60,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.219Z"
     }
   },
   {
@@ -46017,9 +46017,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.186Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.220Z"
     }
   },
   {
@@ -46191,10 +46191,10 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.187Z",
       "maximo": 2,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.223Z"
     }
   },
   {
@@ -46367,9 +46367,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.187Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.225Z"
     }
   },
   {
@@ -46539,12 +46539,12 @@
         "MdTt": 3
       },
       "met_est": 9,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.187Z",
       "maximo": 14,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 3,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.227Z"
     }
   },
   {
@@ -46717,9 +46717,9 @@
         "MdAno": 100,
         "MdTt": 70
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.188Z",
       "maximo": 180,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.229Z"
     }
   },
   {
@@ -46891,9 +46891,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.188Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.231Z"
     }
   },
   {
@@ -47064,11 +47064,11 @@
         "MdTt": 5
       },
       "met_est": 21,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.189Z",
       "maximo": 30,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 7,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.234Z"
     }
   },
   {
@@ -47240,9 +47240,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.189Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.236Z"
     }
   },
   {
@@ -47414,9 +47414,9 @@
         "MdAno": 0,
         "MdTt": 8
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.190Z",
       "maximo": 8,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.241Z"
     }
   },
   {
@@ -47586,12 +47586,12 @@
         "MdTt": 2
       },
       "met_est": 9,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.190Z",
       "maximo": 9,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 3,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.243Z"
     }
   },
   {
@@ -47761,12 +47761,12 @@
         "MdTt": 60
       },
       "met_est": 180,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.190Z",
       "maximo": 270,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 60,
       "ultima_semana_calculo": "2025_50",
-      "giro": 7
+      "giro": 7,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.244Z"
     }
   },
   {
@@ -47936,12 +47936,12 @@
         "MdTt": 30
       },
       "met_est": 51,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.191Z",
       "maximo": 60,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 17,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.246Z"
     }
   },
   {
@@ -48113,9 +48113,9 @@
         "MdAno": 0,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.191Z",
       "maximo": 60,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.248Z"
     }
   },
   {
@@ -48287,9 +48287,9 @@
         "MdAno": 0,
         "MdTt": 10
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.192Z",
       "maximo": 10,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.249Z"
     }
   },
   {
@@ -48459,12 +48459,12 @@
         "MdTt": 90
       },
       "met_est": 270,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.192Z",
       "maximo": 210,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 90,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.251Z"
     }
   },
   {
@@ -48624,10 +48624,10 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.193Z",
       "maximo": 2,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.252Z"
     }
   },
   {
@@ -48799,10 +48799,10 @@
         "MdAno": 2,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.193Z",
       "maximo": 2,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.254Z"
     }
   },
   {
@@ -48971,12 +48971,12 @@
         "MdTt": 42
       },
       "met_est": 75,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.194Z",
       "maximo": 98,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 25,
       "ultima_semana_calculo": "2025_50",
-      "giro": 325
+      "giro": 325,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.256Z"
     }
   },
   {
@@ -49146,12 +49146,12 @@
         "MdTt": 190
       },
       "met_est": 570,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.194Z",
       "maximo": 420,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 190,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.258Z"
     }
   },
   {
@@ -49321,12 +49321,12 @@
         "MdTt": 180
       },
       "met_est": 750,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.195Z",
       "maximo": 660,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 250,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.259Z"
     }
   },
   {
@@ -49499,9 +49499,9 @@
         "MdAno": 5,
         "MdTt": 5
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.195Z",
       "maximo": 16,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.261Z"
     }
   },
   {
@@ -49671,12 +49671,12 @@
         "MdTt": 5
       },
       "met_est": 24,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.195Z",
       "maximo": 15,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 8,
       "ultima_semana_calculo": "2025_50",
-      "giro": -1
+      "giro": -1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.263Z"
     }
   },
   {
@@ -49848,9 +49848,9 @@
         "MdAno": 0,
         "MdTt": 6
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.196Z",
       "maximo": 23,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.266Z"
     }
   },
   {
@@ -50020,12 +50020,12 @@
         "MdTt": 235
       },
       "met_est": 705,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.196Z",
       "maximo": 520,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 235,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.268Z"
     }
   },
   {
@@ -50195,12 +50195,12 @@
         "MdTt": 4
       },
       "met_est": 21,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.197Z",
       "maximo": 10,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 7,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.269Z"
     }
   },
   {
@@ -50361,9 +50361,9 @@
         "MdAno": 20,
         "MdTt": 20
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.197Z",
       "maximo": 20,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.271Z"
     }
   },
   {
@@ -50533,12 +50533,12 @@
         "MdTt": 60
       },
       "met_est": 315,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.197Z",
       "maximo": 255,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 105,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.273Z"
     }
   },
   {
@@ -50708,12 +50708,12 @@
         "MdTt": 2
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.198Z",
       "maximo": 5,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 6
+      "giro": 6,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.275Z"
     }
   },
   {
@@ -50883,12 +50883,12 @@
         "MdTt": 1
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.198Z",
       "maximo": 15,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 15
+      "giro": 15,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.278Z"
     }
   },
   {
@@ -51047,11 +51047,11 @@
         "MdTt": 30
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.199Z",
       "maximo": 30,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.279Z"
     }
   },
   {
@@ -51221,12 +51221,12 @@
         "MdTt": 20
       },
       "met_est": 42,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.200Z",
       "maximo": 100,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 14,
       "ultima_semana_calculo": "2025_50",
-      "giro": 6
+      "giro": 6,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.281Z"
     }
   },
   {
@@ -51396,12 +51396,12 @@
         "MdTt": 6
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.200Z",
       "maximo": 8,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 5
+      "giro": 5,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.283Z"
     }
   },
   {
@@ -51562,9 +51562,9 @@
         "MdAno": 60,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.201Z",
       "maximo": 60,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.287Z"
     }
   },
   {
@@ -51734,12 +51734,12 @@
         "MdTt": 8
       },
       "met_est": 24,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.201Z",
       "maximo": 19,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 8,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.306Z"
     }
   },
   {
@@ -51909,12 +51909,12 @@
         "MdTt": 23
       },
       "met_est": 132,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.202Z",
       "maximo": 64,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 44,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.321Z"
     }
   },
   {
@@ -52083,12 +52083,12 @@
         "MdTt": 150
       },
       "met_est": 960,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.203Z",
       "maximo": 390,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 320,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.327Z"
     }
   },
   {
@@ -52259,11 +52259,11 @@
         "MdTt": 20
       },
       "met_est": 93,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.203Z",
       "maximo": 240,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 31,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.329Z"
     }
   },
   {
@@ -52434,11 +52434,11 @@
         "MdTt": 276
       },
       "met_est": 945,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.203Z",
       "maximo": 492,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 315,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.331Z"
     }
   },
   {
@@ -52608,12 +52608,12 @@
         "MdTt": 105
       },
       "met_est": 315,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.204Z",
       "maximo": 330,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 105,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.333Z"
     }
   },
   {
@@ -52783,12 +52783,12 @@
         "MdTt": 120
       },
       "met_est": 399,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.204Z",
       "maximo": 310,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 133,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.335Z"
     }
   },
   {
@@ -52958,12 +52958,12 @@
         "MdTt": 600
       },
       "met_est": 1800,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.205Z",
       "maximo": 1620,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 600,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.336Z"
     }
   },
   {
@@ -53133,12 +53133,12 @@
         "MdTt": 5
       },
       "met_est": 27,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.205Z",
       "maximo": 15,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 9,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.338Z"
     }
   },
   {
@@ -53308,12 +53308,12 @@
         "MdTt": 2
       },
       "met_est": 12,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.205Z",
       "maximo": 12,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 4,
       "ultima_semana_calculo": "2025_50",
-      "giro": 7
+      "giro": 7,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.343Z"
     }
   },
   {
@@ -53485,9 +53485,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.206Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.345Z"
     }
   },
   {
@@ -53659,10 +53659,10 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.206Z",
       "maximo": 8,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.347Z"
     }
   },
   {
@@ -53835,9 +53835,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.206Z",
       "maximo": 70,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.348Z"
     }
   },
   {
@@ -54007,12 +54007,12 @@
         "MdTt": 3845
       },
       "met_est": 13140,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.207Z",
       "maximo": 5630,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 4380,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.350Z"
     }
   },
   {
@@ -54182,12 +54182,12 @@
         "MdTt": 1
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.207Z",
       "maximo": 5,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 15
+      "giro": 15,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.351Z"
     }
   },
   {
@@ -54357,12 +54357,12 @@
         "MdTt": 40
       },
       "met_est": 180,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.208Z",
       "maximo": 260,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 60,
       "ultima_semana_calculo": "2025_50",
-      "giro": 8
+      "giro": 8,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.353Z"
     }
   },
   {
@@ -54532,12 +54532,12 @@
         "MdTt": 90
       },
       "met_est": 90,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.208Z",
       "maximo": 90,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 30,
       "ultima_semana_calculo": "2025_50",
-      "giro": 5
+      "giro": 5,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.355Z"
     }
   },
   {
@@ -54707,12 +54707,12 @@
         "MdTt": 4
       },
       "met_est": 12,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.209Z",
       "maximo": 18,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 4,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.357Z"
     }
   },
   {
@@ -54882,12 +54882,12 @@
         "MdTt": 90
       },
       "met_est": 390,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.209Z",
       "maximo": 390,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 130,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.359Z"
     }
   },
   {
@@ -55048,9 +55048,9 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.210Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.362Z"
     }
   },
   {
@@ -55222,9 +55222,9 @@
         "MdAno": 0,
         "MdTt": 28
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.210Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.363Z"
     }
   },
   {
@@ -55397,9 +55397,9 @@
         "MdAno": 30,
         "MdTt": 40
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.210Z",
       "maximo": 60,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.365Z"
     }
   },
   {
@@ -55569,12 +55569,12 @@
         "MdTt": 240
       },
       "met_est": 765,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.211Z",
       "maximo": 450,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 255,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.369Z"
     }
   },
   {
@@ -55734,10 +55734,10 @@
         "MdAno": 7,
         "MdTt": 7
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.211Z",
       "maximo": 7,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.380Z"
     }
   },
   {
@@ -55909,9 +55909,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.212Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.383Z"
     }
   },
   {
@@ -56083,9 +56083,9 @@
         "MdAno": 0,
         "MdTt": 90
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.212Z",
       "maximo": 90,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.386Z"
     }
   },
   {
@@ -56257,9 +56257,9 @@
         "MdAno": 0,
         "MdTt": 4
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.213Z",
       "maximo": 6,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.387Z"
     }
   },
   {
@@ -56429,12 +56429,12 @@
         "MdTt": 1
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.213Z",
       "maximo": 10,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 20
+      "giro": 20,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.392Z"
     }
   },
   {
@@ -56607,9 +56607,9 @@
         "MdAno": 30,
         "MdTt": 90
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.213Z",
       "maximo": 180,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.394Z"
     }
   },
   {
@@ -56781,9 +56781,9 @@
         "MdAno": 0,
         "MdTt": 16
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.214Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.397Z"
     }
   },
   {
@@ -56941,12 +56941,12 @@
         "MdTt": 55
       },
       "met_est": 174,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.214Z",
       "maximo": 106,
       "tp_metodo": "4.RECENTES",
       "metodo": 58,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.400Z"
     }
   },
   {
@@ -57116,12 +57116,12 @@
         "MdTt": 1
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.215Z",
       "maximo": 10,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 20
+      "giro": 20,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.402Z"
     }
   },
   {
@@ -57292,11 +57292,11 @@
         "MdTt": 8
       },
       "met_est": 48,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.215Z",
       "maximo": 57,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 16,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.403Z"
     }
   },
   {
@@ -57468,9 +57468,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.216Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.405Z"
     }
   },
   {
@@ -57643,9 +57643,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.216Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.408Z"
     }
   },
   {
@@ -57815,12 +57815,12 @@
         "MdTt": 250
       },
       "met_est": 750,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.218Z",
       "maximo": 730,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 250,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.413Z"
     }
   },
   {
@@ -57990,12 +57990,12 @@
         "MdTt": 46
       },
       "met_est": 183,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.218Z",
       "maximo": 73,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 61,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.415Z"
     }
   },
   {
@@ -58165,12 +58165,12 @@
         "MdTt": 17
       },
       "met_est": 51,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.218Z",
       "maximo": 38,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 17,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.417Z"
     }
   },
   {
@@ -58340,12 +58340,12 @@
         "MdTt": 119
       },
       "met_est": 381,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.219Z",
       "maximo": 300,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 127,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.419Z"
     }
   },
   {
@@ -58518,9 +58518,9 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.219Z",
       "maximo": 6,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.420Z"
     }
   },
   {
@@ -58693,9 +58693,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.219Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.422Z"
     }
   },
   {
@@ -58867,9 +58867,9 @@
         "MdAno": 0,
         "MdTt": 8
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.220Z",
       "maximo": 20,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.424Z"
     }
   },
   {
@@ -59040,11 +59040,11 @@
         "MdTt": 45
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.220Z",
       "maximo": 60,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 2,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.426Z"
     }
   },
   {
@@ -59217,9 +59217,9 @@
         "MdAno": 5,
         "MdTt": 4
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.220Z",
       "maximo": 5,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.427Z"
     }
   },
   {
@@ -59392,9 +59392,9 @@
         "MdAno": 6,
         "MdTt": 6
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.221Z",
       "maximo": 10,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.429Z"
     }
   },
   {
@@ -59564,12 +59564,12 @@
         "MdTt": 5
       },
       "met_est": 18,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.221Z",
       "maximo": 30,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 6,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.431Z"
     }
   },
   {
@@ -59730,9 +59730,9 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.222Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.432Z"
     }
   },
   {
@@ -59902,12 +59902,12 @@
         "MdTt": 10
       },
       "met_est": 30,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.222Z",
       "maximo": 45,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 10,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.434Z"
     }
   },
   {
@@ -60077,12 +60077,12 @@
         "MdTt": 9
       },
       "met_est": 30,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.223Z",
       "maximo": 71,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 10,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.437Z"
     }
   },
   {
@@ -60254,9 +60254,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.223Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.456Z"
     }
   },
   {
@@ -60428,9 +60428,9 @@
         "MdAno": 0,
         "MdTt": 120
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.223Z",
       "maximo": 270,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.464Z"
     }
   },
   {
@@ -60603,9 +60603,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.224Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.467Z"
     }
   },
   {
@@ -60776,11 +60776,11 @@
         "MdTt": 3
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.224Z",
       "maximo": 6,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.468Z"
     }
   },
   {
@@ -60953,9 +60953,9 @@
         "MdAno": 0,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.225Z",
       "maximo": 2,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.470Z"
     }
   },
   {
@@ -61127,10 +61127,10 @@
         "MdAno": 3,
         "MdTt": 3
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.225Z",
       "maximo": 9,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.471Z"
     }
   },
   {
@@ -61303,9 +61303,9 @@
         "MdAno": 0,
         "MdTt": 6
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.225Z",
       "maximo": 6,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.474Z"
     }
   },
   {
@@ -61465,10 +61465,10 @@
         "MdAno": 24,
         "MdTt": 24
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.226Z",
       "maximo": 24,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.475Z"
     }
   },
   {
@@ -61640,9 +61640,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.226Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.478Z"
     }
   },
   {
@@ -61812,12 +61812,12 @@
         "MdTt": 120
       },
       "met_est": 360,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.227Z",
       "maximo": 300,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 120,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.480Z"
     }
   },
   {
@@ -61990,9 +61990,9 @@
         "MdAno": 30,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.227Z",
       "maximo": 60,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.482Z"
     }
   },
   {
@@ -62162,12 +62162,12 @@
         "MdTt": 119
       },
       "met_est": 357,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.228Z",
       "maximo": 436,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 119,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.483Z"
     }
   },
   {
@@ -62337,12 +62337,12 @@
         "MdTt": 392
       },
       "met_est": 1245,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.228Z",
       "maximo": 760,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 415,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.485Z"
     }
   },
   {
@@ -62514,9 +62514,9 @@
         "MdAno": 30,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.228Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.487Z"
     }
   },
   {
@@ -62686,12 +62686,12 @@
         "MdTt": 3
       },
       "met_est": 9,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.229Z",
       "maximo": 16,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 3,
       "ultima_semana_calculo": "2025_50",
-      "giro": 10
+      "giro": 10,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.488Z"
     }
   },
   {
@@ -62863,9 +62863,9 @@
         "MdAno": 0,
         "MdTt": 5
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.229Z",
       "maximo": 15,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.491Z"
     }
   },
   {
@@ -63025,10 +63025,10 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.230Z",
       "maximo": 2,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.493Z"
     }
   },
   {
@@ -63201,9 +63201,9 @@
         "MdAno": 3,
         "MdTt": 3
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.230Z",
       "maximo": 6,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.496Z"
     }
   },
   {
@@ -63376,9 +63376,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.230Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.498Z"
     }
   },
   {
@@ -63548,12 +63548,12 @@
         "MdTt": 7
       },
       "met_est": 24,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.231Z",
       "maximo": 28,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 8,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.503Z"
     }
   },
   {
@@ -63726,9 +63726,9 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.232Z",
       "maximo": 8,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.516Z"
     }
   },
   {
@@ -63898,12 +63898,12 @@
         "MdTt": 150
       },
       "met_est": 675,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.232Z",
       "maximo": 660,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 225,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.519Z"
     }
   },
   {
@@ -64074,11 +64074,11 @@
         "MdTt": 2
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.233Z",
       "maximo": 7,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.521Z"
     }
   },
   {
@@ -64248,12 +64248,12 @@
         "MdTt": 83
       },
       "met_est": 483,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.234Z",
       "maximo": 206,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 161,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.523Z"
     }
   },
   {
@@ -64423,12 +64423,12 @@
         "MdTt": 5
       },
       "met_est": 33,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.234Z",
       "maximo": 22,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 11,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.527Z"
     }
   },
   {
@@ -64600,9 +64600,9 @@
         "MdAno": 0,
         "MdTt": 60
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.234Z",
       "maximo": 60,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.528Z"
     }
   },
   {
@@ -64775,9 +64775,9 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.235Z",
       "maximo": 2,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.530Z"
     }
   },
   {
@@ -64949,9 +64949,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.235Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.532Z"
     }
   },
   {
@@ -65121,12 +65121,12 @@
         "MdTt": 30
       },
       "met_est": 96,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.236Z",
       "maximo": 140,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 32,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.534Z"
     }
   },
   {
@@ -65296,12 +65296,12 @@
         "MdTt": 371
       },
       "met_est": 1113,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.236Z",
       "maximo": 980,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 371,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.536Z"
     }
   },
   {
@@ -65471,12 +65471,12 @@
         "MdTt": 500
       },
       "met_est": 1500,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.236Z",
       "maximo": 1040,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 500,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.538Z"
     }
   },
   {
@@ -65648,9 +65648,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.237Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.540Z"
     }
   },
   {
@@ -65822,9 +65822,9 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.237Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.542Z"
     }
   },
   {
@@ -65994,12 +65994,12 @@
         "MdTt": 210
       },
       "met_est": 915,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.238Z",
       "maximo": 510,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 305,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.544Z"
     }
   },
   {
@@ -66169,12 +66169,12 @@
         "MdTt": 1
       },
       "met_est": 9,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.238Z",
       "maximo": 15,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 3,
       "ultima_semana_calculo": "2025_50",
-      "giro": 5
+      "giro": 5,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.545Z"
     }
   },
   {
@@ -66345,11 +66345,11 @@
         "MdTt": 28
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.239Z",
       "maximo": 40,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 2,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.546Z"
     }
   },
   {
@@ -66519,12 +66519,12 @@
         "MdTt": 2
       },
       "met_est": 12,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.239Z",
       "maximo": 27,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 4,
       "ultima_semana_calculo": "2025_50",
-      "giro": 4
+      "giro": 4,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.548Z"
     }
   },
   {
@@ -66697,9 +66697,9 @@
         "MdAno": 0,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.239Z",
       "maximo": 2,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.550Z"
     }
   },
   {
@@ -66870,11 +66870,11 @@
         "MdTt": 73
       },
       "met_est": 183,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.240Z",
       "maximo": 150,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 61,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.551Z"
     }
   },
   {
@@ -67047,9 +67047,9 @@
         "MdAno": 3,
         "MdTt": 3
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.240Z",
       "maximo": 21,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.553Z"
     }
   },
   {
@@ -67221,9 +67221,9 @@
         "MdAno": 0,
         "MdTt": 30
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.241Z",
       "maximo": 30,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.554Z"
     }
   },
   {
@@ -67393,12 +67393,12 @@
         "MdTt": 1
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.241Z",
       "maximo": 15,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 20
+      "giro": 20,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.558Z"
     }
   },
   {
@@ -67571,9 +67571,9 @@
         "MdAno": 0,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.241Z",
       "maximo": 2,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.566Z"
     }
   },
   {
@@ -67745,9 +67745,9 @@
         "MdAno": 0,
         "MdTt": 28
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.242Z",
       "maximo": 28,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.568Z"
     }
   },
   {
@@ -67919,9 +67919,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.242Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.569Z"
     }
   },
   {
@@ -68094,9 +68094,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.243Z",
       "maximo": 3,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.571Z"
     }
   },
   {
@@ -68266,12 +68266,12 @@
         "MdTt": 30
       },
       "met_est": 18,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.243Z",
       "maximo": 60,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 6,
       "ultima_semana_calculo": "2025_50",
-      "giro": 5
+      "giro": 5,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.574Z"
     }
   },
   {
@@ -68441,12 +68441,12 @@
         "MdTt": 90
       },
       "met_est": 270,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.243Z",
       "maximo": 360,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 90,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.577Z"
     }
   },
   {
@@ -68618,9 +68618,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.244Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.579Z"
     }
   },
   {
@@ -68780,10 +68780,10 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.244Z",
       "maximo": 1,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.581Z"
     }
   },
   {
@@ -68956,9 +68956,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.245Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.582Z"
     }
   },
   {
@@ -69128,12 +69128,12 @@
         "MdTt": 1157
       },
       "met_est": 3522,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.245Z",
       "maximo": 2856,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 1174,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.584Z"
     }
   },
   {
@@ -69305,9 +69305,9 @@
         "MdAno": 1,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.246Z",
       "maximo": 9,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.586Z"
     }
   },
   {
@@ -69477,12 +69477,12 @@
         "MdTt": 30
       },
       "met_est": 54,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.246Z",
       "maximo": 60,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 18,
       "ultima_semana_calculo": "2025_50",
-      "giro": 12
+      "giro": 12,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.587Z"
     }
   },
   {
@@ -69654,9 +69654,9 @@
         "MdAno": 0,
         "MdTt": 1
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.247Z",
       "maximo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.590Z"
     }
   },
   {
@@ -69826,12 +69826,12 @@
         "MdTt": 160
       },
       "met_est": 528,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.248Z",
       "maximo": 500,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 176,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.593Z"
     }
   },
   {
@@ -70001,12 +70001,12 @@
         "MdTt": 120
       },
       "met_est": 495,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.248Z",
       "maximo": 555,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 165,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.595Z"
     }
   },
   {
@@ -70176,12 +70176,12 @@
         "MdTt": 600
       },
       "met_est": 1800,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.248Z",
       "maximo": 1410,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 600,
       "ultima_semana_calculo": "2025_50",
-      "giro": 3
+      "giro": 3,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.597Z"
     }
   },
   {
@@ -70353,10 +70353,10 @@
         "MdAno": 2,
         "MdTt": 2
       },
-      "data_ultimo_calculo": "2026-01-14T16:05:27.249Z",
       "maximo": 4,
       "tp_metodo": "2.INTERMITENTES",
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.598Z"
     }
   },
   {
@@ -70526,12 +70526,12 @@
         "MdTt": 2
       },
       "met_est": 6,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.250Z",
       "maximo": 2,
       "tp_metodo": "4.RECENTES",
       "metodo": 2,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.600Z"
     }
   },
   {
@@ -70701,12 +70701,12 @@
         "MdTt": 30
       },
       "met_est": 72,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.250Z",
       "maximo": 90,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 24,
       "ultima_semana_calculo": "2025_50",
-      "giro": 1
+      "giro": 1,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.601Z"
     }
   },
   {
@@ -70876,12 +70876,12 @@
         "MdTt": 1
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.251Z",
       "maximo": 11,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
       "ultima_semana_calculo": "2025_50",
-      "giro": 20
+      "giro": 20,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.606Z"
     }
   },
   {
@@ -71051,12 +71051,12 @@
         "MdTt": 5
       },
       "met_est": 15,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.251Z",
       "maximo": 21,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 5,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.610Z"
     }
   },
   {
@@ -71226,12 +71226,12 @@
         "MdTt": 110
       },
       "met_est": 330,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.252Z",
       "maximo": 320,
       "tp_metodo": "1.ORDINÁRIOS",
       "metodo": 110,
       "ultima_semana_calculo": "2025_50",
-      "giro": 2
+      "giro": 2,
+      "data_ultimo_calculo": "2026-01-15T23:11:56.613Z"
     }
   },
   {
@@ -71402,11 +71402,11 @@
         "MdTt": 2
       },
       "met_est": 3,
-      "data_ultimo_calculo": "2026-01-14T16:05:27.252Z",
       "maximo": 2,
       "tp_metodo": "2.INTERMITENTES",
       "metodo": 1,
-      "ultima_semana_calculo": "2025_50"
+      "ultima_semana_calculo": "2025_50",
+      "data_ultimo_calculo": "2026-01-15T23:11:56.615Z"
     }
   }
 ]

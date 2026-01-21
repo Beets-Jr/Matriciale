@@ -1,6 +1,6 @@
+import { DadosCompletos } from '@/interfaces/calculos/interfaces-campos-banco';
 import * as fs from 'fs';
 import * as path from 'path';
-import { DadosCompletos } from '../../interfaces/calculos/interfaces-campos-banco';
 
 // Função para converter movimentações semanais para o formato do Firestore
 export function processarMovimentacoes(movimentacoes: { [key: string]: number }[]): { [key: string]: number } {

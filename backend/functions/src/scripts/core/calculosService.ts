@@ -7,9 +7,9 @@ import {
   MedicamentoCalculado,
   DadosCalculados,
   AnaliseReposicao
-} from '../interfaces/interfaces-campos-calculados';
+} from '../../interfaces/calculos/interfaces-campos-calculados';
 
-import { DadosUnidade, EstoqueCalculado } from '../interfaces/calculos';
+import { DadosUnidade, EstoqueCalculado } from '../../interfaces/calculos/calculos';
 
 type DadosTodasUnidades = {
   [nomeUnidade: string]: DadosUnidade;

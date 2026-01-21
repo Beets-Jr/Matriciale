@@ -1,6 +1,6 @@
 import { db } from '../../config/firebase';
 
-import { MedicamentoCalculado, MedicamentoFirebase } from '../interfaces/interfaces-campos-calculados';
+import { MedicamentoCalculado, MedicamentoFirebase } from '../../interfaces/calculos/interfaces-campos-calculados';
 import { calcularCamposParaMedicamento } from './calculosService';
 import { prepararDadosParaCalculos, listarUnidadesDisponiveis } from './preparar-dados-calculos';
 
